@@ -1,0 +1,186 @@
+---
+title: "Introduction to R"
+author: "Shaun Jackson, Marissa Chemotti"
+date: "7/3/2019"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+options(stringsAsFactors = FALSE)
+library(kableExtra)
+```
+
+# Introduction
+
+# Datatypes
+
+## Numeric, Logical, Character, Factor
+
+## Lists, Vectors, Matrices
+
+## Dataframes
+
+# Reading in Data
+
+## Read CSV Files
+
+- store the filepath within a character variable
+- the filepath could be relative to your working directory, or absolute
+- `read.csv` is a function that could read CSV files into your R environment
+
+```{r readCSV, message=F, warning=F}
+
+# define relative filepath
+pathToAdosFile <- './datasets/adosm1.csv'
+
+# Use read.csv() and filepath variable as first argument to function
+adosm1 <- read.csv(pathToAdosFile, 
+                   stringsAsFactors = FALSE)
+# stringsAsFactors is an optional argument that tells read.csv to
+# not turn a string column into a R factor variable
+
+# adosm1 is now considered a datraframe
+
+```
+
+
+## View()
+
+- To view your dataframe call the `View()` function.
+- Note the capital **V**iew().
+
+```{r view, message=F, warning=F}
+View(adosm1)
+```
+
+# Data Exploration
+
+- display column names `names()`
+- display rownames with `row.names()`
+
+```{r }
+# display column names
+# names(dataframe), we will use our adosm1 dataframe
+names(adosm1)
+
+# display rownames, wrap function with head() to show first 5
+head(row.names(adosm1))
+
+```
+
+
+
+## Subsetting Data
+
+- In order to see specific  columns or rows in our dataframe, we need to *subset* our data.
+- In R, a dataframe is organized as such:
+- **nameOfDataFrame**[ **rows** , **columns** ], where the **[  ]** allow the user to access the rows and columns
+
+### Subset by columns
+
+- In our case, adosm1 is within our R environment, so we would call
+    - `adosm1[namesOfRows, namesOfColumns]`
+    - Note: it is best practice to access columns by their names, not their numbers
+
+```{r subsetCols, results="hide"}
+# To access the id column, we would write
+adosm1[, "id"]
+
+# To access id and visit
+adosm1[, c("id", "visit")]
+
+# in order to make code less verbose, when accessing one column, we use
+# the $ operator
+# to access the id column
+adosm1$id
+
+```
+
+### Subset by rows
+
+- We could similarly access rows by rownames or row numbers
+     - `adosm1[c(1, 2), ]
+```{r subsetRows, results="hide"}
+# access 1st, 2nd, and 5th rows
+adosm1[c(1, 2, 5), ]
+
+```
+
+### Subset by rows and columns
+
+```{r subsetRowsCols, results="hide"}
+# access 1st, 2nd, and 5th rows, within id and visit columns
+adosm1[c(1, 2, 5), c("id", "visit")]
+```
+
+### Filtering or Slicing a dataframe: Subsetting part 2
+
+- What is very powerful in this is we could subset a dataframe in order to answer specific questions
+- This is done by using a **logical vector** to subset or slice a dataframe
+
+- For example: Let's look at all visits with the value of 36
+
+```{r subsLogical, results="hide"}
+# To Filter for all visits at 36 months:
+# Create logical vector
+visits36mo <- adosm1$visit == "36"
+# note: `==` means a check for equality, whereas an `=` or `<-` will assign
+# a new value to a variable. 
+# Comparisons that create logical vectors such as:
+# == (equality),  < (lessThan), > (greaterThan), 
+# & (AND), | OR
+# Are called boolean operators
+
+# use  our visits36mo  logical vector to filter dataframe
+adosm1[visits36mo, ]  # returns  a dataframe of all visits at 36mo
+
+adosm1[visits36mo, "id"] # returns all the ids with a visit at 36mo
+
+# returns alg and version at 36 months
+adosm1[visits36mo, c("ados_algorithm", "ados_version")] 
+
+```
+
+
+## Exploratory Data Functions
+
+- Out of all the functions to  explore a dataframe, I  personally find 
+    - `table()`
+    - `duplicated()`
+    - `class()`
+to be the most useful
+
+```{r EDA}
+
+# To get a frequency count of  all unique values,
+# we use the  table()
+
+# table() takes in 1 or more vectors as input
+# since every dataframe column could be considered a vector (or list)
+# we could check for every unique visit with freq counts with
+table(adosm1$visit)
+# we could check  for every unique combination of vectors by 
+# providing multiple vector inputs
+
+# To see every unique combination of visit and ados algorithm
+table(adosm1$visit, adosm1$ados_algorithm)
+
+# every unique combination of visit, algorithm, and version
+table(adosm1[, c("visit", "ados_algorithm", "ados_version")])
+
+```
+
+
+# Data Cleaning
+
+# Data Analysis
+
+# Data Visualization
+
+# Additional Resources
+
