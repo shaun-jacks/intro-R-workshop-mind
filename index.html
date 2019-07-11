@@ -11,7 +11,7 @@
 <meta name="author" content="Shaun Jackson, Marissa Chemotti" />
 
 
-<title>Intro to R- Part 1: Data Exploration</title>
+<title>Data Analysis</title>
 <!-- Material Design fonts -->
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -32,47 +32,6 @@
 <script src="index_files/material-0.1/material.js"></script>
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; background-color: #ffffff; color: #1f1c1b; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #ffffff; color: #a0a0a0; border-right: 1px solid #a0a0a0; }
-td.sourceCode { padding-left: 5px; }
-pre, code { color: #1f1c1b; background-color: #ffffff; }
-code > span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
-code > span.dt { color: #0057ae; } /* DataType */
-code > span.dv { color: #b08000; } /* DecVal */
-code > span.bn { color: #b08000; } /* BaseN */
-code > span.fl { color: #b08000; } /* Float */
-code > span.cn { color: #aa5500; } /* Constant */
-code > span.ch { color: #924c9d; } /* Char */
-code > span.sc { color: #3daee9; } /* SpecialChar */
-code > span.st { color: #bf0303; } /* String */
-code > span.vs { color: #bf0303; } /* VerbatimString */
-code > span.ss { color: #ff5500; } /* SpecialString */
-code > span.im { color: #ff5500; } /* Import */
-code > span.co { color: #898887; } /* Comment */
-code > span.do { color: #607880; } /* Documentation */
-code > span.an { color: #ca60ca; } /* Annotation */
-code > span.cv { color: #0095ff; } /* CommentVar */
-code > span.ot { color: #006e28; } /* Other */
-code > span.fu { color: #644a9b; } /* Function */
-code > span.va { color: #0057ae; } /* Variable */
-code > span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #1f1c1b; } /* Operator */
-code > span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
-code > span.ex { color: #0095ff; font-weight: bold; } /* Extension */
-code > span.pp { color: #006e28; } /* Preprocessor */
-code > span.at { color: #0057ae; } /* Attribute */
-code > span.re { color: #0057ae; } /* RegionMarker */
-code > span.in { color: #b08000; } /* Information */
-code > span.wa { color: #bf0303; } /* Warning */
-code > span.al { color: #bf0303; font-weight: bold; } /* Alert */
-code > span.er { color: #bf0303; text-decoration: underline; } /* Error */
-code > span. { color: #1f1c1b; } /* Normal */
-</style>
 
 
 <!-- tabsets -->
@@ -93,7 +52,7 @@ $(document).ready(function () {
         <div class="row">
             <div class="col-xs-3">
         <div id="header">
-    <h1 class="title">Intro to R- Part 1: Data Exploration</h1>
+    <h1 class="title">Data Analysis</h1>
                 <h4 class="author">Shaun Jackson, Marissa Chemotti</h4>
                 <h4 class="date">7/3/2019</h4>
         </div>
@@ -108,19 +67,12 @@ $(document).ready(function () {
       <nav class="col-xs-3 menu">
         <div id="toc">
         <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#datatypes">Datatypes</a></li>
-        <li><a href="#reading-in-data">Reading in Data</a></li>
-        <li><a href="#writing-data">Writing Data</a></li>
-        <li><a href="#subsetting-data">Subsetting Data</a></li>
-        <li><a href="#filtering-a-dataframe-subsetting-part-2">Filtering a dataframe: Subsetting part 2</a></li>
-        <li><a href="#functions-to-explore-data">Functions to explore data</a></li>
-        <li><a href="#assignment-adosm2-dataset">Assignment: adosm2 dataset</a></li>
-        <li><a href="#additional-resources">Additional Resources</a></li>
-        <li><a href="#solution">Solution</a></li>
-        <li><a href="#part-2-data-analysis"><a href="part2_data_analysis/index.html">Part 2 Data Analysis</a></a></li>
+        <li><a href="#part-1-introduction-and-data-exploration">Part 1: Introduction and Data Exploration</a></li>
         <li><a href="#part-3-data-visualization"><a href="part2_data_analysis/index.html">Part 3 Data Visualization</a></a></li>
         <li><a href="#part-4-bonus-material"><a href="part2_data_analysis/index.html">Part 4 Bonus Material</a></a></li>
+        <li><a href="#part-2-data-analysis">Part 2: Data Analysis</a></li>
+        <li><a href="#part-3-data-visualization-1">Part 3: Data Visualization</a></li>
+        <li><a href="#part-4-bonus-materials">Part 4: Bonus Materials</a></li>
         </ul>
         </div>
         
@@ -133,17 +85,14 @@ $(document).ready(function () {
 
 
 
-<div style="margin-bottom:100px;">
-
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<hr />
+<div id="part-1-introduction-and-data-exploration" class="section level1">
+<h1>Part 1: Introduction and Data Exploration</h1>
 <p>The aim of this document is to present you with the bare minimum essentials to get you up and running with R. One of the toughest parts about learning a programming language is feeling overwhelmed by the abundance of material to learn.</p>
 <p>By giving you an overview of the most useful functions, in the lens of a real dataset, we hope that you can apply these concepts to your own data.</p>
 <p>As with everything else, the best way to learn R is through <strong>consistent</strong> practice with a real world project.</p>
 <hr />
-<div id="goals-of-this-document" class="section level2">
-<h2>Goals of this Document</h2>
+<div id="goals" class="section level2">
+<h2>Goals</h2>
 <p>By the end of this document, you will be able to:</p>
 <ol style="list-style-type: decimal">
 <li>Learn about the fundamental R Datatypes</li>
@@ -163,300 +112,29 @@ $(document).ready(function () {
 <li>Search for any duplicates within your data with <code>duplicated()</code></li>
 </ul></li>
 </ol>
+<p>In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.</p>
 </div>
-<div style="margin-bottom:100px;">
+<div id="data-exploration" class="section level2">
+<h2><a href="part1_intro/index.html">Data Exploration</a></h2>
 </div>
-</div>
-<div id="datatypes" class="section level1">
-<h1>Datatypes</h1>
-<hr />
-<div id="numeric-logical-character-factor" class="section level2">
-<h2>Numeric, Logical, Character, Factor</h2>
-</div>
-<div id="lists-vectors-matrices" class="section level2">
-<h2>Lists, Vectors, Matrices</h2>
-</div>
-<div id="dataframes" class="section level2">
-<h2>Dataframes</h2>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="reading-in-data" class="section level1">
-<h1>Reading in Data</h1>
-<hr />
-<div id="read-csv-files" class="section level2">
-<h2>Read CSV Files</h2>
-<ul>
-<li>store the filepath within a character variable</li>
-<li>the filepath could be relative to your working directory, or absolute</li>
-<li><code>read.csv</code> is a function that could read CSV files into your R environment</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># define relative filepath</span>
-pathToAdosFile &lt;-<span class="st"> &#39;./datasets/adosm1.csv&#39;</span>
-
-<span class="co"># Use read.csv() and filepath variable as first argument to function</span>
-adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(pathToAdosFile, 
-                   <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
-<span class="co"># stringsAsFactors is an optional argument that tells read.csv to</span>
-<span class="co"># not turn a string column into a R factor variable</span>
-
-<span class="co"># adosm1 is now considered a datraframe</span></code></pre></div>
-</div>
-<div id="view" class="section level2">
-<h2><code>View()</code></h2>
-<ul>
-<li>To view your dataframe call the <code>View()</code> function.</li>
-<li>Note the capital <strong>V</strong>iew().</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(adosm1)</code></pre></div>
-</div>
-<div id="see-dataframe-attributes" class="section level2">
-<h2>See Dataframe attributes</h2>
-<ul>
-<li>display column names <code>names()</code></li>
-<li>display rownames with <code>row.names()</code></li>
-<li>see all attributes with <code>attributes(dataframe)</code></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display column names</span>
-<span class="co"># names(dataframe), we will use our adosm1 dataframe</span>
-<span class="co"># wrap function with head() to show first 5</span>
-<span class="kw">head</span>(<span class="kw">names</span>(adosm1))</code></pre></div>
-<pre><code>## [1] &quot;id&quot;                &quot;visit&quot;             &quot;cbe_36&quot;           
-## [4] &quot;recruitment_group&quot; &quot;gender&quot;            &quot;ados_version&quot;</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display rownames, wrap function with head() to show first 5</span>
-<span class="kw">head</span>(<span class="kw">row.names</span>(adosm1))</code></pre></div>
-<pre><code>## [1] &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot;</code></pre>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="writing-data" class="section level1">
-<h1>Writing Data</h1>
-<hr />
-<div id="write.csv" class="section level2">
-<h2><code>write.csv</code></h2>
-<ul>
-<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
-<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
-<li>the second parameter is the location and filename to write it to.</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;datasets/practice write csv ados.csv&#39;, row.names = FALSE)</span></code></pre></div>
-</div>
-<div id="data.tablefwrite" class="section level2">
-<h2><code>data.table::fwrite()</code></h2>
-<ul>
-<li>One you are comfortable with write.csv, I would suggest looking into the <code>fwrite</code> function within data.table. It is much much faster and more efficient.</li>
-</ul>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="subsetting-data" class="section level1">
-<h1>Subsetting Data</h1>
-<hr />
-<div id="subset-by-columns" class="section level2">
-<h2>Subset by columns</h2>
-<ul>
-<li>In our case, adosm1 is within our R environment, so we would call
-<ul>
-<li><code>adosm1[namesOfRows, namesOfColumns]</code></li>
-<li>Note: it is best practice to access columns by their names, not their numbers</li>
-</ul></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To access the id column, we would write</span>
-adosm1[, <span class="st">&quot;id&quot;</span>]
-
-<span class="co"># To access id and visit</span>
-adosm1[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]
-
-<span class="co"># in order to make code less verbose, when accessing one column, we use</span>
-<span class="co"># the $ operator</span>
-<span class="co"># to access the id column</span>
-adosm1<span class="op">$</span>id</code></pre></div>
-</div>
-<div id="subset-by-rows" class="section level2">
-<h2>Subset by rows</h2>
-<ul>
-<li>We could similarly access rows by rownames or row numbers
-<ul>
-<li><code>adosm1[c(1, 2, 5), ]</code></li>
-</ul></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows</span>
-adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), ]</code></pre></div>
-</div>
-<div id="subset-by-rows-and-columns" class="section level2">
-<h2>Subset by rows and columns</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows, within id and visit columns</span>
-adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]</code></pre></div>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="filtering-a-dataframe-subsetting-part-2" class="section level1">
-<h1>Filtering a dataframe: Subsetting part 2</h1>
-<hr />
-<div id="subset-with-a-logical-vector" class="section level2">
-<h2>Subset with a logical vector</h2>
-<ul>
-<li>What is very powerful in this is we could subset a dataframe in order to answer specific questions</li>
-<li>This is done by using a <strong>logical vector</strong> to subset or slice a dataframe</li>
-</ul>
-</div>
-<div id="subset-logical-vector-example" class="section level2">
-<h2>Subset logical vector example</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To Filter for all visits at 36 months:</span>
-<span class="co"># Create logical vector</span>
-visits36mo &lt;-<span class="st"> </span>adosm1<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;36&quot;</span>
-
-<span class="co"># use  our visits36mo  logical vector to filter dataframe</span>
-adosm1[visits36mo, ]  <span class="co"># returns  a dataframe of all visits at 36mo</span>
-
-adosm1[visits36mo, <span class="st">&quot;id&quot;</span>] <span class="co"># returns all the ids with a visit at 36mo</span>
-
-<span class="co"># returns alg and version at 36 months</span>
-adosm1[visits36mo, <span class="kw">c</span>(<span class="st">&quot;ados_algorithm&quot;</span>, <span class="st">&quot;ados_version&quot;</span>)] </code></pre></div>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="functions-to-explore-data" class="section level1">
-<h1>Functions to explore data</h1>
-<hr />
-<ul>
-<li>Out of all the functions to explore a dataframe, I personally find
-<ul>
-<li><code>table()</code></li>
-<li><code>duplicated()</code></li>
-</ul></li>
-</ul>
-<p>to be the most useful</p>
-<div id="example-table" class="section level2">
-<h2>Example <code>table()</code></h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To get a frequency count of  all unique values,</span>
-<span class="co"># we use the  table()</span>
-
-<span class="co"># table() takes in 1 or more vectors as input</span>
-<span class="co"># since every dataframe column could be considered a vector (or list)</span>
-<span class="co"># we could check for every unique visit with freq counts with</span>
-<span class="kw">table</span>(adosm1<span class="op">$</span>visit)</code></pre></div>
-<pre><code>## 
-##  18  21  24  30  36 
-## 445   5 396  32 146</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># we could check  for every unique combination of vectors by </span>
-<span class="co"># providing multiple vector inputs</span>
-
-<span class="co"># To see every unique combination of visit and ados algorithm</span>
-<span class="kw">table</span>(adosm1<span class="op">$</span>visit, adosm1<span class="op">$</span>ados_algorithm)</code></pre></div>
-<pre><code>##     
-##          few to no words no words some words
-##   18   3             157       93        192
-##   21   0               0        2          3
-##   24   4              65       30        297
-##   30   0               4        0         28
-##   36   6               8       20        112</code></pre>
-</div>
-<div id="checking-for-duplicates-duplicated" class="section level2">
-<h2>Checking for duplicates: <code>duplicated()</code></h2>
-<ul>
-<li>We will first generate a dataframe that has duplicates, to show how to detect duplicates by different subgroups</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
-                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
-                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))</code></pre></div>
-</div>
-<div id="duplicated-explained" class="section level2">
-<h2><code>duplicated()</code> explained</h2>
-<ul>
-<li>The <code>duplicated</code> function returns a logical vector of the duplicates that exist in a dataframe.</li>
-<li>The TRUE values represent the index locations of where a duplicate row was found.</li>
-<li>We could use this logical vector to see where a duplicate exists</li>
-</ul>
-</div>
-<div id="duplicated-example" class="section level2">
-<h2><code>duplicated()</code> example</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">duplicateIndices &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf)  <span class="co"># store dup vector in variable</span>
-
-duplicateIndices  <span class="co"># view logical vector of duplicates</span></code></pre></div>
-<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf[duplicateIndices, ]</code></pre></div>
-<pre><code>##   id     visit item1
-## 4  2 10 months     3</code></pre>
-</div>
-<div id="duplicated-by-key-variables-id-and-visit" class="section level2">
-<h2><code>Duplicated()</code> by key variables: id and visit</h2>
-<ul>
-<li>we could check for duplicates by columns that should represent a unique combination.</li>
-<li>in this example: id and visit</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># to check duplicates by groups</span>
-dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
-dupDf[dupIndGrouped, ]</code></pre></div>
-<pre><code>##   id     visit item1
-## 4  2 10 months     3
-## 6  3 20 months     6</code></pre>
-</div>
-<div style="margin-bottom:100px;">
-</div>
-</div>
-<div id="assignment-adosm2-dataset" class="section level1">
-<h1>Assignment: adosm2 dataset</h1>
-<hr />
-<div id="instructions" class="section level2">
-<h2>Instructions</h2>
-<ol style="list-style-type: decimal">
-<li>Read in the adosm2.csv file</li>
-<li>What is the frequency count for every unique visit?</li>
-<li>What are the ids that exist for the 30 month visit?</li>
-<li>Are there duplicates by id and visit?</li>
-<li>What is the frequency count of duplicates vs non-duplicates?</li>
-</ol>
-</div>
-<div style="margin-bottom:300px">
-</div>
-</div>
-<div id="additional-resources" class="section level1">
-<h1>Additional Resources</h1>
-<hr />
-</div>
-<div style="margin-bottom:100px">
-</div>
-<div id="solution" class="section level1">
-<h1>Solution</h1>
-<hr />
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in the adosm2.csv file</span>
-adosm2Path &lt;-<span class="st"> &#39;./datasets/adosm2.csv&#39;</span>
-adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(adosm2Path, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
-
-<span class="co"># 2. What is the frequency count for every unique visit?</span>
-<span class="kw">table</span>(adosm2<span class="op">$</span>visit)</code></pre></div>
-<pre><code>## 
-##  24  30  36 sa1 sa2 
-##  42  14 469   2   2</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 3, What are the ids that exist for the 30 month visit?</span>
-adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;30&quot;</span>, <span class="st">&quot;id&quot;</span>]</code></pre></div>
-<pre><code>##  [1]  20  53  57  71  78 104 222 252 304 306 385 444 451 455</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># This works too- adosm2$id[adosm2$visit == &quot;30&quot;]</span>
-
-<span class="co"># 4. Are there duplicates by id and visit?</span>
-<span class="kw">any</span>(<span class="kw">duplicated</span>(adosm2[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]))</code></pre></div>
-<pre><code>## [1] FALSE</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 5. What are the frequency count of duplicates vs non-duplicates</span>
-<span class="kw">table</span>(<span class="kw">duplicated</span>(adosm2))</code></pre></div>
-<pre><code>## 
-## FALSE 
-##   529</code></pre>
-</div>
-</div>
-<div id="part-2-data-analysis" class="section level1">
-<h1><a href="part2_data_analysis/index.html">Part 2 Data Analysis</a></h1>
 </div>
 <div id="part-3-data-visualization" class="section level1">
 <h1><a href="part2_data_analysis/index.html">Part 3 Data Visualization</a></h1>
 </div>
 <div id="part-4-bonus-material" class="section level1">
 <h1><a href="part2_data_analysis/index.html">Part 4 Bonus Material</a></h1>
+</div>
+<div id="part-2-data-analysis" class="section level1">
+<h1>Part 2: Data Analysis</h1>
+</div>
+<div id="part-3-data-visualization-1" class="section level1">
+<h1>Part 3: Data Visualization</h1>
+</div>
+<div id="part-4-bonus-materials" class="section level1">
+<h1>Part 4: Bonus Materials</h1>
+<div id="part-4-bonus-material-1" class="section level2">
+<h2><a href="part4_bonus_materials/intro-R-bonus-material.html">Part 4 Bonus Material</a></h2>
+</div>
 </div>
 
     </div>
@@ -509,9 +187,64 @@ $(document).ready(function () {
  	    });
  	
     
-    $(".page").addClass("active");
-    $('.pages').scrollspy({target: '#toc'});
+    $('#toc ul li').first().addClass("active");
+    $('#toc ul li').attr("data-target", function() {
+        return($(this).children("a").attr("href"));
+    })
+    $('body .section.level1').first().addClass("active");
+    
+    $('#toc a[href*="#"]').click(function() {
 
+      var id = $(this).attr("href");
+      if (id === "#") return;
+      if (id.substring(0, 8) === "#dyntab-") return;
+      toggle_page(id);
+
+      // Menu
+      var menu_entry = $(".menu li[data-target='"+id+"']");
+      menu_entry.addClass("active");
+      $(".menu li").not(menu_entry).removeClass("active"); 
+      
+
+    });
+
+    function toggle_page(id) {
+      $(".page").not(page).removeClass("active").hide();
+      window.page = id;
+      var page = $(window.page);
+      window.location.hash = window.page;
+      //$(this).addClass("active");
+
+      page.show();
+
+      var totop = setInterval(function () {
+        $(".pages").animate({scrollTop: 0}, 0);
+      }, 10);
+
+      setTimeout(function () {
+        page.addClass("active");
+        setTimeout(function () {
+          clearInterval(totop);
+        }, 1000);
+      }, 100);
+
+      window.dispatchEvent(new Event('resize'));
+
+    }
+
+
+    $(".menu li").click(function () {
+
+      toggle_page($(this).data("target"));
+
+      // Menu
+      if (!$(this).data("target")) return;
+      if ($(this).is(".active")) return;
+      $(".menu li").not($(this)).removeClass("active");
+      $(this).addClass("active");
+
+    });
+  
     
 
 
