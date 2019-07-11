@@ -12,9 +12,14 @@ options(stringsAsFactors = FALSE)
 library(kableExtra)
 ```
 
+
+
 <div style="margin-bottom:100px;">
 # Introduction
   <hr />
+  
+<a href="part4_bonus_materials/intro-R-bonus-material.html">Page 2</a>
+
   
 The aim of this document is to present you with the bare minimum essentials to get you up and running with R.
 One of the toughest parts about  learning a programming language is feeling overwhelmed by the abundance of material to learn.
