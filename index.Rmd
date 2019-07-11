@@ -35,6 +35,9 @@ By the end of this document, you will be able to:
 
 In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.
 
+## <a href="part1_intro/index.html">Intro and Data Exploration</a>
+
+
 
 # Part 2: Data Analysis
 
