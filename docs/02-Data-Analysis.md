@@ -9,9 +9,9 @@ output:
 
 
 
-# Basic Stats functions
+## Basic Stats functions
 
-## Mean, Median, Standard Deviation, Summary
+### Mean, Median, Standard Deviation, Summary
 
 ```r
 mean(cars$speed, na.rm = TRUE)
@@ -51,11 +51,11 @@ summary(cars)
 ##  Max.   :25.0   Max.   :120.00
 ```
 
-# Linear Regression
+## Linear Regression
 
 - We will use the mtcars dataset for these examples
 
-## Correlation
+### Correlation
 
 - Find correlation between two vars
 
@@ -77,7 +77,7 @@ cor.test(mtcars$wt, mtcars$disp)
 ## 0.8879799
 ```
 
-## Creating a Linear Model
+### Creating a Linear Model
 
 ```r
 linearMod <-lm(dist ~ speed, cars)
@@ -94,7 +94,7 @@ print(linearMod)
 ##     -17.579        3.932
 ```
 
-## Plotting the Linear Model
+### Plotting the Linear Model
 
 ```r
 # create effects object
@@ -116,7 +116,7 @@ plot(eff)
 
 <img src="02-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 
-# Logistic Regression
+## Logistic Regression
 
 
 ```r
@@ -170,12 +170,11 @@ plot(effects::Effect(c('sarb_f', 'gender_factor'), logMod))
 <img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 
 
-# Mixed Effects Models
+## Mixed Effects Models
 
-# Plotting with effects
+## Plotting with effects
 
-# Plotting with ggplot
+## Plotting with ggplot
 
-# More Resources
+## More Resources
 
-# <a href="../index.html">Back to Home</a>

@@ -13,9 +13,9 @@ library(kableExtra)
 adosm1 <- read.csv('./datasets/adosm1_scored.csv', stringsAsFactors = FALSE)
 ```
 
-# Basic Stats functions
+## Basic Stats functions
 
-## Mean, Median, Standard Deviation, Summary
+### Mean, Median, Standard Deviation, Summary
 ```{r}
 
 mean(cars$speed, na.rm = TRUE)
@@ -25,24 +25,24 @@ sd(cars$speed, na.rm = TRUE)
 summary(cars)
 ```
 
-# Linear Regression
+## Linear Regression
 
 - We will use the mtcars dataset for these examples
 
-## Correlation
+### Correlation
 
 - Find correlation between two vars
 ```{r}
 cor.test(mtcars$wt, mtcars$disp)
 ```
 
-## Creating a Linear Model
+### Creating a Linear Model
 ```{r}
 linearMod <-lm(dist ~ speed, cars)
 print(linearMod)
 ```
 
-## Plotting the Linear Model
+### Plotting the Linear Model
 ```{r}
 # create effects object
 eff <- effects::Effect('speed', linearMod)
@@ -50,7 +50,7 @@ eff
 plot(eff)
 ```
 
-# Logistic Regression
+## Logistic Regression
 
 ```{r}
 adosm1$ASD_risk <- as.factor(adosm1$recruitment_group == 'ASD risk')
@@ -66,12 +66,11 @@ plot(effects::Effect(c('sarb_f', 'gender_factor'), logMod))
 ```
 
 
-# Mixed Effects Models
+## Mixed Effects Models
 
-# Plotting with effects
+## Plotting with effects
 
-# Plotting with ggplot
+## Plotting with ggplot
 
-# More Resources
+## More Resources
 
-# <a href="../index.html">Back to Home</a>

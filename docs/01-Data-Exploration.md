@@ -11,21 +11,21 @@ output:
 
 
 <div style="margin-bottom:100px;">
-# Datatypes
+## Datatypes
   <hr />
 
-## Numeric, Logical, Character, Factor
+### Numeric, Logical, Character, Factor
 
-## Lists, Vectors, Matrices
+### Lists, Vectors, Matrices
 
-## Dataframes
+### Dataframes
 </div>
 
 <div style="margin-bottom:100px;">
 # Reading in Data
   <hr />
 
-## Read CSV Files
+### Read CSV Files
 
 - store the filepath within a character variable
 - the filepath could be relative to your working directory, or absolute
@@ -45,7 +45,7 @@ adosm1 <- read.csv(pathToAdosFile,
 # adosm1 is now considered a datraframe
 ```
 
-## `View()`
+### `View()`
 
 - To view your dataframe call the `View()` function.
 - Note the capital **V**iew().
@@ -55,7 +55,7 @@ adosm1 <- read.csv(pathToAdosFile,
 View(adosm1)
 ```
 
-## See Dataframe attributes
+### See Dataframe attributes
 
 - display column names `names()`
 - display rownames with `row.names()`
@@ -85,10 +85,10 @@ head(row.names(adosm1))
 </div>
 
 <div style="margin-bottom:100px;">
-# Writing Data
+## Writing Data
   <hr />
 
-## `write.csv`
+### `write.csv`
 - We can write data from our R environment to a CSV file with `write.csv`
 - `write.csv` takes in a dataframe within our R environment, as the first parameter
 - the second parameter is the location and filename to write it to.
@@ -98,16 +98,16 @@ head(row.names(adosm1))
 # write.csv(adosm1, 'datasets/practice write csv ados.csv', row.names = FALSE)
 ```
   
-## `data.table::fwrite()`
+### `data.table::fwrite()`
 - One you are comfortable with write.csv, I would suggest looking into the `fwrite` function within data.table. It is much much faster and more efficient.
   
 </div>
 
 <div style="margin-bottom:100px;">
-# Subsetting Data
+## Subsetting Data
   <hr />
   
-## Subset by columns
+### Subset by columns
 
 - In our case, adosm1 is within our R environment, so we would call
     - `adosm1[namesOfRows, namesOfColumns]`
@@ -127,7 +127,7 @@ adosm1[, c("id", "visit")]
 adosm1$id
 ```
 
-## Subset by rows
+### Subset by rows
 
 - We could similarly access rows by rownames or row numbers
      - `adosm1[c(1, 2, 5), ]`
@@ -138,7 +138,7 @@ adosm1$id
 adosm1[c(1, 2, 5), ]
 ```
 
-## Subset by rows and columns
+### Subset by rows and columns
 
 
 ```r
@@ -149,16 +149,16 @@ adosm1[c(1, 2, 5), c("id", "visit")]
 
 
 <div style="margin-bottom:100px;">
-# Filtering a dataframe: Subsetting part 2
+## Filtering a dataframe: Subsetting part 2
   <hr />
   
-## Subset with a logical vector
+### Subset with a logical vector
 
 
 - What is very powerful in this is we could subset a dataframe in order to answer specific questions
 - This is done by using a **logical vector** to subset or slice a dataframe
 
-## Subset logical vector example
+### Subset logical vector example
 
 
 
@@ -178,7 +178,7 @@ adosm1[visits36mo, c("ados_algorithm", "ados_version")]
 </div>
 
 <div style="margin-bottom:100px;">
-# Functions to explore data
+## Functions to explore data
   <hr />
 
 
@@ -188,7 +188,7 @@ adosm1[visits36mo, c("ados_algorithm", "ados_version")]
     
 to be the most useful
 
-## Example `table()`
+### Example `table()`
 
 
 ```r
@@ -226,7 +226,7 @@ table(adosm1$visit, adosm1$ados_algorithm)
 ```
 
 
-## Checking for duplicates: `duplicated()`
+### Checking for duplicates: `duplicated()`
 - We will first generate a dataframe that has duplicates, to show how to detect duplicates by different subgroups
 
 
@@ -237,12 +237,12 @@ dupDf <- data.frame(id = c(1, 1, 2, 2, 3, 3),
                     item1 = c(1, 2, 3, 3, 5, 6))
 ```
 
-## `duplicated()` explained
+### `duplicated()` explained
 - The `duplicated` function returns a logical vector of the duplicates that exist in a dataframe.
 - The TRUE values represent the index locations of where a duplicate row was found.
 - We could use this logical vector to see where a duplicate exists
 
-## `duplicated()` example
+### `duplicated()` example
 
 ```r
 duplicateIndices <- duplicated(dupDf)  # store dup vector in variable
@@ -263,7 +263,7 @@ dupDf[duplicateIndices, ]
 ## 4  2 10 months     3
 ```
 
-## `Duplicated()` by key variables: id and visit
+### `Duplicated()` by key variables: id and visit
 
 - we could check for duplicates by columns that should represent a unique combination.
 - in this example: id and visit
@@ -283,10 +283,10 @@ dupDf[dupIndGrouped, ]
 </div>
 
 <div style="margin-bottom:100px;">
-# Assignment: adosm2 dataset
+## Assignment: adosm2 dataset
   <hr />
 
-## Instructions
+### Instructions
 
 1. Read in the adosm2.csv file
 2. What is the frequency count for every unique visit?
@@ -297,12 +297,12 @@ dupDf[dupIndGrouped, ]
 </div>
 
 <div style="margin-bottom:300px">
-# Additional Resources
+## Additional Resources
 <hr />
 </div>
 
 <div style="margin-bottom:100px">
-# Solution
+## Solution
 <hr />
 
 
@@ -354,7 +354,6 @@ table(duplicated(adosm2))
 
 </div>
 
-# <a href="../index.html">Back to Home</a>
 
 
 

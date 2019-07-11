@@ -10,15 +10,15 @@ output:
 
 
 
-# Bonus Material (Optional)
+## Bonus Material (Optional)
 
-# String Manipulation
+## String Manipulation
 
 - What are the most useful use cases for string manipulation?
     - Pattern matching: One can easily automate trudging through a dataset by hand, by finding patterns within the character columns in their dataset
     - Data cleaning, Are their some mispelled or case sensitive datasets? How do we group these cases?
 
-## Regular Expressions
+### Regular Expressions
 
 - To find patterns within data that has characters within it, we use **regular expressions**
 
@@ -26,7 +26,7 @@ Regular expressions are expressions that allow one to find patterns.
 
 - To implement a regular expression in R, we can use the `grep` function to find patterns, or `gsub` to both find patterns and substitute patterns with another one.
 
-### grep
+#### grep
 
 - `grep` is a function that we will use to find patterns in a vector of strings
 - the first argument will be the regular expression
@@ -74,7 +74,7 @@ grep(regExprPattern, stringVecToSearch, value=TRUE)
 ## [1] "b"   "jab"
 ```
 
-### Grep Applied to a dataframe
+#### Grep Applied to a dataframe
 
 
 ```r
@@ -92,7 +92,7 @@ adosm1[no_words_vals, ]
 
 
 
-### gsub
+#### gsub
 
 - gsub can be thought of as using grep to find the patterns, but replacing the patterns found with something new.
 - The first argument is the pattern to find
@@ -109,38 +109,37 @@ gsub('ad', 'ados_', stringVecToSub)
 ## [1] "id"     "visit"  "ados_1" "ados_2" "ados_3" "ados_4"
 ```
 
-## String Concatenation
+### String Concatenation
 
-### paste
+#### paste
 
-### paste0
+#### paste0
 
-### sprintf
+#### sprintf
 
 # DataFrame Manipulation Extras
 
-## Rename columns
+### Rename columns
 
-# Programming Constructs
+## Programming Constructs
 
-## control statements essentials
+### control statements essentials
 
-## if else
+### if else
 
-## for loops
+### for loops
 
 
-# Vectorization
+## Vectorization
 
-## ifelse()
+### ifelse()
 
-# Write Clean Code
+## Write Clean Code
 
-## Max Line Length
+### Max Line Length
 
-## Speak through Code
+### Speak through Code
 
-## A Comment on Comments
+### A Comment on Comments
 
-# <a href="../index.html">Back to Home</a>
 

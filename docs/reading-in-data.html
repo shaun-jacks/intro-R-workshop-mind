@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Reading in Data | Intro to R Workshop Book</title>
+  <title>Chapter 3 Reading in Data | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Reading in Data | Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 3 Reading in Data | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Reading in Data | Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 3 Reading in Data | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="datatypes.html">
-<link rel="next" href="writing-data.html">
+<link rel="prev" href="part-1-introduction-and-data-exploration.html">
+<link rel="next" href="dataframe-manipulation-extras.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -105,87 +105,76 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview and Introduction</a></li>
 <li class="chapter" data-level="2" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html"><i class="fa fa-check"></i><b>2</b> Part 1: Introduction and Data Exploration</a><ul>
 <li class="chapter" data-level="2.1" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html#goals"><i class="fa fa-check"></i><b>2.1</b> Goals</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="datatypes.html"><a href="datatypes.html"><i class="fa fa-check"></i><b>3</b> Datatypes</a><ul>
-<li class="chapter" data-level="3.1" data-path="datatypes.html"><a href="datatypes.html#numeric-logical-character-factor"><i class="fa fa-check"></i><b>3.1</b> Numeric, Logical, Character, Factor</a></li>
-<li class="chapter" data-level="3.2" data-path="datatypes.html"><a href="datatypes.html#lists-vectors-matrices"><i class="fa fa-check"></i><b>3.2</b> Lists, Vectors, Matrices</a></li>
-<li class="chapter" data-level="3.3" data-path="datatypes.html"><a href="datatypes.html#dataframes"><i class="fa fa-check"></i><b>3.3</b> Dataframes</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="reading-in-data.html"><a href="reading-in-data.html"><i class="fa fa-check"></i><b>4</b> Reading in Data</a><ul>
-<li class="chapter" data-level="4.1" data-path="reading-in-data.html"><a href="reading-in-data.html#read-csv-files"><i class="fa fa-check"></i><b>4.1</b> Read CSV Files</a></li>
-<li class="chapter" data-level="4.2" data-path="reading-in-data.html"><a href="reading-in-data.html#view"><i class="fa fa-check"></i><b>4.2</b> <code>View()</code></a></li>
-<li class="chapter" data-level="4.3" data-path="reading-in-data.html"><a href="reading-in-data.html#see-dataframe-attributes"><i class="fa fa-check"></i><b>4.3</b> See Dataframe attributes</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="writing-data.html"><a href="writing-data.html"><i class="fa fa-check"></i><b>5</b> Writing Data</a><ul>
-<li class="chapter" data-level="5.1" data-path="writing-data.html"><a href="writing-data.html#write.csv"><i class="fa fa-check"></i><b>5.1</b> <code>write.csv</code></a></li>
-<li class="chapter" data-level="5.2" data-path="writing-data.html"><a href="writing-data.html#data.tablefwrite"><i class="fa fa-check"></i><b>5.2</b> <code>data.table::fwrite()</code></a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="subsetting-data.html"><a href="subsetting-data.html"><i class="fa fa-check"></i><b>6</b> Subsetting Data</a><ul>
-<li class="chapter" data-level="6.1" data-path="subsetting-data.html"><a href="subsetting-data.html#subset-by-columns"><i class="fa fa-check"></i><b>6.1</b> Subset by columns</a></li>
-<li class="chapter" data-level="6.2" data-path="subsetting-data.html"><a href="subsetting-data.html#subset-by-rows"><i class="fa fa-check"></i><b>6.2</b> Subset by rows</a></li>
-<li class="chapter" data-level="6.3" data-path="subsetting-data.html"><a href="subsetting-data.html#subset-by-rows-and-columns"><i class="fa fa-check"></i><b>6.3</b> Subset by rows and columns</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="filtering-a-dataframe-subsetting-part-2.html"><a href="filtering-a-dataframe-subsetting-part-2.html"><i class="fa fa-check"></i><b>7</b> Filtering a dataframe: Subsetting part 2</a><ul>
-<li class="chapter" data-level="7.1" data-path="filtering-a-dataframe-subsetting-part-2.html"><a href="filtering-a-dataframe-subsetting-part-2.html#subset-with-a-logical-vector"><i class="fa fa-check"></i><b>7.1</b> Subset with a logical vector</a></li>
-<li class="chapter" data-level="7.2" data-path="filtering-a-dataframe-subsetting-part-2.html"><a href="filtering-a-dataframe-subsetting-part-2.html#subset-logical-vector-example"><i class="fa fa-check"></i><b>7.2</b> Subset logical vector example</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html"><i class="fa fa-check"></i><b>8</b> Functions to explore data</a><ul>
-<li class="chapter" data-level="8.1" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html#example-table"><i class="fa fa-check"></i><b>8.1</b> Example <code>table()</code></a></li>
-<li class="chapter" data-level="8.2" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html#checking-for-duplicates-duplicated"><i class="fa fa-check"></i><b>8.2</b> Checking for duplicates: <code>duplicated()</code></a></li>
-<li class="chapter" data-level="8.3" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html#duplicated-explained"><i class="fa fa-check"></i><b>8.3</b> <code>duplicated()</code> explained</a></li>
-<li class="chapter" data-level="8.4" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html#duplicated-example"><i class="fa fa-check"></i><b>8.4</b> <code>duplicated()</code> example</a></li>
-<li class="chapter" data-level="8.5" data-path="functions-to-explore-data.html"><a href="functions-to-explore-data.html#duplicated-by-key-variables-id-and-visit"><i class="fa fa-check"></i><b>8.5</b> <code>Duplicated()</code> by key variables: id and visit</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="assignment-adosm2-dataset.html"><a href="assignment-adosm2-dataset.html"><i class="fa fa-check"></i><b>9</b> Assignment: adosm2 dataset</a><ul>
-<li class="chapter" data-level="9.1" data-path="assignment-adosm2-dataset.html"><a href="assignment-adosm2-dataset.html#instructions"><i class="fa fa-check"></i><b>9.1</b> Instructions</a></li>
-</ul></li>
-<li class="chapter" data-level="10" data-path="additional-resources.html"><a href="additional-resources.html"><i class="fa fa-check"></i><b>10</b> Additional Resources</a></li>
-<li class="chapter" data-level="11" data-path="solution.html"><a href="solution.html"><i class="fa fa-check"></i><b>11</b> Solution</a></li>
-<li class="chapter" data-level="12" data-path="back-to-home.html"><a href="back-to-home.html"><i class="fa fa-check"></i><b>12</b> <a href="../index.html">Back to Home</a></a></li>
-<li class="chapter" data-level="13" data-path="basic-stats-functions.html"><a href="basic-stats-functions.html"><i class="fa fa-check"></i><b>13</b> Basic Stats functions</a><ul>
-<li class="chapter" data-level="13.1" data-path="basic-stats-functions.html"><a href="basic-stats-functions.html#mean-median-standard-deviation-summary"><i class="fa fa-check"></i><b>13.1</b> Mean, Median, Standard Deviation, Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="14" data-path="linear-regression.html"><a href="linear-regression.html"><i class="fa fa-check"></i><b>14</b> Linear Regression</a><ul>
-<li class="chapter" data-level="14.1" data-path="linear-regression.html"><a href="linear-regression.html#correlation"><i class="fa fa-check"></i><b>14.1</b> Correlation</a></li>
-<li class="chapter" data-level="14.2" data-path="linear-regression.html"><a href="linear-regression.html#creating-a-linear-model"><i class="fa fa-check"></i><b>14.2</b> Creating a Linear Model</a></li>
-<li class="chapter" data-level="14.3" data-path="linear-regression.html"><a href="linear-regression.html#plotting-the-linear-model"><i class="fa fa-check"></i><b>14.3</b> Plotting the Linear Model</a></li>
-</ul></li>
-<li class="chapter" data-level="15" data-path="logistic-regression.html"><a href="logistic-regression.html"><i class="fa fa-check"></i><b>15</b> Logistic Regression</a></li>
-<li class="chapter" data-level="16" data-path="mixed-effects-models.html"><a href="mixed-effects-models.html"><i class="fa fa-check"></i><b>16</b> Mixed Effects Models</a></li>
-<li class="chapter" data-level="17" data-path="plotting-with-effects.html"><a href="plotting-with-effects.html"><i class="fa fa-check"></i><b>17</b> Plotting with effects</a></li>
-<li class="chapter" data-level="18" data-path="plotting-with-ggplot.html"><a href="plotting-with-ggplot.html"><i class="fa fa-check"></i><b>18</b> Plotting with ggplot</a></li>
-<li class="chapter" data-level="19" data-path="more-resources.html"><a href="more-resources.html"><i class="fa fa-check"></i><b>19</b> More Resources</a></li>
-<li class="chapter" data-level="20" data-path="back-to-home-1.html"><a href="back-to-home-1.html"><i class="fa fa-check"></i><b>20</b> <a href="../index.html">Back to Home</a></a></li>
-<li class="chapter" data-level="21" data-path="bonus-material-optional.html"><a href="bonus-material-optional.html"><i class="fa fa-check"></i><b>21</b> Bonus Material (Optional)</a></li>
-<li class="chapter" data-level="22" data-path="string-manipulation.html"><a href="string-manipulation.html"><i class="fa fa-check"></i><b>22</b> String Manipulation</a><ul>
-<li class="chapter" data-level="22.1" data-path="string-manipulation.html"><a href="string-manipulation.html#regular-expressions"><i class="fa fa-check"></i><b>22.1</b> Regular Expressions</a><ul>
-<li class="chapter" data-level="22.1.1" data-path="string-manipulation.html"><a href="string-manipulation.html#grep"><i class="fa fa-check"></i><b>22.1.1</b> grep</a></li>
-<li class="chapter" data-level="22.1.2" data-path="string-manipulation.html"><a href="string-manipulation.html#grep-applied-to-a-dataframe"><i class="fa fa-check"></i><b>22.1.2</b> Grep Applied to a dataframe</a></li>
-<li class="chapter" data-level="22.1.3" data-path="string-manipulation.html"><a href="string-manipulation.html#gsub"><i class="fa fa-check"></i><b>22.1.3</b> gsub</a></li>
-</ul></li>
-<li class="chapter" data-level="22.2" data-path="string-manipulation.html"><a href="string-manipulation.html#string-concatenation"><i class="fa fa-check"></i><b>22.2</b> String Concatenation</a><ul>
-<li class="chapter" data-level="22.2.1" data-path="string-manipulation.html"><a href="string-manipulation.html#paste"><i class="fa fa-check"></i><b>22.2.1</b> paste</a></li>
-<li class="chapter" data-level="22.2.2" data-path="string-manipulation.html"><a href="string-manipulation.html#paste0"><i class="fa fa-check"></i><b>22.2.2</b> paste0</a></li>
-<li class="chapter" data-level="22.2.3" data-path="string-manipulation.html"><a href="string-manipulation.html#sprintf"><i class="fa fa-check"></i><b>22.2.3</b> sprintf</a></li>
+<li class="chapter" data-level="2.2" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html#datatypes"><i class="fa fa-check"></i><b>2.2</b> Datatypes</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html#numeric-logical-character-factor"><i class="fa fa-check"></i><b>2.2.1</b> Numeric, Logical, Character, Factor</a></li>
+<li class="chapter" data-level="2.2.2" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html#lists-vectors-matrices"><i class="fa fa-check"></i><b>2.2.2</b> Lists, Vectors, Matrices</a></li>
+<li class="chapter" data-level="2.2.3" data-path="part-1-introduction-and-data-exploration.html"><a href="part-1-introduction-and-data-exploration.html#dataframes"><i class="fa fa-check"></i><b>2.2.3</b> Dataframes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="23" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html"><i class="fa fa-check"></i><b>23</b> DataFrame Manipulation Extras</a><ul>
-<li class="chapter" data-level="23.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#rename-columns"><i class="fa fa-check"></i><b>23.1</b> Rename columns</a></li>
+<li class="chapter" data-level="3" data-path="reading-in-data.html"><a href="reading-in-data.html"><i class="fa fa-check"></i><b>3</b> Reading in Data</a><ul>
+<li class="chapter" data-level="3.0.1" data-path="reading-in-data.html"><a href="reading-in-data.html#read-csv-files"><i class="fa fa-check"></i><b>3.0.1</b> Read CSV Files</a></li>
+<li class="chapter" data-level="3.0.2" data-path="reading-in-data.html"><a href="reading-in-data.html#view"><i class="fa fa-check"></i><b>3.0.2</b> <code>View()</code></a></li>
+<li class="chapter" data-level="3.0.3" data-path="reading-in-data.html"><a href="reading-in-data.html#see-dataframe-attributes"><i class="fa fa-check"></i><b>3.0.3</b> See Dataframe attributes</a></li>
+<li class="chapter" data-level="3.1" data-path="reading-in-data.html"><a href="reading-in-data.html#writing-data"><i class="fa fa-check"></i><b>3.1</b> Writing Data</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="reading-in-data.html"><a href="reading-in-data.html#write.csv"><i class="fa fa-check"></i><b>3.1.1</b> <code>write.csv</code></a></li>
+<li class="chapter" data-level="3.1.2" data-path="reading-in-data.html"><a href="reading-in-data.html#data.tablefwrite"><i class="fa fa-check"></i><b>3.1.2</b> <code>data.table::fwrite()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="24" data-path="programming-constructs.html"><a href="programming-constructs.html"><i class="fa fa-check"></i><b>24</b> Programming Constructs</a><ul>
-<li class="chapter" data-level="24.1" data-path="programming-constructs.html"><a href="programming-constructs.html#control-statements-essentials"><i class="fa fa-check"></i><b>24.1</b> control statements essentials</a></li>
-<li class="chapter" data-level="24.2" data-path="programming-constructs.html"><a href="programming-constructs.html#if-else"><i class="fa fa-check"></i><b>24.2</b> if else</a></li>
-<li class="chapter" data-level="24.3" data-path="programming-constructs.html"><a href="programming-constructs.html#for-loops"><i class="fa fa-check"></i><b>24.3</b> for loops</a></li>
+<li class="chapter" data-level="3.2" data-path="reading-in-data.html"><a href="reading-in-data.html#subsetting-data"><i class="fa fa-check"></i><b>3.2</b> Subsetting Data</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="reading-in-data.html"><a href="reading-in-data.html#subset-by-columns"><i class="fa fa-check"></i><b>3.2.1</b> Subset by columns</a></li>
+<li class="chapter" data-level="3.2.2" data-path="reading-in-data.html"><a href="reading-in-data.html#subset-by-rows"><i class="fa fa-check"></i><b>3.2.2</b> Subset by rows</a></li>
+<li class="chapter" data-level="3.2.3" data-path="reading-in-data.html"><a href="reading-in-data.html#subset-by-rows-and-columns"><i class="fa fa-check"></i><b>3.2.3</b> Subset by rows and columns</a></li>
 </ul></li>
-<li class="chapter" data-level="25" data-path="vectorization.html"><a href="vectorization.html"><i class="fa fa-check"></i><b>25</b> Vectorization</a><ul>
-<li class="chapter" data-level="25.1" data-path="vectorization.html"><a href="vectorization.html#ifelse"><i class="fa fa-check"></i><b>25.1</b> ifelse()</a></li>
+<li class="chapter" data-level="3.3" data-path="reading-in-data.html"><a href="reading-in-data.html#filtering-a-dataframe-subsetting-part-2"><i class="fa fa-check"></i><b>3.3</b> Filtering a dataframe: Subsetting part 2</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="reading-in-data.html"><a href="reading-in-data.html#subset-with-a-logical-vector"><i class="fa fa-check"></i><b>3.3.1</b> Subset with a logical vector</a></li>
+<li class="chapter" data-level="3.3.2" data-path="reading-in-data.html"><a href="reading-in-data.html#subset-logical-vector-example"><i class="fa fa-check"></i><b>3.3.2</b> Subset logical vector example</a></li>
 </ul></li>
-<li class="chapter" data-level="26" data-path="write-clean-code.html"><a href="write-clean-code.html"><i class="fa fa-check"></i><b>26</b> Write Clean Code</a><ul>
-<li class="chapter" data-level="26.1" data-path="write-clean-code.html"><a href="write-clean-code.html#max-line-length"><i class="fa fa-check"></i><b>26.1</b> Max Line Length</a></li>
-<li class="chapter" data-level="26.2" data-path="write-clean-code.html"><a href="write-clean-code.html#speak-through-code"><i class="fa fa-check"></i><b>26.2</b> Speak through Code</a></li>
-<li class="chapter" data-level="26.3" data-path="write-clean-code.html"><a href="write-clean-code.html#a-comment-on-comments"><i class="fa fa-check"></i><b>26.3</b> A Comment on Comments</a></li>
+<li class="chapter" data-level="3.4" data-path="reading-in-data.html"><a href="reading-in-data.html#functions-to-explore-data"><i class="fa fa-check"></i><b>3.4</b> Functions to explore data</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="reading-in-data.html"><a href="reading-in-data.html#example-table"><i class="fa fa-check"></i><b>3.4.1</b> Example <code>table()</code></a></li>
+<li class="chapter" data-level="3.4.2" data-path="reading-in-data.html"><a href="reading-in-data.html#checking-for-duplicates-duplicated"><i class="fa fa-check"></i><b>3.4.2</b> Checking for duplicates: <code>duplicated()</code></a></li>
+<li class="chapter" data-level="3.4.3" data-path="reading-in-data.html"><a href="reading-in-data.html#duplicated-explained"><i class="fa fa-check"></i><b>3.4.3</b> <code>duplicated()</code> explained</a></li>
+<li class="chapter" data-level="3.4.4" data-path="reading-in-data.html"><a href="reading-in-data.html#duplicated-example"><i class="fa fa-check"></i><b>3.4.4</b> <code>duplicated()</code> example</a></li>
+<li class="chapter" data-level="3.4.5" data-path="reading-in-data.html"><a href="reading-in-data.html#duplicated-by-key-variables-id-and-visit"><i class="fa fa-check"></i><b>3.4.5</b> <code>Duplicated()</code> by key variables: id and visit</a></li>
 </ul></li>
-<li class="chapter" data-level="27" data-path="back-to-home-2.html"><a href="back-to-home-2.html"><i class="fa fa-check"></i><b>27</b> <a href="../index.html">Back to Home</a></a></li>
+<li class="chapter" data-level="3.5" data-path="reading-in-data.html"><a href="reading-in-data.html#assignment-adosm2-dataset"><i class="fa fa-check"></i><b>3.5</b> Assignment: adosm2 dataset</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="reading-in-data.html"><a href="reading-in-data.html#instructions"><i class="fa fa-check"></i><b>3.5.1</b> Instructions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="reading-in-data.html"><a href="reading-in-data.html#additional-resources"><i class="fa fa-check"></i><b>3.6</b> Additional Resources</a></li>
+<li class="chapter" data-level="3.7" data-path="reading-in-data.html"><a href="reading-in-data.html#solution"><i class="fa fa-check"></i><b>3.7</b> Solution</a></li>
+<li class="chapter" data-level="3.8" data-path="reading-in-data.html"><a href="reading-in-data.html#basic-stats-functions"><i class="fa fa-check"></i><b>3.8</b> Basic Stats functions</a><ul>
+<li class="chapter" data-level="3.8.1" data-path="reading-in-data.html"><a href="reading-in-data.html#mean-median-standard-deviation-summary"><i class="fa fa-check"></i><b>3.8.1</b> Mean, Median, Standard Deviation, Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="reading-in-data.html"><a href="reading-in-data.html#linear-regression"><i class="fa fa-check"></i><b>3.9</b> Linear Regression</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="reading-in-data.html"><a href="reading-in-data.html#correlation"><i class="fa fa-check"></i><b>3.9.1</b> Correlation</a></li>
+<li class="chapter" data-level="3.9.2" data-path="reading-in-data.html"><a href="reading-in-data.html#creating-a-linear-model"><i class="fa fa-check"></i><b>3.9.2</b> Creating a Linear Model</a></li>
+<li class="chapter" data-level="3.9.3" data-path="reading-in-data.html"><a href="reading-in-data.html#plotting-the-linear-model"><i class="fa fa-check"></i><b>3.9.3</b> Plotting the Linear Model</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="reading-in-data.html"><a href="reading-in-data.html#logistic-regression"><i class="fa fa-check"></i><b>3.10</b> Logistic Regression</a></li>
+<li class="chapter" data-level="3.11" data-path="reading-in-data.html"><a href="reading-in-data.html#mixed-effects-models"><i class="fa fa-check"></i><b>3.11</b> Mixed Effects Models</a></li>
+<li class="chapter" data-level="3.12" data-path="reading-in-data.html"><a href="reading-in-data.html#plotting-with-effects"><i class="fa fa-check"></i><b>3.12</b> Plotting with effects</a></li>
+<li class="chapter" data-level="3.13" data-path="reading-in-data.html"><a href="reading-in-data.html#plotting-with-ggplot"><i class="fa fa-check"></i><b>3.13</b> Plotting with ggplot</a></li>
+<li class="chapter" data-level="3.14" data-path="reading-in-data.html"><a href="reading-in-data.html#more-resources"><i class="fa fa-check"></i><b>3.14</b> More Resources</a></li>
+<li class="chapter" data-level="3.15" data-path="reading-in-data.html"><a href="reading-in-data.html#bonus-material-optional"><i class="fa fa-check"></i><b>3.15</b> Bonus Material (Optional)</a></li>
+<li class="chapter" data-level="3.16" data-path="reading-in-data.html"><a href="reading-in-data.html#string-manipulation"><i class="fa fa-check"></i><b>3.16</b> String Manipulation</a><ul>
+<li class="chapter" data-level="3.16.1" data-path="reading-in-data.html"><a href="reading-in-data.html#regular-expressions"><i class="fa fa-check"></i><b>3.16.1</b> Regular Expressions</a></li>
+<li class="chapter" data-level="3.16.2" data-path="reading-in-data.html"><a href="reading-in-data.html#string-concatenation"><i class="fa fa-check"></i><b>3.16.2</b> String Concatenation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html"><i class="fa fa-check"></i><b>4</b> DataFrame Manipulation Extras</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#rename-columns"><i class="fa fa-check"></i><b>4.0.1</b> Rename columns</a></li>
+<li class="chapter" data-level="4.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#programming-constructs"><i class="fa fa-check"></i><b>4.1</b> Programming Constructs</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#control-statements-essentials"><i class="fa fa-check"></i><b>4.1.1</b> control statements essentials</a></li>
+<li class="chapter" data-level="4.1.2" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#if-else"><i class="fa fa-check"></i><b>4.1.2</b> if else</a></li>
+<li class="chapter" data-level="4.1.3" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#for-loops"><i class="fa fa-check"></i><b>4.1.3</b> for loops</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#vectorization"><i class="fa fa-check"></i><b>4.2</b> Vectorization</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#ifelse"><i class="fa fa-check"></i><b>4.2.1</b> ifelse()</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#write-clean-code"><i class="fa fa-check"></i><b>4.3</b> Write Clean Code</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#max-line-length"><i class="fa fa-check"></i><b>4.3.1</b> Max Line Length</a></li>
+<li class="chapter" data-level="4.3.2" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#speak-through-code"><i class="fa fa-check"></i><b>4.3.2</b> Speak through Code</a></li>
+<li class="chapter" data-level="4.3.3" data-path="dataframe-manipulation-extras.html"><a href="dataframe-manipulation-extras.html#a-comment-on-comments"><i class="fa fa-check"></i><b>4.3.3</b> A Comment on Comments</a></li>
+</ul></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -207,10 +196,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
             <section class="normal" id="section-">
 <div id="reading-in-data" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Reading in Data</h1>
+<h1><span class="header-section-number">Chapter 3</span> Reading in Data</h1>
 <hr />
-<div id="read-csv-files" class="section level2">
-<h2><span class="header-section-number">4.1</span> Read CSV Files</h2>
+<div id="read-csv-files" class="section level3">
+<h3><span class="header-section-number">3.0.1</span> Read CSV Files</h3>
 <ul>
 <li>store the filepath within a character variable</li>
 <li>the filepath could be relative to your working directory, or absolute</li>
@@ -227,16 +216,16 @@ adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(pathToAdos
 
 <span class="co"># adosm1 is now considered a datraframe</span></code></pre></div>
 </div>
-<div id="view" class="section level2">
-<h2><span class="header-section-number">4.2</span> <code>View()</code></h2>
+<div id="view" class="section level3">
+<h3><span class="header-section-number">3.0.2</span> <code>View()</code></h3>
 <ul>
 <li>To view your dataframe call the <code>View()</code> function.</li>
 <li>Note the capital <strong>V</strong>iew().</li>
 </ul>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(adosm1)</code></pre></div>
 </div>
-<div id="see-dataframe-attributes" class="section level2">
-<h2><span class="header-section-number">4.3</span> See Dataframe attributes</h2>
+<div id="see-dataframe-attributes" class="section level3">
+<h3><span class="header-section-number">3.0.3</span> See Dataframe attributes</h3>
 <ul>
 <li>display column names <code>names()</code></li>
 <li>display rownames with <code>row.names()</code></li>
@@ -254,14 +243,443 @@ adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(pathToAdos
 </div>
 <div style="margin-bottom:100px;">
 </div>
+<div id="writing-data" class="section level2">
+<h2><span class="header-section-number">3.1</span> Writing Data</h2>
+<hr />
+<div id="write.csv" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> <code>write.csv</code></h3>
+<ul>
+<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
+<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
+<li>the second parameter is the location and filename to write it to.</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;datasets/practice write csv ados.csv&#39;, row.names = FALSE)</span></code></pre></div>
+</div>
+<div id="data.tablefwrite" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> <code>data.table::fwrite()</code></h3>
+<ul>
+<li>One you are comfortable with write.csv, I would suggest looking into the <code>fwrite</code> function within data.table. It is much much faster and more efficient.</li>
+</ul>
+</div>
+<div style="margin-bottom:100px;">
+</div>
+</div>
+<div id="subsetting-data" class="section level2">
+<h2><span class="header-section-number">3.2</span> Subsetting Data</h2>
+<hr />
+<div id="subset-by-columns" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Subset by columns</h3>
+<ul>
+<li>In our case, adosm1 is within our R environment, so we would call
+<ul>
+<li><code>adosm1[namesOfRows, namesOfColumns]</code></li>
+<li>Note: it is best practice to access columns by their names, not their numbers</li>
+</ul></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To access the id column, we would write</span>
+adosm1[, <span class="st">&quot;id&quot;</span>]
+
+<span class="co"># To access id and visit</span>
+adosm1[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]
+
+<span class="co"># in order to make code less verbose, when accessing one column, we use</span>
+<span class="co"># the $ operator</span>
+<span class="co"># to access the id column</span>
+adosm1<span class="op">$</span>id</code></pre></div>
+</div>
+<div id="subset-by-rows" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Subset by rows</h3>
+<ul>
+<li>We could similarly access rows by rownames or row numbers
+<ul>
+<li><code>adosm1[c(1, 2, 5), ]</code></li>
+</ul></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows</span>
+adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), ]</code></pre></div>
+</div>
+<div id="subset-by-rows-and-columns" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Subset by rows and columns</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows, within id and visit columns</span>
+adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]</code></pre></div>
+</div>
+<div style="margin-bottom:100px;">
+</div>
+</div>
+<div id="filtering-a-dataframe-subsetting-part-2" class="section level2">
+<h2><span class="header-section-number">3.3</span> Filtering a dataframe: Subsetting part 2</h2>
+<hr />
+<div id="subset-with-a-logical-vector" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Subset with a logical vector</h3>
+<ul>
+<li>What is very powerful in this is we could subset a dataframe in order to answer specific questions</li>
+<li>This is done by using a <strong>logical vector</strong> to subset or slice a dataframe</li>
+</ul>
+</div>
+<div id="subset-logical-vector-example" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Subset logical vector example</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To Filter for all visits at 36 months:</span>
+<span class="co"># Create logical vector</span>
+visits36mo &lt;-<span class="st"> </span>adosm1<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;36&quot;</span>
+
+<span class="co"># use  our visits36mo  logical vector to filter dataframe</span>
+adosm1[visits36mo, ]  <span class="co"># returns  a dataframe of all visits at 36mo</span>
+
+adosm1[visits36mo, <span class="st">&quot;id&quot;</span>] <span class="co"># returns all the ids with a visit at 36mo</span>
+
+<span class="co"># returns alg and version at 36 months</span>
+adosm1[visits36mo, <span class="kw">c</span>(<span class="st">&quot;ados_algorithm&quot;</span>, <span class="st">&quot;ados_version&quot;</span>)] </code></pre></div>
+</div>
+<div style="margin-bottom:100px;">
+</div>
+</div>
+<div id="functions-to-explore-data" class="section level2">
+<h2><span class="header-section-number">3.4</span> Functions to explore data</h2>
+<hr />
+<ul>
+<li>Out of all the functions to explore a dataframe, I personally find
+<ul>
+<li><code>table()</code></li>
+<li><code>duplicated()</code></li>
+</ul></li>
+</ul>
+<p>to be the most useful</p>
+<div id="example-table" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Example <code>table()</code></h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To get a frequency count of  all unique values,</span>
+<span class="co"># we use the  table()</span>
+
+<span class="co"># table() takes in 1 or more vectors as input</span>
+<span class="co"># since every dataframe column could be considered a vector (or list)</span>
+<span class="co"># we could check for every unique visit with freq counts with</span>
+<span class="kw">table</span>(adosm1<span class="op">$</span>visit)</code></pre></div>
+<pre><code>## 
+##  18  21  24  30  36 
+## 445   5 396  32 146</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># we could check  for every unique combination of vectors by </span>
+<span class="co"># providing multiple vector inputs</span>
+
+<span class="co"># To see every unique combination of visit and ados algorithm</span>
+<span class="kw">table</span>(adosm1<span class="op">$</span>visit, adosm1<span class="op">$</span>ados_algorithm)</code></pre></div>
+<pre><code>##     
+##          few to no words no words some words
+##   18   3             157       93        192
+##   21   0               0        2          3
+##   24   4              65       30        297
+##   30   0               4        0         28
+##   36   6               8       20        112</code></pre>
+</div>
+<div id="checking-for-duplicates-duplicated" class="section level3">
+<h3><span class="header-section-number">3.4.2</span> Checking for duplicates: <code>duplicated()</code></h3>
+<ul>
+<li>We will first generate a dataframe that has duplicates, to show how to detect duplicates by different subgroups</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))</code></pre></div>
+</div>
+<div id="duplicated-explained" class="section level3">
+<h3><span class="header-section-number">3.4.3</span> <code>duplicated()</code> explained</h3>
+<ul>
+<li>The <code>duplicated</code> function returns a logical vector of the duplicates that exist in a dataframe.</li>
+<li>The TRUE values represent the index locations of where a duplicate row was found.</li>
+<li>We could use this logical vector to see where a duplicate exists</li>
+</ul>
+</div>
+<div id="duplicated-example" class="section level3">
+<h3><span class="header-section-number">3.4.4</span> <code>duplicated()</code> example</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">duplicateIndices &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf)  <span class="co"># store dup vector in variable</span>
+
+duplicateIndices  <span class="co"># view logical vector of duplicates</span></code></pre></div>
+<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf[duplicateIndices, ]</code></pre></div>
+<pre><code>##   id     visit item1
+## 4  2 10 months     3</code></pre>
+</div>
+<div id="duplicated-by-key-variables-id-and-visit" class="section level3">
+<h3><span class="header-section-number">3.4.5</span> <code>Duplicated()</code> by key variables: id and visit</h3>
+<ul>
+<li>we could check for duplicates by columns that should represent a unique combination.</li>
+<li>in this example: id and visit</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># to check duplicates by groups</span>
+dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
+dupDf[dupIndGrouped, ]</code></pre></div>
+<pre><code>##   id     visit item1
+## 4  2 10 months     3
+## 6  3 20 months     6</code></pre>
+</div>
+<div style="margin-bottom:100px;">
+</div>
+</div>
+<div id="assignment-adosm2-dataset" class="section level2">
+<h2><span class="header-section-number">3.5</span> Assignment: adosm2 dataset</h2>
+<hr />
+<div id="instructions" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> Instructions</h3>
+<ol style="list-style-type: decimal">
+<li>Read in the adosm2.csv file</li>
+<li>What is the frequency count for every unique visit?</li>
+<li>What are the ids that exist for the 30 month visit?</li>
+<li>Are there duplicates by id and visit?</li>
+<li>What is the frequency count of duplicates vs non-duplicates?</li>
+</ol>
+</div>
+<div style="margin-bottom:300px">
+</div>
+</div>
+<div id="additional-resources" class="section level2">
+<h2><span class="header-section-number">3.6</span> Additional Resources</h2>
+<hr />
+</div>
+<div style="margin-bottom:100px">
+</div>
+<div id="solution" class="section level2">
+<h2><span class="header-section-number">3.7</span> Solution</h2>
+<hr />
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in the adosm2.csv file</span>
+adosm2Path &lt;-<span class="st"> &#39;./datasets/adosm2.csv&#39;</span>
+adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(adosm2Path, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+
+<span class="co"># 2. What is the frequency count for every unique visit?</span>
+<span class="kw">table</span>(adosm2<span class="op">$</span>visit)</code></pre></div>
+<pre><code>## 
+##  24  30  36 sa1 sa2 
+##  42  14 469   2   2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 3, What are the ids that exist for the 30 month visit?</span>
+adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;30&quot;</span>, <span class="st">&quot;id&quot;</span>]</code></pre></div>
+<pre><code>##  [1]  20  53  57  71  78 104 222 252 304 306 385 444 451 455</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># This works too- adosm2$id[adosm2$visit == &quot;30&quot;]</span>
+
+<span class="co"># 4. Are there duplicates by id and visit?</span>
+<span class="kw">any</span>(<span class="kw">duplicated</span>(adosm2[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]))</code></pre></div>
+<pre><code>## [1] FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 5. What are the frequency count of duplicates vs non-duplicates</span>
+<span class="kw">table</span>(<span class="kw">duplicated</span>(adosm2))</code></pre></div>
+<pre><code>## 
+## FALSE 
+##   529</code></pre>
+</div>
+
+</div>
+<div id="basic-stats-functions" class="section level2">
+<h2><span class="header-section-number">3.8</span> Basic Stats functions</h2>
+<div id="mean-median-standard-deviation-summary" class="section level3">
+<h3><span class="header-section-number">3.8.1</span> Mean, Median, Standard Deviation, Summary</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">mean</span>(cars<span class="op">$</span>speed, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 15.4</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">median</span>(cars<span class="op">$</span>dist, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 36</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sd</span>(cars<span class="op">$</span>speed, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 5.287644</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(cars)</code></pre></div>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+</div>
+</div>
+<div id="linear-regression" class="section level2">
+<h2><span class="header-section-number">3.9</span> Linear Regression</h2>
+<ul>
+<li>We will use the mtcars dataset for these examples</li>
+</ul>
+<div id="correlation" class="section level3">
+<h3><span class="header-section-number">3.9.1</span> Correlation</h3>
+<ul>
+<li>Find correlation between two vars</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor.test</span>(mtcars<span class="op">$</span>wt, mtcars<span class="op">$</span>disp)</code></pre></div>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  mtcars$wt and mtcars$disp
+## t = 10.576, df = 30, p-value = 1.222e-11
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.7811586 0.9442902
+## sample estimates:
+##       cor 
+## 0.8879799</code></pre>
+</div>
+<div id="creating-a-linear-model" class="section level3">
+<h3><span class="header-section-number">3.9.2</span> Creating a Linear Model</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">linearMod &lt;-<span class="kw">lm</span>(dist <span class="op">~</span><span class="st"> </span>speed, cars)
+<span class="kw">print</span>(linearMod)</code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="plotting-the-linear-model" class="section level3">
+<h3><span class="header-section-number">3.9.3</span> Plotting the Linear Model</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># create effects object</span>
+eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="kw">Effect</span>(<span class="st">&#39;speed&#39;</span>, linearMod)
+eff</code></pre></div>
+<pre><code>## 
+##  speed effect
+## speed
+##        4      9.2       14       20       25 
+## -1.84946 18.59907 37.47463 61.06908 80.73112</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(eff)</code></pre></div>
+<p><img src="02-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+</div>
+<div id="logistic-regression" class="section level2">
+<h2><span class="header-section-number">3.10</span> Logistic Regression</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm1<span class="op">$</span>ASD_risk &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm1<span class="op">$</span>recruitment_group <span class="op">==</span><span class="st"> &#39;ASD risk&#39;</span>)
+adosm1<span class="op">$</span>sarb_f &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm1<span class="op">$</span>ados_sarb_total)
+adosm1<span class="op">$</span>gender_factor &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm1<span class="op">$</span>gender)
+adosm1<span class="op">$</span>recruitment_group_f &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm1<span class="op">$</span>recruitment_group)
+logMod &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">glm</span>(ASD_risk <span class="op">~</span><span class="st"> </span>sarb_f <span class="op">+</span><span class="st">  </span>gender_factor,
+      adosm1, <span class="dt">family =</span> <span class="st">&#39;binomial&#39;</span>)
+logMod</code></pre></div>
+<pre><code>## 
+## Call:  glm(formula = ASD_risk ~ sarb_f + gender_factor, family = &quot;binomial&quot;, 
+##     data = adosm1)
+## 
+## Coefficients:
+##       (Intercept)            sarb_f1            sarb_f2  
+##           -0.3815             0.1500             0.2267  
+##           sarb_f3            sarb_f4            sarb_f5  
+##            0.8868             1.1712             1.5137  
+##           sarb_f6            sarb_f7            sarb_f8  
+##            1.5840             0.6224             1.1274  
+##           sarb_f9           sarb_f10           sarb_f11  
+##            2.6826             1.8771             0.7671  
+##          sarb_f12           sarb_f13           sarb_f14  
+##            1.1296             3.2461             2.0244  
+##          sarb_f15           sarb_f16           sarb_f17  
+##            2.0005             1.1525             1.6009  
+##          sarb_f18           sarb_f19           sarb_f20  
+##            1.6125             0.4841            17.1203  
+##          sarb_f21           sarb_f22           sarb_f23  
+##            2.3623           -16.1846            16.9476  
+##          sarb_f24           sarb_f25           sarb_f26  
+##            0.4669            16.9476            17.2042  
+## gender_factormale  gender_factorMale  
+##           15.9578            -0.2566  
+## 
+## Degrees of Freedom: 1010 Total (i.e. Null);  982 Residual
+##   (13 observations deleted due to missingness)
+## Null Deviance:       1365 
+## Residual Deviance: 1247  AIC: 1305</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;sarb_f&#39;</span>, <span class="st">&#39;gender_factor&#39;</span>), logMod))</code></pre></div>
+<p><img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+<div id="mixed-effects-models" class="section level2">
+<h2><span class="header-section-number">3.11</span> Mixed Effects Models</h2>
+</div>
+<div id="plotting-with-effects" class="section level2">
+<h2><span class="header-section-number">3.12</span> Plotting with effects</h2>
+</div>
+<div id="plotting-with-ggplot" class="section level2">
+<h2><span class="header-section-number">3.13</span> Plotting with ggplot</h2>
+</div>
+<div id="more-resources" class="section level2">
+<h2><span class="header-section-number">3.14</span> More Resources</h2>
+
+</div>
+<div id="bonus-material-optional" class="section level2">
+<h2><span class="header-section-number">3.15</span> Bonus Material (Optional)</h2>
+</div>
+<div id="string-manipulation" class="section level2">
+<h2><span class="header-section-number">3.16</span> String Manipulation</h2>
+<ul>
+<li>What are the most useful use cases for string manipulation?
+<ul>
+<li>Pattern matching: One can easily automate trudging through a dataset by hand, by finding patterns within the character columns in their dataset</li>
+<li>Data cleaning, Are their some mispelled or case sensitive datasets? How do we group these cases?</li>
+</ul></li>
+</ul>
+<div id="regular-expressions" class="section level3">
+<h3><span class="header-section-number">3.16.1</span> Regular Expressions</h3>
+<ul>
+<li>To find patterns within data that has characters within it, we use <strong>regular expressions</strong></li>
+</ul>
+<p>Regular expressions are expressions that allow one to find patterns.</p>
+<ul>
+<li>To implement a regular expression in R, we can use the <code>grep</code> function to find patterns, or <code>gsub</code> to both find patterns and substitute patterns with another one.</li>
+</ul>
+<div id="grep" class="section level4">
+<h4><span class="header-section-number">3.16.1.1</span> grep</h4>
+<ul>
+<li><code>grep</code> is a function that we will use to find patterns in a vector of strings</li>
+<li>the first argument will be the regular expression</li>
+<li>the second argument will be the vector we are searching within</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSearch &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>, <span class="st">&#39;d&#39;</span>, <span class="st">&#39;bad&#39;</span>, <span class="st">&#39;jab&#39;</span>)
+regExprPattern &lt;-<span class="st"> &#39;a&#39;</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)  <span class="co"># indices of all strings with  an &#39;a&#39;</span></code></pre></div>
+<pre><code>## [1] 1 5 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that STARTS with a pattern with ^</span>
+regExprPattern &lt;-<span class="st"> &#39;^b&#39;</span>
+<span class="co"># in this case, starts with a &#39;b&#39;</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
+<pre><code>## [1] 2 5</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that </span><span class="re">END</span><span class="co">S with a pattern with $</span>
+regExprPattern &lt;-<span class="st"> &#39;b$&#39;</span>
+<span class="co"># in this case, ends with a b</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
+<pre><code>## [1] 2 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># If we want to see the values, not the indices of where patterns exist</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch, <span class="dt">value=</span><span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] &quot;b&quot;   &quot;jab&quot;</code></pre>
+</div>
+<div id="grep-applied-to-a-dataframe" class="section level4">
+<h4><span class="header-section-number">3.16.1.2</span> Grep Applied to a dataframe</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># see all columns that STARTS with ados</span>
+ados_cols &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;^ados&#39;</span>, <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+adosm1[, ados_cols]
+
+<span class="co"># see all rows that have a an ados algorithm of no words</span>
+<span class="co"># grep will return row numbers of where a pattern of no words</span>
+<span class="co"># exists in ados_version</span>
+no_words_vals &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;no words&#39;</span>, adosm1<span class="op">$</span>ados_version)
+<span class="co"># use row numbers to filter dataframe</span>
+adosm1[no_words_vals, ]</code></pre></div>
+</div>
+<div id="gsub" class="section level4">
+<h4><span class="header-section-number">3.16.1.3</span> gsub</h4>
+<ul>
+<li>gsub can be thought of as using grep to find the patterns, but replacing the patterns found with something new.</li>
+<li>The first argument is the pattern to find</li>
+<li>The second argument is what to replace with the pattern found</li>
+<li>The third argument is the vector that holds the pattern to search and replace</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSub &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;id&#39;</span>, <span class="st">&#39;visit&#39;</span>, <span class="st">&#39;ad1&#39;</span>, <span class="st">&#39;ad2&#39;</span>, <span class="st">&#39;ad3&#39;</span>, <span class="st">&#39;ad4&#39;</span>)
+<span class="kw">gsub</span>(<span class="st">&#39;ad&#39;</span>, <span class="st">&#39;ados_&#39;</span>, stringVecToSub)</code></pre></div>
+<pre><code>## [1] &quot;id&quot;     &quot;visit&quot;  &quot;ados_1&quot; &quot;ados_2&quot; &quot;ados_3&quot; &quot;ados_4&quot;</code></pre>
+</div>
+</div>
+<div id="string-concatenation" class="section level3">
+<h3><span class="header-section-number">3.16.2</span> String Concatenation</h3>
+<div id="paste" class="section level4">
+<h4><span class="header-section-number">3.16.2.1</span> paste</h4>
+</div>
+<div id="paste0" class="section level4">
+<h4><span class="header-section-number">3.16.2.2</span> paste0</h4>
+</div>
+<div id="sprintf" class="section level4">
+<h4><span class="header-section-number">3.16.2.3</span> sprintf</h4>
+</div>
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="datatypes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="writing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="part-1-introduction-and-data-exploration.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="dataframe-manipulation-extras.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
