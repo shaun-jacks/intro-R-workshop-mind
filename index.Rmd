@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis"
+title: "Intro to R Workshop"
 author: "Shaun Jackson, Marissa Chemotti"
 date: "7/3/2019"
 output: 
@@ -7,14 +7,16 @@ output:
     self_contained: no
 ---
 
-# Part 1: Introduction and Data Exploration
+# Overview and Introduction
 
-The aim of this document is to present you with the bare minimum essentials to get you up and running with R.
+The aim of this workshop is to get you up and running with R as quick as possible by teaching you how to connect the most important R constructs through hands-on examples.
 One of the toughest parts about  learning a programming language is feeling overwhelmed by the abundance of material to learn.
 
-By giving you an overview of the most useful functions, in the lens of a real dataset, we hope that you can apply these concepts to your own data.
+By giving you an overview of the most useful functions, in the lens of close-to-real-world artificial datasets, we hope that you can apply these concepts to your own data. 
 
 As with everything else, the best way to learn R is through **consistent** practice with a real world project.
+
+# Part 1: Introduction and Data Exploration
 
 <hr />
 ## Goals
