@@ -1,0 +1,35 @@
+---
+title: "Data Analysis"
+author: "Shaun Jackson, Marissa Chemotti"
+date: "7/3/2019"
+output: 
+  rmdformats::material:
+    self_contained: no
+---
+
+```{r setup, include=FALSE}
+options(stringsAsFactors = FALSE)
+library(kableExtra)
+# define relative filepath
+pathToAdosFile <- '../datasets/adosm1_scored.csv'
+
+# Use read.csv() and filepath variable as first argument to function
+adosm1 <- read.csv(pathToAdosFile, 
+                   stringsAsFactors = FALSE)
+```
+
+# Exploring our Dataset
+
+# Basic Stats functions
+
+# Linear Regression
+
+# Logistic Regression
+
+# Mixed Effects Models
+
+# Plotting with effects
+
+# Plotting with ggplot
+
+# More Resources
