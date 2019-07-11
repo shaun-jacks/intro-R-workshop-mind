@@ -73,3 +73,10 @@ plot(effects::Effect(c('sarb_f', 'gender_factor'), logMod))
 # Plotting with ggplot
 
 # More Resources
+
+# <a href="../index.html">Part 1 Data Exploration</a>
+
+# <a href="part2_data_analysis/index.html">Part 3 Data Visualization</a>
+
+# <a href="part2_data_analysis/index.html">Part 4 Bonus Material</a>
+

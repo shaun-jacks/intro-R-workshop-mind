@@ -5,6 +5,7 @@ date: "7/3/2019"
 output: 
   rmdformats::material:
     self_contained: no
+    cards: false
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +16,7 @@ library(kableExtra)
 
 
 <div style="margin-bottom:100px;">
+
 # Introduction
   <hr />
   
@@ -319,7 +321,9 @@ table(duplicated(adosm2))
 
 # <a href="part2_data_analysis/index.html">Part 2 Data Analysis</a>
 
+# <a href="part2_data_analysis/index.html">Part 3 Data Visualization</a>
 
+# <a href="part2_data_analysis/index.html">Part 4 Bonus Material</a>
 
 
 
