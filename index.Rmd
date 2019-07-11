@@ -18,7 +18,6 @@ library(kableExtra)
 # Introduction
   <hr />
   
-<a href="part4_bonus_materials/intro-R-bonus-material.html">Page 2</a>
 
   
 The aim of this document is to present you with the bare minimum essentials to get you up and running with R.
@@ -317,6 +316,8 @@ table(duplicated(adosm2))
 ```
 
 </div>
+
+# <a href="part2_data_analysis/index.html">Part 2 Data Analysis</a>
 
 
 
