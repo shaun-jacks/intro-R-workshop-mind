@@ -1,0 +1,6 @@
+book_filename: "Intro-R-Workshop"
+chapter_name: "Chapter "
+repo: https://github.com/shaun-jacks/intro-R-workshop-mind
+output_dir: docs
+clean: [packages.bib, bookdown.bbl]
+new_session: yes

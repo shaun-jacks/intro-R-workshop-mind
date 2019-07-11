@@ -7,16 +7,7 @@ output:
     self_contained: no
 ---
 
-```{r setup, include=FALSE}
-options(stringsAsFactors = FALSE)
-library(kableExtra)
-# define relative filepath
-pathToAdosFile <- '../datasets/adosm1.csv'
 
-# Use read.csv() and filepath variable as first argument to function
-adosm1 <- read.csv(pathToAdosFile, 
-                   stringsAsFactors = FALSE)
-```
 
 
 # Bonus Material (Optional)
@@ -41,28 +32,52 @@ Regular expressions are expressions that allow one to find patterns.
 - the first argument will be the regular expression
 - the second argument will be the vector we are searching within
 
-```{r grepExample}
+
+```r
 stringVecToSearch <- c('a', 'b', 'c', 'd', 'bad', 'jab')
 regExprPattern <- 'a'
 grep(regExprPattern, stringVecToSearch)  # indices of all strings with  an 'a'
+```
 
+```
+## [1] 1 5 6
+```
+
+```r
 # Find patterns that STARTS with a pattern with ^
 regExprPattern <- '^b'
 # in this case, starts with a 'b'
 grep(regExprPattern, stringVecToSearch)
+```
 
+```
+## [1] 2 5
+```
+
+```r
 # Find patterns that ENDS with a pattern with $
 regExprPattern <- 'b$'
 # in this case, ends with a b
 grep(regExprPattern, stringVecToSearch)
+```
 
+```
+## [1] 2 6
+```
+
+```r
 # If we want to see the values, not the indices of where patterns exist
 grep(regExprPattern, stringVecToSearch, value=TRUE)
 ```
 
+```
+## [1] "b"   "jab"
+```
+
 ### Grep Applied to a dataframe
 
-```{r grepApplied, results=FALSE}
+
+```r
 # see all columns that STARTS with ados
 ados_cols <- grep('^ados', names(adosm1), value=TRUE)
 adosm1[, ados_cols]
@@ -84,10 +99,14 @@ adosm1[no_words_vals, ]
 - The second argument is what to replace with the pattern found
 - The third argument is the vector that holds the pattern to search and replace
 
-```{r gsubEx}
+
+```r
 stringVecToSub <- c('id', 'visit', 'ad1', 'ad2', 'ad3', 'ad4')
 gsub('ad', 'ados_', stringVecToSub)
+```
 
+```
+## [1] "id"     "visit"  "ados_1" "ados_2" "ados_3" "ados_4"
 ```
 
 ## String Concatenation

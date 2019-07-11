@@ -37,7 +37,7 @@ library(kableExtra)
 ```{r readCSV, message=F, warning=F}
 
 # define relative filepath
-pathToAdosFile <- '../datasets/adosm1.csv'
+pathToAdosFile <- './datasets/adosm1.csv'
 
 # Use read.csv() and filepath variable as first argument to function
 adosm1 <- read.csv(pathToAdosFile, 
@@ -261,7 +261,7 @@ dupDf[dupIndGrouped, ]
 
 ```{r assignmentSolutions}
 # 1. Read in the adosm2.csv file
-adosm2Path <- '../datasets/adosm2.csv'
+adosm2Path <- './datasets/adosm2.csv'
 adosm2 <- read.csv(adosm2Path, stringsAsFactors = FALSE)
 
 # 2. What is the frequency count for every unique visit?

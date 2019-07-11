@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+<meta name="author" content="Shaun Jackson, Marissa Chemotti" />
+
+
+<title>Bonus Materials (Optional)</title>
+<!-- Material Design fonts -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="intro-R-bonus-material_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="intro-R-bonus-material_files/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="intro-R-bonus-material_files/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<script src="intro-R-bonus-material_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="intro-R-bonus-material_files/navigation-1.1/tabsets.js"></script>
+<script src="intro-R-bonus-material_files/navigation-1.1/codefolding.js"></script>
+<link href="intro-R-bonus-material_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
+<script src="intro-R-bonus-material_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
+<link href="intro-R-bonus-material_files/bootstrap_material-0.1/bootstrap-material-design.min.css" rel="stylesheet" />
+<link href="intro-R-bonus-material_files/bootstrap_material-0.1/ripples.min.css" rel="stylesheet" />
+<script src="intro-R-bonus-material_files/bootstrap_material-0.1/material.min.js"></script>
+<script src="intro-R-bonus-material_files/bootstrap_material-0.1/ripples.min.js"></script>
+<link href="intro-R-bonus-material_files/material-0.1/material.css" rel="stylesheet" />
+<script src="intro-R-bonus-material_files/material-0.1/material.js"></script>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #ffffff; color: #1f1c1b; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #ffffff; color: #a0a0a0; border-right: 1px solid #a0a0a0; }
+td.sourceCode { padding-left: 5px; }
+pre, code { color: #1f1c1b; background-color: #ffffff; }
+code > span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code > span.dt { color: #0057ae; } /* DataType */
+code > span.dv { color: #b08000; } /* DecVal */
+code > span.bn { color: #b08000; } /* BaseN */
+code > span.fl { color: #b08000; } /* Float */
+code > span.cn { color: #aa5500; } /* Constant */
+code > span.ch { color: #924c9d; } /* Char */
+code > span.sc { color: #3daee9; } /* SpecialChar */
+code > span.st { color: #bf0303; } /* String */
+code > span.vs { color: #bf0303; } /* VerbatimString */
+code > span.ss { color: #ff5500; } /* SpecialString */
+code > span.im { color: #ff5500; } /* Import */
+code > span.co { color: #898887; } /* Comment */
+code > span.do { color: #607880; } /* Documentation */
+code > span.an { color: #ca60ca; } /* Annotation */
+code > span.cv { color: #0095ff; } /* CommentVar */
+code > span.ot { color: #006e28; } /* Other */
+code > span.fu { color: #644a9b; } /* Function */
+code > span.va { color: #0057ae; } /* Variable */
+code > span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #1f1c1b; } /* Operator */
+code > span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code > span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code > span.pp { color: #006e28; } /* Preprocessor */
+code > span.at { color: #0057ae; } /* Attribute */
+code > span.re { color: #0057ae; } /* RegionMarker */
+code > span.in { color: #b08000; } /* Information */
+code > span.wa { color: #bf0303; } /* Warning */
+code > span.al { color: #bf0303; font-weight: bold; } /* Alert */
+code > span.er { color: #bf0303; text-decoration: underline; } /* Error */
+code > span. { color: #1f1c1b; } /* Normal */
+</style>
+
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+</head>
+
+<body>
+
+<div class="header-panel shadow z-2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3">
+        <div id="header">
+    <h1 class="title">Bonus Materials (Optional)</h1>
+                <h4 class="author">Shaun Jackson, Marissa Chemotti</h4>
+                <h4 class="date">7/3/2019</h4>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid main-container">
+    <div class="row">
+      <nav class="col-xs-3 menu">
+        <div id="toc">
+        <ul>
+        <li><a href="#bonus-material-optional">Bonus Material (Optional)</a></li>
+        <li><a href="#string-manipulation">String Manipulation</a></li>
+        <li><a href="#dataframe-manipulation-extras">DataFrame Manipulation Extras</a></li>
+        <li><a href="#programming-constructs">Programming Constructs</a></li>
+        <li><a href="#vectorization">Vectorization</a></li>
+        <li><a href="#write-clean-code">Write Clean Code</a></li>
+        <li><a href="#back-to-home"><a href="../index.html">Back to Home</a></a></li>
+        </ul>
+        </div>
+        
+        
+        
+      </nav>
+     <div class="pages col-xs-9">
+     <div class="row">
+       <div class="col-xs-10">
+
+
+
+<div id="bonus-material-optional" class="section level1">
+<h1>Bonus Material (Optional)</h1>
+</div>
+<div id="string-manipulation" class="section level1">
+<h1>String Manipulation</h1>
+<ul>
+<li>What are the most useful use cases for string manipulation?
+<ul>
+<li>Pattern matching: One can easily automate trudging through a dataset by hand, by finding patterns within the character columns in their dataset</li>
+<li>Data cleaning, Are their some mispelled or case sensitive datasets? How do we group these cases?</li>
+</ul></li>
+</ul>
+<div id="regular-expressions" class="section level2">
+<h2>Regular Expressions</h2>
+<ul>
+<li>To find patterns within data that has characters within it, we use <strong>regular expressions</strong></li>
+</ul>
+<p>Regular expressions are expressions that allow one to find patterns.</p>
+<ul>
+<li>To implement a regular expression in R, we can use the <code>grep</code> function to find patterns, or <code>gsub</code> to both find patterns and substitute patterns with another one.</li>
+</ul>
+<div id="grep" class="section level3">
+<h3>grep</h3>
+<ul>
+<li><code>grep</code> is a function that we will use to find patterns in a vector of strings</li>
+<li>the first argument will be the regular expression</li>
+<li>the second argument will be the vector we are searching within</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSearch &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>, <span class="st">&#39;d&#39;</span>, <span class="st">&#39;bad&#39;</span>, <span class="st">&#39;jab&#39;</span>)
+regExprPattern &lt;-<span class="st"> &#39;a&#39;</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)  <span class="co"># indices of all strings with  an &#39;a&#39;</span></code></pre></div>
+<pre><code>## [1] 1 5 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that STARTS with a pattern with ^</span>
+regExprPattern &lt;-<span class="st"> &#39;^b&#39;</span>
+<span class="co"># in this case, starts with a &#39;b&#39;</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
+<pre><code>## [1] 2 5</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that </span><span class="re">END</span><span class="co">S with a pattern with $</span>
+regExprPattern &lt;-<span class="st"> &#39;b$&#39;</span>
+<span class="co"># in this case, ends with a b</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
+<pre><code>## [1] 2 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># If we want to see the values, not the indices of where patterns exist</span>
+<span class="kw">grep</span>(regExprPattern, stringVecToSearch, <span class="dt">value=</span><span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] &quot;b&quot;   &quot;jab&quot;</code></pre>
+</div>
+<div id="grep-applied-to-a-dataframe" class="section level3">
+<h3>Grep Applied to a dataframe</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># see all columns that STARTS with ados</span>
+ados_cols &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;^ados&#39;</span>, <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+adosm1[, ados_cols]
+
+<span class="co"># see all rows that have a an ados algorithm of no words</span>
+<span class="co"># grep will return row numbers of where a pattern of no words</span>
+<span class="co"># exists in ados_version</span>
+no_words_vals &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;no words&#39;</span>, adosm1<span class="op">$</span>ados_version)
+<span class="co"># use row numbers to filter dataframe</span>
+adosm1[no_words_vals, ]</code></pre></div>
+</div>
+<div id="gsub" class="section level3">
+<h3>gsub</h3>
+<ul>
+<li>gsub can be thought of as using grep to find the patterns, but replacing the patterns found with something new.</li>
+<li>The first argument is the pattern to find</li>
+<li>The second argument is what to replace with the pattern found</li>
+<li>The third argument is the vector that holds the pattern to search and replace</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSub &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;id&#39;</span>, <span class="st">&#39;visit&#39;</span>, <span class="st">&#39;ad1&#39;</span>, <span class="st">&#39;ad2&#39;</span>, <span class="st">&#39;ad3&#39;</span>, <span class="st">&#39;ad4&#39;</span>)
+<span class="kw">gsub</span>(<span class="st">&#39;ad&#39;</span>, <span class="st">&#39;ados_&#39;</span>, stringVecToSub)</code></pre></div>
+<pre><code>## [1] &quot;id&quot;     &quot;visit&quot;  &quot;ados_1&quot; &quot;ados_2&quot; &quot;ados_3&quot; &quot;ados_4&quot;</code></pre>
+</div>
+</div>
+<div id="string-concatenation" class="section level2">
+<h2>String Concatenation</h2>
+<div id="paste" class="section level3">
+<h3>paste</h3>
+</div>
+<div id="paste0" class="section level3">
+<h3>paste0</h3>
+</div>
+<div id="sprintf" class="section level3">
+<h3>sprintf</h3>
+</div>
+</div>
+</div>
+<div id="dataframe-manipulation-extras" class="section level1">
+<h1>DataFrame Manipulation Extras</h1>
+<div id="rename-columns" class="section level2">
+<h2>Rename columns</h2>
+</div>
+</div>
+<div id="programming-constructs" class="section level1">
+<h1>Programming Constructs</h1>
+<div id="control-statements-essentials" class="section level2">
+<h2>control statements essentials</h2>
+</div>
+<div id="if-else" class="section level2">
+<h2>if else</h2>
+</div>
+<div id="for-loops" class="section level2">
+<h2>for loops</h2>
+</div>
+</div>
+<div id="vectorization" class="section level1">
+<h1>Vectorization</h1>
+<div id="ifelse" class="section level2">
+<h2>ifelse()</h2>
+</div>
+</div>
+<div id="write-clean-code" class="section level1">
+<h1>Write Clean Code</h1>
+<div id="max-line-length" class="section level2">
+<h2>Max Line Length</h2>
+</div>
+<div id="speak-through-code" class="section level2">
+<h2>Speak through Code</h2>
+</div>
+<div id="a-comment-on-comments" class="section level2">
+<h2>A Comment on Comments</h2>
+</div>
+</div>
+<div id="back-to-home" class="section level1">
+<h1><a href="../index.html">Back to Home</a></h1>
+</div>
+
+    </div>
+    <div class="col-xs-2">
+        </div>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+    </div>
+  </div>
+
+<script>
+$(document).ready(function () {
+  // add bootstrap table styles to pandoc tables
+  $('tr.header').parent('thead').parent('table').addClass('table table-striped table-hover');
+
+    var images = $('.pages img');
+  images.filter(function() {
+      if ($(this).parent().attr("class") == "figure") {
+          return(false)
+      } else {
+          return(true);
+      }
+  }).wrap("<div class='figure'></div>");
+  images.addClass("image-thumb").wrap("<div class='panel-body'></div>");
+  $('.figure p.caption').wrap("<div class='panel-footer'></div>");
+  $('.figure').addClass('panel panel-default');
+  
+    $('.pages img')
+ 	  .addClass("image-lb");
+  $('.pages').magnificPopup({
+	      type:'image',
+	      closeOnContentClick: false,
+	      closeBtnInside: false,
+        delegate: 'img',
+	      gallery: {enabled: false },
+          removalDelay: 500,
+          callbacks: {
+              beforeOpen: function() {
+                // just a hack that adds mfp-anim class to markup
+                this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+              }
+          },
+          mainClass: 'mfp-move-from-top',
+	      image: {
+	        verticalFit: true,
+            titleSrc: 'alt'
+	      }
+ 	    });
+ 	
+    
+    $('#toc ul li').first().addClass("active");
+    $('#toc ul li').attr("data-target", function() {
+        return($(this).children("a").attr("href"));
+    })
+    $('body .section.level1').first().addClass("active");
+    
+    $('#toc a[href*="#"]').click(function() {
+
+      var id = $(this).attr("href");
+      if (id === "#") return;
+      if (id.substring(0, 8) === "#dyntab-") return;
+      toggle_page(id);
+
+      // Menu
+      var menu_entry = $(".menu li[data-target='"+id+"']");
+      menu_entry.addClass("active");
+      $(".menu li").not(menu_entry).removeClass("active"); 
+      
+
+    });
+
+    function toggle_page(id) {
+      $(".page").not(page).removeClass("active").hide();
+      window.page = id;
+      var page = $(window.page);
+      window.location.hash = window.page;
+      //$(this).addClass("active");
+
+      page.show();
+
+      var totop = setInterval(function () {
+        $(".pages").animate({scrollTop: 0}, 0);
+      }, 10);
+
+      setTimeout(function () {
+        page.addClass("active");
+        setTimeout(function () {
+          clearInterval(totop);
+        }, 1000);
+      }, 100);
+
+      window.dispatchEvent(new Event('resize'));
+
+    }
+
+
+    $(".menu li").click(function () {
+
+      toggle_page($(this).data("target"));
+
+      // Menu
+      if (!$(this).data("target")) return;
+      if ($(this).is(".active")) return;
+      $(".menu li").not($(this)).removeClass("active");
+      $(this).addClass("active");
+
+    });
+  
+    
+
+
+    window.page = window.location.hash;
+    if (window.page != "") {
+      $(".menu").find("li[data-target=" + window.page + "]").trigger("click");
+    }
+
+    /* init material bootstrap js */
+    $.material.init();
+});
+</script>
+
+
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

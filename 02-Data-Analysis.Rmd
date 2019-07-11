@@ -10,7 +10,7 @@ output:
 ```{r setup, include=FALSE}
 options(stringsAsFactors = FALSE)
 library(kableExtra)
-adosm1 <- read.csv('../datasets/adosm1_scored.csv', stringsAsFactors = FALSE)
+adosm1 <- read.csv('./datasets/adosm1_scored.csv', stringsAsFactors = FALSE)
 ```
 
 # Basic Stats functions
