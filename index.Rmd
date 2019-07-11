@@ -41,6 +41,9 @@ In this section, we introduce to you the Fundamental R Datatypes, Data input and
 
 # Part 2: Data Analysis
 
+## <a href="part2_data_analysis/index.html">Data Analysis</a>
+
+
 # Part 3: Data Visualization
 
 # Part 4: Bonus Materials
