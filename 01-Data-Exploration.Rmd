@@ -12,21 +12,36 @@ options(stringsAsFactors = FALSE)
 library(kableExtra)
 ```
 
+# Introduction and Data Exploration
 
-<div style="margin-bottom:100px;">
+## Goals
+By the end of this document, you will be able to:
+
+1. Learn about the fundamental R Datatypes
+2. Read a CSV file into your R environment
+3. Write from your R environment to a CSV file
+4. Explore different attributes of a dataframe
+    - column names
+    - row names
+    - more with `attributes()`
+    - Subset a dataframe by rows and columns
+    - Filter a dataframe by the values of a column
+5. Use two data exploration and cleaning functions
+    - Frequency counts of unique values with `table()`
+    - Search for any duplicates within your data with `duplicated()`
+
+In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.
+
+
 ## Datatypes
-  <hr />
 
 ### Numeric, Logical, Character, Factor
 
 ### Lists, Vectors, Matrices
 
 ### Dataframes
-</div>
 
-<div style="margin-bottom:100px;">
-# Reading in Data
-  <hr />
+## Reading in Data
 
 ### Read CSV Files
 
@@ -49,35 +64,7 @@ adosm1 <- read.csv(pathToAdosFile,
 
 ```
 
-### `View()`
-
-- To view your dataframe call the `View()` function.
-- Note the capital **V**iew().
-
-```{r view, message=F, warning=F}
-View(adosm1)
-```
-
-### See Dataframe attributes
-
-- display column names `names()`
-- display rownames with `row.names()`
-- see all attributes with `attributes(dataframe)`
-
-```{r }
-# display column names
-# names(dataframe), we will use our adosm1 dataframe
-# wrap function with head() to show first 5
-head(names(adosm1))
-
-# display rownames, wrap function with head() to show first 5
-head(row.names(adosm1))
-```
-</div>
-
-<div style="margin-bottom:100px;">
 ## Writing Data
-  <hr />
 
 ### `write.csv`
 - We can write data from our R environment to a CSV file with `write.csv`
@@ -91,12 +78,9 @@ head(row.names(adosm1))
 ### `data.table::fwrite()`
 - One you are comfortable with write.csv, I would suggest looking into the `fwrite` function within data.table. It is much much faster and more efficient.
   
-</div>
 
-<div style="margin-bottom:100px;">
 ## Subsetting Data
-  <hr />
-  
+
 ### Subset by columns
 
 - In our case, adosm1 is within our R environment, so we would call
@@ -134,13 +118,10 @@ adosm1[c(1, 2, 5), ]
 # access 1st, 2nd, and 5th rows, within id and visit columns
 adosm1[c(1, 2, 5), c("id", "visit")]
 ```
-</div>
 
 
-<div style="margin-bottom:100px;">
 ## Filtering a dataframe: Subsetting part 2
-  <hr />
-  
+
 ### Subset with a logical vector
 
 
@@ -164,20 +145,35 @@ adosm1[visits36mo, "id"] # returns all the ids with a visit at 36mo
 adosm1[visits36mo, c("ados_algorithm", "ados_version")] 
 
 ```
-</div>
 
-<div style="margin-bottom:100px;">
 ## Functions to explore data
-  <hr />
 
+### `View()`
 
-- Out of all the functions to  explore a dataframe, I  personally find 
-    - `table()`
-    - `duplicated()`
-    
-to be the most useful
+- To view your dataframe call the `View()` function.
+- Note the capital **V**iew().
 
-### Example `table()`
+```{r view, message=F, warning=F}
+View(adosm1)
+```
+
+### See Dataframe attributes
+
+- display column names `names()`
+- display rownames with `row.names()`
+- see all attributes with `attributes(dataframe)`
+
+```{r }
+# display column names
+# names(dataframe), we will use our adosm1 dataframe
+# wrap function with head() to show first 5
+head(names(adosm1))
+
+# display rownames, wrap function with head() to show first 5
+head(row.names(adosm1))
+```
+
+### `table()`
 
 ```{r EDA}
 
@@ -209,12 +205,10 @@ dupDf <- data.frame(id = c(1, 1, 2, 2, 3, 3),
 
 ```
 
-### `duplicated()` explained
 - The `duplicated` function returns a logical vector of the duplicates that exist in a dataframe.
 - The TRUE values represent the index locations of where a duplicate row was found.
 - We could use this logical vector to see where a duplicate exists
 
-### `duplicated()` example
 ```{r duplicatesCheck2}
 
 duplicateIndices <- duplicated(dupDf)  # store dup vector in variable
@@ -234,11 +228,8 @@ dupDf[duplicateIndices, ]
 dupIndGrouped <- duplicated(dupDf[, c("id", "visit")])
 dupDf[dupIndGrouped, ]
 ```
-</div>
 
-<div style="margin-bottom:100px;">
 ## Assignment: adosm2 dataset
-  <hr />
 
 ### Instructions
 
@@ -248,16 +239,7 @@ dupDf[dupIndGrouped, ]
 4. Are there duplicates by id and visit?
 5. What is the frequency count of duplicates vs non-duplicates?
 
-</div>
-
-<div style="margin-bottom:300px">
-## Additional Resources
-<hr />
-</div>
-
-<div style="margin-bottom:100px">
-## Solution
-<hr />
+### Solution
 
 ```{r assignmentSolutions}
 # 1. Read in the adosm2.csv file
@@ -276,13 +258,8 @@ any(duplicated(adosm2[, c("id", "visit")]))
 
 # 5. What are the frequency count of duplicates vs non-duplicates
 table(duplicated(adosm2))
-
-
-
-
 ```
 
-</div>
 
 
 

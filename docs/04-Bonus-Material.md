@@ -10,7 +10,7 @@ output:
 
 
 
-## Bonus Material (Optional)
+# Bonus Material (Optional)
 
 ## String Manipulation
 
@@ -116,8 +116,6 @@ gsub('ad', 'ados_', stringVecToSub)
 #### paste0
 
 #### sprintf
-
-# DataFrame Manipulation Extras
 
 ### Rename columns
 

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Bonus Material (Optional) | Intro to R Workshop Book</title>
+  <title>Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Bonus Material (Optional) | Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Bonus Material (Optional) | Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data-analysis.html">
-
+<link rel="prev" href="index.html">
+<link rel="next" href="data-analysis.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -193,121 +193,268 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="bonus-material-optional" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Bonus Material (Optional)</h1>
-<div id="string-manipulation" class="section level2">
-<h2><span class="header-section-number">4.1</span> String Manipulation</h2>
+<div id="introduction-and-data-exploration" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Introduction and Data Exploration</h1>
+<div id="goals" class="section level2">
+<h2><span class="header-section-number">2.1</span> Goals</h2>
+<p>By the end of this document, you will be able to:</p>
+<ol style="list-style-type: decimal">
+<li>Learn about the fundamental R Datatypes</li>
+<li>Read a CSV file into your R environment</li>
+<li>Write from your R environment to a CSV file</li>
+<li>Explore different attributes of a dataframe
 <ul>
-<li>What are the most useful use cases for string manipulation?
+<li>column names</li>
+<li>row names</li>
+<li>more with <code>attributes()</code></li>
+<li>Subset a dataframe by rows and columns</li>
+<li>Filter a dataframe by the values of a column</li>
+</ul></li>
+<li>Use two data exploration and cleaning functions
 <ul>
-<li>Pattern matching: One can easily automate trudging through a dataset by hand, by finding patterns within the character columns in their dataset</li>
-<li>Data cleaning, Are their some mispelled or case sensitive datasets? How do we group these cases?</li>
+<li>Frequency counts of unique values with <code>table()</code></li>
+<li>Search for any duplicates within your data with <code>duplicated()</code></li>
+</ul></li>
+</ol>
+<p>In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.</p>
+</div>
+<div id="datatypes" class="section level2">
+<h2><span class="header-section-number">2.2</span> Datatypes</h2>
+<div id="numeric-logical-character-factor" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Numeric, Logical, Character, Factor</h3>
+</div>
+<div id="lists-vectors-matrices" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Lists, Vectors, Matrices</h3>
+</div>
+<div id="dataframes" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> Dataframes</h3>
+</div>
+</div>
+<div id="reading-in-data" class="section level2">
+<h2><span class="header-section-number">2.3</span> Reading in Data</h2>
+<div id="read-csv-files" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> Read CSV Files</h3>
+<ul>
+<li>store the filepath within a character variable</li>
+<li>the filepath could be relative to your working directory, or absolute</li>
+<li><code>read.csv</code> is a function that could read CSV files into your R environment</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># define relative filepath</span>
+pathToAdosFile &lt;-<span class="st"> &#39;./datasets/adosm1.csv&#39;</span>
+
+<span class="co"># Use read.csv() and filepath variable as first argument to function</span>
+adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(pathToAdosFile, 
+                   <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+<span class="co"># stringsAsFactors is an optional argument that tells read.csv to</span>
+<span class="co"># not turn a string column into a R factor variable</span>
+
+<span class="co"># adosm1 is now considered a datraframe</span></code></pre></div>
+</div>
+</div>
+<div id="writing-data" class="section level2">
+<h2><span class="header-section-number">2.4</span> Writing Data</h2>
+<div id="write.csv" class="section level3">
+<h3><span class="header-section-number">2.4.1</span> <code>write.csv</code></h3>
+<ul>
+<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
+<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
+<li>the second parameter is the location and filename to write it to.</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;datasets/practice write csv ados.csv&#39;, row.names = FALSE)</span></code></pre></div>
+</div>
+<div id="data.tablefwrite" class="section level3">
+<h3><span class="header-section-number">2.4.2</span> <code>data.table::fwrite()</code></h3>
+<ul>
+<li>One you are comfortable with write.csv, I would suggest looking into the <code>fwrite</code> function within data.table. It is much much faster and more efficient.</li>
+</ul>
+</div>
+</div>
+<div id="subsetting-data" class="section level2">
+<h2><span class="header-section-number">2.5</span> Subsetting Data</h2>
+<div id="subset-by-columns" class="section level3">
+<h3><span class="header-section-number">2.5.1</span> Subset by columns</h3>
+<ul>
+<li>In our case, adosm1 is within our R environment, so we would call
+<ul>
+<li><code>adosm1[namesOfRows, namesOfColumns]</code></li>
+<li>Note: it is best practice to access columns by their names, not their numbers</li>
 </ul></li>
 </ul>
-<div id="regular-expressions" class="section level3">
-<h3><span class="header-section-number">4.1.1</span> Regular Expressions</h3>
-<ul>
-<li>To find patterns within data that has characters within it, we use <strong>regular expressions</strong></li>
-</ul>
-<p>Regular expressions are expressions that allow one to find patterns.</p>
-<ul>
-<li>To implement a regular expression in R, we can use the <code>grep</code> function to find patterns, or <code>gsub</code> to both find patterns and substitute patterns with another one.</li>
-</ul>
-<div id="grep" class="section level4">
-<h4><span class="header-section-number">4.1.1.1</span> grep</h4>
-<ul>
-<li><code>grep</code> is a function that we will use to find patterns in a vector of strings</li>
-<li>the first argument will be the regular expression</li>
-<li>the second argument will be the vector we are searching within</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSearch &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>, <span class="st">&#39;d&#39;</span>, <span class="st">&#39;bad&#39;</span>, <span class="st">&#39;jab&#39;</span>)
-regExprPattern &lt;-<span class="st"> &#39;a&#39;</span>
-<span class="kw">grep</span>(regExprPattern, stringVecToSearch)  <span class="co"># indices of all strings with  an &#39;a&#39;</span></code></pre></div>
-<pre><code>## [1] 1 5 6</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that STARTS with a pattern with ^</span>
-regExprPattern &lt;-<span class="st"> &#39;^b&#39;</span>
-<span class="co"># in this case, starts with a &#39;b&#39;</span>
-<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
-<pre><code>## [1] 2 5</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Find patterns that </span><span class="re">END</span><span class="co">S with a pattern with $</span>
-regExprPattern &lt;-<span class="st"> &#39;b$&#39;</span>
-<span class="co"># in this case, ends with a b</span>
-<span class="kw">grep</span>(regExprPattern, stringVecToSearch)</code></pre></div>
-<pre><code>## [1] 2 6</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># If we want to see the values, not the indices of where patterns exist</span>
-<span class="kw">grep</span>(regExprPattern, stringVecToSearch, <span class="dt">value=</span><span class="ot">TRUE</span>)</code></pre></div>
-<pre><code>## [1] &quot;b&quot;   &quot;jab&quot;</code></pre>
-</div>
-<div id="grep-applied-to-a-dataframe" class="section level4">
-<h4><span class="header-section-number">4.1.1.2</span> Grep Applied to a dataframe</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># see all columns that STARTS with ados</span>
-ados_cols &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;^ados&#39;</span>, <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
-adosm1[, ados_cols]
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To access the id column, we would write</span>
+adosm1[, <span class="st">&quot;id&quot;</span>]
 
-<span class="co"># see all rows that have a an ados algorithm of no words</span>
-<span class="co"># grep will return row numbers of where a pattern of no words</span>
-<span class="co"># exists in ados_version</span>
-no_words_vals &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;no words&#39;</span>, adosm1<span class="op">$</span>ados_version)
-<span class="co"># use row numbers to filter dataframe</span>
-adosm1[no_words_vals, ]</code></pre></div>
+<span class="co"># To access id and visit</span>
+adosm1[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]
+
+<span class="co"># in order to make code less verbose, when accessing one column, we use</span>
+<span class="co"># the $ operator</span>
+<span class="co"># to access the id column</span>
+adosm1<span class="op">$</span>id</code></pre></div>
 </div>
-<div id="gsub" class="section level4">
-<h4><span class="header-section-number">4.1.1.3</span> gsub</h4>
+<div id="subset-by-rows" class="section level3">
+<h3><span class="header-section-number">2.5.2</span> Subset by rows</h3>
 <ul>
-<li>gsub can be thought of as using grep to find the patterns, but replacing the patterns found with something new.</li>
-<li>The first argument is the pattern to find</li>
-<li>The second argument is what to replace with the pattern found</li>
-<li>The third argument is the vector that holds the pattern to search and replace</li>
+<li>We could similarly access rows by rownames or row numbers
+<ul>
+<li><code>adosm1[c(1, 2, 5), ]</code></li>
+</ul></li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">stringVecToSub &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;id&#39;</span>, <span class="st">&#39;visit&#39;</span>, <span class="st">&#39;ad1&#39;</span>, <span class="st">&#39;ad2&#39;</span>, <span class="st">&#39;ad3&#39;</span>, <span class="st">&#39;ad4&#39;</span>)
-<span class="kw">gsub</span>(<span class="st">&#39;ad&#39;</span>, <span class="st">&#39;ados_&#39;</span>, stringVecToSub)</code></pre></div>
-<pre><code>## [1] &quot;id&quot;     &quot;visit&quot;  &quot;ados_1&quot; &quot;ados_2&quot; &quot;ados_3&quot; &quot;ados_4&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows</span>
+adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), ]</code></pre></div>
+</div>
+<div id="subset-by-rows-and-columns" class="section level3">
+<h3><span class="header-section-number">2.5.3</span> Subset by rows and columns</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows, within id and visit columns</span>
+adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]</code></pre></div>
 </div>
 </div>
-<div id="string-concatenation" class="section level3">
-<h3><span class="header-section-number">4.1.2</span> String Concatenation</h3>
-<div id="paste" class="section level4">
-<h4><span class="header-section-number">4.1.2.1</span> paste</h4>
+<div id="filtering-a-dataframe-subsetting-part-2" class="section level2">
+<h2><span class="header-section-number">2.6</span> Filtering a dataframe: Subsetting part 2</h2>
+<div id="subset-with-a-logical-vector" class="section level3">
+<h3><span class="header-section-number">2.6.1</span> Subset with a logical vector</h3>
+<ul>
+<li>What is very powerful in this is we could subset a dataframe in order to answer specific questions</li>
+<li>This is done by using a <strong>logical vector</strong> to subset or slice a dataframe</li>
+</ul>
 </div>
-<div id="paste0" class="section level4">
-<h4><span class="header-section-number">4.1.2.2</span> paste0</h4>
-</div>
-<div id="sprintf" class="section level4">
-<h4><span class="header-section-number">4.1.2.3</span> sprintf</h4>
-</div>
-</div>
-<div id="rename-columns" class="section level3">
-<h3><span class="header-section-number">4.1.3</span> Rename columns</h3>
-</div>
-</div>
-<div id="programming-constructs" class="section level2">
-<h2><span class="header-section-number">4.2</span> Programming Constructs</h2>
-<div id="control-statements-essentials" class="section level3">
-<h3><span class="header-section-number">4.2.1</span> control statements essentials</h3>
-</div>
-<div id="if-else" class="section level3">
-<h3><span class="header-section-number">4.2.2</span> if else</h3>
-</div>
-<div id="for-loops" class="section level3">
-<h3><span class="header-section-number">4.2.3</span> for loops</h3>
+<div id="subset-logical-vector-example" class="section level3">
+<h3><span class="header-section-number">2.6.2</span> Subset logical vector example</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To Filter for all visits at 36 months:</span>
+<span class="co"># Create logical vector</span>
+visits36mo &lt;-<span class="st"> </span>adosm1<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;36&quot;</span>
+
+<span class="co"># use  our visits36mo  logical vector to filter dataframe</span>
+adosm1[visits36mo, ]  <span class="co"># returns  a dataframe of all visits at 36mo</span>
+
+adosm1[visits36mo, <span class="st">&quot;id&quot;</span>] <span class="co"># returns all the ids with a visit at 36mo</span>
+
+<span class="co"># returns alg and version at 36 months</span>
+adosm1[visits36mo, <span class="kw">c</span>(<span class="st">&quot;ados_algorithm&quot;</span>, <span class="st">&quot;ados_version&quot;</span>)] </code></pre></div>
 </div>
 </div>
-<div id="vectorization" class="section level2">
-<h2><span class="header-section-number">4.3</span> Vectorization</h2>
-<div id="ifelse" class="section level3">
-<h3><span class="header-section-number">4.3.1</span> ifelse()</h3>
+<div id="functions-to-explore-data" class="section level2">
+<h2><span class="header-section-number">2.7</span> Functions to explore data</h2>
+<div id="view" class="section level3">
+<h3><span class="header-section-number">2.7.1</span> <code>View()</code></h3>
+<ul>
+<li>To view your dataframe call the <code>View()</code> function.</li>
+<li>Note the capital <strong>V</strong>iew().</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(adosm1)</code></pre></div>
+</div>
+<div id="see-dataframe-attributes" class="section level3">
+<h3><span class="header-section-number">2.7.2</span> See Dataframe attributes</h3>
+<ul>
+<li>display column names <code>names()</code></li>
+<li>display rownames with <code>row.names()</code></li>
+<li>see all attributes with <code>attributes(dataframe)</code></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display column names</span>
+<span class="co"># names(dataframe), we will use our adosm1 dataframe</span>
+<span class="co"># wrap function with head() to show first 5</span>
+<span class="kw">head</span>(<span class="kw">names</span>(adosm1))</code></pre></div>
+<pre><code>## [1] &quot;id&quot;                &quot;visit&quot;             &quot;cbe_36&quot;           
+## [4] &quot;recruitment_group&quot; &quot;gender&quot;            &quot;ados_version&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display rownames, wrap function with head() to show first 5</span>
+<span class="kw">head</span>(<span class="kw">row.names</span>(adosm1))</code></pre></div>
+<pre><code>## [1] &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot;</code></pre>
+</div>
+<div id="table" class="section level3">
+<h3><span class="header-section-number">2.7.3</span> <code>table()</code></h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To get a frequency count of  all unique values,</span>
+<span class="co"># we use the  table()</span>
+
+<span class="co"># table() takes in 1 or more vectors as input</span>
+<span class="co"># since every dataframe column could be considered a vector (or list)</span>
+<span class="co"># we could check for every unique visit with freq counts with</span>
+<span class="kw">table</span>(adosm1<span class="op">$</span>visit)</code></pre></div>
+<pre><code>## 
+##  18  21  24  30  36 
+## 445   5 396  32 146</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># we could check  for every unique combination of vectors by </span>
+<span class="co"># providing multiple vector inputs</span>
+
+<span class="co"># To see every unique combination of visit and ados algorithm</span>
+<span class="kw">table</span>(adosm1<span class="op">$</span>visit, adosm1<span class="op">$</span>ados_algorithm)</code></pre></div>
+<pre><code>##     
+##          few to no words no words some words
+##   18   3             157       93        192
+##   21   0               0        2          3
+##   24   4              65       30        297
+##   30   0               4        0         28
+##   36   6               8       20        112</code></pre>
+</div>
+<div id="checking-for-duplicates-duplicated" class="section level3">
+<h3><span class="header-section-number">2.7.4</span> Checking for duplicates: <code>duplicated()</code></h3>
+<ul>
+<li>We will first generate a dataframe that has duplicates, to show how to detect duplicates by different subgroups</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))</code></pre></div>
+<ul>
+<li>The <code>duplicated</code> function returns a logical vector of the duplicates that exist in a dataframe.</li>
+<li>The TRUE values represent the index locations of where a duplicate row was found.</li>
+<li>We could use this logical vector to see where a duplicate exists</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">duplicateIndices &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf)  <span class="co"># store dup vector in variable</span>
+
+duplicateIndices  <span class="co"># view logical vector of duplicates</span></code></pre></div>
+<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf[duplicateIndices, ]</code></pre></div>
+<pre><code>##   id     visit item1
+## 4  2 10 months     3</code></pre>
+</div>
+<div id="duplicated-by-key-variables-id-and-visit" class="section level3">
+<h3><span class="header-section-number">2.7.5</span> <code>Duplicated()</code> by key variables: id and visit</h3>
+<ul>
+<li>we could check for duplicates by columns that should represent a unique combination.</li>
+<li>in this example: id and visit</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># to check duplicates by groups</span>
+dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
+dupDf[dupIndGrouped, ]</code></pre></div>
+<pre><code>##   id     visit item1
+## 4  2 10 months     3
+## 6  3 20 months     6</code></pre>
 </div>
 </div>
-<div id="write-clean-code" class="section level2">
-<h2><span class="header-section-number">4.4</span> Write Clean Code</h2>
-<div id="max-line-length" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> Max Line Length</h3>
+<div id="assignment-adosm2-dataset" class="section level2">
+<h2><span class="header-section-number">2.8</span> Assignment: adosm2 dataset</h2>
+<div id="instructions" class="section level3">
+<h3><span class="header-section-number">2.8.1</span> Instructions</h3>
+<ol style="list-style-type: decimal">
+<li>Read in the adosm2.csv file</li>
+<li>What is the frequency count for every unique visit?</li>
+<li>What are the ids that exist for the 30 month visit?</li>
+<li>Are there duplicates by id and visit?</li>
+<li>What is the frequency count of duplicates vs non-duplicates?</li>
+</ol>
 </div>
-<div id="speak-through-code" class="section level3">
-<h3><span class="header-section-number">4.4.2</span> Speak through Code</h3>
-</div>
-<div id="a-comment-on-comments" class="section level3">
-<h3><span class="header-section-number">4.4.3</span> A Comment on Comments</h3>
+<div id="solution" class="section level3">
+<h3><span class="header-section-number">2.8.2</span> Solution</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in the adosm2.csv file</span>
+adosm2Path &lt;-<span class="st"> &#39;./datasets/adosm2.csv&#39;</span>
+adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(adosm2Path, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+
+<span class="co"># 2. What is the frequency count for every unique visit?</span>
+<span class="kw">table</span>(adosm2<span class="op">$</span>visit)</code></pre></div>
+<pre><code>## 
+##  24  30  36 sa1 sa2 
+##  42  14 469   2   2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 3, What are the ids that exist for the 30 month visit?</span>
+adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;30&quot;</span>, <span class="st">&quot;id&quot;</span>]</code></pre></div>
+<pre><code>##  [1]  20  53  57  71  78 104 222 252 304 306 385 444 451 455</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># This works too- adosm2$id[adosm2$visit == &quot;30&quot;]</span>
+
+<span class="co"># 4. Are there duplicates by id and visit?</span>
+<span class="kw">any</span>(<span class="kw">duplicated</span>(adosm2[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]))</code></pre></div>
+<pre><code>## [1] FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 5. What are the frequency count of duplicates vs non-duplicates</span>
+<span class="kw">table</span>(<span class="kw">duplicated</span>(adosm2))</code></pre></div>
+<pre><code>## 
+## FALSE 
+##   529</code></pre>
 
 </div>
 </div>
@@ -317,8 +464,8 @@ adosm1[no_words_vals, ]</code></pre></div>
           </div>
         </div>
       </div>
-<a href="data-analysis.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

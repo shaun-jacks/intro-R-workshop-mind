@@ -116,7 +116,7 @@ eff
 plot(eff)
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+![](02-Data-Analysis_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
 
 ## Logistic Regression
 
@@ -169,7 +169,7 @@ logMod
 plot(effects::Effect(c('sarb_f', 'gender_factor'), logMod))
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+![](02-Data-Analysis_files/figure-latex/unnamed-chunk-5-1.pdf)<!-- --> 
 
 
 ## Mixed Effects Models

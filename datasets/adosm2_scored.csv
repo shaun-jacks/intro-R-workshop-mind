@@ -1,530 +1,537 @@
 id,visit,cbe_36,recruitment_group,gender,ados_version,ados_algorithm,ados_a1,ados_a2,ados_a3,ados_a4,ados_a5,ados_a6,ados_a7,ados_a8,ados_b1,ados_b2,ados_b3,ados_b4,ados_b5,ados_b6,ados_b7,ados_b8,ados_b9,ados_b10,ados_b11,ados_b12,ados_b13a,ados_b13b,ados_b14,ados_b15,ados_b16,ados_c1,ados_c2,ados_d1,ados_d2,ados_d3,ados_d4,ados_e1,ados_e2,ados_e3,ados_module,ados_sa_total,ados_rrb_total,ados_sarb_total
-1,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,1,0,2,1,0,,0,0,0,2,1,0,,0,,0,0,1,,,,,,,1,,0,0,1,0,0,1,module 2,3,1,4
-1,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,10,5,15
-2,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,,0,0,0,0,0,module 2,1,1,2
-3,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,,2,2,1,1,1,1,,2,1,0,1,2,2,0,2,,2,0,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,12,2,14
-4,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,1,0,0,0,0,2,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-5,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,1,0,1,module 2,1,1,2
-6,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,1,1,2,0,3,1,0,0,0,0,0,1,0,0,1,1,1,1,,,,,,,0,1,1,0,0,1,1,0,1,module 2,5,2,7
-7,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,1,module 2,0,0,0
-8,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,0,,1,0,module 2,1,0,1
-9,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-10,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-11,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,0,0,0,0,0,1,1,0,module 2,2,0,2
-12,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0,module 2,5,0,5
-13,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,4,0,4
-14,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,2,4
-15,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,2,0,0,module 2,3,0,3
-16,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,2,0,0,0,module 2,1,2,3
-17,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,1,module 2,0,0,0
-18,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
-19,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,0,0,0,0,0,1,0,0,1,0,0,,,,,,,0,1,0,0,0,1,1,0,0,module 2,1,1,2
-20,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-20,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-21,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,2,0,0,,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-22,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-23,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-24,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-25,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-26,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,1,1,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,,0,0,1,1,0,0,0,0,1,module 2,2,3,5
-27,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-28,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3
-29,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,1,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,1,0,0,module 2,2,1,3
-30,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-31,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,2,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,6,0,6
-32,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,1,0,0,0,0,1,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,1,0,module 2,3,2,5
-33,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-34,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,0,2,2
-35,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,2,,,,,,,0,0,0,1,0,0,2,2,,module 2,3,1,4
-36,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,,0,0,0,0,0,module 2,0,0,0
-38,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-39,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-40,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-41,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,2,1,1,2,,3,1,0,0,0,0,0,1,2,0,1,1,1,1,,,,,,,0,1,1,1,0,1,1,2,,module 2,7,3,10
-42,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-43,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,1,2
-44,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,2,0,0,2,0,0,0,1,,1,0,0,,,,,,0,0,,1,0,0,2,0,0,module 2,4,1,5
-45,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,,0,module 2,2,0,2
-46,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-47,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-48,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
-49,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,0,1,0,2,0,2,2,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,7,1,8
-50,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-51,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,,2,1,0,module 2,3,0,3
-52,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,2,2,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,5,1,6
-53,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5
-53,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
-54,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
-55,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-56,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-57,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-57,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,2,0,2
-58,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
-59,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-60,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-61,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-62,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-63,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,,0,0,module 2,1,0,1
-64,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,1,0,0,module 2,1,1,2
-65,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,1,2
-66,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,1,0,1
-67,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-68,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-69,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,2,1,0,0,1,1,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,6,1,7
-70,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,2,0,1,1,,0,0,0,1,1,0,1,1,,1,1,1,,,,,,0,1,0,0,0,1,1,0,0,module 2,6,3,9
-71,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-71,36,BAP,Typical,Male,ADOS-1,younger than age 5,,1,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,1,1,module 2,4,1,5
-72,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,3,1,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,4,0,4
-72,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-73,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,2,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,1,0,0,0,1,0,module 2,3,1,4
-74,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,0,0,0,0,0,0,module 2,0,0,0
-75,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2
-76,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,1,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,1,1,2
-77,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,2,,,,,,0,0,2,0,0,1,0,1,0,module 2,3,3,6
-78,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0
-78,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-79,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,3,2,5
-79,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
-80,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,1,0,1,,,,,,,0,,0,1,0,,1,,,module 2,4,1,5
-81,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-82,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,,module 2,1,0,1
-83,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,2,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
-83,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,2,2,4
-84,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
-84,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,1,0,0,0,0,0,0,module 2,0,1,1
-86,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-88,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-89,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3
-89,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
-90,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,1,0,0,2,0,0,module 2,4,1,5
-91,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,,0,0,module 2,3,0,3
-92,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-93,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-94,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-96,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,,0,0,1,2,0,0,0,0,0,0,1,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,6,0,6
-97,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-98,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-99,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,1,0,1,0,1,0,module 2,3,2,5
-100,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-102,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,2,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-103,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-104,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3
-104,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
-105,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,,1,,0,0,0,,,,,,0,0,0,0,0,0,,0,1,module 2,2,0,2
-106,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-107,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,4,1,5
-108,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-109,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,,1,1,2,0,0,0,1,0,0,,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,5,0,5
-109,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-110,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-111,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,1,1,2
-112,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4
-112,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,2,1,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-113,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,,,,,,,,1,0,0,0,0,0,0,0,module 2,2,0,2
-114,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,3,1,4
-115,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,1,0,2,1,2,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,1,0,1,0,1,0,0,0,module 2,8,2,10
-116,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1,module 2,1,0,1
-117,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2
-118,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,2,1,0,0,0,1,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-119,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
-119,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,2,4
-120,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-121,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-122,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,,0,0,0,0,0,module 2,1,0,1
-123,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-124,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,1,,0,0,,,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-125,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,1,2,3
-125,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-126,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-127,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-128,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-129,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,,1,0,1,0,2,1,1,1,1,1,0,0,1,1,1,,,,,,,0,2,0,1,0,0,0,2,0,module 2,9,2,11
-130,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,0,1,2,2,3,2,,0,0,1,1,1,2,0,0,,1,2,1,,,,,,1,0,0,,0,0,0,0,0,module 2,11,2,13
-131,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-132,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,2,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,,0,0,0,0,0,module 2,4,0,4
-132,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
-133,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3
-134,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-135,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,1,1,0,1,,2,1,0,0,0,0,0,1,,1,0,1,,,,,,0,0,0,0,0,0,1,0,0,module 2,6,1,7
-136,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,0,1,1,,2,1,1,1,2,0,0,1,,2,0,1,,,,,,0,1,0,0,0,1,1,0,0,module 2,10,2,12
-137,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-138,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,1,2,2,3,2,,0,0,1,0,1,2,0,1,,1,2,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,11,2,13
-139,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,,,1,1,0,0,0,0,0,0,1,0,0,1,1,0,,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-140,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,1,0,0,0,module 2,3,2,5
-141,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
-142,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-143,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,,1,0,0,module 2,0,1,1
-144,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
-145,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,1,1,1,1,,2,1,1,0,1,1,0,1,,0,1,1,,,,,,0,0,0,0,0,1,1,0,0,module 2,11,2,13
-146,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
-146,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,1,0,module 2,2,1,3
-147,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-148,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,1,2,0,0,2,1,0,1,1,1,0,0,,,,,,,0,1,0,0,0,2,1,2,2,module 2,5,2,7
-149,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-150,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,1,0,1
-151,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,1,0,0,0,0,0,1,module 2,0,1,1
-152,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,1,0,2,0,0,0,0,,module 2,0,2,2
-153,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,2,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3
-153,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,0,,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3
-154,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-155,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,1,,0,0,0,1,module 2,2,1,3
-156,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,,0,0,0,1,module 2,1,0,1
-157,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-158,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,2,0,0,0,0,,0,0,module 2,2,0,2
-159,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
-160,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,3,0,3
-160,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-161,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-162,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-163,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-164,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-165,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,1,0,1,0,0,0,0,0,0,module 2,3,1,4
-166,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-167,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-168,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,0,0,0,1,0,module 2,0,0,0
-169,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-170,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,,1,2,0,module 2,3,0,3
-171,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,2,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-172,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-173,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2
-173,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
-174,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,0,0,module 2,1,2,3
-175,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,,0,module 2,2,0,2
-176,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,1,0,7,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,3,1,4
-177,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-178,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,,1,1,0,0,module 2,2,1,3
-179,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,,0,,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
-180,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
-181,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,,2,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
-182,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,1,0,0,0,module 2,2,2,4
-183,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,6,3,9
-184,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,0,5
-185,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
-186,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-187,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,1,module 2,1,0,1
-188,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,2,1,0,1,1,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-189,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-190,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-190,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-191,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2
-192,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,,0,module 2,2,0,2
-193,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,1,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-194,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,0,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,3,1,4
-195,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-196,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,2,1,3
-197,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,1,0,1,0,module 2,1,1,2
-198,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,0,3,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,,0,module 2,3,0,3
-199,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-200,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,0,0,0,0,0,module 2,0,0,0
-201,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-202,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,1,1,module 2,3,1,4
-203,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
-204,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
-205,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,1,0,0,1,0,1,1,0,0,module 2,3,2,5
-206,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,1,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,0,1,1
-207,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-208,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4
-208,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,,0,1,,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-209,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,,0,,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,2,,,0,0,0,module 2,1,2,3
-210,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,0,0,2,,2,0,0,0,0,0,1,1,,1,0,1,,,,,,0,1,0,2,0,0,0,0,0,module 2,6,2,8
-211,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,0,0,0,0,1,,0,1,0,,,,,,1,1,0,0,0,0,0,0,1,module 2,2,0,2
-212,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,,0,0,,,,,,,1,1,0,0,0,1,0,0,1,module 2,1,1,2
-213,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
-213,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-214,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,,module 2,1,0,1
-215,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-216,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,2,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,5,0,5
-217,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-218,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-219,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,2,0,1,1,,0,0,0,0,0,0,0,0,,1,1,1,,,,,,0,1,0,2,0,2,1,0,0,module 2,4,6,10
-220,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,3,0,3
-221,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-222,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,2,0,2
-222,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-222,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,2,1,2,2,2,2,1,1,1,2,1,0,0,1,2,1,,,,,,,0,2,2,0,0,1,1,0,1,module 2,14,4,18
-223,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-224,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,1,1,0,0,,0,0,0,1,1,0,0,1,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,1,3
-225,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,1,0,module 2,1,1,2
-226,36,Behavior,DD,Male,ADOS-1,younger than age 5,1,0,2,0,0,2,0,0,0,0,0,0,,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0,module 2,1,1,2
-227,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,2,1,1,1,1,,2,2,0,1,1,2,0,0,,1,1,1,,,,,,1,0,0,0,0,1,0,0,0,module 2,11,2,13
-228,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,1,2,0,1,0,1,0,,0,1,0,1,1,1,0,,,,,,,0,0,1,0,0,0,0,0,1,module 2,5,2,7
-229,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-230,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,1,1,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,1,0,1,1,0,0,module 2,2,3,5
-231,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-232,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,2,0,1,0,0,0,module 2,1,3,4
-233,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
-234,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-235,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-236,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,1,0,1,,0,0,0,,,,,,0,1,0,1,0,0,0,0,1,module 2,3,1,4
-237,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-238,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,2,2
-239,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,,1,,,,,,,0,1,1,1,0,0,0,2,0,module 2,3,2,5
-240,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,0,0,2,1,2,0,0,0,0,1,1,0,1,1,1,1,,,,,,,0,2,0,1,0,0,0,0,1,module 2,8,1,9
-241,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,1,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,1,2
-242,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,1,,0,0,2,,,,,,0,1,0,2,0,0,1,3,0,module 2,3,2,5
-242,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,1,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1
-243,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,3,0,1,0,1,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-243,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,1,5
-244,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,2,2,2,0,2,,2,0,0,0,0,0,0,1,,1,1,1,,,,,,1,1,0,0,0,0,0,0,0,module 2,7,2,9
-245,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-246,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-247,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,1,0,0,0,0,2,0,1,module 2,2,0,2
-248,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-249,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-250,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-251,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,1,1,1,,,,,,,,0,0,1,0,1,2,2,0,module 2,4,2,6
-252,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-252,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,2,1,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,,0,0,module 2,3,0,3
-253,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-254,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,,0,0,module 2,2,0,2
-255,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-256,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,0,,,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-257,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1
-258,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-259,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,,0,1,0,1,0,module 2,3,1,4
-260,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,,0,1,0,0,0,0,0,1,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,1,4
-261,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
-262,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
-262,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-263,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,1,,2,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,4,1,5
-263,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
-264,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-265,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,2,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-267,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
-268,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-269,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,0,1,,2,0,0,2,1,0,0,0,,1,0,0,,,,,,0,0,1,1,0,0,0,0,0,module 2,4,2,6
-270,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-271,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,,,,,,,1,0,0,0,0,0,0,0,1,module 2,1,1,2
-272,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-273,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7
-274,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,2,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-275,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,2,2,2,2,1,0,0,1,1,0,2,1,1,1,,,,,,,0,2,0,0,0,0,0,0,0,module 2,13,1,14
-276,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-277,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,3,1,4
-278,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,2,1,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,0,1,0,module 2,5,2,7
-279,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,2,0,2
-280,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-281,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3
-282,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-283,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,2,3
-284,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-285,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,2,0,0,0,0,1,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3
-286,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,1,0,0,2,1,1,0,1,0,0,1,1,1,1,,,,,,,0,2,1,0,0,,0,1,0,module 2,8,2,10
-287,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,,0,module 2,3,0,3
-289,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,3,2,5
-290,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,1,0,,0,0,0,1,1,0,1,,,,,,,0,,0,0,,2,,,,module 2,3,2,5
-291,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,1,2,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,6,0,6
-292,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-293,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,2,1,3
-295,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,1,0,module 2,5,2,7
-296,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-296,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,4,0,4
-297,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,0,0,0
-298,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,1,0,module 2,1,1,2
-299,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,0,2,0,0,1,0,1,0,module 2,4,3,7
-300,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
-301,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-301,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,3,0,0,0,0,1,0,0,module 2,2,0,2
-302,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,0,1,1
-303,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
-304,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-304,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,1,0,0,0,0,0,1,module 2,1,2,3
-306,24,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,,,module 2,1,0,1
-306,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,1,0,1
-306,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
-307,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
-309,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,1,2,0,1,1,1,1,,,,,,,0,1,1,1,0,1,1,0,0,module 2,7,3,10
-310,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,1,module 2,1,1,2
-311,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-312,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,1,2,0,0,3,1,0,0,0,0,0,0,2,0,0,1,1,1,,,,,,,0,1,1,,0,1,1,2,0,module 2,5,2,7
-313,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-314,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,0,3,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,2,0,1,0,0,0,module 2,2,3,5
-314,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,0,,0,0,0,0,0,0,0,0,,1,1,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-315,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,,0,1,,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-316,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
-317,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,1,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-318,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,,module 2,3,0,3
-319,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
-320,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,1,module 2,3,0,3
-321,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,,1,2,0,1,,0,,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2
-323,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-323,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-324,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,5,0,5
-325,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-326,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
-327,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
-327,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-328,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,,0,0,0,1,1,0,1,,,,,,,,,0,1,0,,1,,0,module 2,3,1,4
-329,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-330,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-331,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,1,1,0,0,0,0,,0,0,module 2,2,0,2
-332,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,1,1,,0,1,0,1,0,0,0,1,,0,0,0,,,,,,0,0,1,0,0,1,1,0,0,module 2,4,2,6
-333,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,3,0,3
-334,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,0,0,1,,0,1,0,0,1,1,1,1,,,,,,,0,,1,0,0,0,1,0,1,module 2,6,2,8
-335,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,2,0,0,2,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,4,0,4
-336,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-337,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,1,1,0,0,,0,1,module 2,3,2,5
-339,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
-340,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,3,0,1,0,0,,1,0,0,,,,,,0,0,1,0,0,,0,1,0,module 2,3,1,4
-341,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-341,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
-342,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,1,0,0,1,1,0,1,module 2,1,2,3
-343,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2
-344,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-345,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,2,module 2,1,1,2
-346,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,1,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,1,0,0,0,1,0,module 2,4,1,5
-347,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-348,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,2,1,2,0,2,0,1,1,1,1,0,0,2,0,1,2,,,,,,,0,1,1,1,0,1,0,1,0,module 2,10,4,14
-349,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-350,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3
-351,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-351,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,6,3,9
-352,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,1,0,0,0,0,,0,1,0,,,,,,0,0,0,0,,1,1,0,0,module 2,1,1,2
-353,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-354,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-355,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-356,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,0,0,0
-357,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,1,0,module 2,1,1,2
-357,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-358,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
-358,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,,1,2,0,0,,0,0,0,1,0,0,0,0,,0,0,1,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,2,3
-359,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,1,0,0,2,1,1,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
-360,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-361,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,0,2,2
-361,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,3,10
-362,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-363,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-363,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-364,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-365,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-366,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-366,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-368,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,1,0,module 2,1,1,2
-369,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-370,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,,0,1,1,0,1,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
-371,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,2,2,1,0,1,0,2,1,1,0,2,0,0,2,1,1,2,,,,,,,0,2,1,0,0,2,0,1,0,module 2,12,4,16
-372,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,1,0,0,module 2,2,1,3
-373,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
-373,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
-374,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,2,1,1,2,,2,2,0,0,1,2,0,1,,1,0,1,,,,,,0,0,0,0,0,1,1,0,0,module 2,12,3,15
-375,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
-375,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-376,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,1,module 2,0,1,1
-377,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,1,0,0,0,,1,module 2,1,2,3
-378,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-379,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,,0,1,,,,,,,0,0,1,2,0,0,0,0,0,module 2,2,3,5
-380,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,1,,1,,,,,,,0,0,0,0,,1,1,0,0,module 2,4,1,5
-381,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-381,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,0,0,1,0,0,0,1,0,1,0,1,0,,,,,,,,2,0,2,0,0,1,0,0,module 2,4,2,6
-382,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,2,4
-383,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,,0,,module 2,3,0,3
-383,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-384,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-385,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5
-386,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,,1,0,,0,0,0,0,0,0,0,1,0,1,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-387,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,1,1
-388,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,0,2,1,2,,0,0,0,1,0,0,0,0,,0,0,1,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-389,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-389,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,,0,module 2,3,0,3
-390,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,,module 2,0,0,0
-391,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,1,0,1,0,0,0,,0,module 2,2,1,3
-392,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,1,1,0,,,,,,,,,0,0,0,0,1,0,1,0,module 2,1,2,3
-393,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-394,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,1,0,2,2,0,2,0,0,0,1,0,0,1,0,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,7,1,8
-395,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,,0,module 2,3,0,3
-396,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,2,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,4,1,5
-397,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,2,1,2,2,0,2,1,1,0,1,1,0,1,0,1,2,,,,,,,2,2,0,1,0,1,0,0,0,module 2,12,3,15
-398,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-399,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,5,1,6
-400,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,,1,0,0,0,2,0,0,0,module 2,4,3,7
-401,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,1,1,2
-402,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,1,1,1,2,1,0,1,2,1,0,1,0,1,1,,,,,,,1,0,0,0,0,1,0,2,1,module 2,11,2,13
-403,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
-404,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,2,0,0,0,0,0,module 2,4,2,6
-405,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-406,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,4,0,4
-407,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-408,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,,0,1,0,0,1,0,0,module 2,3,1,4
-409,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,2,2,,0,1,1,1,0,module 2,4,3,7
-410,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,1,2
-410,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
-411,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-412,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,1,0,,2,0,0,2,0,0,0,0,,1,1,1,,,,,,0,1,1,1,0,0,0,0,0,module 2,5,2,7
-413,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,2,0,0,0,1,0,0,module 2,1,2,3
-414,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-415,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,0,0,1,0,0,0,0,,0,0,1,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0,module 2,2,2,4
-416,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,,module 2,2,1,3
-417,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-418,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,,1,0,2,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,1,0,2,0,module 2,4,1,5
-419,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,7,0,0,1,,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-420,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,1,0,module 2,3,0,3
-421,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,2,0,2
-421,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-422,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,0,0,,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-423,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-424,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-425,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0,module 2,2,1,3
-426,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-427,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-428,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-429,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,,1,0,0,0,1,1,1,0,module 2,1,1,2
-430,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,2,,,,,,,0,1,,0,0,1,0,1,0,module 2,4,2,6
-431,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,,,,,,,0,2,0,0,0,0,1,0,0,module 2,4,0,4
-432,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,0,module 2,3,2,5
-433,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-434,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-435,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-436,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,2,0,0,0,1,0,module 2,2,2,4
-437,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,1,0,1,0,0,0,module 2,4,2,6
-438,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,1,1
-439,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-440,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,1,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,1,0,1
-441,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3
-442,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,3,0,0,1,0,0,1,0,0,1,1,1,1,,,,,,,0,1,1,1,0,0,0,0,0,module 2,7,3,10
-443,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-444,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,2,1,3
-444,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-445,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-446,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-447,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-448,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-449,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,1,0,1
-450,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-451,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-451,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-452,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,3,10
-453,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-455,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,0,1,module 2,3,0,3
-455,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,2,0,0,0,0,1,0,0,module 2,2,0,2
-456,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,,0,0,0,1,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-457,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,0,0,1,0,0,0,module 2,3,1,4
-458,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
-459,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-460,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-461,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,1,2
-462,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-463,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,1,0,1,0,0,1,module 2,5,3,8
-464,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-465,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,1,module 2,0,0,0
-466,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-467,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-468,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-469,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
-470,36,ASD,Other,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9
-471,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,,1,1,2,1,1,2,,2,0,0,0,0,2,0,1,,1,1,1,,,,,,1,1,0,2,0,0,0,0,0,module 2,10,4,14
-472,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,1,1,1,0,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,1,0,0,0,1,0,0,module 2,2,2,4
-473,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-474,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
-475,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,1,0,1
-475,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
-477,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,,2,0,0,0,0,0,,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0,module 2,2,1,3
-478,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,1,0,1,2,0,0,0,0,0,0,,,,,,,0,,0,1,0,0,0,0,0,module 2,4,1,5
-480,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,1,0,1,0,0,0,module 2,1,2,3
-481,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,,0,2,0,1,1,0,2,0,0,0,1,0,0,0,1,1,0,,,,,,,0,1,0,0,0,1,0,1,0,module 2,5,1,6
-482,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,0,0,module 2,1,1,2
-483,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,2,2,1,2,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,0,0,0,0,0,,0,0,module 2,8,2,10
-484,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,0,0,2,1,0,0,0,0,0,1,1,1,1,,,,,,,0,1,1,1,0,0,0,0,2,module 2,6,3,9
-485,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,2,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-486,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,2,0,2
-487,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,,0,1,0,1,0,1,0,module 2,2,3,5
-488,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,2,1,3
+2,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
+2,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
+3,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
+3,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,1,2,1,1,1,1,,2,1,1,0,2,0,0,2,,1,0,2,,,,,,0,0,0,0,0,1,1,0,0,module 2,12,2,14
+4,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,,,,,,,0,1,1,0,0,0,0,0,0,module 2,3,1,4
+5,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,,0,0,module 2,1,1,2
+6,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,1,0,1
+6,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
+7,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
+8,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+9,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,2,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,1,0,2,module 2,1,1,2
+11,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,1,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1
+12,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+13,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,1,1,2,,,,,,,0,1,0,1,0,1,2,1,0,module 2,4,2,6
+14,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+15,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,,1,1,,,,,,,0,1,0,0,0,0,0,1,0,module 2,3,1,4
+16,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+16,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,2,0,1,0,0,0,2,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,,2,0,module 2,4,2,6
+17,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
+18,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
+19,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,0,0,0,1,,1,0,1,,,,,,0,1,0,1,0,0,1,0,0,module 2,4,1,5
+20,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
+21,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
+21,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+22,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,1,1,2
+23,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
+24,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,1,1,0,module 2,0,1,1
+25,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0,module 2,1,2,3
+26,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,,1,0,0,module 2,0,0,0
+27,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
+27,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
+28,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
+29,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2
+30,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,1,module 2,2,0,2
+30,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3
+31,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,,0,0,0,0,module 2,1,0,1
+32,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
+33,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,2,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
+34,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+36,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
+37,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
+38,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,3,10
+39,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,3,2,,2,1,1,0,1,2,0,0,,1,1,1,,,,,,1,0,1,0,0,1,0,0,0,module 2,13,2,15
+40,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
+41,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,0,0,1,0,,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+42,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+43,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
+44,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,2,,1,0,1,0,0,0,module 2,2,2,4
+45,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
+46,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+47,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,2,1,0,1,0,0,1,0,0,1,1,0,0,,,,,,,0,2,0,2,0,0,1,0,0,module 2,6,2,8
+48,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,3,1,4
+49,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+50,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+50,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
+51,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+52,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
+53,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,0,0,0
+54,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,2,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
+55,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,1,0,0,0,2,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,0,1,0,module 2,5,1,6
+57,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,2,1,0,0,0,0,0,1,1,1,0,1,0,0,1,,,,,,,0,1,2,0,0,1,1,0,1,module 2,4,5,9
+58,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,0,3
+59,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,2,1,0,1,0,2,2,1,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,1,1,0,1,module 2,7,1,8
+60,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,1,0,2,1,1,1,1,0,0,1,0,2,1,,,,,,,0,,0,0,0,0,0,0,0,module 2,10,1,11
+61,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,2,2,0,0,1,0,1,0,module 2,4,3,7
+62,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
+63,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0,module 2,2,2,4
+64,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,,0,2,0,0,3,1,0,0,0,0,0,1,2,0,1,1,,1,,,,,,,0,1,1,1,0,1,1,0,1,module 2,6,3,9
+64,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
+65,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,1,2,0,0,module 2,1,1,2
+66,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+66,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
+67,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,0,0,0,0,module 2,3,2,5
+68,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,2,,,,,,,,0,0,0,0,0,2,,0,module 2,4,0,4
+68,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
+69,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,,1,0,1,module 2,3,0,3
+69,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+70,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,1,0,0,0,0,0,0,0,module 2,0,0,0
+71,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,,0,1,1,0,module 2,2,0,2
+71,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,1,0,module 2,1,0,1
+72,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
+73,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
+73,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
+75,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+75,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,0,2,,2,0,0,2,0,0,,1,,0,0,0,,,,,,1,0,0,0,0,0,2,1,0,module 2,5,0,5
+76,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
+77,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,1,0,module 2,5,0,5
+78,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+79,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
+79,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,,module 2,3,0,3
+80,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,3,0,0,module 2,1,1,2
+81,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,,0,0,module 2,2,0,2
+82,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,,0,0,0,0,0,0,0,0,module 2,3,0,3
+83,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,3,0,3
+84,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+84,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,,0,3,0,0,module 2,1,0,1
+85,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,,0,2,0,2,0,2,0,module 2,6,4,10
+85,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+85,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
+86,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
+87,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,3,,2,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,2,0,0,2,0,0,module 2,5,2,7
+87,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
+88,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
+89,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,0,0,0,0,2,2,1,0,1,0,0,1,1,1,0,0,,,,,,,0,0,1,1,0,0,1,0,0,module 2,6,2,8
+90,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+91,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,1,0,0,0,1,0,1,module 2,1,1,2
+92,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,3,0,3
+93,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+94,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,2,0,0,0,0,0,1,0,module 2,0,0,0
+95,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,2,1,0,1,0,1,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,2,6
+96,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,1,1,0,module 2,3,1,4
+97,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+98,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
+99,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+100,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,1,0,module 2,2,1,3
+101,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,,0,0,1,module 2,2,0,2
+102,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
+103,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,0,3
+103,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+103,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,1,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
+104,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,1,1,,0,0,0,0,0,0,0,0,,1,1,1,,,,,,0,1,1,1,0,0,0,0,0,module 2,4,2,6
+105,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,1,1,1,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+106,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
+107,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,1,0,1
+107,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
+109,36,ASD,Other,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9
+110,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,,0,1,1,1,1,0,,1,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,2,module 2,5,1,6
+111,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,0,0,0,0,0,2,,0,module 2,2,0,2
+111,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,0,0,0
+112,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
+113,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+114,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,2,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,8,0,8
+116,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+117,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,1,6
+118,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+119,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,5,1,6
+120,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
+120,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2
+120,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,1,1,module 2,3,2,5
+121,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,0,0,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
+122,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+123,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,1,2,0,0,,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3
+124,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,1,0,0,0,1,2,0,0,module 2,3,1,4
+126,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,,,,,,,0,3,0,0,0,0,0,1,0,module 2,1,1,2
+127,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
+129,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,,0,0,1,2,0,module 2,3,0,3
+130,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,,,,,,,0,1,1,1,0,0,1,0,1,module 2,1,2,3
+131,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,1,2
+132,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
+132,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
+133,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
+134,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,1,0,1,0,0,0,1,0,1,module 2,1,1,2
+136,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,1,0,1
+137,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,,0,0,1,1,1,0,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,1,4
+138,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,1,2,0,2,0,0,1,1,0,1,0,1,0,0,2,,,,,,,1,2,2,1,,1,0,0,1,module 2,7,5,12
+139,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+140,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
+141,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+142,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,0,1,1,0,0,0,0,1,module 2,1,3,4
+143,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
+144,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,1,module 2,5,1,6
+145,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,,0,0,0,0,0,0,0,1,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,2,0,module 2,5,1,6
+146,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,,module 2,1,0,1
+147,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+148,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,2,1,2,2,1,0,1,2,1,0,2,1,1,2,,,,,,,0,1,0,0,0,1,1,0,0,module 2,14,2,16
+149,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
+150,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,2,1,1,1,0,2,1,0,1,0,0,0,1,1,1,0,,,,,,,0,1,2,1,0,1,0,0,1,module 2,6,5,11
+151,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
+152,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
+153,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
+153,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
+154,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,3,2,5
+155,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,2,0,1,0,0,1,0,1,1,0,,,,,,,,0,0,0,1,0,0,0,0,2,module 2,6,2,8
+156,36,Behavior,DD,Male,ADOS-1,younger than age 5,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0,module 2,1,1,2
+157,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,2,1,0,0,0,1,0,1,0,1,0,,,,,,,0,0,1,0,0,0,1,0,1,module 2,7,2,9
+159,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
+160,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
+161,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,1,0,0,1,0,0,1,0,0,module 2,3,1,4
+162,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
+162,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
+163,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+163,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+164,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,0,0,0,3,,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,3,0,0,module 2,3,1,4
+165,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+166,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,2,0,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
+167,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,2,0,0,0,,0,0,0,0,0,1,,,,,,,0,2,0,0,0,0,1,0,1,module 2,4,0,4
+168,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,0,1,1,2,1,2,2,1,0,1,1,0,0,1,2,1,2,,,,,,,0,2,0,1,0,1,0,0,1,module 2,11,3,14
+170,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+171,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,1,1,0,0,0,,0,1,1,,,,,,0,1,0,2,0,0,0,1,0,module 2,3,2,5
+172,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+173,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,0,3,0,0,0,0,1,0,,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,4,1,5
+174,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+175,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0,module 2,2,0,2
+176,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,2,0,0,1,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,4,0,4
+177,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,,,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+177,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,2,0,0,module 2,0,0,0
+178,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,2,3,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
+179,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,,0,0,0,0,0,0,module 2,3,0,3
+180,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+181,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+182,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,,0,module 2,2,2,4
+183,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0
+184,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,2,0,2,1,2,2,1,1,1,0,1,0,1,1,1,2,,,,,,,0,0,2,1,0,1,0,2,1,module 2,12,4,16
+185,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,0,0,0,1,0,0,0,0,,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,0,4
+186,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
+187,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,1,0,0,module 2,3,1,4
+188,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
+189,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
+190,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+191,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,0,0,0
+192,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0,module 2,1,0,1
+193,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+194,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
+195,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+196,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3
+197,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0
+197,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
+198,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,1,1,1,1,2,,2,1,1,1,2,0,0,1,,2,2,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,13,2,15
+199,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+200,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,2,0,0,2,0,0,module 2,3,2,5
+201,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,,0,0,0,0,0,0,module 2,0,0,0
+202,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,0,0,0
+203,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,,0,0,0,,0,0,module 2,1,0,1
+204,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,1,0,0,module 2,2,1,3
+205,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
+206,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
+207,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,1,0,0,0,module 2,2,1,3
+207,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5
+207,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,1,0,1
+208,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,3,0,0,0,0,0,0,0,module 2,1,0,1
+210,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
+210,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,0,,1,0,0,0,module 2,4,1,5
+211,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
+212,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,2,1,0,1,module 2,0,3,3
+213,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,1,0,0,1,module 2,2,2,4
+214,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0,module 2,3,2,5
+215,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,2,1,0,0,module 2,1,2,3
+216,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,0,0,1,1,0,,0,1,1,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,4,3,7
+217,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,2,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
+218,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
+219,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,1,0,1,1,1,1,module 2,1,2,3
+220,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
+221,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,0,2,0,0,1,0,0,0,1,0,1,,,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,1,5
+222,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
+223,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
+223,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,0,0,0,0,module 2,3,0,3
+224,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,1,0,1,0,0,module 2,3,0,3
+225,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,3,0,1,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
+225,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,1,1,module 2,1,2,3
+226,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,1,1,0,0,0,0,1,1,0,module 2,1,0,1
+227,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+228,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
+229,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,2,1,3
+230,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,2,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,,0,0,0,,2,1,0,module 2,4,0,4
+231,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+231,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
+232,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,1,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+233,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+234,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
+235,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
+236,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,0,0,0,0,0,0,0,module 2,2,1,3
+237,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
+238,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,0,0,0,,1,1,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,4,1,5
+239,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,1,0,module 2,2,0,2
+239,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,1,1,0,0,0,0,0,module 2,2,2,4
+240,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,module 2,0,1,1
+241,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+242,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
+243,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2
+244,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,1,0,0,0,,0,0,module 2,2,1,3
+245,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,,0,,1,0,0,,,,,,1,1,0,0,0,0,0,1,0,module 2,1,0,1
+246,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,,0,0,module 2,3,1,4
+247,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2
+248,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+249,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,3,1,4
+250,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,2,0,1,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,4,1,5
+251,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,2,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+252,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
+253,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,1,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
+254,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
+255,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,,0,0,0,0,0,0,0,0,module 2,3,0,3
+255,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,0,0,module 2,1,1,2
+256,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,,1,,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
+257,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+258,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,1,module 2,3,0,3
+259,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,2,0,2
+260,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+261,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+262,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
+263,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
+264,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+264,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,1,1,,0,0,0,2,0,0,0,0,,1,1,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,4,1,5
+265,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
+266,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
+267,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
+268,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,,0,1,0,module 2,1,0,1
+268,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+269,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,3,0,3
+269,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,1,0,0,0,1,1,,,module 2,1,1,2
+270,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
+271,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,1,1,,0,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,4,1,5
+272,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
+273,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
+274,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
+275,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0,module 2,1,2,3
+276,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
+277,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,,0,0,0,module 2,1,1,2
+278,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
+279,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+280,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,1,0,0,1,0,0,0,module 2,1,2,3
+281,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
+282,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,,0,0,0,0,1,0,0,0,,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
+283,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,1,0,0,0,0,0,0,,,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,1,5
+284,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+285,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,2,0,1,0,0,3,1,0,0,0,0,0,1,0,0,0,1,1,1,,,,,,,0,1,0,0,0,1,1,2,0,module 2,4,1,5
+286,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,1,0,,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+287,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0,module 2,1,2,3
+288,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,,0,0,0,1,0,0,0,0,0,1,1,0,2,,,,,,,0,,0,1,0,1,1,,0,module 2,4,2,6
+289,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,0,1,module 2,3,1,4
+289,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,,0,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,0,1,0,0,0,1,1,0,0,module 2,2,1,3
+290,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+290,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,,0,0,0,,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,1,1,2
+291,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+292,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,2,0,0,2,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+293,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
+294,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+295,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,1,0,1
+296,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,1,2,0,,0,1,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,4,1,5
+297,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
+298,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,,0,0,0,2,0,0,module 2,1,0,1
+299,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0,module 2,2,0,2
+299,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,0,1,1
+300,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,,0,0,0,0,1,0,0,module 2,1,0,1
+301,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
+302,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,,1,0,0,0,0,1,module 2,2,1,3
+302,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,2,2,4
+303,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,,0,2,0,module 2,3,2,5
+305,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
+306,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3
+307,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,3,0,3
+308,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,0,0,,2,1,0,2,0,0,0,0,,1,0,1,,,,,,0,1,1,1,0,0,0,0,0,module 2,4,2,6
+309,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
+310,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,2,2,1,1,2,2,1,2,0,1,0,0,0,0,1,1,1,2,,,,,,,2,2,2,0,0,,0,0,1,module 2,10,3,13
+313,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,0,0,0
+315,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+316,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+316,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
+318,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,,0,0,module 2,1,1,2
+319,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+320,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
+321,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,,1,0,0,1,0,0,1,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,,0,module 2,3,0,3
+322,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
+323,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
+324,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
+325,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+326,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
+327,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,1,0,2,1,0,0,1,,0,1,0,0,0,1,0,0,,0,0,1,,,,,,0,0,1,,0,1,0,0,0,module 2,4,3,7
+328,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,,0,0,0,1,0,0,,0,,0,,,,,,0,0,0,0,0,1,2,0,0,module 2,1,1,2
+328,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,3,0,3
+329,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,1,1,2,0,0,2,1,0,0,0,1,0,1,0,1,2,,,,,,,0,0,1,1,,2,0,0,0,module 2,8,5,13
+330,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
+331,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7
+332,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+332,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
+333,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
+335,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
+336,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,2,0,0,0,0,1,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,1,5
+337,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+337,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
+338,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,0,1,1
+339,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,1,2,0,2,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,0,0,1,0,0,1,0,1,module 2,3,2,5
+340,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3
+340,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,,0,0,1,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
+341,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,1,2,3
+342,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4
+343,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1
+344,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,0,4
+345,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,1,1,,module 2,4,1,5
+346,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,1,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,,0,0,0,module 2,2,0,2
+347,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,2,2,1,2,1,1,,2,1,1,0,2,0,0,2,,0,2,2,,,,,,0,1,0,0,0,1,1,,0,module 2,14,2,16
+348,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,0,0,0
+349,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,1,1,2,1,module 2,3,1,4
+350,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,,1,2,2,0,module 2,8,2,10
+351,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,,0,0,0,module 2,2,0,2
+352,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+353,24,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,,,,module 2,1,0,1
+353,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
+354,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
+354,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,3,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+355,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,0,1,1,0,0,1,0,1,1,0,0,1,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
+356,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,2,0,0,0,module 2,3,3,6
+357,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,2,0,0,0,0,1,1,0,module 2,2,0,2
+358,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,4,0,4
+359,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+360,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,,1,2,0,module 2,1,0,1
+361,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,1,0,1,1,module 2,1,3,4
+362,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+363,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
+364,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+365,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,2,,0,0,0,1,0,0,1,1,,1,1,1,,,,,,0,1,0,0,,2,0,0,0,module 2,6,2,8
+366,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0,module 2,2,0,2
+367,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,2,0,0,1,,0,1,1,,,,,,0,0,0,0,0,1,0,0,0,module 2,11,2,13
+368,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,0,0,1,0,,2,0,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,2,0,1,0,0,0,module 2,6,3,9
+369,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7
+370,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+371,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,0,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+372,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,0,0,module 2,1,2,3
+373,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+374,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+375,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,1,2,,0,0,0,1,0,0,0,1,,0,1,1,,,,,,0,0,0,2,0,2,1,0,0,module 2,6,5,11
+376,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,1,0,0,0,0,0,module 2,1,1,2
+377,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,,module 2,3,2,5
+378,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,2,0,0,0,0,1,0,module 2,2,2,4
+379,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+379,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,2,0,0,0,0,0,0,,,,,,,,0,0,0,1,0,1,0,1,0,module 2,1,2,3
+380,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+381,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,,0,2,0,1,,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
+381,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+382,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+383,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0,module 2,3,0,3
+384,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,0,0,0
+385,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,1,1,0,0,module 2,0,1,1
+386,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,,0,module 2,1,2,3
+387,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,2,0,0,0,0,0,0,0,module 2,2,0,2
+388,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
+389,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,2,0,1,1,0,2,0,1,0,1,0,0,1,0,1,1,,,,,,,0,1,0,0,0,1,1,1,0,module 2,8,1,9
+390,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,1,1,1,1,1,0,0,0,,,,,,,0,0,1,2,0,1,0,0,0,module 2,6,4,10
+391,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+392,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,,0,module 2,4,3,7
+393,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+394,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
+395,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,1,0,1,0,1,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+396,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,2,1,3
+397,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,1,0,0,1,1,1,,2,0,0,1,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,1,module 2,6,0,6
+399,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1
+399,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+400,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,1,module 2,2,0,2
+401,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,5,1,6
+402,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+402,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0,module 2,4,2,6
+403,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,2,0,0,0,module 2,2,2,4
+404,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,0,module 2,3,0,3
+405,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+406,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,1,,1,0,1,module 2,3,0,3
+407,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
+408,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+409,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,2,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
+410,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,2,2,0,2,,0,0,0,1,1,2,0,0,,1,0,0,,,,,,1,1,1,0,0,1,1,0,0,module 2,5,4,9
+411,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
+412,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,0,0,module 2,3,2,5
+413,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
+414,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
+414,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0,module 2,5,0,5
+415,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,1,0,0,0,1,0,module 2,1,1,2
+416,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+416,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+417,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,1,module 2,1,0,1
+418,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+419,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,1,1,module 2,4,1,5
+420,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,3,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
+421,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,1,,0,1,0,2,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,5,1,6
+423,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,1,1,2,0,0,2,0,1,0,2,1,0,0,0,1,1,,,,,,,1,0,0,1,0,1,0,2,0,module 2,8,3,11
+424,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,0,1,1
+425,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0,module 2,0,0,0
+425,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+426,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,1,1,0,0,module 2,1,3,4
+427,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,1,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+428,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+430,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2
+431,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
+431,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+432,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+433,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,,0,0,1,0,0,0,,0,0,module 2,0,1,1
+434,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,2,1,0,1,1,,2,1,0,0,2,0,0,1,,2,2,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,12,2,14
+435,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,1,0,0,1,,0,1,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,11,2,13
+436,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,3,0,3
+437,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,,0,0,module 2,1,0,1
+438,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,2,2,0,1,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,6,3,9
+439,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
+440,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,3,1,4
+441,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,0,1,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,3,2,5
+442,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,2,1,,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3
+443,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+445,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,2,0,2
+446,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+446,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
+447,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+448,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,0,module 2,0,0,0
+449,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,1,2,1,0,,2,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,1,6
+450,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,,0,0,0,0,0,module 2,3,0,3
+451,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,2,0,0,0,1,,0,1,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,2,0,2
+452,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,1,1,2
+453,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,,module 2,2,0,2
+454,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,1,2,1,2,,0,2,1,1,1,2,0,1,,1,0,1,,,,,,0,1,0,2,0,0,0,0,0,module 2,11,3,14
+456,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,,1,0,0,,0,0,0,,,,,,0,0,1,0,0,0,1,0,0,module 2,2,1,3
+457,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
+459,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+460,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,5,0,5
+460,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,2,1,3
+461,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+462,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
+463,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
+464,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,1,0,1
+465,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1
+466,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3
+467,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+468,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,1,0,0,1,0,0,0,1,0,module 2,0,1,1
+469,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,2,1,1,0,0,0,0,0,0,1,0,1,1,1,0,1,,,,,,,0,1,0,0,0,0,0,1,1,module 2,3,1,4
+470,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,2,2,1,2,1,0,2,1,1,0,2,1,0,1,1,0,0,,,,,,,0,0,0,0,0,2,0,0,0,module 2,9,3,12
+471,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2
+472,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
+473,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,1,0,0,1,0,0,0,0,0,module 2,1,1,2
+474,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,,0,0,2,0,1,0,0,,0,0,0,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
+475,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
+475,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
+476,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
+477,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
+477,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
+478,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,1,1,1,0,0,0,0,0,module 2,2,2,4
+479,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
+479,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
+480,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,1,1,2
+481,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,,,,,,,,0,0,0,0,0,0,1,2,0,module 2,2,0,2
+482,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,1,0,0,0,1,0,0,1,0,1,0,0,,,,,,,,0,1,1,0,0,0,1,0,0,module 2,4,2,6
+484,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
+485,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+486,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,,0,2,0,0,,0,0,,0,0,1,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
+486,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+487,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
+488,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
+489,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,1,1,module 2,1,1,2
+490,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,2,0,2
+491,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,2,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3
+492,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,1,1,3,0,0,0,0,1,0,0,0,1,0,2,0,,,,,,,0,1,1,1,0,0,1,0,,module 2,5,3,8
+493,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
+494,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1

@@ -1,530 +1,537 @@
 id,visit,cbe_36,recruitment_group,gender,ados_version,ados_algorithm,ados_a1,ados_a2,ados_a3,ados_a4,ados_a5,ados_a6,ados_a7,ados_a8,ados_b1,ados_b2,ados_b3,ados_b4,ados_b5,ados_b6,ados_b7,ados_b8,ados_b9,ados_b10,ados_b11,ados_b12,ados_b13a,ados_b13b,ados_b14,ados_b15,ados_b16,ados_c1,ados_c2,ados_d1,ados_d2,ados_d3,ados_d4,ados_e1,ados_e2,ados_e3
-1,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,1,0,2,1,0,,0,0,0,2,1,0,,0,,0,0,1,,,,,,,1,,0,0,1,0,0,1
-1,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0
-2,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,,0,0,0,0,0
-3,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,,2,2,1,1,1,1,,2,1,0,1,2,2,0,2,,2,0,1,,,,,,0,1,0,0,0,1,0,0,0
-4,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,1,0,0,0,0,2,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-5,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,1,0,1
-6,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,1,1,2,0,3,1,0,0,0,0,0,1,0,0,1,1,1,1,,,,,,,0,1,1,0,0,1,1,0,1
-7,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,1
-8,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,0,,1,0
-9,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-10,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
-11,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,0,0,0,0,0,1,1,0
-12,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0
-13,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
-14,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0
-15,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,2,0,0
-16,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,2,0,0,0
-17,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,1
-18,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0
-19,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,0,0,0,0,0,1,0,0,1,0,0,,,,,,,0,1,0,0,0,1,1,0,0
-20,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-20,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-21,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,2,0,0,,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,1,0,0,0
-22,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-23,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-24,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-25,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,1,0
-26,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,1,1,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,,0,0,1,1,0,0,0,0,1
-27,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-28,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,1,0,0,0,0,0
-29,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,1,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,1,0,0
-30,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-31,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,2,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-32,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,1,0,0,0,0,1,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,1,0
-33,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
-34,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0
-35,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,2,,,,,,,0,0,0,1,0,0,2,2,
-36,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,,0,0,0,0,0
-38,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
-39,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-40,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-41,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,2,1,1,2,,3,1,0,0,0,0,0,1,2,0,1,1,1,1,,,,,,,0,1,1,1,0,1,1,2,
-42,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-43,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0
-44,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,2,0,0,2,0,0,0,1,,1,0,0,,,,,,0,0,,1,0,0,2,0,0
-45,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,,0
-46,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-47,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
-48,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,0,0,0,0,1,1,0,0
-49,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,0,1,0,2,0,2,2,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,1,0,0,0,0,0,0
-50,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-51,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,,2,1,0
-52,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,2,2,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,,,,,,,0,0,0,1,0,0,0,1,0
-53,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0
-53,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
-54,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,0
-55,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-56,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0
-57,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0
-57,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0
-58,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
-59,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-60,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-61,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-62,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0
-63,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,,0,0
-64,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,1,0,0
-65,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-66,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,2,0,0
-67,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,0,0
-68,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
-69,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,2,1,0,0,1,1,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,0,0,0,0,1
-70,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,2,0,1,1,,0,0,0,1,1,0,1,1,,1,1,1,,,,,,0,1,0,0,0,1,1,0,0
-71,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0
-71,36,BAP,Typical,Male,ADOS-1,younger than age 5,,1,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,1,1
-72,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,3,1,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1
-72,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0
-73,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,2,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,1,0,0,0,1,0
-74,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,0,0,0,0,0,0
-75,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,1,0,0
-76,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,1,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1
-77,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,2,,,,,,0,0,2,0,0,1,0,1,0
-78,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2
-78,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-79,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,2,0,0,0,0,0
-79,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0
-80,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,2,0,1,0,0,0,0,0,0,1,0,1,,,,,,,0,,0,1,0,,1,,
-81,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
-82,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,
-83,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,2,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,1
-83,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
-84,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
-84,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,1,0,0,0,0,0,0
-86,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-88,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-89,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
-89,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0
-90,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,1,0,0,2,0,0
-91,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,,0,0
-92,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0
-93,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0
-94,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-96,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,,0,0,1,2,0,0,0,0,0,0,1,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
-97,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
-98,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-99,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,1,0,1,0,1,0
-100,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0
-102,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,2,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-103,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,1,0
-104,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-104,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-105,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,,1,,0,0,0,,,,,,0,0,0,0,0,0,,0,1
-106,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
-107,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0
-108,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-109,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,,1,1,2,0,0,0,1,0,0,,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
-109,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
-110,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
-111,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1
-112,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0
-112,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,2,1,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-113,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,,,,,,,,1,0,0,0,0,0,0,0
-114,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0
-115,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,1,0,2,1,2,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,1,0,1,0,1,0,0,0
-116,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1
-117,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,
-118,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,2,1,0,0,0,1,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0
-119,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1
-119,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0
-120,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0
-121,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-122,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,,0,0,0,0,0
-123,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-124,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,1,,0,0,,,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-125,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,2,0,0,0,0,0
-125,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-126,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
-127,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
-128,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
-129,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,,1,0,1,0,2,1,1,1,1,1,0,0,1,1,1,,,,,,,0,2,0,1,0,0,0,2,0
-130,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,0,1,2,2,3,2,,0,0,1,1,1,2,0,0,,1,2,1,,,,,,1,0,0,,0,0,0,0,0
-131,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0
-132,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,2,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,,0,0,0,0,0
-132,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0
-133,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1
-134,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,0,0,1
-135,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,1,1,0,1,,2,1,0,0,0,0,0,1,,1,0,1,,,,,,0,0,0,0,0,0,1,0,0
-136,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,0,1,1,,2,1,1,1,2,0,0,1,,2,0,1,,,,,,0,1,0,0,0,1,1,0,0
-137,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-138,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,1,2,2,3,2,,0,0,1,0,1,2,0,1,,1,2,0,,,,,,0,1,0,0,0,0,1,0,0
-139,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,,,1,1,0,0,0,0,0,0,1,0,0,1,1,0,,,,,,,0,2,0,0,0,0,0,0,0
-140,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,1,0,0,0
-141,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-142,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-143,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,,1,0,0
-144,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-145,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,1,1,1,1,,2,1,1,0,1,1,0,1,,0,1,1,,,,,,0,0,0,0,0,1,1,0,0
-146,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0
-146,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,1,0
-147,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-148,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,1,2,0,0,2,1,0,1,1,1,0,0,,,,,,,0,1,0,0,0,2,1,2,2
-149,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-150,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0
-151,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,1,0,0,0,0,0,1
-152,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,1,0,2,0,0,0,0,
-153,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,2,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1
-153,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,0,,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,1
-154,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
-155,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,1,,0,0,0,1
-156,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,,0,0,0,1
-157,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0
-158,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,2,0,0,0,0,999,0,0
-159,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-160,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
-160,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-161,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-162,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1
-163,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-164,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0
-165,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,1,0,1,0,0,0,0,0,0
-166,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
-167,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0
-168,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,0,0,0,1,0
-169,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
-170,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,,1,2,0
-171,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,2,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-172,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-173,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
-173,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
-174,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,0,0
-175,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,,0
-176,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,1,0,7,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,1
-177,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-178,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,,1,1,0,0
-179,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,,0,,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0
-180,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0
-181,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,,2,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0
-182,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,1,0,0,0
-183,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
-184,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-185,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-186,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-187,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,1
-188,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,2,1,0,1,1,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-189,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
-190,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
-190,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,0,0,0
-191,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0
-192,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,,0
-193,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,1,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-194,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,0,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,1,0
-195,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-196,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1
-197,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,1,0,1,0
-198,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,0,3,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,,0
-199,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-200,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,0,0,0,0,0
-201,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
-202,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,1,1
-203,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0
-204,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0
-205,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,1,0,0,1,0,1,1,0,0
-206,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,1,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0
-207,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-208,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0
-208,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,,0,1,,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-209,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,,0,,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,2,,,0,0,0
-210,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,0,0,2,,2,0,0,0,0,0,1,1,,1,0,1,,,,,,0,1,0,2,0,0,0,0,0
-211,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,0,0,0,0,1,,0,1,0,,,,,,1,1,0,0,0,0,0,0,1
-212,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,,0,0,,,,,,,1,1,0,0,0,1,0,0,1
-213,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0
-213,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-214,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,
-215,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,0,0
-216,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,2,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1
-217,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-218,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-219,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,2,0,1,1,,0,0,0,0,0,0,0,0,,1,1,1,,,,,,0,1,0,2,0,2,1,0,0
-220,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1
-221,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-222,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1
-222,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-222,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,2,1,2,2,2,2,1,1,1,2,1,0,0,1,2,1,,,,,,,0,2,2,0,0,1,1,0,1
-223,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-224,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,1,1,0,0,,0,0,0,1,1,0,0,1,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
-225,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,1,0
-226,36,Behavior,DD,Male,ADOS-1,younger than age 5,1,0,2,0,0,2,0,0,0,0,0,0,,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0
-227,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,2,1,1,1,1,,2,2,0,1,1,2,0,0,,1,1,1,,,,,,1,0,0,0,0,1,0,0,0
-228,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,1,2,0,1,0,1,0,,0,1,0,1,1,1,0,,,,,,,0,0,1,0,0,0,0,0,1
-229,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-230,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,1,1,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,1,0,1,1,0,0
-231,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-232,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,2,0,1,0,0,0
-233,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0
-234,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-235,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-236,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,1,0,1,,0,0,0,,,,,,0,1,0,1,0,0,0,0,1
-237,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0
-238,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
-239,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,,1,,,,,,,0,1,1,1,0,0,0,2,0
-240,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,0,0,2,1,2,0,0,0,0,1,1,0,1,1,1,1,,,,,,,0,2,0,1,0,0,0,0,1
-241,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,1,,,,,,,0,0,0,0,0,0,1,0,0
-242,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,1,,0,0,2,,,,,,0,1,0,2,0,0,1,3,0
-242,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,1,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-243,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,3,0,1,0,1,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-243,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,1,0
-244,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,1,1,2,2,2,0,2,,2,0,0,0,0,0,0,1,,1,1,1,,,,,,1,1,0,0,0,0,0,0,0
-245,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
-246,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-247,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,1,0,0,0,0,2,0,1
-248,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
-249,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-250,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-251,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,1,1,1,,,,,,,,0,0,1,0,1,2,2,0
-252,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-252,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,2,1,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,999,0,0
-253,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
-254,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,,0,0
-255,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-256,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,0,,,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
-257,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-258,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
-259,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,,0,1,0,1,0
-260,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,,0,1,0,0,0,0,0,1,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-261,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0
-262,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0
-262,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-263,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,1,,2,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-263,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0
-264,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,0,0
-265,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,2,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-267,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0
-268,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-269,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,0,1,,2,0,0,2,1,0,0,0,,1,0,0,,,,,,0,0,1,1,0,0,0,0,0
-270,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
-271,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,,,,,,,1,0,0,0,0,0,0,0,1
-272,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
-273,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0
-274,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,2,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-275,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,2,2,2,2,1,0,0,1,1,0,2,1,1,1,,,,,,,0,2,0,0,0,0,0,0,0
-276,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-277,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0
-278,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,2,1,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,0,1,0
-279,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0
-280,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-281,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,1,0,0,0,0,0
-282,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-283,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0
-284,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-285,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,2,0,0,0,0,1,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0,1
-286,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,1,0,0,2,1,1,0,1,0,0,1,1,1,1,,,,,,,0,2,1,0,0,,0,1,0
-287,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,,0
-289,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,2,0,0,0
-290,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,1,0,,0,0,0,1,1,0,1,,,,,,,0,,0,0,,2,,,
-291,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,1,2,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
-292,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-293,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1
-295,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,1,0
-296,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-296,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1
-297,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0
-298,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,1,0
-299,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,0,2,0,0,1,0,1,0
-300,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0
-301,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-301,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,3,0,0,0,0,1,0,0
-302,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0
-303,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0
-304,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1
-304,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,1,0,0,0,0,0,1
-306,24,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,999,999,999
-306,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2
-306,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-307,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,1,0,0
-309,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,1,2,0,1,1,1,1,,,,,,,0,1,1,1,0,1,1,0,0
-310,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,1
-311,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-312,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,0,1,2,0,0,3,1,0,0,0,0,0,0,2,0,0,1,1,1,,,,,,,0,1,1,,0,1,1,2,0
-313,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-314,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,0,3,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,2,0,1,0,0,0
-314,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,0,,0,0,0,0,0,0,0,0,,1,1,0,,,,,,0,0,0,0,0,0,1,0,0
-315,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,,0,1,,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-316,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0
-317,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,1,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-318,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,
-319,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
-320,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,1
-321,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,,1,2,0,1,,0,,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-323,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-323,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-324,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,0,1,1,1,0,0,0,0,1,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,0,0,1
-325,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0
-326,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0
-327,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0
-327,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
-328,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,,0,0,0,1,1,0,1,,,,,,,,,0,1,0,,1,,0
-329,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-330,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-331,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,1,1,0,0,0,0,999,0,0
-332,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,1,1,,0,1,0,1,0,0,0,1,,0,0,0,,,,,,0,0,1,0,0,1,1,0,0
-333,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1
-334,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,0,0,1,,0,1,0,0,1,1,1,1,,,,,,,0,,1,0,0,0,1,0,1
-335,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,2,0,0,2,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,1,0
-336,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-337,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,1,1,0,0,-9,0,1
-339,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0
-340,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,3,0,1,0,0,,1,0,0,,,,,,0,0,1,0,0,,0,1,0
-341,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0
-341,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-342,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,1,0,0,1,1,0,1
-343,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-344,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-345,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,2
-346,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,1,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,1,0,0,0,1,0
-347,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-348,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,2,1,2,0,2,0,1,1,1,1,0,0,2,0,1,2,,,,,,,0,1,1,1,0,1,0,1,0
-349,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-350,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1
-351,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-351,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
-352,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,1,0,0,0,0,,0,1,0,,,,,,0,0,0,0,,1,1,0,0
-353,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-354,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-355,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-356,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-357,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,1,0
-357,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
-358,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0
-358,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,,1,2,0,0,,0,0,0,1,0,0,0,0,,0,0,1,,,,,,0,0,1,0,0,0,0,0,0
-359,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,1,0,0,2,1,1,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-360,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-361,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0
-361,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
-362,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-363,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
-363,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-364,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0
-365,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-366,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
-366,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0
-368,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,1,0
-369,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
-370,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,,0,1,1,0,1,,,,,,,0,0,0,0,0,0,0,1,1
-371,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,2,2,1,0,1,0,2,1,1,0,2,0,0,2,1,1,2,,,,,,,0,2,1,0,0,2,0,1,0
-372,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,1,0,0
-373,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0
-373,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0
-374,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,2,1,1,2,,2,2,0,0,1,2,0,1,,1,0,1,,,,,,0,0,0,0,0,1,1,0,0
-375,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0
-375,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-376,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,1
-377,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,1,0,0,0,999,1
-378,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0
-379,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,,0,1,,,,,,,0,0,1,2,0,0,0,0,0
-380,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,1,,1,,,,,,,0,0,0,0,,1,1,0,0
-381,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1
-381,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,0,0,1,0,0,0,1,0,1,0,1,0,,,,,,,,2,0,2,0,0,1,0,0
-382,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0
-383,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,,0,
-383,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0
-384,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-385,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0
-386,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,,1,0,,0,0,0,0,0,0,0,1,0,1,1,,,,,,,0,1,0,0,0,0,0,0,0
-387,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-388,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,0,2,1,2,,0,0,0,1,0,0,0,0,,0,0,1,,,,,,0,1,0,0,0,0,0,0,0
-389,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-389,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,,0
-390,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,
-391,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,1,0,1,0,0,0,-9,0
-392,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,1,1,0,,,,,,,,,0,0,0,0,1,0,1,0
-393,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-394,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,1,0,2,2,0,2,0,0,0,1,0,0,1,0,0,1,,,,,,,0,1,0,0,0,1,0,0,0
-395,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,,0
-396,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,2,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-397,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,2,1,2,2,0,2,1,1,0,1,1,0,1,0,1,2,,,,,,,2,2,0,1,0,1,0,0,0
-398,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-399,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0
-400,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,,1,0,0,0,2,0,0,0
-401,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,1,0,0,0,0,0
-402,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,1,1,1,2,1,0,1,2,1,0,1,0,1,1,,,,,,,1,0,0,0,0,1,0,2,1
-403,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0
-404,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,2,0,0,0,0,0
-405,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-406,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,
-407,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
-408,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,,0,1,0,0,1,0,0
-409,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,2,2,,0,1,1,1,0
-410,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0
-410,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
-411,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-412,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,1,0,,2,0,0,2,0,0,0,0,,1,1,1,,,,,,0,1,1,1,0,0,0,0,0
-413,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,2,0,0,0,1,0,0
-414,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-415,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,0,0,1,0,0,0,0,,0,0,1,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0
-416,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,-9
-417,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-418,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,,1,0,2,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,1,0,2,0
-419,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,7,0,0,1,,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-420,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,1,0
-421,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,2,0,0
-421,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-422,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,0,0,,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
-423,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-424,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-425,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0
-426,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-427,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
-428,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
-429,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,,1,0,0,0,1,1,1,0
-430,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,2,,,,,,,0,1,,0,0,1,0,1,0
-431,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,,,,,,,0,2,0,0,0,0,1,0,0
-432,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,0
-433,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
-434,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-435,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0
-436,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,2,0,0,0,1,0
-437,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,1,0,1,0,0,0
-438,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
-439,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1
-440,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,1,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,,0
-441,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-442,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,3,0,0,1,0,0,1,0,0,1,1,1,1,,,,,,,0,1,1,1,0,0,0,0,0
-443,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0
-444,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,1
-444,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
-445,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-446,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-447,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,0,0,0
-448,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
-449,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0
-450,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
-451,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-451,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-452,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
-453,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
-455,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,0,1
-455,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,2,0,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,2,0,0,0,0,1,0,0
-456,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,,0,0,0,1,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1
-457,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,0,0,1,0,0,0
-458,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0
-459,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-460,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0
-461,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0
-462,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-463,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,1,0,1,0,0,1
-464,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-465,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,1
-466,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
-467,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
-468,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
-469,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0
-470,36,ASD,Other,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0
-471,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,,1,1,2,1,1,2,,2,0,0,0,0,2,0,1,,1,1,1,,,,,,1,1,0,2,0,0,0,0,0
-472,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,1,1,1,0,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,1,0,0,0,1,0,0
-473,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1
-474,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0
-475,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,
-475,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
-477,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,,2,0,0,0,0,0,,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0
-478,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,1,0,1,2,0,0,0,0,0,0,,,,,,,0,,0,1,0,0,0,0,0
-480,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,1,0,1,0,0,0
-481,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,,0,2,0,1,1,0,2,0,0,0,1,0,0,0,1,1,0,,,,,,,0,1,0,0,0,1,0,1,0
-482,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,0,0
-483,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,2,1,2,2,1,2,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,0,0,0,0,0,,0,0
-484,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,0,0,2,1,0,0,0,0,0,1,1,1,1,,,,,,,0,1,1,1,0,0,0,0,2
-485,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,2,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
-486,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,,0
-487,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,,0,1,0,1,0,1,0
-488,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0
+2,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1
+2,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+3,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0
+3,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,1,2,1,1,1,1,,2,1,1,0,2,0,0,2,,1,0,2,,,,,,0,0,0,0,0,1,1,0,0
+4,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,,,,,,,0,1,1,0,0,0,0,0,0
+5,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,,0,0
+6,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0
+6,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,,1,2,,,,,,,2,1,0,0,0,2,1,1,0
+7,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+8,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0
+9,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,2,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,1,0,2
+11,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,1,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+12,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+13,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,1,1,2,,,,,,,0,1,0,1,0,1,2,1,0
+14,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+15,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,,1,1,,,,,,,0,1,0,0,0,0,0,1,0
+16,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
+16,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,2,0,1,0,0,0,2,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,,2,0
+17,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
+18,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+19,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,0,0,0,1,,1,0,1,,,,,,0,1,0,1,0,0,1,0,0
+20,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+21,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0
+21,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+22,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1
+23,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0
+24,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,1,1,0
+25,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0
+26,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,,1,0,0
+27,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
+27,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0
+28,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
+29,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0
+30,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,1
+30,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1
+31,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,,0,0,0,0
+32,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0
+33,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,2,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+34,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0
+36,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0
+37,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0
+38,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0
+39,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,3,2,,2,1,1,0,1,2,0,0,,1,1,1,,,,,,1,0,1,0,0,1,0,0,0
+40,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0
+41,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,0,0,1,0,,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+42,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+43,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,1,0
+44,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,2,,1,0,1,0,0,0
+45,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
+46,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0
+47,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,2,1,0,1,0,0,1,0,0,1,1,0,0,,,,,,,0,2,0,2,0,0,1,0,0
+48,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0
+49,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+50,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+50,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0
+51,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
+52,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1
+53,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1
+54,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,2,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+55,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,1,0,0,0,2,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,0,1,0
+57,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,2,1,0,0,0,0,0,1,1,1,0,1,0,0,1,,,,,,,0,1,2,0,0,1,1,0,1
+58,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0
+59,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,2,1,0,1,0,2,2,1,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,1,1,0,1
+60,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,1,0,2,1,1,1,1,0,0,1,0,2,1,,,,,,,0,,0,0,0,0,0,0,0
+61,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,2,2,0,0,1,0,1,0
+62,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0
+63,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0
+64,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,,0,2,0,0,3,1,0,0,0,0,0,1,2,0,1,1,,1,,,,,,,0,1,1,1,0,1,1,0,1
+64,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0
+65,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,1,2,0,0
+66,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+66,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
+67,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,0,0,0,0
+68,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,2,,,,,,,,0,0,0,0,0,2,,0
+68,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0
+69,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,,1,0,1
+69,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+70,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,1,0,0,0,0,0,0,0
+71,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,,0,1,1,0
+71,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,1,0
+72,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
+73,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0
+73,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+75,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
+75,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,0,2,,2,0,0,2,0,0,,1,,0,0,0,,,,,,1,0,0,0,0,0,2,1,0
+76,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0
+77,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,1,0
+78,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0
+79,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+79,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,999
+80,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,3,0,0
+81,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,,0,0
+82,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,,0,0,0,0,0,0,0,0
+83,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0
+84,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+84,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,,0,3,0,0
+85,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,,0,2,0,2,0,2,0
+85,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+85,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0
+86,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+87,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,3,,2,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,2,0,0,2,0,0
+87,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
+88,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+89,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,0,0,0,0,2,2,1,0,1,0,0,1,1,1,0,0,,,,,,,0,0,1,1,0,0,1,0,0
+90,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
+91,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,1,0,0,0,1,0,1
+92,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,,0,,,,,,,0,0,0,0,0,0,,1,0
+93,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+94,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,2,0,0,0,0,0,1,0
+95,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,2,1,0,1,0,1,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
+96,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,1,1,0
+97,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+98,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+99,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+100,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,1,0
+101,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,,0,0,1
+102,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
+103,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,0,0,0,0
+103,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+103,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,1,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0
+104,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,1,1,,0,0,0,0,0,0,0,0,,1,1,1,,,,,,0,1,1,1,0,0,0,0,0
+105,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,1,1,1,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+106,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0
+107,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2
+107,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
+109,36,ASD,Other,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0
+110,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,,0,1,1,1,1,0,,1,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,2
+111,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,0,0,0,0,0,2,,0
+111,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1
+112,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
+113,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+114,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,2,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0
+116,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+117,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,1,0
+118,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+119,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+120,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0
+120,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,
+120,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,1,1
+121,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,0,0,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+122,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
+123,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,1,2,0,0,,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0
+124,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,1,0,0,0,1,2,0,0
+126,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,,,,,,,0,3,0,0,0,0,0,1,0
+127,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+129,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,,0,0,1,2,0
+130,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,,,,,,,0,1,1,1,0,0,1,0,1
+131,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+132,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0
+132,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
+133,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0
+134,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,1,0,1,0,0,0,1,0,1
+136,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,0
+137,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,,0,0,1,1,1,0,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0
+138,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,1,2,0,2,0,0,1,1,0,1,0,1,0,0,2,,,,,,,1,2,2,1,,1,0,0,1
+139,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+140,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+141,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+142,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,0,1,1,0,0,0,0,1
+143,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,,,,,,,,0,0,,0,0,0,0,0,0
+144,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,1
+145,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,,0,0,0,0,0,0,0,1,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,2,0
+146,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,999
+147,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+148,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,2,1,2,2,1,0,1,2,1,0,2,1,1,2,,,,,,,0,1,0,0,0,1,1,0,0
+149,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
+150,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,2,1,1,1,0,2,1,0,1,0,0,0,1,1,1,0,,,,,,,0,1,2,1,0,1,0,0,1
+151,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+152,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0
+153,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0
+153,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1
+154,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,,,,,,,0,1,1,0,0,0,0,0,0
+155,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,2,0,1,0,0,1,0,1,1,0,,,,,,,,0,0,0,1,0,0,0,0,2
+156,36,Behavior,DD,Male,ADOS-1,younger than age 5,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0
+157,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,2,1,0,0,0,1,0,1,0,1,0,,,,,,,0,0,1,0,0,0,1,0,1
+159,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,1,0,0,0
+160,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,1,0,0
+161,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,1,0,0,1,0,0,1,0,0
+162,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1
+162,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+163,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+163,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+164,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,0,0,0,3,,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,3,0,0
+165,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
+166,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,2,0,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+167,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,2,0,0,0,,0,0,0,0,0,1,,,,,,,0,2,0,0,0,0,1,0,1
+168,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,0,1,1,2,1,2,2,1,0,1,1,0,0,1,2,1,2,,,,,,,0,2,0,1,0,1,0,0,1
+170,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+171,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,1,1,0,0,0,,0,1,1,,,,,,0,1,0,2,0,0,0,1,0
+172,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+173,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,0,3,0,0,0,0,1,0,,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
+174,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0
+175,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0
+176,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,2,0,0,1,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,,1,0
+177,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,,,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+177,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,2,0,0
+178,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,2,3,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+179,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,,0,0,0,0,0,0
+180,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0
+181,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+182,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,,0
+183,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2
+184,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,2,0,2,1,2,2,1,1,1,0,1,0,1,1,1,2,,,,,,,0,0,2,1,0,1,0,2,1
+185,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,0,0,0,1,0,0,0,0,,1,,,,,,,0,0,0,0,0,0,0,1,0
+186,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+187,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,1,0,0
+188,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,0
+189,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+190,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0
+191,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+192,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0
+193,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0
+194,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0
+195,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+196,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,0
+197,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2
+197,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0
+198,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,1,1,1,1,2,,2,1,1,1,2,0,0,1,,2,2,1,,,,,,0,1,0,0,0,1,0,0,0
+199,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+200,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,2,0,0,2,0,0
+201,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,,0,0,0,0,0,0
+202,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,999
+203,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,,0,0,0,,0,0
+204,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,1,0,0
+205,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+206,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
+207,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,1,0,0,0
+207,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0
+207,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0
+208,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,3,0,0,0,0,0,0,0
+210,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1
+210,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,0,,1,0,0,0
+211,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0
+212,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,2,1,0,1
+213,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,1,0,0,1
+214,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0
+215,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,2,1,0,0
+216,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,0,0,1,1,0,,0,1,1,0,1,,,,,,,0,0,1,0,0,1,0,0,0
+217,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,2,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+218,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1
+219,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,1,0,1,1,1,1
+220,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+221,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,0,2,0,0,1,0,0,0,1,0,1,,,,,,,,0,0,0,1,0,0,0,0,0
+222,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1
+223,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0
+223,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,0,0,0,0
+224,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,1,0,1,0,0
+225,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,3,0,1,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+225,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,1,1
+226,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,1,1,0,0,0,0,1,1,0
+227,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+228,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0
+229,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1
+230,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,2,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,,0,0,0,,2,1,0
+231,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0
+231,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0
+232,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,1,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+233,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+234,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+235,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
+236,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,0,0,0,0,0,0,0
+237,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,0,0
+238,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,0,0,0,,1,1,0,,,,,,0,1,0,0,0,1,0,0,0
+239,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,1,0
+239,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,1,1,0,0,0,0,0
+240,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0
+241,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+242,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0
+243,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,999
+244,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,1,0,0,0,,0,0
+245,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,,0,,1,0,0,,,,,,1,1,0,0,0,0,0,1,0
+246,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,,0,0
+247,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+248,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0
+249,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
+250,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,2,0,1,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,1,0
+251,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,2,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+252,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0
+253,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,1,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1
+254,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+255,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,,0,0,0,0,0,0,0,0
+255,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,0,0
+256,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,,1,,,,,,,,0,0,0,0,0,0,0,1,1
+257,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+258,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,1
+259,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,,0,0,0,0,0,0,0
+260,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+261,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+262,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+263,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+264,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0
+264,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,1,1,,0,0,0,2,0,0,0,0,,1,1,1,,,,,,0,1,0,0,0,1,0,0,0
+265,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+266,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
+267,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0
+268,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,,0,1,0
+268,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0
+269,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
+269,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,1,0,0,0,1,1,,
+270,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+271,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,1,1,,0,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0
+272,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0
+273,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+274,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2
+275,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0
+276,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0
+277,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,,0,0,0
+278,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
+279,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0
+280,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,1,0,0,1,0,0,0
+281,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+282,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,,0,0,0,0,1,0,0,0,,0,,,,,,,0,0,,0,0,0,0,0,0
+283,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,1,0,0,0,0,0,0,,,1,1,,,,,,0,0,0,1,0,0,0,0,0
+284,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+285,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,2,0,1,0,0,3,1,0,0,0,0,0,1,0,0,0,1,1,1,,,,,,,0,1,0,0,0,1,1,2,0
+286,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,1,0,,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+287,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0
+288,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,,0,0,0,1,0,0,0,0,0,1,1,0,2,,,,,,,0,,0,1,0,1,1,,0
+289,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,0,1
+289,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,,0,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,0,1,0,0,0,1,1,0,0
+290,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0
+290,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,,0,0,0,,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1
+291,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+292,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,2,0,0,2,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+293,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+294,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+295,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,999
+296,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,1,2,0,,0,1,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1
+297,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+298,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,,0,0,0,2,0,0
+299,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0
+299,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1
+300,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,,0,0,0,0,1,0,0
+301,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+302,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,,1,0,0,0,0,1
+302,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,1,0,0,0
+303,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,,0,2,0
+305,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,1,0,0
+306,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,0
+307,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0
+308,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,0,0,,2,1,0,2,0,0,0,0,,1,0,1,,,,,,0,1,1,1,0,0,0,0,0
+309,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
+310,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,2,2,1,1,2,2,1,2,0,1,0,0,0,0,1,1,1,2,,,,,,,2,2,2,0,0,,0,0,1
+313,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+315,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+316,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+316,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0
+318,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,,0,0
+319,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+320,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+321,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,,1,0,0,1,0,0,1,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,,0
+322,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0
+323,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0
+324,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0
+325,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0
+326,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
+327,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,1,0,2,1,0,0,1,,0,1,0,0,0,1,0,0,,0,0,1,,,,,,0,0,1,,0,1,0,0,0
+328,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,,0,0,0,1,0,0,,0,,0,,,,,,0,0,0,0,0,1,2,0,0
+328,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0
+329,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,1,1,2,0,0,2,1,0,0,0,1,0,1,0,1,2,,,,,,,0,0,1,1,,2,0,0,0
+330,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
+331,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0
+332,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+332,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1
+333,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+335,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0
+336,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,2,0,0,0,0,1,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,0,0,1,0
+337,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+337,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
+338,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0
+339,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,1,2,0,2,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,0,0,1,0,0,1,0,1
+340,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1
+340,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,,0,0,1,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0
+341,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,0,0
+342,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,2,0,0,0,0,0
+343,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,0,,,,,,,1,0,0,0,0,0,0,0,0
+344,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+345,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,1,1,
+346,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,1,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,,0,0,0
+347,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,2,2,1,2,1,1,,2,1,1,0,2,0,0,2,,0,2,2,,,,,,0,1,0,0,0,1,1,,0
+348,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1
+349,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,1,1,2,1
+350,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,,1,2,2,0
+351,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,,0,0,0
+352,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+353,24,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,999,999,999
+353,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0
+354,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1
+354,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,3,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0
+355,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,0,1,1,0,0,1,0,1,1,0,0,1,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+356,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,2,0,0,0
+357,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,2,0,0,0,0,1,1,0
+358,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,1,0
+359,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+360,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,,1,2,0
+361,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,1,0,1,1
+362,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+363,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0
+364,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0
+365,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,2,,0,0,0,1,0,0,1,1,,1,1,1,,,,,,0,1,0,0,,2,0,0,0
+366,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0
+367,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,2,0,0,1,,0,1,1,,,,,,0,0,0,0,0,1,0,0,0
+368,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,0,0,1,0,,2,0,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,2,0,1,0,0,0
+369,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0
+370,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+371,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,0,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+372,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,0,0
+373,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0
+374,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+375,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,1,2,,0,0,0,1,0,0,0,1,,0,1,1,,,,,,0,0,0,2,0,2,1,0,0
+376,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,1,0,0,0,0,0
+377,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,
+378,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,2,0,0,0,0,1,0
+379,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+379,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,2,0,0,0,0,0,0,,,,,,,,0,0,0,1,0,1,0,1,0
+380,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0
+381,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,,0,2,0,1,,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1
+381,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+382,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,0,0,0,0,1,0,0,0
+383,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0
+384,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0
+385,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,1,1,0,0
+386,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,999,0
+387,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,2,0,0,0,0,0,0,0
+388,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0
+389,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,2,0,1,1,0,2,0,1,0,1,0,0,1,0,1,1,,,,,,,0,1,0,0,0,1,1,1,0
+390,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,1,1,1,1,1,0,0,0,,,,,,,0,0,1,2,0,1,0,0,0
+391,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+392,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,,0
+393,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+394,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0
+395,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,1,0,1,0,1,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+396,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,1,0
+397,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,1,0,0,1,1,1,,2,0,0,1,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,1
+399,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1
+399,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+400,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,1
+401,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,0,0
+402,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+402,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0
+403,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,2,0,0,0
+404,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,0
+405,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+406,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,1,,1,0,1
+407,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0
+408,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+409,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,2,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0
+410,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,2,2,0,2,,0,0,0,1,1,2,0,0,,1,0,0,,,,,,1,1,1,0,0,1,1,0,0
+411,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+412,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,0,0
+413,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,1,0,0
+414,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0
+414,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0
+415,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,1,0,0,0,1,0
+416,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+416,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+417,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,1
+418,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+419,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,1,1
+420,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,3,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0
+421,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,1,,0,1,0,2,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0
+423,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,1,1,2,0,0,2,0,1,0,2,1,0,0,0,1,1,,,,,,,1,0,0,1,0,1,0,2,0
+424,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0
+425,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0
+425,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+426,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,1,1,0,0
+427,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,1,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+428,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+430,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0
+431,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0
+431,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+432,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+433,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,,0,0,1,0,0,0,999,0,0
+434,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,2,1,0,1,1,,2,1,0,0,2,0,0,1,,2,2,2,,,,,,0,1,0,0,0,1,0,0,0
+435,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,1,0,0,1,,0,1,2,,,,,,0,1,0,0,0,1,0,0,0
+436,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1
+437,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,999,0,0
+438,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,2,2,0,1,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0
+439,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,,0,,,,,,0,0,0,0,0,0,1,0,0
+440,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,1,0
+441,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,0,1,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1
+442,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,2,1,,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1
+443,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+445,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,1
+446,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+446,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0
+447,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+448,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,0
+449,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,1,2,1,0,,2,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,1,0
+450,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,,0,0,0,0,0
+451,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,2,0,0,0,1,,0,1,0,,,,,,1,0,0,0,0,0,0,0,1
+452,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0
+453,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,
+454,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,1,2,1,2,,0,2,1,1,1,2,0,1,,1,0,1,,,,,,0,1,0,2,0,0,0,0,0
+456,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,,1,0,0,,0,0,0,,,,,,0,0,1,0,0,0,1,0,0
+457,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0
+459,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0,0
+460,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0
+460,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,1,0,0,0
+461,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+462,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0
+463,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0
+464,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,1,0
+465,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0
+466,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,1
+467,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,1,0,0,0,0,0,0,0
+468,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,1,0,0,1,0,0,0,1,0
+469,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,2,1,1,0,0,0,0,0,0,1,0,1,1,1,0,1,,,,,,,0,1,0,0,0,0,0,1,1
+470,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,2,2,1,2,1,0,2,1,1,0,2,1,0,1,1,0,0,,,,,,,0,0,0,0,0,2,0,0,0
+471,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0
+472,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+473,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,1,0,0,1,0,0,0,0,0
+474,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,,0,0,2,0,1,0,0,,0,0,0,,,,,,0,0,,0,0,0,0,0,0
+475,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0
+475,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0
+476,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+477,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0
+477,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0
+478,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,1,1,1,0,0,0,0,0
+479,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0
+479,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0
+480,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1
+481,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,,,,,,,,0,0,0,0,0,0,1,2,0
+482,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,1,0,0,0,1,0,0,1,0,1,0,0,,,,,,,,0,1,1,0,0,0,1,0,0
+484,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0
+485,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+486,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,,0,2,0,0,,0,0,,0,0,1,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0
+486,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0
+487,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0
+488,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0
+489,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,1,1
+490,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,999,0
+491,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,2,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0
+492,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,1,1,3,0,0,0,0,1,0,0,0,1,0,2,0,,,,,,,0,1,1,1,0,0,1,0,
+493,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0
+494,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0

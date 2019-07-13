@@ -13,6 +13,8 @@ library(kableExtra)
 adosm1 <- read.csv('./datasets/adosm1_scored.csv', stringsAsFactors = FALSE)
 ```
 
+# Data Analysis
+
 ## Basic Stats functions
 
 ### Mean, Median, Standard Deviation, Summary

@@ -19,23 +19,3 @@ By giving you an overview of the most useful functions, in the lens of close-to-
 
 As with everything else, the best way to learn R is through **consistent** practice with a real world project.
 
-# Part 1: Introduction and Data Exploration
-
-<hr />
-## Goals
-By the end of this document, you will be able to:
-
-1. Learn about the fundamental R Datatypes
-2. Read a CSV file into your R environment
-3. Write from your R environment to a CSV file
-4. Explore different attributes of a dataframe
-    - column names
-    - row names
-    - more with `attributes()`
-    - Subset a dataframe by rows and columns
-    - Filter a dataframe by the values of a column
-5. Use two data exploration and cleaning functions
-    - Frequency counts of unique values with `table()`
-    - Search for any duplicates within your data with `duplicated()`
-
-In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.
