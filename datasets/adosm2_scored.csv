@@ -1,537 +1,548 @@
-id,visit,cbe_36,recruitment_group,gender,ados_version,ados_algorithm,ados_a1,ados_a2,ados_a3,ados_a4,ados_a5,ados_a6,ados_a7,ados_a8,ados_b1,ados_b2,ados_b3,ados_b4,ados_b5,ados_b6,ados_b7,ados_b8,ados_b9,ados_b10,ados_b11,ados_b12,ados_b13a,ados_b13b,ados_b14,ados_b15,ados_b16,ados_c1,ados_c2,ados_d1,ados_d2,ados_d3,ados_d4,ados_e1,ados_e2,ados_e3,ados_module,ados_sa_total,ados_rrb_total,ados_sarb_total
-2,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
-2,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,1,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
-3,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-3,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,1,2,1,1,1,1,,2,1,1,0,2,0,0,2,,1,0,2,,,,,,0,0,0,0,0,1,1,0,0,module 2,12,2,14
-4,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,,,,,,,0,1,1,0,0,0,0,0,0,module 2,3,1,4
-5,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,,0,0,module 2,1,1,2
-6,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,1,0,1
-6,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
-7,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-8,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-9,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,2,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,1,0,2,module 2,1,1,2
-11,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,1,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1
-12,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-13,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,1,1,2,,,,,,,0,1,0,1,0,1,2,1,0,module 2,4,2,6
-14,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-15,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,,1,1,,,,,,,0,1,0,0,0,0,0,1,0,module 2,3,1,4
-16,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-16,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,2,0,1,0,0,0,2,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,,2,0,module 2,4,2,6
-17,36,Speech-Language Problems or Delay,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2
-18,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-19,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,0,0,0,1,,1,0,1,,,,,,0,1,0,1,0,0,1,0,0,module 2,4,1,5
-20,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-21,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
-21,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-22,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,1,1,2
-23,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-24,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,1,1,0,module 2,0,1,1
-25,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0,module 2,1,2,3
-26,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,,1,0,0,module 2,0,0,0
-27,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-27,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
-28,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-29,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2
-30,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,1,module 2,2,0,2
-30,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3
-31,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,,0,0,0,0,module 2,1,0,1
-32,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
-33,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,2,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
-34,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-36,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
-37,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
-38,36,ASD,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,3,10
-39,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,3,2,,2,1,1,0,1,2,0,0,,1,1,1,,,,,,1,0,1,0,0,1,0,0,0,module 2,13,2,15
-40,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
-41,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,0,0,1,0,,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-42,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-43,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-44,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,2,,1,0,1,0,0,0,module 2,2,2,4
-45,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-46,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-47,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,2,1,0,1,0,0,1,0,0,1,1,0,0,,,,,,,0,2,0,2,0,0,1,0,0,module 2,6,2,8
-48,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,3,1,4
-49,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-50,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-50,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
-51,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-52,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
-53,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,0,0,0
-54,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,2,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-55,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,1,0,0,0,2,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,0,1,0,module 2,5,1,6
-57,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,2,1,0,0,0,0,0,1,1,1,0,1,0,0,1,,,,,,,0,1,2,0,0,1,1,0,1,module 2,4,5,9
-58,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,0,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,0,3
-59,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,2,1,0,1,0,2,2,1,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,1,1,0,1,module 2,7,1,8
-60,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,1,0,2,1,1,1,1,0,0,1,0,2,1,,,,,,,0,,0,0,0,0,0,0,0,module 2,10,1,11
-61,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,,0,2,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,2,2,0,0,1,0,1,0,module 2,4,3,7
-62,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
-63,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0,module 2,2,2,4
-64,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,,0,2,0,0,3,1,0,0,0,0,0,1,2,0,1,1,,1,,,,,,,0,1,1,1,0,1,1,0,1,module 2,6,3,9
-64,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
-65,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,1,2,0,0,module 2,1,1,2
-66,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-66,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
-67,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,0,0,0,0,module 2,3,2,5
-68,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,2,,,,,,,,0,0,0,0,0,2,,0,module 2,4,0,4
-68,sa2,Learning Difficulties,ASD risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12
-69,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,,1,0,1,module 2,3,0,3
-69,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-70,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,1,0,0,0,0,0,0,0,module 2,0,0,0
-71,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,,0,1,1,0,module 2,2,0,2
-71,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,1,0,module 2,1,0,1
-72,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-73,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
-73,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-75,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-75,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,0,2,,2,0,0,2,0,0,,1,,0,0,0,,,,,,1,0,0,0,0,0,2,1,0,module 2,5,0,5
-76,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-77,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,1,0,module 2,5,0,5
-78,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-79,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-79,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,,module 2,3,0,3
-80,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,3,0,0,module 2,1,1,2
-81,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,,0,0,module 2,2,0,2
-82,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,,0,0,0,0,0,0,0,0,module 2,3,0,3
-83,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,3,0,3
-84,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-84,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,,0,3,0,0,module 2,1,0,1
-85,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,,0,2,0,2,0,2,0,module 2,6,4,10
-85,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-85,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
-86,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-87,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,3,,2,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,2,0,0,2,0,0,module 2,5,2,7
-87,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-88,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
-89,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,1,1,0,0,0,0,2,2,1,0,1,0,0,1,1,1,0,0,,,,,,,0,0,1,1,0,0,1,0,0,module 2,6,2,8
-90,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-91,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,1,0,0,0,1,0,1,module 2,1,1,2
-92,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,3,0,3
-93,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-94,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,2,0,0,0,0,0,1,0,module 2,0,0,0
-95,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,2,1,0,1,0,1,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,2,6
-96,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,1,1,0,module 2,3,1,4
-97,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-98,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-99,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-100,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,1,1,0,module 2,2,1,3
-101,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,,0,0,1,module 2,2,0,2
-102,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-103,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,0,3
-103,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-103,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,1,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-104,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,1,1,,0,0,0,0,0,0,0,0,,1,1,1,,,,,,0,1,1,1,0,0,0,0,0,module 2,4,2,6
-105,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,1,1,1,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-106,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
-107,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,1,0,1
-107,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-109,36,ASD,Other,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9
-110,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,,0,1,1,1,1,0,,1,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,2,module 2,5,1,6
-111,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,2,,,,,,0,0,0,0,0,0,2,,0,module 2,2,0,2
-111,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,0,0,0
-112,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
-113,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-114,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,,0,0,0,2,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,8,0,8
-116,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-117,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,1,6
-118,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-119,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,5,1,6
-120,24,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10
-120,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2
-120,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,1,1,module 2,3,2,5
-121,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,0,0,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4
-122,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-123,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,1,2,0,0,,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3
-124,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,1,0,0,0,1,2,0,0,module 2,3,1,4
-126,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,,,,,,,0,3,0,0,0,0,0,1,0,module 2,1,1,2
-127,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-129,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,,0,0,1,2,0,module 2,3,0,3
-130,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,,,,,,,0,1,1,1,0,0,1,0,1,module 2,1,2,3
-131,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,1,2
-132,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-132,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
-133,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10
-134,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,1,0,1,0,0,0,1,0,1,module 2,1,1,2
-136,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,1,0,1
-137,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,,0,0,1,1,1,0,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,0,0,0,module 2,3,1,4
-138,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,1,2,0,2,0,0,1,1,0,1,0,1,0,0,2,,,,,,,1,2,2,1,,1,0,0,1,module 2,7,5,12
-139,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-140,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-141,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,1,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-142,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,0,1,1,0,0,0,0,1,module 2,1,3,4
-143,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
-144,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,1,module 2,5,1,6
-145,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,,0,0,0,0,0,0,0,1,0,1,1,1,2,,,,,,,0,0,0,0,0,0,0,2,0,module 2,5,1,6
-146,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,,module 2,1,0,1
-147,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-148,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,2,1,2,2,1,0,1,2,1,0,2,1,1,2,,,,,,,0,1,0,0,0,1,1,0,0,module 2,14,2,16
-149,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4
-150,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,0,2,1,1,1,0,2,1,0,1,0,0,0,1,1,1,0,,,,,,,0,1,2,1,0,1,0,0,1,module 2,6,5,11
-151,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,1,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
-152,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
-153,24,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6
-153,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
-154,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,3,2,5
-155,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,1,0,2,0,1,0,0,1,0,1,1,0,,,,,,,,0,0,0,1,0,0,0,0,2,module 2,6,2,8
-156,36,Behavior,DD,Male,ADOS-1,younger than age 5,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0,module 2,1,1,2
-157,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,2,1,0,0,0,1,0,1,0,1,0,,,,,,,0,0,1,0,0,0,1,0,1,module 2,7,2,9
-159,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
-160,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-161,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,1,0,0,1,0,0,1,0,0,module 2,3,1,4
-162,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-162,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-163,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-163,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-164,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,1,,0,0,0,3,,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,3,0,0,module 2,3,1,4
-165,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-166,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,1,0,0,2,0,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
-167,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,2,0,0,0,,0,0,0,0,0,1,,,,,,,0,2,0,0,0,0,1,0,1,module 2,4,0,4
-168,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,0,1,1,2,1,2,2,1,0,1,1,0,0,1,2,1,2,,,,,,,0,2,0,1,0,1,0,0,1,module 2,11,3,14
-170,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-171,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,1,1,0,0,0,,0,1,1,,,,,,0,1,0,2,0,0,0,1,0,module 2,3,2,5
-172,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-173,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,0,3,0,0,0,0,1,0,,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,4,1,5
-174,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-175,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0,module 2,2,0,2
-176,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,2,0,0,1,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,4,0,4
-177,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,,,,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-177,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,2,0,0,module 2,0,0,0
-178,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,2,3,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-179,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,,0,0,0,0,0,0,module 2,3,0,3
-180,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-181,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-182,36,BAP,Other,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,,0,module 2,2,2,4
-183,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0
-184,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,2,0,2,1,2,2,1,1,1,0,1,0,1,1,1,2,,,,,,,0,0,2,1,0,1,0,2,1,module 2,12,4,16
-185,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,0,0,0,1,0,0,0,0,,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,0,4
-186,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-187,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,1,0,0,module 2,3,1,4
-188,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-189,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-190,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-191,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,0,0,0
-192,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0,module 2,1,0,1
-193,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-194,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
-195,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-196,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3
-197,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0
-197,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
-198,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,1,1,1,1,2,,2,1,1,1,2,0,0,1,,2,2,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,13,2,15
-199,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-200,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,2,0,0,2,0,0,module 2,3,2,5
-201,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,,0,0,0,0,0,0,module 2,0,0,0
-202,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,0,0,0
-203,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,,0,0,0,,0,0,module 2,1,0,1
-204,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,1,0,0,module 2,2,1,3
-205,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-206,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-207,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,,0,0,0,1,0,0,0,module 2,2,1,3
-207,30,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5
-207,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,1,0,1
-208,36,Typically Developing,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,3,0,0,0,0,0,0,0,module 2,1,0,1
-210,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
-210,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,0,,1,0,0,0,module 2,4,1,5
-211,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7
-212,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,2,1,0,1,module 2,0,3,3
-213,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,1,0,0,1,module 2,2,2,4
-214,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0,module 2,3,2,5
-215,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,2,1,0,0,module 2,1,2,3
-216,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,1,0,0,0,1,1,0,,0,1,1,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,4,3,7
-217,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,2,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-218,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
-219,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,1,0,1,1,1,1,module 2,1,2,3
-220,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2
-221,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,2,0,1,0,0,2,0,0,1,0,0,0,1,0,1,,,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,1,5
-222,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2
-223,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
-223,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,,0,0,0,0,module 2,3,0,3
-224,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,1,0,0,1,0,1,0,0,module 2,3,0,3
-225,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,3,0,1,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-225,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,1,1,module 2,1,2,3
-226,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,1,1,0,0,0,0,1,1,0,module 2,1,0,1
-227,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-228,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,1,4
-229,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,2,1,3
-230,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,2,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,,0,0,0,,2,1,0,module 2,4,0,4
-231,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-231,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
-232,36,ADHD Concerns,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,1,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-233,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,,0,,3,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-234,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-235,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
-236,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,0,0,0,0,0,0,0,module 2,2,1,3
-237,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2
-238,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,1,0,0,0,,1,1,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,4,1,5
-239,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,1,0,module 2,2,0,2
-239,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,1,1,0,0,0,0,0,module 2,2,2,4
-240,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,module 2,0,1,1
-241,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-242,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-243,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2
-244,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,1,0,0,0,,0,0,module 2,2,1,3
-245,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,,0,,1,0,0,,,,,,1,1,0,0,0,0,0,1,0,module 2,1,0,1
-246,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,,0,0,module 2,3,1,4
-247,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2
-248,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-249,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,3,1,4
-250,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,2,0,1,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,4,1,5
-251,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,2,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-252,36,Anxiety or Mood Problems,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3
-253,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,2,1,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-254,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2
-255,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,,0,0,0,0,0,0,0,0,module 2,3,0,3
-255,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,0,0,module 2,1,1,2
-256,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,,1,,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2
-257,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-258,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,1,module 2,3,0,3
-259,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,2,0,2
-260,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-261,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,0,,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-262,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
-263,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,2,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4
-264,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-264,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,0,2,1,1,,0,0,0,2,0,0,0,0,,1,1,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,4,1,5
-265,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
-266,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-267,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
-268,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,,0,1,0,module 2,1,0,1
-268,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-269,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,3,0,3
-269,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,1,0,0,0,1,1,,,module 2,1,1,2
-270,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0
-271,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,1,1,,0,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,4,1,5
-272,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
-273,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-274,36,Anxiety or Mood Problems,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2
-275,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,2,0,0,0,0,0,module 2,1,2,3
-276,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
-277,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,1,0,,0,0,0,module 2,1,1,2
-278,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-279,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-280,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,0,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,0,1,0,0,1,0,0,0,module 2,1,2,3
-281,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-282,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,,0,0,0,0,1,0,0,0,,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
-283,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,1,0,0,0,0,0,0,,,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,1,5
-284,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-285,36,Speech-Language Problems or Delay,DD,Female,ADOS-1,younger than age 5,2,0,1,0,0,3,1,0,0,0,0,0,1,0,0,0,1,1,1,,,,,,,0,1,0,0,0,1,1,2,0,module 2,4,1,5
-286,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,1,0,,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-287,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,1,0,module 2,1,2,3
-288,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,,0,0,0,1,0,0,0,0,0,1,1,0,2,,,,,,,0,,0,1,0,1,1,,0,module 2,4,2,6
-289,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,0,1,module 2,3,1,4
-289,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,,0,,0,0,0,0,1,0,0,1,,1,0,0,,,,,,0,1,0,0,0,1,1,0,0,module 2,2,1,3
-290,24,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-290,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,,0,0,0,,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,1,1,2
-291,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-292,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,2,0,0,2,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-293,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0
-294,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-295,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,1,0,1
-296,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,1,2,0,,0,1,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,4,1,5
-297,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2
-298,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,,0,0,0,2,0,0,module 2,1,0,1
-299,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0,module 2,2,0,2
-299,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,0,1,1
-300,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,,0,0,0,0,1,0,0,module 2,1,0,1
-301,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-302,30,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,,1,0,0,0,0,1,module 2,2,1,3
-302,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,2,2,4
-303,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,,0,2,0,module 2,3,2,5
-305,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
-306,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3
-307,36,ADHD Concerns,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,3,0,3
-308,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,2,0,1,0,0,,2,1,0,2,0,0,0,0,,1,0,1,,,,,,0,1,1,1,0,0,0,0,0,module 2,4,2,6
-309,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4
-310,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,0,2,2,1,1,2,2,1,2,0,1,0,0,0,0,1,1,1,2,,,,,,,2,2,2,0,0,,0,0,1,module 2,10,3,13
-313,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,0,0,0
-315,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-316,24,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-316,36,Other Externalizing Behavior Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,2,0,2
-318,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,,0,0,module 2,1,1,2
-319,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-320,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1
-321,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,,1,0,0,1,0,0,1,,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,,0,module 2,3,0,3
-322,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
-323,36,Broader Autism Phenotype,Typical,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8
-324,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2
-325,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-326,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-327,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,1,0,2,1,0,0,1,,0,1,0,0,0,1,0,0,,0,0,1,,,,,,0,0,1,,0,1,0,0,0,module 2,4,3,7
-328,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,,0,0,0,1,0,0,,0,,0,,,,,,0,0,0,0,0,1,2,0,0,module 2,1,1,2
-328,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,3,0,3
-329,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,2,1,1,1,2,0,0,2,1,0,0,0,1,0,1,0,1,2,,,,,,,0,0,1,1,,2,0,0,0,module 2,8,5,13
-330,36,ADHD Concerns,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-331,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7
-332,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-332,36,Anxiety or Mood Problems,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2
-333,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-335,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3
-336,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,1,1,2,0,0,0,0,1,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,1,5
-337,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-337,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-338,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,0,1,1
-339,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,1,0,1,2,0,2,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,0,0,1,0,0,1,0,1,module 2,3,2,5
-340,30,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3
-340,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,,0,0,1,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1
-341,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,1,2,3
-342,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4
-343,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1
-344,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,4,0,4
-345,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,1,1,,module 2,4,1,5
-346,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,1,0,0,0,,0,0,0,0,,,,,,,0,1,0,0,0,,0,0,0,module 2,2,0,2
-347,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,2,2,1,2,1,1,,2,1,1,0,2,0,0,2,,0,2,2,,,,,,0,1,0,0,0,1,1,,0,module 2,14,2,16
-348,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,0,0,0
-349,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,1,1,2,1,module 2,3,1,4
-350,36,ASD,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,,1,2,2,0,module 2,8,2,10
-351,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,,0,0,0,module 2,2,0,2
-352,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-353,24,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,,,,module 2,1,0,1
-353,36,Behavior,DD,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3
-354,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
-354,36,ADHD Concerns,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,3,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-355,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,0,1,1,0,0,1,0,1,1,0,0,1,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4
-356,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,2,0,0,0,module 2,3,3,6
-357,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,2,0,0,0,0,1,1,0,module 2,2,0,2
-358,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,4,0,4
-359,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-360,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,,1,2,0,module 2,1,0,1
-361,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,1,0,1,1,module 2,1,3,4
-362,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-363,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3
-364,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-365,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,1,2,,0,0,0,1,0,0,1,1,,1,1,1,,,,,,0,1,0,0,,2,0,0,0,module 2,6,2,8
-366,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0,module 2,2,0,2
-367,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,2,0,0,1,,0,1,1,,,,,,0,0,0,0,0,1,0,0,0,module 2,11,2,13
-368,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,0,0,1,0,,2,0,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,2,0,1,0,0,0,module 2,6,3,9
-369,36,Speech-Language Problems,Typical,Male,ADOS-2,younger than age 5,0,,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7
-370,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-371,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,0,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-372,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,1,1,0,0,0,0,0,module 2,1,2,3
-373,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
-374,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-375,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,1,2,,0,0,0,1,0,0,0,1,,0,1,1,,,,,,0,0,0,2,0,2,1,0,0,module 2,6,5,11
-376,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,1,0,0,0,0,0,module 2,1,1,2
-377,36,Other Externalizing Behavior Problems,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,,module 2,3,2,5
-378,36,Other Externalizing Behavior Problems,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,2,0,0,0,0,1,0,module 2,2,2,4
-379,30,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-379,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,2,0,0,0,0,0,0,,,,,,,,0,0,0,1,0,1,0,1,0,module 2,1,2,3
-380,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,0,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-381,24,"",ASD risk,Female,ADOS-1,younger than age 5,0,0,1,,0,2,0,1,,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3
-381,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-382,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-383,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,,0,module 2,3,0,3
-384,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,0,0,0
-385,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,1,1,0,0,module 2,0,1,1
-386,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,1,0,,0,module 2,1,2,3
-387,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,2,0,0,0,0,0,0,0,module 2,2,0,2
-388,36,"",ADHD risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1
-389,36,BAP,Typical,Male,ADOS-1,younger than age 5,0,1,0,2,0,1,1,0,2,0,1,0,1,0,0,1,0,1,1,,,,,,,0,1,0,0,0,1,1,1,0,module 2,8,1,9
-390,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,2,0,0,1,1,1,1,1,0,0,0,,,,,,,0,0,1,2,0,1,0,0,0,module 2,6,4,10
-391,36,ADHD Concerns,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-392,36,Autism Spectrum Disorder,ADHD risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,,0,module 2,4,3,7
-393,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-394,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3
-395,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,1,0,1,1,0,1,0,1,0,0,0,1,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-396,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,2,1,3
-397,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,1,1,0,0,1,1,1,,2,0,0,1,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,1,module 2,6,0,6
-399,24,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1
-399,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-400,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,1,module 2,2,0,2
-401,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,5,1,6
-402,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-402,36,Other Externalizing Behavior Problems,ASD risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,1,0,2,0,module 2,4,2,6
-403,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,2,0,0,0,module 2,2,2,4
-404,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,,,,,,,0,0,0,0,0,0,,0,0,module 2,3,0,3
-405,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-406,36,ADHD Concerns,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,1,,1,0,1,module 2,3,0,3
-407,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2
-408,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-409,36,Typically Developing,ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,2,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3
-410,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,0,2,2,0,2,,0,0,0,1,1,2,0,0,,1,0,0,,,,,,1,1,1,0,0,1,1,0,0,module 2,5,4,9
-411,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3
-412,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,1,0,0,0,module 2,3,2,5
-413,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,1,0,1
-414,24,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3
-414,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,0,module 2,5,0,5
-415,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,1,0,,,,,,,0,0,0,1,0,0,0,1,0,module 2,1,1,2
-416,24,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-416,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-417,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,1,module 2,1,0,1
-418,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,0,0,0,0,0,0,,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-419,36,BAP,Typical,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,1,1,module 2,4,1,5
-420,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,3,1,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4
-421,36,Broader Autism Phenotype,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,0,1,0,1,,0,1,0,2,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,5,1,6
-423,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,1,1,1,2,0,0,2,0,1,0,2,1,0,0,0,1,1,,,,,,,1,0,0,1,0,1,0,2,0,module 2,8,3,11
-424,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,0,1,1
-425,24,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0,module 2,0,0,0
-425,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-426,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,1,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,1,1,0,0,module 2,1,3,4
-427,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,1,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-428,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-430,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2
-431,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
-431,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-432,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-433,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,,0,0,1,0,0,0,,0,0,module 2,0,1,1
-434,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,0,1,2,1,0,1,1,,2,1,0,0,2,0,0,1,,2,2,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,12,2,14
-435,36,Autism Spectrum Disorder,ASD risk,Female,ADOS-2,younger than age 5,1,2,2,1,1,1,2,,2,1,0,1,1,0,0,1,,0,1,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,11,2,13
-436,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,3,0,3
-437,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,,0,0,module 2,1,0,1
-438,36,Broader Autism Phenotype,ASD risk,Female,ADOS-2,younger than age 5,1,0,0,2,2,0,1,,2,0,0,0,1,0,0,0,,1,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,6,3,9
-439,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1
-440,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,3,1,4
-441,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,0,1,0,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,0,1,module 2,3,2,5
-442,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,2,1,,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3
-443,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,7,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-445,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,2,0,2
-446,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-446,sa1,ASD,ASD risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16
-447,36,Speech-Language Problems or Delay,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-448,36,ADHD Concerns,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,,0,0,module 2,0,0,0
-449,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,1,2,1,0,,2,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,1,6
-450,36,Learning Difficulties,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,,0,0,0,0,0,module 2,3,0,3
-451,36,Anxiety or Mood Problems,ADHD risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,2,0,0,0,1,,0,1,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,2,0,2
-452,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,1,1,2
-453,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,,module 2,2,0,2
-454,36,Autism Spectrum Disorder,ASD risk,Male,ADOS-2,younger than age 5,0,1,1,1,2,1,2,,0,2,1,1,1,2,0,1,,1,0,1,,,,,,0,1,0,2,0,0,0,0,0,module 2,11,3,14
-456,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,0,0,1,,1,0,0,,0,0,0,,,,,,0,0,1,0,0,0,1,0,0,module 2,2,1,3
-457,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1
-459,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-460,24,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,5,0,5
-460,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,2,1,3
-461,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-462,36,"",ADHD risk,Female,ADOS-2,younger than age 5,0,0,1,0,,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1
-463,36,Typically Developing,ASD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2
-464,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,1,0,module 2,1,0,1
-465,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1
-466,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3
-467,36,Speech-Language Problems or Delay,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-468,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,1,0,0,1,0,0,0,1,0,module 2,0,1,1
-469,36,BAP,ASD risk,Male,ADOS-1,younger than age 5,0,0,0,2,1,1,0,0,0,0,0,0,1,0,1,1,1,0,1,,,,,,,0,1,0,0,0,0,0,1,1,module 2,3,1,4
-470,36,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,1,2,2,1,2,1,0,2,1,1,0,2,1,0,1,1,0,0,,,,,,,0,0,0,0,0,2,0,0,0,module 2,9,3,12
-471,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2
-472,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3
-473,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,1,0,0,1,0,0,0,0,0,module 2,1,1,2
-474,36,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,,0,0,2,0,1,0,0,,0,0,0,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2
-475,36,Typically Developing,ADHD risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,1,1
-475,sa1,"",ASD risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9
-476,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0
-477,24,"",Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,1,2,3
-477,36,Typically Developing,Typical,Male,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0
-478,36,Speech-Language Problems or Delay,Typical,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,1,1,1,0,0,0,0,0,module 2,2,2,4
-479,30,ASD,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2
-479,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3
-480,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,1,module 2,1,1,2
-481,36,Other Externalizing Behavior Problems,Typical,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,,,,,,,,0,0,0,0,0,0,1,2,0,module 2,2,0,2
-482,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,2,1,0,0,0,1,0,0,1,0,1,0,0,,,,,,,,0,1,1,0,0,0,1,0,0,module 2,4,2,6
-484,36,Speech-Language Problems,ASD risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5
-485,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-486,24,Typically Developing,ASD risk,Female,ADOS-2,younger than age 5,1,0,,0,2,0,0,,0,0,,0,0,1,0,1,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2
-486,36,Typically Developing,ASD risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-487,36,BAP,DD,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4
-488,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2
-489,36,Typically Developing,ASD risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,1,1,module 2,1,1,2
-490,36,Typically Developing,Typical,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,module 2,2,0,2
-491,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,1,0,0,0,2,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3
-492,36,BAP,ASD risk,Female,ADOS-1,younger than age 5,1,0,1,0,1,1,3,0,0,0,0,1,0,0,0,1,0,2,0,,,,,,,0,1,1,1,0,0,1,0,,module 2,5,3,8
-493,36,Typically Developing,Typical,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1
-494,36,Typically Developing,Typical,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1
+id,visit,cbe_36,recruitment_group,gender,ados_version,ados_algorithm,ados_a1,ados_a2,ados_a3,ados_a4,ados_a5,ados_a6,ados_a7,ados_a8,ados_b1,ados_b2,ados_b3,ados_b4,ados_b5,ados_b6,ados_b7,ados_b8,ados_b9,ados_b10,ados_b11,ados_b12,ados_b13a,ados_b13b,ados_b14,ados_b15,ados_b16,ados_c1,ados_c2,ados_d1,ados_d2,ados_d3,ados_d4,ados_e1,ados_e2,ados_e3,ados_module,ados_sa_total,ados_rrb_total,ados_sarb_total,ados_fake_score1,ados_fake_score2,ados_fake_score3,ados_fake_lin_outcome
+1,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,2,1,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,1,3,-1.06513001233751,0.998584319561842,-0.953472998593783,6.05911630251721
+2,30,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,,0,0,1,module 2,1,1,2,-0.233537766961697,0.900076820103599,0.780432406855416,3.73052702877133
+2,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,1,0,0,1,0,0,0,1,0,module 2,2,1,3,-1.1556814285998,0.0127771525174722,0.818968999967239,3.58697072150164
+3,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,1,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.0778015368781111,-0.711836888315448,0.59828690730552,-3.07853193481631
+4,36,ASD,High risk,Female,ADOS-2,younger than age 5,1,2,2,1,2,1,1,,2,1,0,0,0,0,0,2,,2,0,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,9,2,11,0.838830851618863,-0.00280143448524294,0.755983066739106,-3.54894086245535
+5,36,ASD,High risk,Male,ADOS-1,younger than age 5,1,2,1,1,1,2,1,0,0,1,0,1,0,1,0,1,1,1,1,,,,,,,0,0,0,0,0,1,0,0,0,module 2,6,2,8,0.794871780428569,-2.20509530934819,-0.581797460949316,-7.75678839837012
+6,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2,0.217227810140535,-0.706148145773726,-0.630454032231971,-2.29530209253152
+7,24,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6,-0.251821810054052,-0.565749026496369,-0.185428752252199,0.306891867984649
+7,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,1,0,0,0,1,0,0,0,module 2,0,1,1,0.745706692508916,3.0049988975642,0.0196468965329251,5.28585547311393
+8,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4,-0.759806069561708,-0.91310093356185,-0.398245246513136,-0.57773622112405
+9,36,"",Low risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1,0.373941871253689,-1.73692710360518,-0.660201961268828,-6.78180083086752
+10,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,,0,module 2,4,0,4,-0.000107608552339972,0.919656433270383,0.961065038044944,4.70206372392907
+12,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2,0.846644012903621,0.440231013607461,-0.0286812162835014,0.305520865869665
+13,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8,-0.341035264587833,-1.05334854562198,0.0509183352590233,-2.57343721809509
+14,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,1,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,4,1,5,0.641367497645903,-0.459113330278108,0.0877999171584061,-4.85185889320006
+15,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,1,1,module 2,3,1,4,-0.153068581951372,-0.0535951014717693,1.64082806773042,1.29071519158249
+16,36,TD,High risk,Male,ADOS-2,younger than age 5,,0,0,0,2,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2,-1.1446887350466,-1.00969541497158,0.0654761984404955,1.27497247441085
+17,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,1,4,-1.11052180198493,0.98486880580372,0.590141503253126,6.09760579359346
+18,36,"",Low risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1,-1.21985526700673,0.137465974094928,2.65306022145912,5.21976812809321
+19,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3,0.64204936189991,0.56092153051704,2.30579314765598,1.07396567231374
+20,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,,0,1,,,,,,,,0,0,1,0,1,1,0,0,module 2,3,2,5,-0.162688598838452,-1.1385350036267,0.764100868582634,-1.40953164211066
+21,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,1,module 2,2,1,3,-0.510402985427228,0.180758266711972,1.09962956296304,1.62558306233952
+22,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,0,0,2,0,0,0,1,,0,1,1,0,0,,,,,,,0,1,0,0,0,1,1,1,0,module 2,4,1,5,0.185849503983352,-0.0699941786567865,-0.845069728912165,-0.302398854987457
+23,36,TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,1,module 2,2,1,3,-0.0925735929266359,0.733227023370386,1.06111859347348,2.96477049345243
+24,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,1,0,0,0,0,1,module 2,0,2,2,0.060597208585953,0.196948753482864,0.738474966699788,0.339337516862707
+25,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,1,7,2,,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,2,4,1.36441947763375,1.29401954866043,1.09023478716611,-0.0236077859060462
+26,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,0,1,0,module 2,3,1,4,-0.368147174025304,1.29184642477267,-3.22483238685702,4.71481319100884
+27,36,ASD,Low risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10,1.73413990226392,-0.0371450364277798,0.756719226147686,-5.92068488120444
+28,24,"",High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,,1,0,1,module 2,3,0,3,0.591385202551226,0.843793779789644,-1.14451403970874,1.09303157996624
+28,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,0,2,2,0.150980164821524,-1.33274367457086,1.78696818911652,-4.12180545608761
+29,36,TD,Low risk,Male,ADOS-2,younger than age 5,1,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,2.65739777388474,-2.23559293305588,1.05459782976502,-11.7315295142977
+30,36,TD,High risk,Female,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0,-0.72657775483669,-0.873684586929662,-0.381496196315886,-1.28574754737534
+31,36,Non-TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,,0,0,0,0,0,0,module 2,1,0,1,0.891344628587596,1.98304715367713,-1.18210599899705,2.51268734740247
+32,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2,-2.10509625487543,-1.92645185101991,-0.0656141162836721,0.0928961891924178
+33,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,1,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,3,0,1,1,0,0,module 2,2,4,6,1.38437697825352,-1.32704067370941,0.866666170104862,-8.73273556295342
+34,36,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3,1.39999357249244,-0.564339448527536,1.45071371125382,-7.06885395480272
+35,36,TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,1,,2,0,,0,0,0,0,0,,1,1,0,,,,,,0,0,0,1,0,0,2,0,0,module 2,4,1,5,0.156137825007479,-0.366986231014343,-0.129950843560609,-1.00014081932788
+36,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,0,0,1,0,0,1,1,0,module 2,2,1,3,0.794574492029173,-1.15529960336618,0.430941514985556,-7.08092331155382
+37,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3,0.0605403592169781,0.559442407398521,-0.645871080517089,-0.0151796067193846
+38,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-1.2904581814946,1.49650558447848,0.498655396074352,7.23546581266362
+39,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,1,0,0,1,,0,0,,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4,1.34128653841623,-0.0673376041120718,-1.68015489156289,-5.19983778192152
+40,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,0,1,1,-1.21080195268479,-1.19955056192864,-0.075650547597912,1.95527188909311
+41,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,2,0,1,0,0,2,1,0,1,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,1,0,module 2,3,1,4,-0.875192102858988,0.621665797313052,-0.435048217238799,5.1729179273667
+42,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,,1,1,1,,0,0,0,1,,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,0.318841787240905,1.13203433493962,-0.873580588017446,1.71998337828006
+43,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,1,0,0,2,1,2,,2,0,0,2,1,0,0,0,,0,1,1,,,,,,0,1,0,0,0,1,0,1,0,module 2,8,1,9,0.302401596278379,0.541115169862322,-0.502495894810684,1.77926262021636
+44,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,1,1,1,1,,,,,,,0,0,1,1,0,0,0,0,1,module 2,3,3,6,0.148440123652692,0.203878047981908,0.587216634177335,0.0270308786322355
+45,30,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,,0,0,,0,0,module 2,1,0,1,-1.01554489971627,-2.53883347108008,0.243646322811819,-4.36636080847822
+45,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2,1.41774051757771,-1.51170357554164,0.929670696693452,-7.70350743982704
+46,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,2,0,0,1,0,1,0,module 2,2,3,5,-0.856427548063065,-0.27518015892447,-0.699971935006956,3.55024739458302
+47,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,2,1,module 2,2,2,4,1.07240875399464,0.0468815755544663,0.747497015109273,-3.14411895466523
+49,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,,,,,,,0,1,0,1,0,1,0,2,0,module 2,1,2,3,1.1329001930342,-0.08250963813099,-0.335970665748077,-3.53709635902756
+50,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-0.462891087600589,1.56617546290101,-1.0888683528631,6.32093263711521
+51,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2,0.108030192973665,-0.452007917583349,-1.40468077435339,-2.36293009099178
+52,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-1.65024318747647,0.134112871514328,-0.57371233942394,5.76834558764159
+53,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.404036232614878,-0.212332087493195,0.82832899959717,-0.715018050961077
+54,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0,0.24659294562867,0.890260948927595,0.579010042746327,1.59099554836381
+56,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,,1,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,3,0,3,0.613802557078599,-0.962787502353701,-0.788338917214199,-5.05250213614013
+56,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,0.425809564840782,-1.29695843824041,0.271191978097019,-3.33434735882225
+57,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,2,0,2,-4.08973757505745,1.69446573342612,0.332718597983921,18.6470561112678
+58,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,1,0,0,0,0,,0,0,1,,,,,,1,0,0,0,0,0,0,1,0,module 2,1,0,1,1.6056957214884,1.9826435886129,0.241865184778195,1.1944076573576
+59,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,1,0,1,0,2,0,2,,1,0,0,0,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,2,0,module 2,4,0,4,-0.70945254448103,1.64342518719156,-0.591787823565244,6.88872925753998
+60,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,1,module 2,2,1,3,0.0270743038631408,0.73581846508379,0.789637390132984,2.59951627093945
+61,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,1,0,0,0,0,0,0,,1,0,2,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,1.15581950420519,-0.846165437346144,0.87793569358224,-5.64392558658786
+61,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,,1,0,0,0,0,0,module 2,2,1,3,-0.990480765905933,-0.458366586011664,1.90168418307776,1.33890142727643
+62,30,ASD,High risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2,0.245617040228931,0.205199573653399,1.14158902459541,0.819061176420024
+62,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,0.0899457701040148,-0.699931246223048,-0.274348969432621,-2.10868844419105
+63,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,0,0,0,0.281475901208018,0.366173726612217,-0.545925742567488,0.0273518492480403
+64,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,,0,0,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,4,0,4,1.34380300742947,-1.09213341904398,0.0932944460187699,-7.75403863583798
+65,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3,-0.167803415542728,0.370898560838807,-1.63469383337873,2.82001960545303
+66,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,0.339847657015751,0.662833063407539,-0.813717436199927,0.0171559475979109
+67,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,1.70076377999991,-1.95042943537851,-0.119737304384666,-10.6981345625674
+68,36,ASD,High risk,Male,ADOS-2,younger than age 5,1,1,0,0,2,0,,,2,0,1,1,1,0,0,1,,1,0,0,,,,,,1,1,0,0,0,1,1,0,0,module 2,5,1,6,-1.2874528472187,1.03798165768984,-0.388689628302223,7.01941722665572
+69,24,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-2.71511473736345,0.284304674883145,0.370120365547534,8.76649813573607
+70,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,1,3,0.614260411912467,-0.166053003213247,0.70366663346457,-3.24091302876509
+71,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,1.39182724911483,0.381984784470522,0.0584726173292729,-2.85932591727901
+72,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,1,1,2,-0.660508282275598,-0.222113409311533,-2.10644901458204,1.46157344841277
+73,24,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,1,0,0,module 2,1,1,2,0.249735454072666,-0.355204531862155,0.270375711935065,-1.84290833399248
+73,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2,1.83448326230844,0.153838310628883,1.19562883400762,-5.31437016775301
+74,36,ASD,High risk,Male,ADOS-1,younger than age 5,,2,0,1,1,2,0,0,2,1,1,0,1,1,0,0,2,1,1,,,,,,,0,1,2,0,0,0,0,1,0,module 2,8,3,11,-0.597659966233689,-0.444143361019399,0.100659088220285,0.560110160157068
+75,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3,-0.000575277729047274,-0.207305002147464,-0.479256794062554,-0.369109594961963
+76,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,1,1,2,0.64601200848466,-0.516638350646195,-0.32781432966084,-1.49073864908269
+77,36,ASD,Low risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,,,1,0,0,1,0,0,1,0,1,1,,,,,,,0,,0,0,0,1,2,2,0,module 2,5,2,7,2.27552167010178,1.78948364929371,1.2404698804779,-0.714131463850381
+78,36,ASD,High risk,Female,ADOS-2,younger than age 5,0,2,2,1,1,,1,,2,1,0,1,2,0,0,2,,2,1,2,,,,,,0,1,0,0,0,1,1,0,0,module 2,11,2,13,0.0823532034179596,-0.19129664332725,1.75440132007213,1.19039648878359
+79,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,-1.39656017450503,-0.198550064809293,-0.014353500237642,3.38471986318408
+79,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,0,0,0,0.924773321638732,2.05575289739897,0.270632725707381,2.91891455791473
+80,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,,,,,,,0,0,,0,0,0,0,0,0,module 2,3,1,4,-0.00870621440565461,0.232284050374008,0.928695102769345,-0.722326123246867
+81,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,,0,0,module 2,1,0,1,-0.900752175176583,-0.500980580399366,-0.934649117294156,2.55111336533996
+82,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,1,0,0,module 2,0,0,0,-0.819737043513373,-0.560033350457412,1.05028952322531,0.647846699747379
+83,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,1,0,2,,,,,,0,1,0,2,0,0,1,3,,module 2,2,2,4,-1.12896297072994,-1.22405767259674,-0.309852344062291,-2.1208053670241
+83,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.673334524075567,0.336936733759344,-0.696001071231047,-0.875078778901699
+84,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4,-1.39029509958853,-1.13983804354047,0.537782306362087,-0.514028298054408
+85,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,1.05536921761938,-0.0521404756161808,0.0317739814260246,-2.68260108709525
+86,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,0,1,1,module 2,4,1,5,-0.199694840801088,0.0838605508331769,0.220427028882733,0.0149239496090272
+87,24,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,,,module 2,1,0,1,1.18386178749857,-0.0990590563936158,-1.02225696597825,-6.07199975697864
+87,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,0,0,,0,0,0,,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,1,1,-0.172989759360811,-1.51015503841279,0.56683491530589,-4.18977157649838
+88,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,1,0,1,,1,0,2,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4,-0.90111644396657,-0.880219204513784,0.979142853081152,-0.989250239865182
+88,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,0,2,0,0,0,1,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,1,1,module 2,4,0,4,-1.74384297423351,0.486198210085687,0.388955961497584,5.15131317862645
+89,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,,0,0,0,,1,1,,,,,,,0,0,,0,0,0,0,0,0,module 2,2,0,2,-0.6206347402997,1.17878005848334,1.22548546823374,6.10308925372696
+90,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,,0,0,0,0,1,0,0,2,0,0,0,1,1,0,1,0,0,1,,,,,,,0,0,1,1,0,1,0,0,,module 2,6,3,9,0.368628771633996,-0.763135004366605,-0.667680192094978,-1.72697570702525
+91,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.547321034219617,-0.124431505051047,1.89561890897784,3.6661606227044
+92,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,0,0,0,0,0,0,1,0,1,0,1,0,,,,,,,0,0,0,0,0,0,2,0,0,module 2,3,1,4,-0.938118561072077,0.0554614589195254,-0.300218294658512,3.110485570637
+93,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,0,1,0,0,0,0,0,0,0,0,1,0,0,,,,,,,1,0,0,0,0,0,0,,1,module 2,1,0,1,-1.8877379734146,1.28178994183625,-0.0310215820800385,10.5893508075111
+94,36,TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-2.01901349637481,-0.696584690766851,-1.16465253370127,3.98351496297859
+95,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,,0,,0,,0,0,module 2,3,0,3,1.21216618205113,-0.716960844296549,1.25574639986796,-5.09164723209873
+96,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,1,1,1,0,0,0,2,0,1,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,0,0,1,0,0,0,module 2,5,1,6,1.21884170108055,-1.57217725004509,0.0641613960184143,-9.39952295134382
+97,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,0,2,0,0,0,0,1,0,0,1,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,5,0,5,1.16700492369832,-0.0512102628938626,0.60202899214214,-2.64871491922484
+98,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,1,3,-0.191701960726678,-0.921527916011479,0.237747038177766,-2.89349129976151
+99,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,1,0,0,0,0,0,module 2,1,1,2,-1.32759569353232,-0.516531102971338,0.870750654204233,3.30098675557571
+100,36,Non-TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1,0.258778791766431,0.929761658436668,2.18953105753741,1.18945618437728
+101,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,1,1,0,,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,,0,module 2,2,0,2,-0.0370312432967211,0.455873376642845,-0.893087375124581,2.43166566603327
+102,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,0.102085622051749,1.34172480205188,0.429974863537133,2.84070155055402
+104,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,1,1,0,2,1,0,,2,0,0,0,0,0,0,1,,0,0,1,,,,,,0,1,0,1,0,2,0,0,0,module 2,5,3,8,0.841195969391327,-0.249932343370861,2.10704858785345,-3.89571160515442
+105,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,-0.0718088047247318,0.285501786620034,1.76931898604626,1.71930472338917
+106,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,1,0,module 2,2,0,2,1.26052105989847,-1.00038155586053,-0.733634941704365,-6.4226084479747
+107,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,,1,0,0,0,1,1,1,0,0,1,1,0,1,,,,,,,0,0,0,0,0,1,1,1,0,module 2,5,2,7,-1.89853419122296,-0.889797302887334,-0.769555904724602,3.38380813071425
+108,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,0,1,1,0.396278260057098,-0.464485670837214,0.412201625912142,-3.42733499278125
+109,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,0,1,0,0,0,module 2,3,1,4,0.633960418837318,0.771624407860761,-0.187286819360214,-1.60673599447324
+110,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,1,1,0,1,1,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,,1,1,0,0,0,1,0,1,module 2,3,2,5,-0.527377130656012,1.05902348394595,-1.86626180058878,4.98004364680555
+111,30,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5,-0.391287268299411,0.118575815384478,1.21187061658047,1.50216607943494
+111,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,0,,0,1,0,0,module 2,1,0,1,1.19803552310262,0.787494257910274,-2.18771384401238,-2.29724853516661
+112,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,2,,,2,1,0,0,0,1,0,0,,0,0,0,,,,,,0,1,0,0,0,0,,0,0,module 2,6,0,6,-0.940790080824028,-1.15227223168621,-0.241547725183829,-1.56731243468893
+113,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,,0,0,0,0,1,2,0,module 2,1,0,1,0.277934632429994,0.558657223699418,-0.658094625538865,0.990702660585444
+114,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0,0.322928620630081,0.62027082103298,0.475425886146029,3.23557522874025
+115,24,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,,1,0,0,2,1,0,module 2,5,1,6,-0.176989927045155,-0.59582280624991,-0.0530628220430796,-3.93573084459771
+115,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,,0,,0,0,0,,,,,,0,0,0,1,0,1,0,0,0,module 2,1,2,3,0.65834173131881,0.684347013277611,0.97722956132878,0.105876389822954
+116,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,1,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,0,,module 2,2,0,2,0.229384237857547,-0.437634301124801,0.292120052033022,-2.72657274299497
+117,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,3,0,3,0.569513444933106,0.268169728428079,0.862955405170716,1.49321615701129
+118,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,1,3,-0.627681127696591,-1.78565139697199,0.189877333732244,-3.32652573937089
+119,30,ASD,High risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,1,0,module 2,2,0,2,-0.617504281820857,-0.342810427064565,-2.84593585223056,-0.233626998057502
+119,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.00380766787081743,2.38849049271583,-1.80147674351181,6.00946192321887
+120,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,1,0,0,1,1,0,0,module 2,1,2,3,-0.591598060312754,-0.183698387039602,-0.138730126014712,2.4198879254238
+121,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,3,0,0,0,0,,1,0,0,,,,,,0,0,1,0,0,0,3,0,0,module 2,1,1,2,-0.460537491965592,-1.89024270797504,-0.586570936731243,-5.77313995553278
+122,24,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3,-0.715742027176056,-0.501292669794124,-1.24268490224683,1.47066536647715
+122,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.302233226875706,-0.481703666880119,-1.30233520073976,-0.912837783090624
+123,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,0,1,0,2,1,0,0,0,,1,0,1,,,,,,0,1,1,1,0,0,0,1,0,module 2,4,2,6,0.95519737546925,0.508985310626976,-1.2192799928936,1.50559065516204
+123,School-Age,"",High risk,Male,ADOS-1,age 5 years or older,0,0,1,0,1,2,0,1,0,,0,0,0,0,0,2,1,1,2,,,,,,,2,1,0,0,0,2,1,1,0,module 2,6,3,9,-1.70367735427672,1.67855968768355,0.0492916404534179,11.2583798537993
+124,24,"",High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3,0.501258248552003,0.839295299120781,-0.0561004186023109,0.193808314163818
+124,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.205178020123031,-0.461881696570601,-0.535800112818349,-2.15841841031809
+125,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,2,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2,-0.299329451183411,0.325669996913773,-0.0763506117889147,3.3003611574082
+126,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.838338800240121,-0.420009961586043,-0.24344266714557,-4.84730051378963
+127,36,TD,High risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,,,,,,,0,0,0,,0,0,0,1,0,module 2,2,0,2,-0.474401391798966,1.314804613127,-2.78517256990743,6.3061738829107
+128,36,ASD,High risk,Male,ADOS-1,younger than age 5,0,1,0,2,1,2,0,1,0,1,0,1,2,0,0,1,1,1,2,,,,,,,0,1,2,0,0,1,1,0,0,module 2,8,4,12,-0.390327532470998,-0.387154900229907,-0.00325706004149407,-0.720385797530922
+129,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,0,module 2,3,2,5,-0.0199740017236153,0.11968371280446,-0.399294356624762,0.840267101728088
+131,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,1,0,,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.523688932107305,0.506579019784853,-0.32455292108323,0.574653014126374
+132,30,TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.289616555072094,-1.69559032838278,-2.1195529779239,-4.01054145274616
+132,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,1,2,-1.24456299309091,-0.942974800697989,0.524714699763659,1.20157473656422
+133,36,ASD,Low risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10,-0.557071753462141,1.12169746574892,0.0232194388353454,7.6902325031744
+134,36,TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,,0,0,module 2,1,1,2,0.779746631818496,1.78777637240557,-0.998465978738937,2.50050872589173
+135,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2,1.48055435025583,0.78734144657202,0.0362149779461976,-1.06904131806053
+136,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,1,0,,0,1,0,0,0,0,0,1,1,1,1,,,,,,,0,1,1,0,0,0,1,0,1,module 2,4,1,5,0.974255294700489,-1.21525755180716,1.80815878689987,-5.62936493936519
+137,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-1.17898776217064,0.189477954599326,-0.478379978435511,4.26107755860863
+138,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,,0,0,0,0,,1,0,0,,,,,,0,0,0,1,0,1,1,1,0,module 2,1,2,3,1.27012618039162,-0.327365703446699,-0.595668733786475,-5.43553460749536
+139,30,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,0,1,module 2,3,0,3,0.0605396484206296,2.0728140016161,0.35548543514166,6.27729162098247
+140,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,,module 2,6,4,10,-0.717166834604855,-1.14224955799227,1.39665416308683,-0.172885245417194
+140,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,,0,0,0,,0,0,,1,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2,1.3639982688259,-0.494163126265023,0.937071709318977,-5.4433602240685
+141,36,"",Low risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,,0,0,0,0,3,0,0,module 2,1,0,1,-0.722803137344697,-1.18462231626874,-0.47472875275666,-0.406868025882644
+142,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,2,4,0.154209904442288,-0.634627786543075,0.0478216954923774,-1.98433673141287
+143,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,,,,,,,0,1,0,0,0,1,0,1,0,module 2,3,1,4,-0.679952966481846,-1.05384968489335,0.00791790504334223,-1.2876387103113
+144,36,ASD,Low risk,Male,ADOS-2,younger than age 5,0,1,2,1,1,0,0,,2,1,,0,0,0,0,,,1,,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,3,3,6,-1.51943769863813,-1.60793512258237,-0.355803417468039,-1.03041767288481
+145,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,2,0,0,2,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2,-1.66364195373877,1.1729447989592,-0.519801672974696,9.48698845348971
+146,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,1,3,0,2,0,0,0,1,0,0,1,1,1,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,8,0,8,-1.64659722249839,1.39628477364299,1.79875051943735,8.8986126398531
+147,36,ASD,Low risk,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9,1.31451156632229,-1.09956051948808,0.978596071483641,-8.15293521957864
+149,36,ASD,Low risk,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9,-1.61377097845879,1.35548724125211,0.189901253306229,10.9391746367689
+150,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,2,,0,1,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,0,,0,1,0,2,module 2,4,0,4,1.96273451986744,-1.42733745356711,0.987161993465635,-10.0536375867467
+150,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,,,,,,,0,0,0,0,0,0,0,1,1,module 2,2,0,2,-0.499280083601721,1.08735626467189,-0.25158068671217,4.99197884756035
+151,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3,-1.62839127968393,-1.17024708978921,-1.9816786853163,1.36481262961593
+152,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,2,,,,,,,0,0,0,0,0,1,0,2,0,module 2,3,1,4,-0.689293314735914,-0.621457421763881,-0.739336547489496,1.15621053735484
+153,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.0844685929182128,0.479233045579272,0.588910095135898,2.86342085582675
+154,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,1,0,2,0,,2,0,0,0,0,,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,1,2,1,0,module 2,1,1,2,-0.121821023187813,0.973850623817163,-1.31898476947476,4.00248285968889
+155,36,TD,High risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.22179962665734,-1.95722435379895,0.793074159870687,-6.46243708446915
+156,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,2,1,1,1,0,2,1,1,0,1,0,0,0,0,0,1,,,,,,,0,0,0,0,0,1,0,1,1,module 2,7,2,9,0.351056145215961,0.0945797380355645,0.159958017807092,-1.34835316479809
+157,24,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,1,1,0,module 2,0,1,1,-0.0975333216933604,-0.812585540706293,0.676368271033509,-1.62440223649989
+158,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,0,0,0,0,1,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.54438476105974,-0.568086223021948,0.0165013637103061,1.21758534224759
+159,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.780796709492305,-0.00606440946398834,1.12155201306954,2.12068019775116
+160,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4,0.90663923243881,2.0558424696007,-0.69533311654593,2.76023237170659
+161,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-1.48242913470221,0.848368786193152,-1.20903173791421,7.03627545246244
+162,24,TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,1,0,1,1,2,0,1,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,5,0,5,-1.51236240141444,-0.251368368534762,0.66709892582685,4.51279330023467
+162,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,1,0,1,-0.429930955951702,0.819732145053769,0.245431604850294,2.42843987413128
+163,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,0,1,,0,1,0,0,0,0,0,1,,0,0,1,,,,,,0,0,0,0,0,0,1,0,0,module 2,4,0,4,-1.33827650726036,0.771448426078991,1.05012705325963,6.41404652954268
+164,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,1,0,1,0,0,2,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,5,0,5,0.710648593852559,-1.5429108132274,-1.20733979536288,-5.9862115364281
+166,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,1,1,0,1,1,3,0,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,5,1,6,0.748395083515514,1.85033462349297,-0.0588767464607425,3.48355054651148
+167,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,1,1,0,0,0,0,0,module 2,3,2,5,-2.12256501921754,1.61988981056252,0.619275145097404,12.265245955034
+168,36,TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,2,0,0,0,0,1,1,,module 2,0,0,0,-0.85491467514418,-0.569883000561615,0.0833754748631407,0.603065622203126
+169,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,1,0,0,0,0,0,0,0,,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,,module 2,3,2,5,1.08360970018773,0.836750247337316,-0.981137764615139,-0.117026423144568
+170,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,0.129564044230959,-0.091147083767927,0.445390957210104,-0.461867949595189
+171,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.538476118804426,1.45209189294969,-0.381062846287959,3.34297395599009
+172,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4,0.269289924350207,0.153210373351668,2.39427150901563,-0.698435428795437
+173,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,1,1,1,0,1,0,0,2,0,1,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,2,module 2,6,0,6,-1.0319387429899,1.39252245541769,0.858421954305015,8.77892755010854
+174,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,1,0,1,,0,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,0,0,0,0,2,0,module 2,2,1,3,0.334304731609434,-0.478799486481198,0.170000056855824,-1.86881368200078
+175,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,1,module 2,2,1,3,-2.81388800575684,-1.36107883235855,0.279996838004737,4.69715934179575
+176,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,2,2,1,2,,2,0,0,0,1,0,0,0,,1,1,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,7,3,10,1.32760128900659,0.763227291512478,-1.40903726275977,-1.35147726849235
+177,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,1,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,1,0,1,module 2,1,0,1,3.1583731391092,0.768250566669682,-0.954535262201881,-7.9358379963378
+178,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,2,0,2,0,0,0,1,0,0,0,0,0,1,2,0,1,1,1,1,,,,,,,0,1,1,0,0,1,1,0,1,module 2,7,2,9,-0.945177709132399,0.795697313037844,0.413185157486242,3.19998186521305
+179,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,1,0,0,0,,0,0,1,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,-0.0921057498781513,-0.710531514263072,-1.89360946266082,-1.68609355803229
+180,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,0,1,1,1,0,2,1,1,1,0,1,0,1,1,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,8,1,9,1.27432665732562,-1.02234671257625,-0.535451631861922,-6.57466332019607
+181,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1,0.409956214587212,0.64189302735845,-0.197673534404004,-0.224772312590512
+182,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,,0,0,0,0,0,0,module 2,3,0,3,0.97221609618621,1.22985647322483,0.416379619884992,0.562669642559692
+182,36,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,0,1,module 2,2,1,3,-0.216556459410648,1.32904277897444,-0.351160215226177,5.37287612315076
+183,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,1,2,-1.93613764040311,0.840245670142799,-0.547830176554637,9.28274867569001
+184,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,1,0,1,2,0,0,,0,0,0,1,0,0,0,1,,1,1,1,,,,,,0,1,0,1,0,0,0,0,0,module 2,3,2,5,0.168271918453186,0.183712789905775,-0.776225612269601,0.212252949938828
+185,24,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,,,module 2,1,0,1,0.244792297521531,-0.712129835379891,1.02784709171037,-3.79846544326513
+185,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.372966460397117,-0.341039305370102,-0.588528471290284,-2.17714793688886
+186,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,1,4,0.246701812826039,-0.157014909804592,-0.70748936062124,1.91330175936807
+187,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,,,,,,,0,0,0,2,0,0,0,0,1,module 2,4,2,6,0.940589531565656,-1.00174813439358,-0.307963781506251,-5.14150648004789
+188,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,1,1,1,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,2,6,-1.12471808693749,0.0473347527390891,0.258845446922694,4.54404789154773
+189,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,2,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,5,0,5,1.2168623674148,-0.525310092244973,-0.060538530067859,-5.94083472445022
+190,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2,0.525432750388564,1.85376320159559,-0.0526327258662202,4.69715314800596
+191,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,0.805671894711377,0.706514066515648,0.383811539609949,-0.895668101358494
+192,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,0,0,0,-0.932382258451998,0.884671358484125,-0.908121390830787,6.73710687518855
+193,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,3,,2,1,0,0,0,1,0,1,,1,0,2,,,,,,0,1,0,0,0,0,0,3,0,module 2,9,0,9,-2.09297525239698,-0.661878522380175,0.130529959688422,5.57433044786798
+193,36,TD,High risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2,0.477712401618094,-0.475767126766903,2.0898522314383,-2.50596002620337
+194,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3,0.277621071781799,-2.77573629252232,0.774492441655342,-9.48445888827968
+195,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,0,0,0,0,0,module 2,7,1,8,-0.934272506422142,-0.642840325398523,0.607425615890931,1.38513842552055
+196,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,0,2,,0,0,0,2,0,0,0,1,,0,0,0,,,,,,1,0,0,0,0,0,0,0,1,module 2,3,0,3,0.0198283416501632,1.04551749094773,0.975448429692613,4.24670427754952
+197,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,2,0,0,1,module 2,2,3,5,0.431505898306379,0.183709291211696,0.673737640725103,0.0999957469599353
+198,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,7,1,0,1,,0,,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,1,0,0,0,0,0,module 2,0,1,1,-1.44558795341849,0.137000152237,0.587532543527135,6.51705806139943
+199,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,2,0,0,1,1,1,0,0,,1,1,1,,,,,,0,0,0,0,0,1,1,0,1,module 2,8,1,9,-0.0527066622124089,-1.12557271613861,0.670284069285794,-4.58555129221299
+200,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,-0.56414985511563,-0.568258470162001,-0.449697249317602,-0.463084586903199
+201,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,3,0,3,0.0996175602085353,2.64980280807547,-0.955841912668784,6.42054428745561
+202,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,0.825115028174639,-0.207483863989095,-0.545326478154965,-3.2832789984366
+203,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.297222921976415,0.736340249199673,1.15227432113367,2.20944566122905
+204,36,Anxiety or Mood Problems,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,2,module 2,2,0,2,0.192934835459832,0.572524583890297,-1.54500375077482,1.24641638366487
+205,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,2,,0,0,0,1,0,0,1,0,0,0,,,,,,,0,1,0,1,0,0,0,1,0,module 2,4,1,5,-1.04528304977869,-0.424637649921951,0.503758798276047,2.99725163690581
+206,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-1.17407461062265,0.00337095361492869,0.577228865896953,4.05744475401076
+206,School-Age,Non-TD,High risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12,-0.684204085202878,-0.371025589093025,-1.5418078092746,1.23960610905561
+207,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,,,,,,,0,1,2,2,0,0,1,0,0,module 2,3,4,7,-1.43160515335101,0.37536355027203,-1.60756364293216,5.95954644140123
+208,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,1.00104037560756,-0.152534735453854,-0.166702015757448,-2.86536717452194
+209,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,1,0,0,,,,,,,0,1,0,0,0,1,0,0,0,module 2,3,2,5,0.979167796297799,-1.84638152584357,-0.375003097800058,-11.281398581846
+210,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,1.44096864607615,-0.450104194812474,0.933561035526598,-4.7685554802671
+211,24,"",High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,0,1,0,1,module 2,3,0,3,0.948314792555339,-0.414310364786961,1.04633190551383,-4.69316719339258
+211,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,0.130939701405028,-0.0715465098107014,1.16891691329508,-1.21317714616439
+212,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,1.47459536483905,1.5230998984338,-1.19604973985479,-0.848592343359211
+213,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.490162972213813,-0.0674607374326105,-0.21495265471636,1.71842752869106
+214,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2,-0.423883647804198,1.3704942366428,1.83448935082178,6.16716543148146
+215,36,ASD,High risk,Female,ADOS-2,younger than age 5,0,1,1,1,0,1,1,,2,1,1,1,2,2,0,1,,2,0,2,,,,,,0,1,0,0,0,1,0,0,0,module 2,13,2,15,0.254395809616312,0.99336605005373,0.240287650982385,2.31816634558551
+216,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,1,,0,0,0,1,1,0,0,,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.311933997402682,-0.462789054400159,0.0244736239400389,-1.55830489486656
+217,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,0,,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,1,1,0.288039267351279,0.663034836851787,0.953312317557804,1.04797303087063
+218,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,1,module 2,3,0,3,-0.827863026389566,-0.13443781091418,0.457622814135772,4.1322897953297
+219,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,2,0,module 2,1,0,1,-0.2435938516104,-1.64566845124062,1.48174427991752,-5.65437342514583
+220,24,"",High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,2,0,1,0,0,0,0,0,0,2,0,1,1,1,,,,,,,0,1,0,0,0,,1,0,1,module 2,3,0,3,1.57134623800307,0.187395117150997,0.63585437932852,-2.20170758553393
+220,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2,-0.423775702272842,0.678005429799677,-0.582187318396606,3.00522969984605
+221,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1,0.722563407500692,1.74959447596466,0.856202312789374,3.74511626900933
+222,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4,2.06092608135555,-0.459601750741639,-0.46712415431231,-8.46179280794107
+224,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,,1,0,,,,,,0,0,0,,0,1,0,0,0,module 2,1,1,2,-0.505025600466796,0.213353191159304,0.625191356417236,4.07348972995247
+225,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3,-0.526757606031893,-0.130950367430936,-0.699492660530938,0.201209829228105
+226,24,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2,-0.202418347674155,0.0566436054144197,-2.88014144139382,0.936155317456024
+226,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1,0.0190980321415642,-2.40468754045593,-0.629795341845972,-7.37570375916962
+227,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,1,0,0,0,0,0,1,,,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,2,0,2,-0.152762352427184,-0.430920504939095,0.166148444451689,-1.70754473796073
+227,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.0519578998927127,-0.504705496856185,0.446441587750634,-3.0026159141787
+228,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.843665271539607,-0.662541895513715,-1.21285990809352,-6.35395038258737
+228,School-Age,Non-TD,High risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12,-1.3524114599485,-0.922938620322551,1.6710981949253,-0.814088849219554
+229,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3,1.18228004526666,-0.520345580253817,-1.32460449873982,-4.46480393544514
+230,36,"",Low risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,3,0,0,module 2,1,0,1,0.698180296770953,1.3987403645211,0.169449572464143,2.7546509967275
+231,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,1,1,1,1,,2,0,0,0,0,0,0,0,,0,,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,1,5,0.497431770658252,-0.901094374534969,-0.685859620625349,-4.84116257916834
+232,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,1,0,0,,0,0,0,3,0,,0,0,,0,0,0,,,,,,0,1,1,0,0,1,2,0,0,module 2,0,2,2,0.0856449754641547,-0.73740500294129,1.71934326201224,-1.74381427362302
+233,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.175220106796668,-1.08583374035446,0.49760630679267,-2.35419157720192
+234,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,1,1,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,4,1,5,0.438808976415181,-0.669914241957163,0.365104363326079,-3.4667075447268
+235,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10,0.853586799845548,-0.373997746264365,-0.663353632425998,-3.88857237350884
+235,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,1,1,,2,,0,0,,0,0,0,,0,0,1,,,,,,0,0,0,0,0,1,1,0,0,module 2,5,1,6,-0.0873583421974432,-0.151230030158085,0.881668183705033,0.233836352797777
+236,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,3,5,0.435907204313417,-0.23381684713252,-0.328283628349525,-3.70965644538901
+238,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4,-1.00816305688431,-0.92497076459749,-1.0470921130354,0.97884527606733
+239,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,,1,0,0,0,0,0,0,2,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.0900110912123735,-0.222654631351716,0.113387546297235,-0.922401885141017
+240,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,,1,2,0,1,1,0,,0,0,0,2,0,0,0,0,,1,1,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,2,1,3,-0.404416764799497,-0.645591888091152,-1.85774818371455,0.0837404728581939
+241,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,2,0,0,0,1,0,0,1,,,,,,,0,0,0,0,0,1,0,2,0,module 2,3,1,4,0.285070213992036,-0.469964217452031,-0.416929712179003,-2.69312597941207
+242,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,1.27620190854387,-0.280237831148806,1.01045487238686,-4.88305957172515
+243,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,1,1,1,1,0,1,,0,0,0,0,0,0,0,0,,1,0,1,,,,,,0,1,0,2,0,2,0,0,0,module 2,2,5,7,1.04774314904067,1.6237276788267,-0.638430681018699,2.95434740424763
+244,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2,1.11086441016429,1.18526154074836,-1.78751406942915,-0.302850565626842
+245,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,1,0,1,0,1,0,0,0,module 2,3,2,5,0.686367470103004,0.928199335435245,-0.00359065144473815,-0.0520596505905122
+246,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,1,1,1,0,module 2,3,2,5,-0.370137630241664,0.0525342725325801,1.17832122078515,0.866682831028972
+247,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-2.555172199955,0.139689755068435,0.348013723302926,10.8851048787431
+248,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.261640469890791,-0.00386818920034981,-0.281244213929426,0.535870956176806
+249,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,,,,,,,,0,0,0,1,0,0,0,0,,module 2,3,1,4,-0.346464028093069,0.365055438591142,-0.491984230601116,2.71973463964122
+250,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,2,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,1,4,0.486005549974757,-0.487344954174231,0.143797202377493,-2.4326735840438
+251,24,TD,High risk,Female,ADOS-1,younger than age 5,0,0,,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,1,0,0,0,0,0,0,module 2,1,1,2,-2.04496084129134,0.37159427629705,0.883210717127002,5.69638131509359
+251,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,0,0,module 2,1,0,1,-2.35419438420332,-0.890739431912136,-1.44586446560497,4.11616083094915
+252,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,1,module 2,1,0,1,0.676626878819493,0.582525463710923,0.0773008631700855,-1.72754229285935
+253,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,1,1,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,2,4,0.115724381676693,1.37427100963248,-0.764150511557486,3.30579257818131
+254,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,0,0,0,,0,0,0,1,0,,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.160035893541634,0.385580849755899,-0.715734349744984,1.35112677427318
+255,36,ASD,High risk,Male,ADOS-2,younger than age 5,1,0,1,2,1,1,1,,2,0,0,0,1,2,0,1,,1,2,0,,,,,,1,1,,0,0,0,1,0,0,module 2,10,2,12,-0.852493059217802,-0.0574366438217425,-0.674272040695725,1.97954988904502
+256,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,,0,0,0,1,module 2,0,0,0,1.68771360449755,1.04350059872085,-0.578382519083072,-1.50703378730334
+256,School-Age,ASD,High risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,,module 2,11,5,16,-0.442519231218608,-1.91076154198959,-0.677767297683065,-4.87928623627005
+257,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,2,0,0,3,1,0,0,0,0,0,1,2,0,0,1,1,1,,,,,,,0,1,1,0,0,1,1,0,1,module 2,6,2,8,-1.49375063831729,1.2804552155137,0.609668458707553,9.33868795614239
+258,30,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,,,,,,,,0,0,0,0,0,0,0,1,module 2,3,0,3,-0.245540709434552,-0.0111930408520202,-0.0152915483995064,2.21846931130006
+259,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.925405962020128,0.436772280939988,0.388561719619872,2.16625945386899
+260,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,,1,0,0,0,0,0,0,0,0,1,,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3,-1.45015736617298,0.613989998511856,-1.52484561509599,7.01012342611454
+261,30,TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,0.50088905450918,-0.00943018086151585,-0.836273375756499,-2.44725391865853
+261,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.212583208430038,-0.329266033670521,-0.131957935693958,-0.243166436939132
+262,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,1,1,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,4,1,5,-0.652743367732805,-0.0817722221862107,0.564878570344182,0.968933906366955
+263,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,3,0,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.304668561554724,-1.75443565686036,0.182632431442234,-6.90691999901681
+264,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,,0,0,0,0,0,module 2,0,0,0,-0.613954814429158,-1.56169681606289,-0.115168694767135,-4.15462924922366
+265,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.318951925171743,0.781602630657349,-0.841374364364707,1.61756246310069
+266,36,ASD,High risk,Male,ADOS-1,younger than age 5,1,1,0,2,1,0,2,0,,1,0,0,1,1,0,,0,1,1,,,,,,,2,1,2,0,0,1,1,0,0,module 2,7,4,11,1.64162113551737,-0.287755934777702,-0.216521769395327,-6.61246394853753
+267,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,1,0,0,1,0,0,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,2,1,0,module 2,2,2,4,-0.597880312060989,-0.93102605092901,-0.38686959425312,-0.347913510987535
+269,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,,0,1,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.0163411145734128,1.38245933390587,-0.686419205205635,3.12295337630706
+270,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,1,0,0,module 2,0,1,1,-1.13049295270632,-1.03890958081865,0.329400138833835,1.07211638704588
+271,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3,-0.306098762579997,2.85706100359168,-0.69545730809759,8.86524972595955
+272,30,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,1,1,0,2,1,0,0,0,0,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,0,0,1,module 2,4,1,5,0.258415166160231,0.789620015888239,1.41534191577816,-0.127421008845657
+272,36,ASD,High risk,Male,ADOS-1,younger than age 5,1,2,0,1,1,2,1,0,2,0,1,0,0,0,0,1,1,1,1,,,,,,,0,1,1,1,0,1,0,0,0,module 2,7,4,11,0.165820716159531,0.452749895304268,-0.177147810307023,1.10282619079273
+273,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,,0,0,2,0,1,0,0,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,1,0,1,0,2,0,module 2,5,2,7,-0.749705900578169,2.01556390934991,0.833975162323975,9.974095139753
+275,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3,-1.70488091836827,0.782143712707625,-0.472721483874521,6.38280818263372
+276,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,2,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,1,0,1,-0.623097906749315,-0.975880175719765,0.137531490565318,-2.43496001136039
+276,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,1,2,1.41087057204131,0.506120480853887,-0.900286012244297,-2.21896526242292
+277,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,,module 2,2,1,3,-0.48802534367634,2.28947498806791,0.730417791015891,6.81733601341857
+278,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4,-0.485483836076972,-0.126154449109479,1.31857776002944,1.32107877322673
+279,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,0.230764885037879,-0.612482311850852,0.0719638668414649,-4.22073253687144
+280,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,2,0,0,0,module 2,1,3,4,-0.466690789936689,-1.26061043390195,-0.0934766128610562,-3.83021702374353
+281,36,TD,Low risk,Male,ADOS-2,younger than age 5,1,0,0,0,2,0,1,,0,0,0,0,,,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2,-1.44116825417362,0.65856639820392,-0.0888915233444034,7.09081011860328
+282,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,1,,0,0,0,0,0,0,0,1,,1,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,1,3,-0.42467499753233,0.468738273840918,-1.59552055221374,1.39614646925887
+283,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.0522185645061362,-1.87974476588117,1.84630537950323,-4.40750247352679
+283,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3,-1.88428897532074,-0.390348273303957,1.46878465922024,4.7823414187477
+284,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,7,0,1,0,1,2,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,1,0,0,0,0,0,1,module 2,3,2,5,-1.15958109218936,0.0579357448758806,0.237792092426474,2.36446733388118
+285,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,2,4,1.16288841039608,-0.665288595644063,-0.0428012364875716,-7.29643701439721
+286,24,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,3,1,1,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-1.73499114018837,0.223633300790927,-1.00579474958983,5.09587598476072
+286,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,,0,0,0,module 2,1,1,2,-0.00789510618772846,-2.33353764433815,1.08805694774344,-6.21805847721997
+287,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1,0.343998791953155,0.503227588830329,-1.35756232797085,-0.268357503322703
+288,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,1,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,-0.988210416184033,0.557721100277418,-1.35476241955367,3.5767950491524
+289,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.430530184658295,-0.118582538216873,-1.62181415503025,-3.10270107542787
+290,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,4,1,5,1.5311418930402,-1.94410524549439,1.45006496832769,-10.5064417459103
+291,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,0,,0,0,module 2,3,1,4,1.21503177350442,0.461252307619675,0.930629313341843,-1.63522454606255
+292,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,1,1,0,2,1,0,0,1,0,0,1,0,0,1,0,0,1,,,,,,,0,1,0,1,0,0,0,0,2,module 2,5,1,6,0.639087373301384,-0.656555933649751,-0.307255824789253,-1.1964834429378
+293,36,ASD,High risk,Male,ADOS-1,younger than age 5,0,1,1,2,1,2,2,2,0,1,0,0,0,0,0,1,1,,2,,,,,,,0,1,0,1,0,1,0,0,0,module 2,8,3,11,0.120728606586487,1.19206878019418,-0.45324657530594,2.5326284951272
+294,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0,-0.452434734783998,0.152606337946278,-0.985881497637274,2.30567594483499
+295,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,0,,0,0,0,1,0,0,,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.298178366493893,0.468272954133449,-1.56648262950861,2.71942887185908
+296,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,2,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,0,4,0.200234297437687,-0.909894502567787,0.537337312306325,-1.58088468901638
+297,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,1,1,0,0,1,3,0,0,1,1,1,0,0,0,1,0,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,6,0,6,0.859719956886457,-0.588266414040031,-0.42735847279843,-5.13428197506405
+298,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,2,0,0,module 2,3,0,3,-0.715127407949229,0.208035939490023,-0.852880948066386,3.33219887651806
+299,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,1,,0,0,0,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,0.611442823117978,-0.288277679384752,-0.814111709010033,-0.364258466701736
+300,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,0,,2,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,,1,1,0,0,module 2,3,1,4,-1.92874979758689,1.30054357836514,-1.18706995454173,11.4930394187561
+301,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,0,2,0,1,0,0,0,0,0,1,1,1,2,,,,,,,0,0,0,1,0,,1,,,module 2,7,1,8,-1.24125681961081,-0.257154479076647,-0.132772975549521,2.64734149893415
+303,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,1,2,-0.593421485828249,-0.191972427049021,0.383970731307439,1.8936160057604
+304,24,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,,,1,0,0,0,0,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1,-0.194381064385434,0.492180116484327,0.0515838383554759,2.04498038553514
+304,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3,-0.142708075451924,0.256401016467369,-0.26672499106788,-0.542144888062965
+305,30,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,2,0,2,0,0,0,0,0,0,0,0,,1,1,,,,,,,0,1,0,0,0,0,1,0,0,module 2,4,1,5,0.80589079489589,1.14744455214113,0.92842659101166,1.5451758826881
+305,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,1,1,0,module 2,0,1,1,0.422741941331626,-0.903202073611467,-0.222074814530885,-4.08277800700712
+306,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,-0.655458414919808,-0.505857085548626,-0.497984336242402,1.69187915616077
+307,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,0,1,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,1,3,-0.862900775786444,0.601468784786704,-0.517337871749962,1.94691548160758
+309,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.244220638569291,-0.822437571111147,-0.805661747504854,-4.11896245372775
+310,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,1,1,1.13815047880476,0.0569122278734451,0.95803411320013,-2.27956645671635
+311,36,TD,High risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,2,0,0,0,0,1,0,0,0,1,0,0,,,,,,,0,2,0,1,0,0,2,0,0,module 2,4,1,5,0.586677164930438,-0.81205894931645,0.316508472091122,-5.01653004984282
+312,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,1,0,1,0,0,module 2,2,0,2,0.237871573784443,-0.956064775545788,-0.475800815316621,-1.62430886097219
+313,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,1,0,1,2,1,2,,0,0,0,2,0,1,0,0,,,1,1,,,,,,0,0,0,0,0,1,0,1,0,module 2,6,2,8,-0.257021230076536,1.56228134527523,2.79927958735011,6.58600157754757
+316,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,1,1,1,1,0,0,1,2,0,,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3,-1.12692499621927,-0.415314175345222,-0.0162431702261602,2.96374729633564
+317,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,,module 2,0,0,0,-0.721440063008261,1.29376838198521,-0.517998742574599,6.66450913192225
+318,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,,2,0,module 2,3,0,3,-0.617425477017985,-1.34969501928894,0.0565916806204765,-2.95370310139208
+319,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-1.70086677758437,0.0814487245750199,-0.494908518915375,3.67969985164684
+320,36,"",Low risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1,-0.568971732504092,1.13327006839101,-0.870365867138577,4.46801391681711
+321,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,0,,0,0,0,0,0,0,0,1,,0,0,0,,,,,,1,1,0,0,0,0,0,0,1,module 2,1,0,1,-0.346668951637123,-0.00462225412784656,0.0583135110204862,2.66947445267087
+322,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,1,0,0,2,0,0,,2,0,0,0,0,1,0,0,,1,0,1,,,,,,0,0,0,0,0,1,2,0,0,module 2,4,1,5,-0.0490490290186414,-0.908400527902677,-0.631766836802698,-2.59975697713484
+323,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,1,2,3,-0.641058953494873,0.187674237331361,-1.99038150128913,1.33713958385579
+323,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-1.30814755111831,-0.692388658627619,1.92061702322516,2.06770287096092
+324,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,2,0,0,0,0,2,,0,0,0,,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3,-0.233869630694335,1.37583857479972,0.552861099803847,4.08215204575955
+325,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,,0,0,1,0,2,0,0,0,0,0,1,0,1,0,1,0,0,1,,,,,,,0,1,0,0,0,,0,1,0,module 2,3,0,3,-0.128665295718064,-1.82495613207956,2.16294808806514,-5.04755407945963
+326,36,TD,High risk,Male,ADOS-1,younger than age 5,,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,1,0,0,0,1,0,module 2,1,1,2,0.527906547996649,1.45321122451507,-0.293791405977216,0.811133481373659
+327,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,0,0,0,0.0456136989794723,0.641088026391303,-0.0315524413651443,1.58763992634439
+328,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,0,0,0,0,0,0,module 2,3,0,3,1.20848464879062,-0.501097017704281,0.349345554020602,-3.9232130337707
+329,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,1,0,0,0,0,,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.530721954297292,-0.872303763495077,-0.751769757573739,-0.424349305333415
+330,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,1,1,0,0,3,1,0,0,0,0,0,1,0,0,1,1,1,1,,,,,,,0,1,1,1,0,1,1,0,1,module 2,5,3,8,-1.27125574538166,-0.310919897316907,-0.520631986238623,2.74489038325258
+331,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.961322625143797,0.428322152688139,-0.893995800459392,-2.90446769776709
+332,36,ASD,Low risk,Female,ADOS-1,younger than age 5,0,1,0,0,1,1,0,1,2,1,0,0,1,0,0,1,0,1,1,,,,,,,0,0,0,0,0,1,2,2,0,module 2,8,2,10,1.39260193365223,0.415719177744612,-0.525153835225463,-3.33558102414317
+333,36,ASD,High risk,Female,ADOS-1,younger than age 5,0,0,1,1,1,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,3,10,0.727711608110543,1.18903336618699,-1.69791911053501,1.10187940287689
+334,36,TD,High risk,Male,ADOS-1,younger than age 5,0,,0,0,0,1,,1,2,0,0,0,0,0,0,0,0,0,0,,,,,,,1,0,0,1,0,1,0,0,0,module 2,3,2,5,0.600612092415969,-0.296814876749462,-2.24657860385158,-3.04028560914421
+335,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,2,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,0.257819675730236,0.14437054125076,-1.37123256285663,0.811677570004202
+336,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,0,0,0,0,0,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4,-0.389805150586598,1.19633300521775,0.828737381546974,6.06617043294322
+337,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,1,0,0,0,,0,0,0,1,1,,,,,,,0,,1,0,0,0,0,0,0,module 2,4,1,5,-1.08212766453168,-0.696065452184211,0.896695690909052,2.41012894812799
+338,24,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3,1.3632706970461,-1.76111005590737,-0.50510037841751,-8.06488518463864
+338,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,1,,,,,,,0,0,1,0,0,0,0,0,0,module 2,3,2,5,0.560624441550429,-0.480234249856215,0.889729714125922,-4.26159113010898
+339,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.0887610296868585,-0.650465916059646,-1.58375124554891,-2.91365668574298
+340,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,0,0,module 2,1,0,1,-0.0118621650262934,-3.84790890345408,0.83830755551116,-12.1884043498492
+341,36,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.626948687531352,-0.534306317786878,0.45314146619019,1.01350110276508
+342,36,"",Low risk,Male,ADOS-2,younger than age 5,1,1,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,0,module 2,0,1,1,1.79457443529517,0.830264334318117,1.80645836006361,-3.50426549374081
+343,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,0,1,,,,,,,0,0,0,0,0,1,0,0,0,module 2,5,2,7,0.347454211099742,-0.479080144548098,0.012810354451077,-2.1598213109212
+344,36,TD,High risk,Male,ADOS-1,younger than age 5,0,,1,0,0,0,,0,0,0,0,0,0,0,1,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.26001447419265,0.278380597432371,-0.748835531801457,1.34980625244456
+345,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,0,1,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,1.40716655485999,0.902038182316582,-0.473943785078236,-0.879571239120017
+346,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,1,1,0,1,2,0,0,,2,1,1,0,0,0,2,1,,2,1,1,,,,,,0,0,0,0,,0,0,0,0,module 2,7,1,8,-0.976710114453608,-0.477320960424398,0.18475901467995,1.86478104593102
+347,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,1,0,0,0,,0,0,0,1,0,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,1,1,-0.478695381394856,-0.97190494596087,-0.940160936720825,-0.484366282388829
+348,36,TD,High risk,Male,ADOS-1,younger than age 5,2,0,0,0,0,,1,0,0,0,0,,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.269026732989119,-0.857981708430165,1.40185667536344,-0.892897356894489
+349,36,TD,High risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,2.6706341088864,0.902602402780558,0.231376362465548,-5.26469512708463
+350,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,1,1,0,0,0,2,0,module 2,3,2,5,-1.17576080704273,-0.955239929856623,-0.886911311991548,1.14013143940998
+351,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,1,0,0,module 2,0,0,0,-0.13473837909048,-0.904889111589886,-0.556241678890737,-2.4470041880424
+352,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,0,2,1,0,,0,,0,0,0,,,,,,0,1,0,1,0,0,0,0,0,module 2,1,1,2,-0.943439131523814,-0.238372982788453,-2.70961335608145,1.78803115326691
+353,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,0,0,0,,0,1,1,,,,,,0,0,0,1,0,0,0,0,0,module 2,3,1,4,0.325376083020185,0.223767962774973,-1.65379062225588,0.218263649941073
+354,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1,-0.175450839020801,-0.919458732491697,1.02310184491203,-2.80619546937197
+354,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,2,0,0,1,0,0,module 2,0,2,2,-2.26902332193565,1.14774915156369,-0.0403386494827425,9.11626593119135
+355,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,,1,1,0,module 2,0,0,0,0.207698299400979,0.735809729187889,3.11107161496023,2.09902484690437
+356,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,0,0,,0,0,0,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,0,2,2,0.470563362045757,1.72889284980808,0.929719248559354,3.97034906091092
+356,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.913166763082396,0.700079251162334,-0.371534086312876,5.91882492613994
+357,24,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,1,0,0,0,0,0,1,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,2,2,4,-0.762008272939313,-0.163524246845297,-1.13588458440897,2.41372917856163
+357,36,TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,module 2,2,0,2,-1.48767250404871,-0.296635607773292,-0.412339186431251,3.50632788835511
+358,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-1.16217667093162,-0.81468300803754,0.404446831932035,0.0304448571079932
+359,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,0,0,1,0,0,0,1,0,module 2,2,1,3,0.667474104436156,0.776561458169838,-0.00410850299134121,-1.54241106175816
+360,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,,0,0,2,1,0,0,0,0,1,0,1,0,1,0,1,0,,,,,,,0,1,0,1,0,1,0,1,2,module 2,4,2,6,1.56977265608575,-0.243848820735106,-0.114812007151386,-5.402728618521
+362,36,ASD,High risk,Male,ADOS-1,younger than age 5,1,1,1,2,1,0,1,2,2,1,1,0,1,1,0,1,1,1,2,,,,,,,2,1,2,1,0,2,1,1,0,module 2,13,6,19,-1.35226073667098,0.274595849096113,0.813271373350706,5.33684701394756
+363,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,,0,module 2,2,0,2,0.905455253547621,0.0364450407255788,0.854503629207363,-2.81450406799009
+364,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3,-0.460577436700129,1.41171009494314,0.118760010661109,6.25438411342438
+365,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,,0,0,1,1,0,0,0,1,0,,,,,,,0,0,0,0,0,0,1,1,0,module 2,4,0,4,-1.18361500587733,1.44018322353828,-0.444349958053472,7.2166895279051
+365,School-Age,Non-TD,High risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,0,2,2,1,0,module 2,9,3,12,0.707784002807382,-0.794635483432403,0.331465552775184,-3.94391072601132
+367,36,ASD,High risk,Female,ADOS-1,younger than age 5,0,0,1,1,,1,1,1,2,1,0,0,0,0,1,1,0,0,1,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9,0.802242811848294,0.30473543995538,-0.136430578562084,-1.99090256305799
+368,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,1,2,module 2,2,0,2,-0.706028197378145,-1.16444607141398,-0.557893124227629,-0.916469872223973
+369,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,2,,0,0,0,0,module 2,1,2,3,0.780499273078682,-0.104408327260127,1.46754355449332,-1.47337354273706
+370,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,0,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3,0.964331831884145,0.187216079138319,0.684839535844234,-1.9304751765764
+371,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,0,2,0,1,0,0,,2,1,0,2,1,0,0,0,,1,0,1,,,,,,0,1,0,1,0,0,0,1,0,module 2,5,1,6,-0.760200342441308,-1.29402888252092,-0.824487230867515,-0.683716925156381
+372,24,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,1,0,module 2,1,1,2,-0.0140949663029075,0.275085306860862,-0.762089843450574,0.341011598561785
+372,36,ASD,Low risk,Male,ADOS-2,younger than age 5,0,1,,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7,1.41297057898409,-0.364390704037105,-0.907287085043195,-5.45441513011672
+373,36,ASD,High risk,Male,ADOS-2,younger than age 5,1,1,,1,1,0,2,,2,1,1,0,1,2,0,1,,1,2,1,,,,,,0,1,0,0,0,0,1,,0,module 2,13,1,14,0.136862726499203,-0.146420060228441,-0.668030119670072,-1.74362388314734
+374,36,ASD,High risk,Male,ADOS-2,younger than age 5,0,1,1,2,1,1,2,,2,1,0,0,1,0,0,0,,1,2,1,,,,,,1,1,0,0,0,0,0,0,0,module 2,10,2,12,0.729188478797892,-1.46543539887897,0.323458860679922,-6.88105810930794
+375,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2,0.979500540319476,0.961952386715476,1.71768217491172,-0.166645233552728
+376,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,1.10185661019586,-0.895406520963106,-0.175351630321294,-5.35659289830092
+377,36,ASD,Low risk,Male,ADOS-2,younger than age 5,0,1,,1,1,0,0,,2,1,0,0,0,0,0,0,,1,1,0,,,,,,0,1,0,0,0,2,0,0,0,module 2,4,3,7,-0.458297272946277,0.754899149332552,-1.23815960178844,3.21460088012268
+378,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,2,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,0.238607510273289,0.620033781546727,0.798896090715049,1.5523214471081
+379,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.375090778414934,-0.116092679151764,-0.217603780581419,-1.22714217860946
+380,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,2,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,5,0,5,-0.83931791866957,0.684443136427734,1.49609680738504,4.24923919457234
+381,36,ASD,Low risk,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9,-0.112320204650951,-0.742563732675926,0.188371133001803,-0.994605516562314
+382,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,2.46185703144866,-0.0466464178193333,0.900531281162274,-8.01984601722653
+383,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.0801627023974764,0.273630364919973,1.52507803110032,0.742181409794228
+384,36,TD,High risk,Female,ADOS-1,younger than age 5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,1.59729835875384,-0.411080957018183,-0.237787158096585,-7.28187555147906
+385,24,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,,0,0,2,1,0,module 2,5,0,5,-1.89660494162729,0.543596400948679,0.919600952104793,7.59888712259886
+385,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,1,0,0,1,0,0,0,module 2,1,2,3,-0.966359265635812,0.0052148733108304,0.377931537741774,1.95480588608428
+386,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,1.35819957201332,1.158348093015,-1.15934700220077,-0.246589818917642
+387,24,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1,2.81814743669738,0.209175970897083,-0.323409356287194,-8.75714566967886
+387,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,,0,0,0,0,0,0,0,module 2,1,0,1,-0.258231103743255,-0.518320946897471,0.916247370007077,-1.28994760711444
+389,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,0,0,,0,0,0,0,0,0,,0,,0,1,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,1,0,1,0.616904345149346,0.0358643842669738,0.481139298987041,-2.01140763593057
+390,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,1,0,1,1,1,0,1,,,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,1,0,0,0,2,0,0,module 2,1,2,3,-0.776500933105632,0.791835573460472,0.0502809198711157,3.38037596644751
+391,24,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,,,module 2,1,0,1,1.50133409704437,-1.76337768566104,0.467067396112206,-9.75648450730556
+391,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0,-0.736978648551994,0.0976673316202121,0.51359609435777,3.12168194729137
+392,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,,,,,,,0,0,0,0,0,0,0,2,1,module 2,3,1,4,-0.811811126924663,-1.62070733925677,-0.00422010893819896,-3.65949740054526
+393,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,0,1,0,,0,0,2,0,0,2,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,2,1,module 2,3,1,4,-0.0437737504816961,0.828256651777606,0.75107289613172,3.83477629357825
+394,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,2,0,0,0,0,0,module 2,1,2,3,1.76784553400138,2.06550688023126,1.09702487686069,1.74531913067913
+394,36,ASD,High risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,2,1,0,0,,0,0,1,0,0,1,1,1,1,,,,,,,0,1,2,1,0,0,1,0,0,module 2,5,4,9,-0.718306650189907,-0.0423001643773743,-0.909709731147625,1.55488569278538
+395,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4,2.60198439293763,-0.843398954622156,2.49176828615044,-9.85012267794854
+396,36,ASD,Low risk,Male,ADOS-1,younger than age 5,0,1,2,0,0,1,1,0,2,1,0,0,1,1,0,1,1,0,0,,,,,,,0,0,1,0,0,1,0,0,0,module 2,7,2,9,-1.07531549341102,-0.373733645681362,0.00360343182182768,1.87469804391329
+397,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,-2.38901223032159,-1.49856567952496,0.0138686042647117,3.17285831479866
+398,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,,,,,,,0,1,1,0,0,0,0,0,0,module 2,2,1,3,-0.248114702876993,0.339207844639547,-1.39391084199238,1.75412614284609
+399,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2,-0.188249382006718,0.627170177415934,-1.23661111380081,2.62072682410234
+400,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,1,0,0,1,0,1,,2,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,1,0,0,1,1,0,module 2,4,1,5,-0.0372558320094447,-0.229206398938589,0.649393391538818,-1.26969181899101
+401,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,0.00759537273452404,-1.10617392286458,2.03395053902276,-3.99319538496323
+402,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,1,2,0,1,0,0,0,0,1,0,0,0,1,0,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,3,3,6,-0.551329797959241,-1.20686534980961,0.472905657186341,-2.37143028001537
+403,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2,0.0312176406250627,1.31501560332962,1.56745263687695,4.43942064081053
+404,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,0,0,0,0.464590309162521,0.619925929037189,-0.771152068026429,0.275583758321983
+405,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,4,0,4,-0.610048458049834,0.916435555259137,-0.347492905731311,3.87452264351199
+407,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,,,,,,,0,0,0,0,0,0,1,2,0,module 2,3,0,3,1.20081501138149,0.0406603776259404,0.753918410669751,-3.24356928150383
+408,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,,0,2,,0,0,0,0,0,0,,0,,1,0,0,,,,,,0,2,0,0,0,1,0,1,0,module 2,2,1,3,1.1523266948697,1.75230910576425,-0.487421709828275,1.7032478539321
+409,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,0,0,2,0,0,0,1,0,0,0,1,0,1,,,,,,,0,1,0,0,0,0,0,0,,module 2,4,0,4,1.12700277700192,1.00717676690225,-2.69188848771747,-1.43096294357286
+410,24,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,1,0,1,-0.24832357365336,0.254019640314957,1.56803233030615,0.3696185834242
+410,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,1,0,0,0,0,0,,,0,0,0,0,0,0,1,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1,-1.2545263500315,-0.381529626258654,0.698805648865182,2.72224744394168
+411,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,2.97759504353023,1.22582793269656,0.358567677288168,-4.6148607471219
+413,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,1,0,2,1,0,0,1,1,0,1,0,0,1,1,0,1,,,,,,,0,1,0,0,0,0,0,0,1,module 2,6,0,6,1.25902838240839,-1.52250170217172,-0.682988225325258,-9.11438054393816
+414,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,1,1,2,0.0529884364914498,1.34911239414408,-0.526474334222153,2.76324547073918
+415,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,,module 2,3,1,4,-0.663272963093458,0.700107867321999,-1.74379256368779,4.11655581897186
+416,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,1,1,0,0,0,,0,1,0,module 2,0,0,0,1.32193151621125,0.401764391143788,0.56990770022191,-2.06416893484939
+417,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,4,0,4,-1.4038353367918,0.991710091893765,-2.56660853034461,7.45297421303832
+418,36,Anxiety or Mood Problems,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,2,0,,0,0,0,0,0,module 2,3,0,3,-0.154504548416706,0.588166447578176,-2.53971601299842,0.563801722297248
+419,24,"",Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,,0,,1,0,0,,,,,,,1,0,1,0,1,0,0,0,module 2,1,2,3,2.04877872827162,0.00466467369971808,-0.173581701308213,-7.17282998545027
+419,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,1,1,0,module 2,1,0,1,-0.0858402482792702,0.597954530657369,1.21184714317371,2.6839131788522
+421,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,2,0,0,1,0,0,,2,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,0.183098285606822,-0.117134988704841,-0.297617221334591,0.009922673182583
+422,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,,,,,,,1,1,0,0,0,0,0,0,0,module 2,2,0,2,-1.55733646540045,0.0406712244872986,2.2685543268907,5.24150295773761
+423,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,1,0,module 2,1,1,2,-0.516977664775937,-1.2131904603732,1.34557173656544,-2.11936445040278
+424,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,3,1,4,0.214766971604528,0.128863818796675,0.157799770008958,-0.00735615365923653
+425,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,2,,,,,,,0,1,0,1,0,0,1,,0,module 2,3,1,4,-0.808451289152688,0.771441930271466,0.461319964142506,5.17589818549841
+426,24,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,1,0,1,-0.324817556108114,1.49652520713393,-1.09351799974286,5.1143422699692
+426,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,1,1,,0,0,0,1,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.598038598334908,-0.0306563175818089,1.12858436531333,-1.2482957135087
+427,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,-0.349341105193036,-2.64906056888651,-0.359152447988138,-6.39249642479063
+428,36,Non-TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,,,,,,,0,0,0,0,0,1,0,2,0,module 2,4,1,5,1.80303813578613,0.712594072420638,-0.975768015006919,-4.34487052753527
+429,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,2,0,0,module 2,2,0,2,-0.299209919857458,-0.550813904309793,1.27611791422849,-0.51036475187052
+430,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,0,,0,0,0,0,1,0,1,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.157393250593825,0.610973231461667,0.252497818365823,4.09384036519405
+431,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,,0,0,1,0,0,0,,1,0,0,,,,,,1,0,0,0,0,1,1,,0,module 2,1,1,2,0.666268001593749,0.905904978758489,0.304498891029342,0.848583277300966
+432,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,2,0,0,1,0,0,0,0,2,0,1,0,0,0,0,0,,,,,,,0,0,0,0,,,0,0,0,module 2,2,0,2,-1.16656943142744,-1.22539699871718,1.40946896031253,-0.342162763166565
+433,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0,1.87253440518109,-0.335334936841799,1.97258075327,-6.60999607150859
+434,24,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,2,0,1,0,0,1,0,0,0,0,1,0,1,1,,,,,,,0,0,0,1,0,0,2,1,0,module 2,5,1,6,0.83499949130556,1.29518828573896,-0.0486320866020412,1.11853894782098
+434,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,2,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,0,3,-1.05570218885296,0.373207437488611,-0.262400452630211,4.21758439231768
+435,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,,0,0,0,0,0,0,0,1,1,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-0.614960683846891,0.786228416907816,0.427567274145413,4.62346159204432
+436,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,,0,,,,,,,0,0,0,1,0,0,,0,1,module 2,2,1,3,0.165332253852725,1.22763561851742,-1.19027957966498,4.18830674272544
+437,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,,0,0,0,0,0,1,0,0,,,,,,,0,0,,0,0,0,0,0,0,module 2,0,0,0,-1.41601624370125,0.239319321118565,0.254155598769649,3.60007009866701
+437,School-Age,Non-TD,High risk,Female,ADOS-2,age 5 years or older,0,2,1,1,2,1,1,,2,1,0,0,1,1,0,1,,1,0,1,,,,,,0,0,0,0,,2,2,1,0,module 2,9,3,12,0.103879879628359,1.27847937200757,0.735862030261753,4.31308646980133
+438,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,,0,0,1,1,2,0,0,0,0,1,0,0,0,0,0,1,,,,,,,0,1,0,0,0,0,0,0,0,module 2,5,0,5,-0.665917937017688,-0.744089788805952,-2.08844580620213,-2.01356898666881
+440,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,1,0,module 2,3,0,3,0.476954670248818,0.175349584951873,-0.812209136922593,-0.884142543024083
+441,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,1,0,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,0,0,1,1,0,0,module 2,2,1,3,-1.51627036958218,0.732022919680896,0.244418268697343,7.55837368416196
+442,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3,-0.307704076952646,0.203911392164283,-0.121098354085888,3.06080916425416
+443,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.255688540750904,-0.0250954041244333,-0.348761421799593,-1.19387460391975
+444,36,Non-TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,3,1,4,-1.89434931637724,1.11903208761099,-0.245341246511922,8.08860387412761
+445,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,0.210001992826128,1.90073860493799,-1.37774470467552,6.63179736317824
+446,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,1,1,,0,0,0,0,0,1,0,0,,0,0,0,,,,,,0,0,0,1,0,0,0,0,1,module 2,3,1,4,-0.380612195559917,0.561769154247673,-1.52907735533122,2.52716346427775
+447,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,1,,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,1,module 2,1,0,1,-0.551675246255918,-0.0441897344533651,1.43453503029118,2.97678365784602
+448,24,TD,High risk,Male,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,1,3,-1.1156701281197,-0.550697093060307,-0.124437128753879,-0.00134144564191074
+448,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,1,0,0,1,1,1,2,0,0,0,0,0,0,1,0,0,0,,,,,,,0,1,0,0,0,1,0,,0,module 2,5,1,6,-0.373066167097837,-0.235905819632937,1.27973900595504,1.38797274561146
+449,36,TD,High risk,Male,ADOS-2,younger than age 5,0,0,1,0,2,0,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,2,1,0,module 2,1,0,1,1.04449283839261,-0.422332078664917,-0.378288096477611,-4.86314209208155
+450,24,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,1,0,module 2,1,0,1,0.936752717885706,1.37099621554868,0.075922002998107,2.56396973338689
+450,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,1,1,0,0,0,0,2,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,4,0,4,0.278794515717167,-0.932599966788817,-1.52041573900657,-4.91863422416562
+451,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,1,3,-0.980896544407836,-0.997449456449549,0.285344928517911,1.08402538157109
+452,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.348445658342034,0.267699717804988,-0.175082296734,2.09756648673324
+454,36,Non-TD,High risk,Male,ADOS-2,younger than age 5,1,7,2,1,2,0,1,,0,1,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,1,0,1,0,1,0,module 2,2,3,5,0.451759871807043,0.910660833475617,-0.317276402058969,2.49423506417381
+455,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,1,0,1,1,0,,2,0,0,0,0,0,0,0,,1,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.45046123864445,-0.721702135023561,0.461975011134207,-0.987253018475311
+455,School-Age,ASD,High risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,0,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16,0.16100321364839,-1.43965679128784,0.34632026767581,-4.20905637269837
+456,36,ASD,High risk,Female,ADOS-2,younger than age 5,1,1,2,1,0,1,2,,2,1,1,1,0,0,0,2,,0,2,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,12,2,14,-1.65674537548308,-0.335373346477027,-1.58243180226472,4.68234709224492
+457,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,1,0,2,0,,0,0,0,0,0,0,0,0,0,1,,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2,-0.533374625958475,0.841064449404721,-1.24243927873954,3.00511964188159
+458,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,,0,0,0,0,0,0,,1,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-0.884660795425812,-1.48608325349958,-0.243911776045643,-1.94775733193886
+459,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,0,1,,2,0,0,0,0,0,1,1,,1,1,1,,,,,,0,0,0,2,0,2,0,2,0,module 2,6,4,10,-0.670526866702234,0.865448745918481,-1.44899506912668,5.01462974542861
+459,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,,,,,,,0,0,0,0,0,1,0,0,0,module 2,2,2,4,0.0617122578863184,0.502018654636192,-0.03256254737249,2.09880552148911
+459,School-Age,ASD,High risk,Male,ADOS-1,age 5 years or older,2,2,2,2,2,3,0,1,2,1,0,1,1,,0,2,2,2,2,,,,,,,0,0,1,0,0,2,1,0,0,module 2,11,5,16,-0.144483434322656,-0.469809870888581,-0.46090894432897,-1.27706614186114
+460,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,0,0,0,0,1,0,0,1,module 2,1,1,2,-0.693906888168603,-0.528054170782681,0.0380146629770297,-2.17865524210294
+461,24,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,1,1,1,2,1,1,0,,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,6,0,6,0.781399478053498,0.435730218020423,0.635204533453329,-1.17896928290954
+461,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.194536455097947,-1.56773194490297,-0.135754874374682,-4.69232803972123
+462,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1,1.06467406891191,1.07214436179324,1.21941751270482,0.370632756512035
+463,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,0,,,0,0,0,1,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,1,0,module 2,0,1,1,0.0593178060723055,-0.362833445289878,-0.16091561334155,-1.87099882673828
+464,24,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,1,0,module 2,2,0,2,-0.73149483469235,1.95595690516845,0.947055282586621,7.60875193790792
+464,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,2,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,6,0,6,0.0767387815603689,-0.20932714418385,0.776891100347504,-0.259452619359349
+465,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,,0,0,,0,0,1,0,1,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,1,2,1.59429563817452,1.01811509451185,1.24860177489926,-2.07724555057639
+467,36,Non-TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,0,0,0,-0.334727264109968,1.3675917074729,2.752034402498,4.55495394964454
+468,36,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1,1.00147305736892,0.851536685372704,-1.77680112387591,0.274143754932856
+469,36,TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,0,0,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,2,0,2,1.25285406162443,-0.581466424681729,0.524703668749288,-6.07173500068168
+470,24,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,0,1,0,2,1,1,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,1.14251129137261,0.0756393352866407,1.37341402614007,-3.58197981538805
+470,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,1,1,1,0,1,2,0,0,0,0,0,0,0,0,1,1,,,,,,,0,1,0,2,0,1,1,0,0,module 2,5,4,9,0.496674528817495,-0.34114485319046,0.947472348472823,-2.55402949492803
+471,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,1,1,1,0,2,2,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,0,1,1,1,0,0,0,,0,module 2,3,2,5,0.541873684029343,0.811421147384083,-0.371047795199993,0.246755559794849
+472,36,ASD,High risk,Male,ADOS-1,younger than age 5,0,1,1,1,1,2,1,2,2,1,0,0,2,0,0,1,1,1,1,,,,,,,0,2,0,1,0,1,0,0,0,module 2,11,3,14,1.41542366327943,0.172927222057789,-0.0962461533466541,-4.43827964782627
+473,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,0,1,2,0,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,1,0,module 2,3,0,3,1.31359849612889,-0.0305370615266039,1.508613215526,-3.38395168656242
+474,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,1,0,1,0,1,,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,1,0,0,0,0,1,0,0,module 2,2,0,2,-0.479515663240919,-1.0951618837374,-1.11075803944556,-2.28801794203399
+475,36,TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,0,1,1,,0,0,0,0,1,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,-0.54415546380818,-1.27879981443604,2.47897490049072,-2.94949333837402
+477,36,TD,High risk,Male,ADOS-1,younger than age 5,0,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,1,1,2,-0.575162299965762,-0.110268209194263,0.344291103155125,-0.910122200130064
+478,36,ASD,High risk,Female,ADOS-2,younger than age 5,1,1,2,1,,1,2,,2,1,1,0,2,2,0,2,,1,2,1,,,,,,0,1,0,0,0,1,0,0,0,module 2,16,2,18,0.77960026125142,-0.940898305105104,-1.97415945549395,-4.09844844959067
+479,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,1,1,0,0,0,0,1,1,module 2,0,1,1,0.545604037115935,-0.952524833926068,0.181765246075115,-4.1074702617798
+480,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,0,1,1,-0.174593384636136,0.947817223119012,-0.0483002203530938,4.33108511640656
+481,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,,,,,,,0,1,0,0,0,1,0,0,0,module 2,2,1,3,0.92530829747871,-0.639248140138456,0.465096262885931,-3.87563415437408
+482,36,TD,High risk,Male,ADOS-2,younger than age 5,0,,0,0,0,1,0,,0,1,0,0,0,0,0,0,,0,,0,,,,,,0,1,0,0,0,1,2,1,0,module 2,2,1,3,-1.51278399327692,2.00991891593328,1.36522411850037,8.82877642213112
+483,36,Non-TD,Low risk,Female,ADOS-1,younger than age 5,2,0,1,2,0,0,1,0,0,0,0,0,,2,0,1,1,1,1,,,,,,,0,,0,0,0,1,1,2,0,module 2,6,1,7,-1.13871155700648,-0.290215169280794,0.0544680540610354,2.33884462750607
+484,36,TD,Low risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,0,0,0,-0.946722019293421,1.35674864668236,-0.84352913773606,7.30818514156533
+485,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,,0,1,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3,0.912201584125077,1.6265451221709,-1.10178523330619,2.50119649859077
+486,30,Non-TD,High risk,Female,ADOS-1,younger than age 5,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2,0.498082327188398,1.12310712393565,0.497794592470557,2.34100086085177
+486,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,,,,,,,0,0,1,,0,0,0,0,0,module 2,2,1,3,0.608918055518804,-0.467632926494281,-0.273431143090495,-3.04121046868549
+487,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,2,0,1,1,1,0,1,0,0,0,0,,0,0,0,,,,,,,,0,1,0,0,0,0,0,0,0,module 2,3,0,3,0.536212358560424,0.365700085105904,0.367784978884735,-2.11627971862962
+488,24,TD,Low risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,,,,module 2,1,0,1,0.214266976412542,-0.150816711278584,-0.366556896353299,-0.719375126301083
+488,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,1,0,,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,2,module 2,0,0,0,0.0202735204361965,-0.288453793579062,-0.907767144712062,-1.42641346326721
+489,36,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,1,0,2,2,0,0,0,0,0,1,0,0,0,0,,,,,,,1,1,0,1,0,0,0,0,0,module 2,4,1,5,-2.49141714164523,-0.875840877637264,-0.463070171888638,5.37082684622822
+490,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,2,1,1,0,0,0,0,0,0,,0,0,0,1,,,,,,,0,0,0,0,0,0,0,0,0,module 2,3,0,3,0.0549043138896358,-0.268176208054875,0.189133861431578,-1.92330501714574
+491,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,2,0,0,module 2,3,0,3,1.80466295936794,0.635213643410579,-2.13279549248142,-3.94367346505903
+492,36,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,,0,0,0,0,0,0,1,0,0,0,,,,,,,0,0,0,1,0,0,0,0,0,module 2,2,1,3,-1.2837547977,-1.80161279183849,0.0262894578136856,-2.67233985307504
+493,24,TD,High risk,Male,ADOS-1,younger than age 5,0,0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,1,0,0,0,0,0,0,0,module 2,1,0,1,-0.210541937485655,0.353338362614119,-1.91977026882818,0.38342290856815
+493,36,Anxiety or Mood Problems,High risk,Male,ADOS-2,younger than age 5,1,0,0,0,1,1,0,,0,0,0,0,0,0,0,0,,0,1,0,,,,,,0,0,0,0,0,0,0,0,1,module 2,2,0,2,-0.7410472710505,-0.216278998699718,-0.390508065682777,2.07971499120385
+494,36,Non-TD,High risk,Female,ADOS-2,younger than age 5,1,0,0,,1,1,2,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,1,0,0,0,0,0,0,0,0,module 2,3,0,3,0.697178465464392,-1.25167626468656,-2.36745288682899,-6.39595959874143
+495,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,1,0,0,2,0,0,1,0,0,0,0,0,,0,,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,0,2,-0.0430714122117649,-0.916141133727013,-0.46727117953731,-1.6038594460987
+497,30,TD,Low risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,0,1,1,0,0,0,,0,1,0,0,0,0,0,,,,,,,0,0,,0,0,0,0,,1,module 2,3,0,3,-0.738682263591741,-1.81311013952373,-0.668626430894455,-2.59840781163568
+497,36,Non-TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,1,2,1,1,,0,0,0,0,0,0,0,0,,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,module 2,2,1,3,-1.2825596187054,1.26607780546178,-1.31611060760485,6.19054866490617
+498,36,Non-TD,Low risk,Male,ADOS-2,younger than age 5,0,0,0,0,1,0,0,,,0,0,0,0,0,0,1,,0,0,1,,,,,,0,0,0,3,0,0,1,0,0,module 2,2,2,4,0.238521630497528,-0.54317014733278,-0.276233330503662,-1.51953728146957
+499,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,0,0,1,0,0,0,0,0,0,module 2,1,1,2,-0.287401751024368,0.263221015458169,0.380884797461876,0.460061776609769
+500,36,TD,High risk,Male,ADOS-1,younger than age 5,0,1,0,0,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,,,,,,,0,0,0,1,0,0,1,0,0,module 2,4,2,6,1.81199192995782,-0.653716305636871,0.899324773578796,-6.11710332170547
+501,36,TD,High risk,Female,ADOS-1,younger than age 5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,1,0,0,0,0,0,0,0,0,module 2,1,0,1,-1.60047780640717,-1.78136537026841,-0.676140631347592,0.586286097231445
+502,36,Non-TD,Low risk,Female,ADOS-2,younger than age 5,0,0,0,0,2,1,0,,0,0,0,0,1,0,0,0,,0,0,,,,,,,0,0,0,0,0,0,1,0,0,module 2,2,0,2,0.807017973400851,0.747968201135074,0.467515563129563,0.508746182846954
+503,36,Non-TD,High risk,Male,ADOS-1,younger than age 5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,,,,,,,,0,0,1,0,2,2,,,module 2,3,3,6,0.57623202667292,0.786097168716345,0.194362552101625,-0.970843985122256
+504,36,TD,High risk,Female,ADOS-2,younger than age 5,0,0,0,1,1,1,1,,0,1,0,0,0,0,0,0,,0,0,0,,,,,,0,1,0,0,0,0,0,0,1,module 2,3,1,4,-1.64488942686911,0.92393695153167,-1.12229666937711,7.58330545085685
