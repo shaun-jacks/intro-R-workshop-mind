@@ -7,7 +7,8 @@ The chapters are organized as follows:
 - Chapter 1: Overview and Introduction
 - Chapter 2: Data Exploration
 - Chapter 3: Data Manipulation
-- Chapter 4: Data Visualization and Analysis
+- Chapter 4: Data Visualization
+- Chapter 5: Data Analysis
 
 The material is meant to be a guide to most of the data tasks one would use to manage their data.
 
