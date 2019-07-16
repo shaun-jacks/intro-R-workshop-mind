@@ -1,7 +1,7 @@
 ---
 title: "Intro to R- Part 1: Data Exploration"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "7/3/2019"
+date: "2019-07-15"
 output: 
   rmdformats::material:
     self_contained: no
@@ -9,34 +9,23 @@ output:
 
 
 
-# Introduction and Data Exploration
+# Data Input, Output, and Exploration
 
 ## Goals
-By the end of this document, you will be able to:
+By the end of this chapter, you will be able to:
 
-1. Learn about the fundamental R Datatypes
-2. Read a CSV file into your R environment
-3. Write from your R environment to a CSV file
-4. Explore different attributes of a dataframe
+1. Read a CSV file into your R environment
+2. Explore different attributes of a dataframe
     - column names
     - row names
     - more with `attributes()`
     - Subset a dataframe by rows and columns
     - Filter a dataframe by the values of a column
-5. Use two data exploration and cleaning functions
+3. Use two data exploration and cleaning functions
     - Frequency counts of unique values with `table()`
     - Search for any duplicates within your data with `duplicated()`
+4. Write from your R environment to a CSV file
 
-In this section, we introduce to you the Fundamental R Datatypes, Data input and data output, as well as some useful data exploration functions.
-
-
-## Datatypes
-
-### Numeric, Logical, Character, Factor
-
-### Lists, Vectors, Matrices
-
-### Dataframes
 
 ## Reading in Data
 
@@ -60,52 +49,92 @@ adosm1 <- read.csv(pathToAdosFile,
 # adosm1 is now considered a datraframe
 ```
 
-## Writing Data
+## Observing Dataframe attributes
 
-### `write.csv`
-- We can write data from our R environment to a CSV file with `write.csv`
-- `write.csv` takes in a dataframe within our R environment, as the first parameter
-- the second parameter is the location and filename to write it to.
+### `View`
+- To view your dataframe call the `View()` function.
+- Note the capital **V**iew().
 
 
 ```r
-# write.csv(adosm1, 'datasets/practice write csv ados.csv', row.names = FALSE)
+View(adosm1)
+
+# After Viewing, you can click on columns to sort
 ```
-  
-### `data.table::fwrite()`
-- One you are comfortable with write.csv, I would suggest looking into the `fwrite` function within data.table. It is much much faster and more efficient.
-  
+
+### See Attributes
+- display column names `names()`
+- display rownames with `row.names()`
+- see all attributes with `attributes(dataframe)`
+
+
+```r
+# display column names
+# names(dataframe), we will use our adosm1 dataframe
+# wrap function with head() to show first 6
+head(names(adosm1))
+```
+
+```
+## [1] "id"                "visit"             "cbe_36"           
+## [4] "recruitment_group" "gender"            "ados_version"
+```
+
+```r
+# display rownames, wrap function with head() to show first 6
+head(row.names(adosm1))
+```
+
+```
+## [1] "1" "2" "3" "4" "5" "6"
+```
+
 
 ## Subsetting Data
 
-### Subset by columns
-
 - In our case, adosm1 is within our R environment, so we would call
     - `adosm1[namesOfRows, namesOfColumns]`
-    - Note: it is best practice to access columns by their names, not their numbers
+
+### Subset by columns
+
+- Note: it is best practice to subset columns by their names, not their numbers
+    - This is because subsetting by column names is more specific and less error-prone
+    - For ex. this can cause a problem if the columns were reordered
 
 
 ```r
 # To access the id column, we would write
 adosm1[, "id"]
+# left of comma is empty to signify all rows to be accessed
+View(adosm1[, "id"])
 
-# To access id and visit
+# To access all rows, for columns id and visit
 adosm1[, c("id", "visit")]
 
-# in order to make code less verbose, when accessing one column, we use
-# the $ operator
+# in order to make code less verbose, when accessing one column,
+# we use the $ operator
 # to access the id column
 adosm1$id
 ```
 
+- Summary for accessing columns:
+    - For multiple columns
+    - `adosm1[, c("nameOfColumn1" "nameOfColumn2")]`
+    - For one column
+    - `adosm1$nameOfColumn`
+    
 ### Subset by rows
 
-- We could similarly access rows by rownames or row numbers
+- We could similarly access rows by row numbers
      - `adosm1[c(1, 2, 5), ]`
+- We could also access rows by their row names
+    - `adosm1[c("1", "2", "5")]`
+- Lastly, we could access rows with a logical vector (explained later)
      
 
 ```r
 # access 1st, 2nd, and 5th rows
+# right of comma is empty to signify all columns to be accessed
 adosm1[c(1, 2, 5), ]
 ```
 
@@ -134,6 +163,9 @@ adosm1[c(1, 2, 5), c("id", "visit")]
 # To Filter for all visits at 36 months:
 # Create logical vector
 visits36mo <- adosm1$visit == "36"
+# This will return a vector that has a length equal to the 
+# number of rows in our dataframe
+head(visits36mo)  # TRUE are values = 36, FALSE not = 36
 
 # use  our visits36mo  logical vector to filter dataframe
 adosm1[visits36mo, ]  # returns  a dataframe of all visits at 36mo
@@ -144,45 +176,7 @@ adosm1[visits36mo, "id"] # returns all the ids with a visit at 36mo
 adosm1[visits36mo, c("ados_algorithm", "ados_version")] 
 ```
 
-## Functions to explore data
-
-### `View()`
-
-- To view your dataframe call the `View()` function.
-- Note the capital **V**iew().
-
-
-```r
-View(adosm1)
-```
-
-### See Dataframe attributes
-
-- display column names `names()`
-- display rownames with `row.names()`
-- see all attributes with `attributes(dataframe)`
-
-
-```r
-# display column names
-# names(dataframe), we will use our adosm1 dataframe
-# wrap function with head() to show first 5
-head(names(adosm1))
-```
-
-```
-## [1] "id"                "visit"             "cbe_36"           
-## [4] "recruitment_group" "gender"            "ados_version"
-```
-
-```r
-# display rownames, wrap function with head() to show first 5
-head(row.names(adosm1))
-```
-
-```
-## [1] "1" "2" "3" "4" "5" "6"
-```
+## Functions to explore data or find unclean data
 
 ### `table()`
 
@@ -194,13 +188,13 @@ head(row.names(adosm1))
 # table() takes in 1 or more vectors as input
 # since every dataframe column could be considered a vector (or list)
 # we could check for every unique visit with freq counts with
-table(adosm1$visit)
+table(adosm1$ados_version)
 ```
 
 ```
 ## 
-##  18  21  24  30  36 
-## 462   9 379  38 141
+## ADOS-1 ADOS-2 
+##    986     43
 ```
 
 ```r
@@ -233,8 +227,8 @@ dupDf <- data.frame(id = c(1, 1, 2, 2, 3, 3),
                     item1 = c(1, 2, 3, 3, 5, 6))
 ```
 
-- The `duplicated` function returns a logical vector of the duplicates that exist in a dataframe.
-- The TRUE values represent the index locations of where a duplicate row was found.
+- The `duplicated` function returns a logical vector of the duplicates that exist in a dataframe
+- The TRUE values represent the index locations of where a duplicate row was found
 - We could use this logical vector to see where a duplicate exists
 
 
@@ -275,7 +269,11 @@ dupDf[dupIndGrouped, ]
 ## 6  3 20 months     6
 ```
 
-## Assignment: adosm2 dataset
+```r
+View(dupDf[dupIndGrouped, ])  # View duplicatecases by id and visit
+```
+
+## Assignment 1: adosm2 dataset
 
 ### Instructions
 
@@ -285,7 +283,7 @@ dupDf[dupIndGrouped, ]
 4. Are there duplicates by id and visit?
 5. What is the frequency count of duplicates vs non-duplicates?
 
-### Solution
+### Solution Assignment 1
 
 
 ```r
@@ -316,11 +314,13 @@ adosm2[adosm2$visit == "30", "id"]
 # This works too- adosm2$id[adosm2$visit == "30"]
 
 # 4. Are there duplicates by id and visit?
-any(duplicated(adosm2[, c("id", "visit")]))
+table(duplicated(adosm2[, c("id", "visit")]))
 ```
 
 ```
-## [1] FALSE
+## 
+## FALSE 
+##   547
 ```
 
 ```r
@@ -334,7 +334,7 @@ table(duplicated(adosm2))
 ##   547
 ```
 
-
-
-
+```r
+# There are no duplicates, so no need to filter out duplicates
+```
 

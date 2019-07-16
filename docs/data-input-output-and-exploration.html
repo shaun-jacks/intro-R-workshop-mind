@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book</title>
+  <title>Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Introduction and Data Exploration | Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -24,6 +24,7 @@
 <meta name="author" content="Shaun Jackson, Marissa Chemotti" />
 
 
+<meta name="date" content="2019-07-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,7 +32,7 @@
   
   
 <link rel="prev" href="index.html">
-<link rel="next" href="data-analysis.html">
+<link rel="next" href="data-manipulation.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -109,62 +110,82 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#dataframes"><i class="fa fa-check"></i><b>1.1.3</b> Dataframes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html"><i class="fa fa-check"></i><b>2</b> Introduction and Data Exploration</a><ul>
-<li class="chapter" data-level="2.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#goals"><i class="fa fa-check"></i><b>2.1</b> Goals</a></li>
-<li class="chapter" data-level="2.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#reading-in-data"><i class="fa fa-check"></i><b>2.2</b> Reading in Data</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#read-csv-files"><i class="fa fa-check"></i><b>2.2.1</b> Read CSV Files</a></li>
+<li class="chapter" data-level="2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html"><i class="fa fa-check"></i><b>2</b> Data Input, Output, and Exploration</a><ul>
+<li class="chapter" data-level="2.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#goals"><i class="fa fa-check"></i><b>2.1</b> Goals</a></li>
+<li class="chapter" data-level="2.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#reading-in-data"><i class="fa fa-check"></i><b>2.2</b> Reading in Data</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#read-csv-files"><i class="fa fa-check"></i><b>2.2.1</b> Read CSV Files</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#observing-dataframe-attributes"><i class="fa fa-check"></i><b>2.3</b> Observing Dataframe attributes</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#view"><i class="fa fa-check"></i><b>2.3.1</b> <code>View</code></a></li>
-<li class="chapter" data-level="2.3.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#see-attributes"><i class="fa fa-check"></i><b>2.3.2</b> See Attributes</a></li>
+<li class="chapter" data-level="2.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#observing-dataframe-attributes"><i class="fa fa-check"></i><b>2.3</b> Observing Dataframe attributes</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#view"><i class="fa fa-check"></i><b>2.3.1</b> <code>View</code></a></li>
+<li class="chapter" data-level="2.3.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#see-attributes"><i class="fa fa-check"></i><b>2.3.2</b> See Attributes</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subsetting-data"><i class="fa fa-check"></i><b>2.4</b> Subsetting Data</a><ul>
-<li class="chapter" data-level="2.4.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subset-by-columns"><i class="fa fa-check"></i><b>2.4.1</b> Subset by columns</a></li>
-<li class="chapter" data-level="2.4.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subset-by-rows"><i class="fa fa-check"></i><b>2.4.2</b> Subset by rows</a></li>
-<li class="chapter" data-level="2.4.3" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subset-by-rows-and-columns"><i class="fa fa-check"></i><b>2.4.3</b> Subset by rows and columns</a></li>
+<li class="chapter" data-level="2.4" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subsetting-data"><i class="fa fa-check"></i><b>2.4</b> Subsetting Data</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-columns"><i class="fa fa-check"></i><b>2.4.1</b> Subset by columns</a></li>
+<li class="chapter" data-level="2.4.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-rows"><i class="fa fa-check"></i><b>2.4.2</b> Subset by rows</a></li>
+<li class="chapter" data-level="2.4.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-rows-and-columns"><i class="fa fa-check"></i><b>2.4.3</b> Subset by rows and columns</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#filtering-a-dataframe-subsetting-part-2"><i class="fa fa-check"></i><b>2.5</b> Filtering a dataframe: Subsetting part 2</a><ul>
-<li class="chapter" data-level="2.5.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subset-with-a-logical-vector"><i class="fa fa-check"></i><b>2.5.1</b> Subset with a logical vector</a></li>
-<li class="chapter" data-level="2.5.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#subset-logical-vector-example"><i class="fa fa-check"></i><b>2.5.2</b> Subset logical vector example</a></li>
+<li class="chapter" data-level="2.5" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#filtering-a-dataframe-subsetting-part-2"><i class="fa fa-check"></i><b>2.5</b> Filtering a dataframe: Subsetting part 2</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-with-a-logical-vector"><i class="fa fa-check"></i><b>2.5.1</b> Subset with a logical vector</a></li>
+<li class="chapter" data-level="2.5.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-logical-vector-example"><i class="fa fa-check"></i><b>2.5.2</b> Subset logical vector example</a></li>
 </ul></li>
-<li class="chapter" data-level="2.6" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#functions-to-explore-data-or-find-unclean-data"><i class="fa fa-check"></i><b>2.6</b> Functions to explore data or find unclean data</a><ul>
-<li class="chapter" data-level="2.6.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#table"><i class="fa fa-check"></i><b>2.6.1</b> <code>table()</code></a></li>
-<li class="chapter" data-level="2.6.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#checking-for-duplicates-duplicated"><i class="fa fa-check"></i><b>2.6.2</b> Checking for duplicates: <code>duplicated()</code></a></li>
-<li class="chapter" data-level="2.6.3" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#duplicated-by-key-variables-id-and-visit"><i class="fa fa-check"></i><b>2.6.3</b> <code>Duplicated()</code> by key variables: id and visit</a></li>
-<li class="chapter" data-level="2.6.4" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#removing-duplicates"><i class="fa fa-check"></i><b>2.6.4</b> Removing Duplicates</a></li>
+<li class="chapter" data-level="2.6" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#functions-to-explore-data-or-find-unclean-data"><i class="fa fa-check"></i><b>2.6</b> Functions to explore data or find unclean data</a><ul>
+<li class="chapter" data-level="2.6.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#table"><i class="fa fa-check"></i><b>2.6.1</b> <code>table()</code></a></li>
+<li class="chapter" data-level="2.6.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#checking-for-duplicates-duplicated"><i class="fa fa-check"></i><b>2.6.2</b> Checking for duplicates: <code>duplicated()</code></a></li>
+<li class="chapter" data-level="2.6.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#duplicated-by-key-variables-id-and-visit"><i class="fa fa-check"></i><b>2.6.3</b> <code>Duplicated()</code> by key variables: id and visit</a></li>
 </ul></li>
-<li class="chapter" data-level="2.7" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#writing-data"><i class="fa fa-check"></i><b>2.7</b> Writing Data</a><ul>
-<li class="chapter" data-level="2.7.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#write.csv"><i class="fa fa-check"></i><b>2.7.1</b> <code>write.csv</code></a></li>
-<li class="chapter" data-level="2.7.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#data.tablefwrite"><i class="fa fa-check"></i><b>2.7.2</b> <code>data.table::fwrite()</code></a></li>
-</ul></li>
-<li class="chapter" data-level="2.8" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#assignment-adosm2-dataset"><i class="fa fa-check"></i><b>2.8</b> Assignment: adosm2 dataset</a><ul>
-<li class="chapter" data-level="2.8.1" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#instructions"><i class="fa fa-check"></i><b>2.8.1</b> Instructions</a></li>
-<li class="chapter" data-level="2.8.2" data-path="introduction-and-data-exploration.html"><a href="introduction-and-data-exploration.html#solution"><i class="fa fa-check"></i><b>2.8.2</b> Solution</a></li>
+<li class="chapter" data-level="2.7" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#assignment-1-adosm2-dataset"><i class="fa fa-check"></i><b>2.7</b> Assignment 1: adosm2 dataset</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#instructions"><i class="fa fa-check"></i><b>2.7.1</b> Instructions</a></li>
+<li class="chapter" data-level="2.7.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#solution-assignment-1"><i class="fa fa-check"></i><b>2.7.2</b> Solution Assignment 1</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="data-analysis.html"><a href="data-analysis.html"><i class="fa fa-check"></i><b>3</b> Data Analysis</a><ul>
-<li class="chapter" data-level="3.1" data-path="data-analysis.html"><a href="data-analysis.html#read-in-data"><i class="fa fa-check"></i><b>3.1</b> Read in Data</a></li>
-<li class="chapter" data-level="3.2" data-path="data-analysis.html"><a href="data-analysis.html#basic-stats-functions"><i class="fa fa-check"></i><b>3.2</b> Basic Stats functions</a><ul>
-<li class="chapter" data-level="3.2.1" data-path="data-analysis.html"><a href="data-analysis.html#mean-median-standard-deviation-summary"><i class="fa fa-check"></i><b>3.2.1</b> Mean, Median, Standard Deviation, Summary</a></li>
-<li class="chapter" data-level="3.2.2" data-path="data-analysis.html"><a href="data-analysis.html#chi-squared-test"><i class="fa fa-check"></i><b>3.2.2</b> Chi Squared Test</a></li>
+<li class="chapter" data-level="3" data-path="data-manipulation.html"><a href="data-manipulation.html"><i class="fa fa-check"></i><b>3</b> Data Manipulation</a><ul>
+<li class="chapter" data-level="3.1" data-path="data-manipulation.html"><a href="data-manipulation.html#goals-1"><i class="fa fa-check"></i><b>3.1</b> Goals</a></li>
+<li class="chapter" data-level="3.2" data-path="data-manipulation.html"><a href="data-manipulation.html#removing-duplicates"><i class="fa fa-check"></i><b>3.2</b> Removing Duplicates</a></li>
+<li class="chapter" data-level="3.3" data-path="data-manipulation.html"><a href="data-manipulation.html#cleaning-scoring-messy-data"><i class="fa fa-check"></i><b>3.3</b> Cleaning, Scoring Messy Data</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="data-manipulation.html"><a href="data-manipulation.html#messy-dataset"><i class="fa fa-check"></i><b>3.3.1</b> Messy Dataset</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-manipulation.html"><a href="data-manipulation.html#replacing-values-with-ifelse"><i class="fa fa-check"></i><b>3.3.2</b> Replacing values with <code>ifelse()</code></a></li>
+<li class="chapter" data-level="3.3.3" data-path="data-manipulation.html"><a href="data-manipulation.html#replacing-nas-with-ifelse"><i class="fa fa-check"></i><b>3.3.3</b> Replacing NAs with <code>ifelse()</code></a></li>
+<li class="chapter" data-level="3.3.4" data-path="data-manipulation.html"><a href="data-manipulation.html#nesting-ifelse-to-replace-multiple-values"><i class="fa fa-check"></i><b>3.3.4</b> Nesting <code>ifelse()</code> to replace multiple values</a></li>
+<li class="chapter" data-level="3.3.5" data-path="data-manipulation.html"><a href="data-manipulation.html#lapply-applying-a-function-over-multiple-columns-with"><i class="fa fa-check"></i><b>3.3.5</b> <code>lapply()</code>: Applying a function over multiple columns with</a></li>
+<li class="chapter" data-level="3.3.6" data-path="data-manipulation.html"><a href="data-manipulation.html#scoring-data-with-rowsums-and-rowmeans"><i class="fa fa-check"></i><b>3.3.6</b> Scoring Data with <code>rowSums()</code> and <code>rowMeans()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="data-analysis.html"><a href="data-analysis.html#linear-regression"><i class="fa fa-check"></i><b>3.3</b> Linear Regression</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="data-analysis.html"><a href="data-analysis.html#correlation"><i class="fa fa-check"></i><b>3.3.1</b> Correlation</a></li>
-<li class="chapter" data-level="3.3.2" data-path="data-analysis.html"><a href="data-analysis.html#creating-a-linear-regression-model"><i class="fa fa-check"></i><b>3.3.2</b> Creating a Linear Regression Model</a></li>
-<li class="chapter" data-level="3.3.3" data-path="data-analysis.html"><a href="data-analysis.html#residuals-p-values-coefficients-with-summary"><i class="fa fa-check"></i><b>3.3.3</b> Residuals, P-Values, Coefficients, with <code>summary()</code></a></li>
-<li class="chapter" data-level="3.3.4" data-path="data-analysis.html"><a href="data-analysis.html#plotting-the-linear-model"><i class="fa fa-check"></i><b>3.3.4</b> Plotting the Linear Model</a></li>
+<li class="chapter" data-level="3.4" data-path="data-manipulation.html"><a href="data-manipulation.html#merging-datasets-together"><i class="fa fa-check"></i><b>3.4</b> Merging datasets together</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="data-manipulation.html"><a href="data-manipulation.html#creating-datasets-to-merge"><i class="fa fa-check"></i><b>3.4.1</b> Creating datasets to merge</a></li>
+<li class="chapter" data-level="3.4.2" data-path="data-manipulation.html"><a href="data-manipulation.html#merging-with-merge"><i class="fa fa-check"></i><b>3.4.2</b> Merging with <code>merge()</code></a></li>
+<li class="chapter" data-level="3.4.3" data-path="data-manipulation.html"><a href="data-manipulation.html#stacking-dataframes-with-rbind"><i class="fa fa-check"></i><b>3.4.3</b> Stacking dataframes with <code>rbind</code></a></li>
+<li class="chapter" data-level="3.4.4" data-path="data-manipulation.html"><a href="data-manipulation.html#data.tablefwrite"><i class="fa fa-check"></i><b>3.4.4</b> <code>data.table::fwrite()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="data-analysis.html"><a href="data-analysis.html#logistic-regression"><i class="fa fa-check"></i><b>3.4</b> Logistic Regression</a></li>
-<li class="chapter" data-level="3.5" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-models"><i class="fa fa-check"></i><b>3.5</b> Mixed Effects Models</a><ul>
-<li class="chapter" data-level="3.5.1" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-logistic-regression"><i class="fa fa-check"></i><b>3.5.1</b> Mixed Effects Logistic Regression</a></li>
+<li class="chapter" data-level="3.5" data-path="data-manipulation.html"><a href="data-manipulation.html#score-ados-module-1--assignment-2"><i class="fa fa-check"></i><b>3.5</b> Score ADOS Module 1- Assignment 2</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="data-manipulation.html"><a href="data-manipulation.html#instructions-1"><i class="fa fa-check"></i><b>3.5.1</b> Instructions</a></li>
+<li class="chapter" data-level="3.5.2" data-path="data-manipulation.html"><a href="data-manipulation.html#solution"><i class="fa fa-check"></i><b>3.5.2</b> Solution</a></li>
 </ul></li>
-<li class="chapter" data-level="3.6" data-path="data-analysis.html"><a href="data-analysis.html#data-visualization-with-ggplot"><i class="fa fa-check"></i><b>3.6</b> Data Visualization with <code>ggplot</code></a><ul>
-<li class="chapter" data-level="3.6.1" data-path="data-analysis.html"><a href="data-analysis.html#plotting-points"><i class="fa fa-check"></i><b>3.6.1</b> Plotting points</a></li>
-<li class="chapter" data-level="3.6.2" data-path="data-analysis.html"><a href="data-analysis.html#plotting-with-points-and-smooth"><i class="fa fa-check"></i><b>3.6.2</b> Plotting with Points and Smooth</a></li>
-<li class="chapter" data-level="3.6.3" data-path="data-analysis.html"><a href="data-analysis.html#bar-plots"><i class="fa fa-check"></i><b>3.6.3</b> Bar Plots</a></li>
-<li class="chapter" data-level="3.6.4" data-path="data-analysis.html"><a href="data-analysis.html#box-plots"><i class="fa fa-check"></i><b>3.6.4</b> Box Plots</a></li>
+<li class="chapter" data-level="3.6" data-path="data-manipulation.html"><a href="data-manipulation.html#writing-data"><i class="fa fa-check"></i><b>3.6</b> Writing Data</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="data-manipulation.html"><a href="data-manipulation.html#write.csv"><i class="fa fa-check"></i><b>3.6.1</b> <code>write.csv</code></a></li>
 </ul></li>
-<li class="chapter" data-level="3.7" data-path="data-analysis.html"><a href="data-analysis.html#more-resources"><i class="fa fa-check"></i><b>3.7</b> More Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-analysis.html"><a href="data-analysis.html"><i class="fa fa-check"></i><b>4</b> Data Analysis</a><ul>
+<li class="chapter" data-level="4.1" data-path="data-analysis.html"><a href="data-analysis.html#read-in-data"><i class="fa fa-check"></i><b>4.1</b> Read in Data</a></li>
+<li class="chapter" data-level="4.2" data-path="data-analysis.html"><a href="data-analysis.html#data-visualization-with-ggplot"><i class="fa fa-check"></i><b>4.2</b> Data Visualization with <code>ggplot</code></a><ul>
+<li class="chapter" data-level="4.2.1" data-path="data-analysis.html"><a href="data-analysis.html#plotting-points"><i class="fa fa-check"></i><b>4.2.1</b> Plotting points</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-analysis.html"><a href="data-analysis.html#plotting-with-points-and-smooth"><i class="fa fa-check"></i><b>4.2.2</b> Plotting with Points and Smooth</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-analysis.html"><a href="data-analysis.html#bar-plots"><i class="fa fa-check"></i><b>4.2.3</b> Bar Plots</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-analysis.html"><a href="data-analysis.html#box-plots"><i class="fa fa-check"></i><b>4.2.4</b> Box Plots</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-analysis.html"><a href="data-analysis.html#basic-stats-functions"><i class="fa fa-check"></i><b>4.3</b> Basic Stats functions</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="data-analysis.html"><a href="data-analysis.html#mean-median-standard-deviation-summary"><i class="fa fa-check"></i><b>4.3.1</b> Mean, Median, Standard Deviation, Summary</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-analysis.html"><a href="data-analysis.html#chi-squared-test"><i class="fa fa-check"></i><b>4.3.2</b> Chi Squared Test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="data-analysis.html"><a href="data-analysis.html#linear-regression"><i class="fa fa-check"></i><b>4.4</b> Linear Regression</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="data-analysis.html"><a href="data-analysis.html#correlation"><i class="fa fa-check"></i><b>4.4.1</b> Correlation</a></li>
+<li class="chapter" data-level="4.4.2" data-path="data-analysis.html"><a href="data-analysis.html#creating-a-linear-regression-model"><i class="fa fa-check"></i><b>4.4.2</b> Creating a Linear Regression Model</a></li>
+<li class="chapter" data-level="4.4.3" data-path="data-analysis.html"><a href="data-analysis.html#residuals-p-values-coefficients-with-summary"><i class="fa fa-check"></i><b>4.4.3</b> Residuals, P-Values, Coefficients, with <code>summary()</code></a></li>
+<li class="chapter" data-level="4.4.4" data-path="data-analysis.html"><a href="data-analysis.html#plotting-the-linear-model"><i class="fa fa-check"></i><b>4.4.4</b> Plotting the Linear Model</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="data-analysis.html"><a href="data-analysis.html#logistic-regression"><i class="fa fa-check"></i><b>4.5</b> Logistic Regression</a></li>
+<li class="chapter" data-level="4.6" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-models"><i class="fa fa-check"></i><b>4.6</b> Mixed Effects Models</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-logistic-regression"><i class="fa fa-check"></i><b>4.6.1</b> Mixed Effects Logistic Regression</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="data-analysis.html"><a href="data-analysis.html#more-resources"><i class="fa fa-check"></i><b>4.7</b> More Resources</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -186,15 +207,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introduction-and-data-exploration" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Introduction and Data Exploration</h1>
+<div id="data-input-output-and-exploration" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Data Input, Output, and Exploration</h1>
 <div id="goals" class="section level2">
 <h2><span class="header-section-number">2.1</span> Goals</h2>
 <p>By the end of this chapter, you will be able to:</p>
 <ol style="list-style-type: decimal">
-<li>Learn about the fundamental R Datatypes</li>
 <li>Read a CSV file into your R environment</li>
-<li>Write from your R environment to a CSV file</li>
 <li>Explore different attributes of a dataframe
 <ul>
 <li>column names</li>
@@ -208,6 +227,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Frequency counts of unique values with <code>table()</code></li>
 <li>Search for any duplicates within your data with <code>duplicated()</code></li>
 </ul></li>
+<li>Write from your R environment to a CSV file</li>
 </ol>
 </div>
 <div id="reading-in-data" class="section level2">
@@ -412,42 +432,11 @@ dupDf[dupIndGrouped, ]</code></pre></div>
 ## 6  3 20 months     6</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(dupDf[dupIndGrouped, ])  <span class="co"># View duplicatecases by id and visit</span></code></pre></div>
 </div>
-<div id="removing-duplicates" class="section level3">
-<h3><span class="header-section-number">2.6.4</span> Removing Duplicates</h3>
-<ul>
-<li>Before removing duplicates, it’s important to understand why there would be duplicates, and try to fix that issue</li>
-<li><p>Otherwise, here is another way to quickly remove them</p></li>
-<li>To remove duplicates, we use the same logical vector that found the duplicates</li>
-<li>We then inverse the vector by adding a (not sign) ! to toggle TRUES to FALSES and FALSES to TRUES</li>
-<li><p>By subsetting in this way, we will make a cleaner dataframe excluding all duplicate rows</p></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">notDuplicateCases &lt;-<span class="st"> </span><span class="op">!</span>dupIndGrouped
-fixedDf &lt;-<span class="st"> </span>dupDf[notDuplicateCases, ]
-<span class="kw">View</span>(fixedDf)  <span class="co"># View fixed dataframe</span></code></pre></div>
 </div>
-</div>
-<div id="writing-data" class="section level2">
-<h2><span class="header-section-number">2.7</span> Writing Data</h2>
-<div id="write.csv" class="section level3">
-<h3><span class="header-section-number">2.7.1</span> <code>write.csv</code></h3>
-<ul>
-<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
-<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
-<li>the second parameter is the location and filename to write it to.</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;datasets/practice write csv ados.csv&#39;, row.names = FALSE)</span></code></pre></div>
-</div>
-<div id="data.tablefwrite" class="section level3">
-<h3><span class="header-section-number">2.7.2</span> <code>data.table::fwrite()</code></h3>
-<ul>
-<li>One you are comfortable with write.csv, I would suggest looking into the <code>fwrite</code> function within data.table. It is much much faster and more efficient.</li>
-</ul>
-</div>
-</div>
-<div id="assignment-adosm2-dataset" class="section level2">
-<h2><span class="header-section-number">2.8</span> Assignment: adosm2 dataset</h2>
+<div id="assignment-1-adosm2-dataset" class="section level2">
+<h2><span class="header-section-number">2.7</span> Assignment 1: adosm2 dataset</h2>
 <div id="instructions" class="section level3">
-<h3><span class="header-section-number">2.8.1</span> Instructions</h3>
+<h3><span class="header-section-number">2.7.1</span> Instructions</h3>
 <ol style="list-style-type: decimal">
 <li>Read in the adosm2.csv file</li>
 <li>What is the frequency count for every unique visit?</li>
@@ -456,8 +445,8 @@ fixedDf &lt;-<span class="st"> </span>dupDf[notDuplicateCases, ]
 <li>What is the frequency count of duplicates vs non-duplicates?</li>
 </ol>
 </div>
-<div id="solution" class="section level3">
-<h3><span class="header-section-number">2.8.2</span> Solution</h3>
+<div id="solution-assignment-1" class="section level3">
+<h3><span class="header-section-number">2.7.2</span> Solution Assignment 1</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in the adosm2.csv file</span>
 adosm2Path &lt;-<span class="st"> &#39;./datasets/adosm2.csv&#39;</span>
 adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(adosm2Path, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
@@ -493,7 +482,7 @@ adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span clas
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-manipulation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

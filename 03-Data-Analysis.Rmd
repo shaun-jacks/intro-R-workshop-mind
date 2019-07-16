@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "7/3/2019"
+date: "`r Sys.Date()`"
 output: 
   rmdformats::material:
     self_contained: no
@@ -10,20 +10,63 @@ output:
 ```{r setup, include=FALSE}
 options(stringsAsFactors = FALSE)
 library(kableExtra)
-adosm1 <- read.csv('./datasets/adosm1_scored.csv', stringsAsFactors = FALSE)
 ```
 
 # Data Analysis
 
 ## Read in Data
 
-- Our input data will be a scored version of the artificial ADOS dataset with some fake columns to demonstrate how to use R to perform specific data analyses.
+- Our input data will be a scored version of the artificial ADOS Module 2dataset with some fake columns to demonstrate how to use R to perform specific data analyses.
 
 
-```{r dataInput, include=FALSE}
+```{r dataInput}
 adosm2 <- read.csv('./datasets/adosm2_scored.csv', 
                    stringsAsFactors = FALSE)
 ```
+
+## Data Visualization with `ggplot`
+
+### Plotting points
+```{r}
+library(ggplot2)
+ggplot(data = adosm2) + 
+  geom_point(mapping = aes(x = ados_fake_lin_outcome, 
+                           y = ados_sarb_total, 
+                           color = recruitment_group))
+
+```
+
+### Plotting with Points and Smooth
+
+```{r}
+ggplot(data = adosm2, mapping = aes(x = ados_sarb_total, y = ados_fake_lin_outcome)) + 
+  geom_point(mapping = aes(color = recruitment_group)) + 
+  geom_smooth()
+```
+
+### Bar Plots
+
+#### Bar plot with Colors
+```{r}
+ggplot(data = adosm2) + 
+  geom_bar(mapping = aes(x = recruitment_group, fill = gender))
+
+```
+
+#### Bar plot with separated colors and positions
+```{r}
+ggplot(data = adosm2) + 
+  geom_bar(mapping = aes(x = recruitment_group, fill = gender), position = "dodge")
+```
+
+### Box Plots
+
+```{r}
+ggplot(data = adosm2, mapping = aes(x = recruitment_group, y = ados_sarb_total)) +
+  geom_boxplot()
+```
+
+
 
 ## Basic Stats functions
 
@@ -33,6 +76,12 @@ mean(adosm2$ados_sarb_total, na.rm = TRUE)
 median(adosm2$ados_sarb_total, na.rm = TRUE)
 sd(adosm2$ados_sarb_total, na.rm = TRUE)
 summary(adosm2$ados_sarb_total)
+```
+
+### Chi Squared Test
+
+```{r}
+chisq.test(table(adosm2$cbe_36, adosm2$recruitment_group))
 ```
 
 ## Linear Regression
@@ -116,49 +165,6 @@ plot(eff,
 )
 
 
-```
-
-
-## Data Visualization with `ggplot`
-
-### Plotting points
-```{r}
-library(ggplot2)
-ggplot(data = adosm2) + 
-  geom_point(mapping = aes(x = ados_fake_lin_outcome, 
-                           y = ados_sarb_total, 
-                           color = recruitment_group))
-
-```
-
-### Plotting with Points and Smooth
-
-```{r}
-ggplot(data = adosm2, mapping = aes(x = ados_sarb_total, y = ados_fake_lin_outcome)) + 
-  geom_point(mapping = aes(color = recruitment_group)) + 
-  geom_smooth()
-```
-
-### Bar Plots
-
-#### Bar plot with Colors
-```{r}
-ggplot(data = adosm2) + 
-  geom_bar(mapping = aes(x = recruitment_group, fill = gender))
-
-```
-
-#### Bar plot with separated colors and positions
-```{r}
-ggplot(data = adosm2) + 
-  geom_bar(mapping = aes(x = recruitment_group, fill = gender), position = "dodge")
-```
-
-### Box Plots
-
-```{r}
-ggplot(data = adosm2, mapping = aes(x = recruitment_group, y = ados_sarb_total)) +
-  geom_boxplot()
 ```
 
 ## More Resources

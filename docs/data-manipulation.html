@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Data Manipulation | Intro to R Workshop Book</title>
+  <meta name="description" content="Introduction to R Workshop" />
+  <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Data Manipulation | Intro to R Workshop Book" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Introduction to R Workshop" />
+  <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Data Manipulation | Intro to R Workshop Book" />
+  
+  <meta name="twitter:description" content="Introduction to R Workshop" />
+  
+
+<meta name="author" content="Shaun Jackson, Marissa Chemotti" />
+
+
+<meta name="date" content="2019-07-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-input-output-and-exploration.html">
+<link rel="next" href="data-analysis.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Intro R Workshop</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview and Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#datatypes"><i class="fa fa-check"></i><b>1.1</b> Datatypes</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#numeric-logical-character-factor"><i class="fa fa-check"></i><b>1.1.1</b> Numeric, Logical, Character, Factor</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#lists-vectors-matrices"><i class="fa fa-check"></i><b>1.1.2</b> Lists, Vectors, Matrices</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#dataframes"><i class="fa fa-check"></i><b>1.1.3</b> Dataframes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html"><i class="fa fa-check"></i><b>2</b> Data Input, Output, and Exploration</a><ul>
+<li class="chapter" data-level="2.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#goals"><i class="fa fa-check"></i><b>2.1</b> Goals</a></li>
+<li class="chapter" data-level="2.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#reading-in-data"><i class="fa fa-check"></i><b>2.2</b> Reading in Data</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#read-csv-files"><i class="fa fa-check"></i><b>2.2.1</b> Read CSV Files</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#observing-dataframe-attributes"><i class="fa fa-check"></i><b>2.3</b> Observing Dataframe attributes</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#view"><i class="fa fa-check"></i><b>2.3.1</b> <code>View</code></a></li>
+<li class="chapter" data-level="2.3.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#see-attributes"><i class="fa fa-check"></i><b>2.3.2</b> See Attributes</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subsetting-data"><i class="fa fa-check"></i><b>2.4</b> Subsetting Data</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-columns"><i class="fa fa-check"></i><b>2.4.1</b> Subset by columns</a></li>
+<li class="chapter" data-level="2.4.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-rows"><i class="fa fa-check"></i><b>2.4.2</b> Subset by rows</a></li>
+<li class="chapter" data-level="2.4.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-by-rows-and-columns"><i class="fa fa-check"></i><b>2.4.3</b> Subset by rows and columns</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#filtering-a-dataframe-subsetting-part-2"><i class="fa fa-check"></i><b>2.5</b> Filtering a dataframe: Subsetting part 2</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-with-a-logical-vector"><i class="fa fa-check"></i><b>2.5.1</b> Subset with a logical vector</a></li>
+<li class="chapter" data-level="2.5.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#subset-logical-vector-example"><i class="fa fa-check"></i><b>2.5.2</b> Subset logical vector example</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#functions-to-explore-data-or-find-unclean-data"><i class="fa fa-check"></i><b>2.6</b> Functions to explore data or find unclean data</a><ul>
+<li class="chapter" data-level="2.6.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#table"><i class="fa fa-check"></i><b>2.6.1</b> <code>table()</code></a></li>
+<li class="chapter" data-level="2.6.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#checking-for-duplicates-duplicated"><i class="fa fa-check"></i><b>2.6.2</b> Checking for duplicates: <code>duplicated()</code></a></li>
+<li class="chapter" data-level="2.6.3" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#duplicated-by-key-variables-id-and-visit"><i class="fa fa-check"></i><b>2.6.3</b> <code>Duplicated()</code> by key variables: id and visit</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#assignment-1-adosm2-dataset"><i class="fa fa-check"></i><b>2.7</b> Assignment 1: adosm2 dataset</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#instructions"><i class="fa fa-check"></i><b>2.7.1</b> Instructions</a></li>
+<li class="chapter" data-level="2.7.2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#solution-assignment-1"><i class="fa fa-check"></i><b>2.7.2</b> Solution Assignment 1</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-manipulation.html"><a href="data-manipulation.html"><i class="fa fa-check"></i><b>3</b> Data Manipulation</a><ul>
+<li class="chapter" data-level="3.1" data-path="data-manipulation.html"><a href="data-manipulation.html#goals-1"><i class="fa fa-check"></i><b>3.1</b> Goals</a></li>
+<li class="chapter" data-level="3.2" data-path="data-manipulation.html"><a href="data-manipulation.html#removing-duplicates"><i class="fa fa-check"></i><b>3.2</b> Removing Duplicates</a></li>
+<li class="chapter" data-level="3.3" data-path="data-manipulation.html"><a href="data-manipulation.html#cleaning-scoring-messy-data"><i class="fa fa-check"></i><b>3.3</b> Cleaning, Scoring Messy Data</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="data-manipulation.html"><a href="data-manipulation.html#messy-dataset"><i class="fa fa-check"></i><b>3.3.1</b> Messy Dataset</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-manipulation.html"><a href="data-manipulation.html#replacing-values-with-ifelse"><i class="fa fa-check"></i><b>3.3.2</b> Replacing values with <code>ifelse()</code></a></li>
+<li class="chapter" data-level="3.3.3" data-path="data-manipulation.html"><a href="data-manipulation.html#replacing-nas-with-ifelse"><i class="fa fa-check"></i><b>3.3.3</b> Replacing NAs with <code>ifelse()</code></a></li>
+<li class="chapter" data-level="3.3.4" data-path="data-manipulation.html"><a href="data-manipulation.html#nesting-ifelse-to-replace-multiple-values"><i class="fa fa-check"></i><b>3.3.4</b> Nesting <code>ifelse()</code> to replace multiple values</a></li>
+<li class="chapter" data-level="3.3.5" data-path="data-manipulation.html"><a href="data-manipulation.html#lapply-applying-a-function-over-multiple-columns-with"><i class="fa fa-check"></i><b>3.3.5</b> <code>lapply()</code>: Applying a function over multiple columns with</a></li>
+<li class="chapter" data-level="3.3.6" data-path="data-manipulation.html"><a href="data-manipulation.html#scoring-data-with-rowsums-and-rowmeans"><i class="fa fa-check"></i><b>3.3.6</b> Scoring Data with <code>rowSums()</code> and <code>rowMeans()</code></a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="data-manipulation.html"><a href="data-manipulation.html#merging-datasets-together"><i class="fa fa-check"></i><b>3.4</b> Merging datasets together</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="data-manipulation.html"><a href="data-manipulation.html#creating-datasets-to-merge"><i class="fa fa-check"></i><b>3.4.1</b> Creating datasets to merge</a></li>
+<li class="chapter" data-level="3.4.2" data-path="data-manipulation.html"><a href="data-manipulation.html#merging-with-merge"><i class="fa fa-check"></i><b>3.4.2</b> Merging with <code>merge()</code></a></li>
+<li class="chapter" data-level="3.4.3" data-path="data-manipulation.html"><a href="data-manipulation.html#stacking-dataframes-with-rbind"><i class="fa fa-check"></i><b>3.4.3</b> Stacking dataframes with <code>rbind</code></a></li>
+<li class="chapter" data-level="3.4.4" data-path="data-manipulation.html"><a href="data-manipulation.html#data.tablefwrite"><i class="fa fa-check"></i><b>3.4.4</b> <code>data.table::fwrite()</code></a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="data-manipulation.html"><a href="data-manipulation.html#score-ados-module-1--assignment-2"><i class="fa fa-check"></i><b>3.5</b> Score ADOS Module 1- Assignment 2</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="data-manipulation.html"><a href="data-manipulation.html#instructions-1"><i class="fa fa-check"></i><b>3.5.1</b> Instructions</a></li>
+<li class="chapter" data-level="3.5.2" data-path="data-manipulation.html"><a href="data-manipulation.html#solution"><i class="fa fa-check"></i><b>3.5.2</b> Solution</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="data-manipulation.html"><a href="data-manipulation.html#writing-data"><i class="fa fa-check"></i><b>3.6</b> Writing Data</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="data-manipulation.html"><a href="data-manipulation.html#write.csv"><i class="fa fa-check"></i><b>3.6.1</b> <code>write.csv</code></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-analysis.html"><a href="data-analysis.html"><i class="fa fa-check"></i><b>4</b> Data Analysis</a><ul>
+<li class="chapter" data-level="4.1" data-path="data-analysis.html"><a href="data-analysis.html#read-in-data"><i class="fa fa-check"></i><b>4.1</b> Read in Data</a></li>
+<li class="chapter" data-level="4.2" data-path="data-analysis.html"><a href="data-analysis.html#data-visualization-with-ggplot"><i class="fa fa-check"></i><b>4.2</b> Data Visualization with <code>ggplot</code></a><ul>
+<li class="chapter" data-level="4.2.1" data-path="data-analysis.html"><a href="data-analysis.html#plotting-points"><i class="fa fa-check"></i><b>4.2.1</b> Plotting points</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-analysis.html"><a href="data-analysis.html#plotting-with-points-and-smooth"><i class="fa fa-check"></i><b>4.2.2</b> Plotting with Points and Smooth</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-analysis.html"><a href="data-analysis.html#bar-plots"><i class="fa fa-check"></i><b>4.2.3</b> Bar Plots</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-analysis.html"><a href="data-analysis.html#box-plots"><i class="fa fa-check"></i><b>4.2.4</b> Box Plots</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-analysis.html"><a href="data-analysis.html#basic-stats-functions"><i class="fa fa-check"></i><b>4.3</b> Basic Stats functions</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="data-analysis.html"><a href="data-analysis.html#mean-median-standard-deviation-summary"><i class="fa fa-check"></i><b>4.3.1</b> Mean, Median, Standard Deviation, Summary</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-analysis.html"><a href="data-analysis.html#chi-squared-test"><i class="fa fa-check"></i><b>4.3.2</b> Chi Squared Test</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="data-analysis.html"><a href="data-analysis.html#linear-regression"><i class="fa fa-check"></i><b>4.4</b> Linear Regression</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="data-analysis.html"><a href="data-analysis.html#correlation"><i class="fa fa-check"></i><b>4.4.1</b> Correlation</a></li>
+<li class="chapter" data-level="4.4.2" data-path="data-analysis.html"><a href="data-analysis.html#creating-a-linear-regression-model"><i class="fa fa-check"></i><b>4.4.2</b> Creating a Linear Regression Model</a></li>
+<li class="chapter" data-level="4.4.3" data-path="data-analysis.html"><a href="data-analysis.html#residuals-p-values-coefficients-with-summary"><i class="fa fa-check"></i><b>4.4.3</b> Residuals, P-Values, Coefficients, with <code>summary()</code></a></li>
+<li class="chapter" data-level="4.4.4" data-path="data-analysis.html"><a href="data-analysis.html#plotting-the-linear-model"><i class="fa fa-check"></i><b>4.4.4</b> Plotting the Linear Model</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="data-analysis.html"><a href="data-analysis.html#logistic-regression"><i class="fa fa-check"></i><b>4.5</b> Logistic Regression</a></li>
+<li class="chapter" data-level="4.6" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-models"><i class="fa fa-check"></i><b>4.6</b> Mixed Effects Models</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="data-analysis.html"><a href="data-analysis.html#mixed-effects-logistic-regression"><i class="fa fa-check"></i><b>4.6.1</b> Mixed Effects Logistic Regression</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="data-analysis.html"><a href="data-analysis.html#more-resources"><i class="fa fa-check"></i><b>4.7</b> More Resources</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Intro to R Workshop Book</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-manipulation" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Data Manipulation</h1>
+<div id="goals-1" class="section level2">
+<h2><span class="header-section-number">3.1</span> Goals</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<ol style="list-style-type: decimal">
+<li>Gain Data Cleaning skills
+<ul>
+<li>Remove duplicate data</li>
+<li>Clean data by replacing messy data with consistent data
+<ul>
+<li>using <code>ifelse()</code></li>
+</ul></li>
+</ul></li>
+<li>Gain data Manipulation skills
+<ul>
+<li>Learn how to efficiently manipulate data with <code>lapply()</code></li>
+<li>Score data with <code>rowSums()</code> and <code>rowMeans()</code> and <code>lapply()</code></li>
+</ul></li>
+<li>Combine datasets together
+<ul>
+<li>using <code>merge()</code></li>
+<li>using <code>rbind()</code> and <code>rbind.fill()</code></li>
+</ul></li>
+<li>Combining Sections 1 and 2 to Score the ADOS Module 1</li>
+<li>Write your resulting dataframe with <code>write.csv()</code></li>
+</ol>
+</div>
+<div id="removing-duplicates" class="section level2">
+<h2><span class="header-section-number">3.2</span> Removing Duplicates</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Create duplicated dataframe </span>
+dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))
+<span class="co"># save logical vector of duplicate indices</span>
+dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
+dupIndGrouped</code></pre></div>
+<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE  TRUE</code></pre>
+<ul>
+<li>Before removing duplicates, it’s important to understand why there would be duplicates, and try to fix that issue</li>
+<li><p>Otherwise, here is another way to quickly remove them</p></li>
+<li>To remove duplicates, we use the same logical vector that found the duplicates</li>
+<li>We then inverse the vector by adding a (not sign) ! to toggle TRUES to FALSES and FALSES to TRUES</li>
+<li><p>By subsetting in this way, we will make a cleaner dataframe excluding all duplicate rows</p></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">notDuplicateCases &lt;-<span class="st"> </span><span class="op">!</span>dupIndGrouped
+fixedDf &lt;-<span class="st"> </span>dupDf[notDuplicateCases, ]
+<span class="kw">View</span>(fixedDf)  <span class="co"># View fixed dataframe</span></code></pre></div>
+</div>
+<div id="cleaning-scoring-messy-data" class="section level2">
+<h2><span class="header-section-number">3.3</span> Cleaning, Scoring Messy Data</h2>
+<div id="messy-dataset" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Messy Dataset</h3>
+<ul>
+<li>We will create a dataset that is ‘unclean’ in order to teach you how to clean it</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">messyDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
+  <span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+  <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+  <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>),
+  <span class="co"># item2 is a column with NAs</span>
+  <span class="dt">item2 =</span> <span class="kw">c</span>(<span class="ot">NA</span>, <span class="ot">NA</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>),
+  <span class="co"># item3 is  a column with multiple missing codes and NAs</span>
+  <span class="dt">item3 =</span> <span class="kw">c</span>(<span class="ot">NA</span>, <span class="st">&#39;Missing&#39;</span>, <span class="st">&#39;-999&#39;</span>, <span class="st">&#39;4&#39;</span>, <span class="st">&#39;5&#39;</span>, <span class="st">&#39;6&#39;</span>),
+  <span class="co"># item 4 is a character column with different codes for  same value</span>
+  <span class="dt">item4Text =</span> <span class="kw">c</span>(<span class="st">&#39;father&#39;</span>, <span class="st">&#39;Father&#39;</span>, <span class="st">&#39;fth&#39;</span>, <span class="st">&#39;mother&#39;</span>, <span class="st">&#39;Mother&#39;</span>, <span class="st">&#39;Mother&#39;</span>),
+  <span class="co"># item 5 is a coded variable with text embedded within</span>
+  <span class="dt">item5Codes =</span> <span class="kw">c</span>(<span class="st">&#39;0 (Never)&#39;</span>, <span class="st">&#39;1&#39;</span>, <span class="st">&#39;2&#39;</span>, <span class="st">&#39;3&#39;</span>, <span class="st">&#39;4&#39;</span>, <span class="st">&#39;5 (Always)&#39;</span>),
+  <span class="dt">item6 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="ot">NA</span>),
+  <span class="dt">item7 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="dv">6</span>)
+)</code></pre></div>
+</div>
+<div id="replacing-values-with-ifelse" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Replacing values with <code>ifelse()</code></h3>
+<ul>
+<li><code>ifelse()</code> is a <strong>vectorized</strong> function that uses matrix-like operations for increased efficiency</li>
+<li>It can take in a vector of values, and return a vector of values of the same length</li>
+<li>Function Signature: <code>ifelse(condition, value if condition true,  value if condition false)</code>
+<ul>
+<li>The <code>condition</code> is a logical vector which could be created with boolean operators (eg. ==, &lt;, &gt;) or any function that returns a logical operator: eg. <code>duplicated()</code>, <code>grepl()</code>, <code>is.na()</code>.</li>
+<li>The second parameter is what value will be returned for all TRUEs in the preceding logical vector</li>
+<li>The third parameter is what value will be returned for all FALSEs in the 1st condition logical vector</li>
+</ul></li>
+</ul>
+</div>
+<div id="replacing-nas-with-ifelse" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> Replacing NAs with <code>ifelse()</code></h3>
+<ul>
+<li>For example, we can replace all NAs with 0 by also using the <code>is.na()</code>.
+<ul>
+<li><code>is.na()</code> takes in a vector of values</li>
+<li>This function will take the input vector, and return a logical vector, same as what <code>duplicated()</code> did, where TRUEs are where an NA was found, and FALSE otherwise.</li>
+</ul></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">is.na</span>(messyDf<span class="op">$</span>item2)</code></pre></div>
+<pre><code>## [1]  TRUE  TRUE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># for all NAs replace with 0, otherwise replace with original value</span>
+<span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item2), <span class="dv">0</span>, messyDf<span class="op">$</span>item2)  </code></pre></div>
+<pre><code>## [1] 0 0 3 4 5 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We use this vector and assign it to the original column to clean it</span>
+messyDf<span class="op">$</span>item2 &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item2), <span class="dv">0</span>, messyDf<span class="op">$</span>item2) </code></pre></div>
+</div>
+<div id="nesting-ifelse-to-replace-multiple-values" class="section level3">
+<h3><span class="header-section-number">3.3.4</span> Nesting <code>ifelse()</code> to replace multiple values</h3>
+<ul>
+<li>To fix item3, we need to have a consistent code for <strong>Missing</strong></li>
+<li>Notice how NA, Missing, and -999, all represent <strong>Missing</strong></li>
+<li>To replace all 3 cases, we can do so by nesting <code>ifelse</code> statements.</li>
+<li>To do this, we nest ifelse statements:</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ifelse</span>(condition1, value1,
+       <span class="kw">ifelse</span>(condition2, value2, value3))</code></pre></div>
+<ul>
+<li>This example replaces all TRUE values from <strong>condition1</strong> with <strong>value 1</strong></li>
+<li>It then replaces all TRUE values from <strong>condition2</strong> with <strong>value2</strong>,</li>
+<li>Lastly, all the <strong>remaining FALSE</strong> values are replaced with <strong>value3</strong></li>
+</ul>
+<div id="replacing-multiple-values-nas--999s-missing-codes" class="section level4">
+<h4><span class="header-section-number">3.3.4.1</span> Replacing multiple values: NAs, -999s, Missing codes</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of NAs</span>
+<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3)</code></pre></div>
+<pre><code>## [1]  TRUE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of -999s</span>
+messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span></code></pre></div>
+<pre><code>## [1]    NA FALSE  TRUE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of &#39;Missing&#39;</span>
+messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span></code></pre></div>
+<pre><code>## [1]    NA  TRUE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># for all NAs replace with 0, otherwise replace with original value</span>
+<span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>, 
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span>, <span class="st">&#39;-9&#39;</span>,
+         <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span>, <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3)))</code></pre></div>
+<pre><code>## [1] &quot;-9&quot; &quot;-9&quot; &quot;-9&quot; &quot;2&quot;  &quot;3&quot;  &quot;4&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We use this vector and assign it to the original column to clean it</span>
+messyDf<span class="op">$</span>item3 &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>, 
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span>, <span class="st">&#39;-9&#39;</span>,
+         <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span>, <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3)))</code></pre></div>
+</div>
+<div id="replacing-multiple-values-with-the-in" class="section level4">
+<h4><span class="header-section-number">3.3.4.2</span> Replacing multiple values with the <code>%in%</code></h4>
+<ul>
+<li>we can condense the previous ifelse statements with <code>%in%</code></li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>,
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;-999&#39;</span>, <span class="st">&#39;Missing&#39;</span>), <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3))</code></pre></div>
+</div>
+</div>
+<div id="lapply-applying-a-function-over-multiple-columns-with" class="section level3">
+<h3><span class="header-section-number">3.3.5</span> <code>lapply()</code>: Applying a function over multiple columns with</h3>
+<div id="lapply" class="section level4">
+<h4><span class="header-section-number">3.3.5.1</span> <code>lapply()</code></h4>
+<ul>
+<li>stands for list apply</li>
+<li>think of a column in a dataframe as a list.</li>
+<li>we apply a function to multiple lists with <code>lapply()</code>
+<ul>
+<li>so we could apply a function to multiple columns with <code>lapply()</code></li>
+</ul></li>
+<li>Function Signature: <code>lapply(dataframe[, c(colsToApplyFunction)], functionToApply)</code>
+<ul>
+<li>The first parameter is a dataframe subsetted by the columns we want to manipulate</li>
+<li>The second parameter is the function we want to apply to each column</li>
+<li>It returns all the columns within the first parameter, but the result of what functionToApply did</li>
+</ul></li>
+<li>If we want to replace all NAs with 0 for items 2, 6, and 7:</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)]</code></pre></div>
+<pre><code>##   item2 item6 item7
+## 1     0     1     1
+## 2     0     2     2
+## 3     3    NA     3
+## 4     4    NA    NA
+## 5     5    NA    NA
+## 6     6    NA     6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">replaceNAsWithZero &lt;-<span class="st"> </span><span class="cf">function</span>(x) {
+  x &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(x), <span class="dv">0</span>, x)
+  <span class="kw">return</span>(x)
+}
+
+<span class="kw">lapply</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)], replaceNAsWithZero)</code></pre></div>
+<pre><code>## $item2
+## [1] 0 0 3 4 5 6
+## 
+## $item6
+## [1] 1 2 0 0 0 0
+## 
+## $item7
+## [1] 1 2 3 0 0 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We can also just put the function within the second parameter like this:</span>
+<span class="kw">lapply</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)], <span class="cf">function</span>(x) {
+  x &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(x), <span class="dv">0</span>, x)
+  <span class="kw">return</span>(x)
+})</code></pre></div>
+<pre><code>## $item2
+## [1] 0 0 3 4 5 6
+## 
+## $item6
+## [1] 1 2 0 0 0 0
+## 
+## $item7
+## [1] 1 2 3 0 0 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We assign the result to the original columns to apply function to these cols</span>
+messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)] &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">lapply</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)], <span class="cf">function</span>(x) {
+  x &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(x), <span class="dv">0</span>, x)
+  <span class="kw">return</span>(x)
+})
+
+messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span> , <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)]</code></pre></div>
+<pre><code>##   item2 item6 item7
+## 1     0     1     1
+## 2     0     2     2
+## 3     3     0     3
+## 4     4     0     0
+## 5     5     0     0
+## 6     6     0     6</code></pre>
+</div>
+</div>
+<div id="scoring-data-with-rowsums-and-rowmeans" class="section level3">
+<h3><span class="header-section-number">3.3.6</span> Scoring Data with <code>rowSums()</code> and <code>rowMeans()</code></h3>
+<ul>
+<li>Say we have a scoring algorithm where the sum of items 2, 6, and 7 represent one scale</li>
+<li>And means of items 2, 6, and 7 represent another scale</li>
+<li>Also say we want to count all the zeros, where a zero represents missing.
+<ul>
+<li>If more than 1 zero, the scales will be invalid</li>
+</ul></li>
+<li><code>rowSums()</code> takes in a subsetted dataframe, and returns the sum of all those values</li>
+<li><code>rowMeans()</code> takes in a subsetted dataframe, and returns the mean of all those values</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">total_sum &lt;-<span class="st"> </span><span class="kw">rowSums</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span>, <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)])
+total_sum</code></pre></div>
+<pre><code>## [1]  2  4  6  4  5 12</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># if there are NAs, we do</span>
+<span class="co"># rowSums(messyDf[, c(&#39;item2&#39;, &#39;item6&#39;, &#39;item7&#39;)], na.rm=TRUE)</span>
+total_mean &lt;-<span class="st"> </span><span class="kw">rowMeans</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span>, <span class="st">&#39;item6&#39;</span> ,<span class="st">&#39;item7&#39;</span>)])
+total_mean</code></pre></div>
+<pre><code>## [1] 0.6666667 1.3333333 2.0000000 1.3333333 1.6666667 4.0000000</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># to count all 0s, we sum the amount of TRUE values in a logical vector</span>
+messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span>, <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)] <span class="op">==</span><span class="st"> </span><span class="dv">0</span></code></pre></div>
+<pre><code>##      item2 item6 item7
+## [1,]  TRUE FALSE FALSE
+## [2,]  TRUE FALSE FALSE
+## [3,] FALSE  TRUE FALSE
+## [4,] FALSE  TRUE  TRUE
+## [5,] FALSE  TRUE  TRUE
+## [6,] FALSE  TRUE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">total_missings &lt;-<span class="st"> </span><span class="kw">rowSums</span>(messyDf[, <span class="kw">c</span>(<span class="st">&#39;item2&#39;</span>, <span class="st">&#39;item6&#39;</span>, <span class="st">&#39;item7&#39;</span>)] <span class="op">==</span><span class="st"> </span><span class="dv">0</span>)
+total_missings</code></pre></div>
+<pre><code>## [1] 1 1 1 2 2 1</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># store these values in columns</span>
+messyDf<span class="op">$</span>total_sum &lt;-<span class="st"> </span>total_sum
+messyDf<span class="op">$</span>total_mean &lt;-<span class="st"> </span>total_mean
+messyDf<span class="op">$</span>total_missings &lt;-<span class="st"> </span>total_missings
+<span class="co"># if more than 1 zero, data invalid</span>
+messyDf<span class="op">$</span>invalid_flag &lt;-<span class="st"> </span>messyDf<span class="op">$</span>total_missings <span class="op">&gt;</span><span class="st"> </span><span class="dv">1</span>
+
+messyDf[, <span class="kw">c</span>(<span class="st">&#39;total_sum&#39;</span>, <span class="st">&#39;total_mean&#39;</span>, <span class="st">&#39;total_missings&#39;</span>, <span class="st">&#39;invalid_flag&#39;</span>)]</code></pre></div>
+<pre><code>##   total_sum total_mean total_missings invalid_flag
+## 1         2  0.6666667              1        FALSE
+## 2         4  1.3333333              1        FALSE
+## 3         6  2.0000000              1        FALSE
+## 4         4  1.3333333              2         TRUE
+## 5         5  1.6666667              2         TRUE
+## 6        12  4.0000000              1        FALSE</code></pre>
+</div>
+</div>
+<div id="merging-datasets-together" class="section level2">
+<h2><span class="header-section-number">3.4</span> Merging datasets together</h2>
+<ul>
+<li>One important skill when working with R is merging data from multiple files into one dataframe</li>
+<li>There are multiple ways to do this, such as using <code>sqldf()</code> or <code>merge()</code>.</li>
+<li>To stick with base R, we will use <code>merge()</code></li>
+</ul>
+<div id="creating-datasets-to-merge" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Creating datasets to merge</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">subjects &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
+  <span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),
+  <span class="dt">clincalBestEst =</span> <span class="kw">c</span>(<span class="st">&#39;ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>)
+)
+
+visits &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
+  <span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+  <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;18mo&#39;</span>, <span class="st">&#39;36mo&#39;</span>, <span class="st">&#39;18mo&#39;</span>, <span class="st">&#39;36mo&#39;</span>, <span class="st">&#39;18mo&#39;</span>, <span class="st">&#39;36mo&#39;</span>),
+  <span class="dt">date_of_testing =</span> <span class="kw">c</span>(<span class="st">&#39;2017-02-03&#39;</span>, <span class="st">&#39;2018-08-03&#39;</span>, <span class="st">&#39;2017-02-04&#39;</span>,
+                      <span class="st">&#39;2018-08-04&#39;</span>, <span class="st">&#39;2018-01-04&#39;</span>, <span class="st">&#39;2019-07-03&#39;</span>)
+)
+
+ados_scores &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
+  <span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),
+  <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;36mo&#39;</span>, <span class="st">&#39;36mo&#39;</span>, <span class="st">&#39;36mo&#39;</span>),
+  <span class="dt">ados_sarb_total =</span> <span class="kw">c</span>(<span class="dv">10</span>, <span class="dv">1</span>, <span class="dv">2</span>)
+)
+
+<span class="co"># if reading from different files, just replace &lt;- data.frame()</span>
+<span class="co"># with read.csv(filepath, stringsAsFactors=FALSE) </span></code></pre></div>
+</div>
+<div id="merging-with-merge" class="section level3">
+<h3><span class="header-section-number">3.4.2</span> Merging with <code>merge()</code></h3>
+<ul>
+<li>To merge a dataset, we first need to know the columns we will merge by</li>
+<li>In this case, we can merge the subjects and visits dataframes by id</li>
+<li>We can merge the result of the previous merge, with id and visit</li>
+<li>Using <code>merge()</code>, it takes in two dataframes, and a <strong>by</strong> parameter as well as a <strong>all.x</strong> or <strong>all,.y</strong> or <strong>all</strong> parameter</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># all.x creates a LEFT JOIN</span>
+master &lt;-<span class="st"> </span><span class="kw">merge</span>(subjects, visits, <span class="dt">by =</span> <span class="kw">c</span>(<span class="st">&#39;id&#39;</span>), <span class="dt">all.x =</span> <span class="ot">TRUE</span>)
+master</code></pre></div>
+<pre><code>##   id clincalBestEst visit date_of_testing
+## 1  1            ASD  18mo      2017-02-03
+## 2  1            ASD  36mo      2018-08-03
+## 3  2        Non-ASD  18mo      2017-02-04
+## 4  2        Non-ASD  36mo      2018-08-04
+## 5  3        Non-ASD  18mo      2018-01-04
+## 6  3        Non-ASD  36mo      2019-07-03</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">master &lt;-<span class="st"> </span><span class="kw">merge</span>(master, ados_scores, <span class="dt">by =</span> <span class="kw">c</span>(<span class="st">&#39;id&#39;</span>, <span class="st">&#39;visit&#39;</span>), <span class="dt">all.x =</span> <span class="ot">TRUE</span>)
+master</code></pre></div>
+<pre><code>##   id visit clincalBestEst date_of_testing ados_sarb_total
+## 1  1  18mo            ASD      2017-02-03              NA
+## 2  1  36mo            ASD      2018-08-03              10
+## 3  2  18mo        Non-ASD      2017-02-04              NA
+## 4  2  36mo        Non-ASD      2018-08-04               1
+## 5  3  18mo        Non-ASD      2018-01-04              NA
+## 6  3  36mo        Non-ASD      2019-07-03               2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># if the first and second parameters have difference colnames that represent</span>
+<span class="co"># the same value, we can use by.x = , or by.y =,</span></code></pre></div>
+</div>
+<div id="stacking-dataframes-with-rbind" class="section level3">
+<h3><span class="header-section-number">3.4.3</span> Stacking dataframes with <code>rbind</code></h3>
+<div id="read-in-data-to-stack-or-row-bind-together" class="section level4">
+<h4><span class="header-section-number">3.4.3.1</span> Read in data to stack or row bind together</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;./datasets/adosm1.csv&#39;</span>, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;./datasets/adosm2.csv&#39;</span>, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+ados   &lt;-<span class="st"> </span><span class="kw">rbind</span>(adosm1, adosm2)
+<span class="co"># if datasets have columns that are not the same, use rbind.fill within plyr package</span></code></pre></div>
+</div>
+</div>
+<div id="data.tablefwrite" class="section level3">
+<h3><span class="header-section-number">3.4.4</span> <code>data.table::fwrite()</code></h3>
+<ul>
+<li>One you are comfortable with write.csv, I would suggest looking into the <code>fwrite</code> function within data.table. It is much much faster and more efficient.</li>
+</ul>
+</div>
+</div>
+<div id="score-ados-module-1--assignment-2" class="section level2">
+<h2><span class="header-section-number">3.5</span> Score ADOS Module 1- Assignment 2</h2>
+<div id="instructions-1" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> Instructions</h3>
+<ol style="list-style-type: decimal">
+<li>Read in the adosm1.csv file</li>
+<li>If item b1,
+<ul>
+<li>replace NAs or Missings with 0,</li>
+<li>replace value 1 or 3, with 2,</li>
+<li>replace items 0 or 2, with 0,</li>
+<li>otherwise keep original value</li>
+</ul></li>
+<li>For all other items,
+<ul>
+<li>replace NAs or Missing codes with 0,</li>
+<li>replace value 3, with 2,</li>
+<li>keep values between 0, 1, 2 the same as itself,</li>
+<li>replace all others with 0</li>
+</ul></li>
+<li>Score SA total
+<ul>
+<li>If ados_algorithm is ‘no words’, or ‘few to no words’, the sa_total =
+<ul>
+<li>rowSums of ados_a2, ados_a8, ados_b1, ados_b3, ados_b4, ados_b5, ados_b9, ados_b10, ados_b11</li>
+</ul></li>
+<li>If ados_aglorithm is some words, the sa_total =
+<ul>
+<li>rowSums of ados_a2, ados_a7, ados_a8, ados_b1, ados_b3, ados_b4, ados_b5, ados_b9, ados_b10</li>
+</ul></li>
+</ul></li>
+<li>Score RRB total
+<ul>
+<li>If ados_algorithm is ‘no words’, or ‘few to no words’, the rrb_total =
+<ul>
+<li>rowSums of ados_a3, ados_d1, ados_d2, ados_d4</li>
+</ul></li>
+<li>If ados_aglorithm is some words, the rrb_total =
+<ul>
+<li>rowSums of ados_a5, ados_d1, ados_d2, ados_d4</li>
+</ul></li>
+</ul></li>
+<li>Score SARB total
+<ul>
+<li>SARB total =
+<ul>
+<li>sa_total + rrb_total</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+<div id="solution" class="section level3">
+<h3><span class="header-section-number">3.5.2</span> Solution</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in adosm1.csv</span>
+adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;./datasets/adosm1.csv&#39;</span>, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
+<span class="co"># store backup to restore original vals</span>
+adosm1_backup &lt;-<span class="st"> </span>adosm1
+
+<span class="co"># 2. If item b1, </span>
+<span class="co">#    - replace NAs or Missings with 0,</span>
+<span class="co">#    - replace value 1 or 3, with 2,</span>
+<span class="co">#    - replace items 0 or 2, with 0,</span>
+<span class="co"># create function to apply to item b1 and replace values properly</span>
+item_b1_replace &lt;-<span class="st"> </span><span class="cf">function</span>(item) {
+  <span class="co"># items may be  characters because of missings codes, so first replace with</span>
+  <span class="co"># chars, then turn to numerics</span>
+  item &lt;-<span class="st"> </span><span class="kw">as.character</span>(item)
+  newVal &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(item), <span class="st">&#39;0&#39;</span>, <span class="co"># replace NAs with 0</span>
+                   <span class="kw">ifelse</span>(item <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;-999&#39;</span>, <span class="st">&#39;9&#39;</span>, <span class="st">&#39;Missing (-9)&#39;</span>),<span class="st">&#39; 0&#39;</span>,  <span class="co"># replace missings with 0</span>
+                          <span class="kw">ifelse</span>(item <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;1&#39;</span>, <span class="st">&#39;3&#39;</span>), <span class="st">&#39;2&#39;</span>,  <span class="co"># replace 1 or 3 with 2</span>
+                                 <span class="kw">ifelse</span>(item <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;0&#39;</span>, <span class="st">&#39;2&#39;</span>),  <span class="st">&#39;0&#39;</span>, item))))  <span class="co"># replace 0 or 2 with 0, else item</span>
+  newVal &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(newVal)
+  <span class="kw">return</span>(newVal)
+}
+<span class="co"># 3. For all other items,</span>
+<span class="co">#     - replace NAs or Missing codes with 0,</span>
+<span class="co">#     - replace value 3, with 2,</span>
+<span class="co">#     - keep values between  0, 1, 2 the same as itself,</span>
+<span class="co">#     - replace all others with 0.</span>
+item_replace &lt;-<span class="st"> </span><span class="cf">function</span>(item) {
+  <span class="co"># items may be  characters because of missings codes, so first replace with</span>
+  <span class="co"># chars, then turn to numerics</span>
+  item &lt;-<span class="st"> </span><span class="kw">as.character</span>(item)
+  newVal &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(item), <span class="st">&#39;0&#39;</span>, <span class="co"># replace NAs with 0</span>
+                   <span class="kw">ifelse</span>(item <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;-999&#39;</span>, <span class="st">&#39;9&#39;</span>, <span class="st">&#39;Missing (-9)&#39;</span>, <span class="st">&#39;999&#39;</span>), <span class="st">&#39;0&#39;</span>,  <span class="co"># replace missings with 0</span>
+                          <span class="kw">ifelse</span>(item <span class="op">==</span><span class="st"> &#39;3&#39;</span>, <span class="st">&#39;2&#39;</span>,  <span class="co"># replace 3 with 2</span>
+                                 <span class="kw">ifelse</span>(item <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;0&#39;</span>, <span class="st">&#39;1&#39;</span>, <span class="st">&#39;2&#39;</span>),  item, 
+                                        <span class="st">&#39;0&#39;</span>))))  
+  newVal &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(newVal)
+  <span class="kw">return</span>(newVal)
+  
+}
+
+<span class="co"># use regular expressions to obtain columns b1, or all other scoring columns</span>
+<span class="co"># we did not yet cover this, but here is an example. The alternative will</span>
+<span class="co"># be to write each individual colname</span>
+<span class="kw">names</span>(adosm1)</code></pre></div>
+<pre><code>##  [1] &quot;id&quot;                &quot;visit&quot;             &quot;cbe_36&quot;           
+##  [4] &quot;recruitment_group&quot; &quot;gender&quot;            &quot;ados_version&quot;     
+##  [7] &quot;ados_algorithm&quot;    &quot;ados_a1&quot;           &quot;ados_a2&quot;          
+## [10] &quot;ados_a3&quot;           &quot;ados_a4&quot;           &quot;ados_a5&quot;          
+## [13] &quot;ados_a6&quot;           &quot;ados_a7&quot;           &quot;ados_a8&quot;          
+## [16] &quot;ados_b1&quot;           &quot;ados_b2&quot;           &quot;ados_b3&quot;          
+## [19] &quot;ados_b4&quot;           &quot;ados_b5&quot;           &quot;ados_b6&quot;          
+## [22] &quot;ados_b7&quot;           &quot;ados_b8&quot;           &quot;ados_b9&quot;          
+## [25] &quot;ados_b10&quot;          &quot;ados_b11&quot;          &quot;ados_b12&quot;         
+## [28] &quot;ados_b13a&quot;         &quot;ados_b13b&quot;         &quot;ados_b14&quot;         
+## [31] &quot;ados_b15&quot;          &quot;ados_b16&quot;          &quot;ados_c1&quot;          
+## [34] &quot;ados_c2&quot;           &quot;ados_d1&quot;           &quot;ados_d2&quot;          
+## [37] &quot;ados_d3&quot;           &quot;ados_d4&quot;           &quot;ados_e1&quot;          
+## [40] &quot;ados_e2&quot;           &quot;ados_e3&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">ados_item_b1 &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;ados_b1&#39;</span>, <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+ados_all_items &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;ados_[abcde][0123456789]&#39;</span>, <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+ados_all_not_b1 &lt;-<span class="st"> </span><span class="kw">setdiff</span>(ados_all_items, ados_item_b1)
+adosm1<span class="op">$</span>ados_b1 &lt;-<span class="st"> </span><span class="kw">item_b1_replace</span>(adosm1<span class="op">$</span>ados_b1)
+adosm1[, ados_all_not_b1] &lt;-<span class="st"> </span><span class="kw">lapply</span>(adosm1[, ados_all_not_b1], item_replace)
+<span class="co"># 4. Score SA total</span>
+<span class="co"># - If ados_algorithm is &#39;no words&#39;, or &#39;few to no words&#39;, the sa_total = </span>
+<span class="co">#     - rowSums of ados_a2, ados_a8, ados_b1, ados_b3,  ados_b4, ados_b5, ados_b9, ados_b10, ados_b11</span>
+<span class="co"># - If ados_aglorithm is  some words, the sa_total = </span>
+<span class="co">#     - rowSums of ados_a2, ados_a7, ados_a8, ados_b1, ados_b3, ados_b4, ados_b5, ados_b9, ados_b10</span>
+no_words_sa_items &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;ados_a2&#39;</span>, <span class="st">&#39;ados_a8&#39;</span>, <span class="st">&#39;ados_b1&#39;</span>, <span class="st">&#39;ados_b3&#39;</span>,  
+                       <span class="st">&#39;ados_b4&#39;</span>, <span class="st">&#39;ados_b5&#39;</span>, <span class="st">&#39;ados_b9&#39;</span>, <span class="st">&#39;ados_b10&#39;</span>, <span class="st">&#39;ados_b11&#39;</span>)
+no_words_sa &lt;-<span class="st"> </span><span class="kw">rowSums</span>(adosm1[, no_words_sa_items])
+<span class="co"># we can use regExpr to obtain items</span>
+some_words_sa_items &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;^ados_a[278]$|^ados_b[13459]$|^ados_b1[01]$&#39;</span>, 
+                            <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+some_words_sa &lt;-<span class="st"> </span><span class="kw">rowSums</span>(adosm1[ some_words_sa_items])
+adosm1<span class="op">$</span>ados_sa_total &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">ifelse</span>(adosm1<span class="op">$</span>ados_algorithm <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;no words&#39;</span>, <span class="st">&#39;few to no words&#39;</span>), no_words_sa,
+       <span class="kw">ifelse</span>(adosm1<span class="op">$</span>ados_algorithm <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;some words&#39;</span>), some_words_sa, <span class="ot">NA</span>))
+
+<span class="co"># 5. Score RRB total</span>
+<span class="co"># - If ados_algorithm is &#39;no words&#39;, or &#39;few to no words&#39;, the rrb_total = </span>
+<span class="co">#     - rowSums of ados_a3, ados_d1, ados_d2, ados_d4</span>
+<span class="co"># - If ados_aglorithm is  some words, the rrb_total = </span>
+<span class="co">#     - rowSums of ados_a5, ados_d1, ados_d2, ados_d4, </span>
+<span class="co">#       ados_b3, ados_b4, ados_b5, ados_b9, ados_b10</span>
+no_words_rrb_items &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;ados_a3&#39;</span>, <span class="st">&#39;ados_d1&#39;</span>, <span class="st">&#39;ados_d2&#39;</span>, <span class="st">&#39;ados_d4&#39;</span>)
+no_words_rrb &lt;-<span class="st"> </span><span class="kw">rowSums</span>(adosm1[, no_words_rrb_items])
+<span class="co"># we can use regExpr to obtain items</span>
+some_words_rrb_items &lt;-<span class="st"> </span><span class="kw">grep</span>(<span class="st">&#39;^ados_a[5]$|^ados_d[124]$&#39;</span>, 
+                            <span class="kw">names</span>(adosm1), <span class="dt">value=</span><span class="ot">TRUE</span>)
+some_words_rrb &lt;-<span class="st"> </span><span class="kw">rowSums</span>(adosm1[ some_words_rrb_items])
+adosm1<span class="op">$</span>ados_rrb_total &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">ifelse</span>(adosm1<span class="op">$</span>ados_algorithm <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;no words&#39;</span>, <span class="st">&#39;few to no words&#39;</span>), no_words_rrb,
+       <span class="kw">ifelse</span>(adosm1<span class="op">$</span>ados_algorithm <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;some words&#39;</span>), some_words_rrb, <span class="ot">NA</span>))
+
+<span class="co"># 6. Score SARB total</span>
+<span class="co"># - SARB total = </span>
+<span class="co">#     - sa_total + rrb_total</span>
+adosm1<span class="op">$</span>ados_sarrb_total &lt;-<span class="st"> </span>adosm1<span class="op">$</span>ados_sa_total <span class="op">+</span><span class="st"> </span>adosm1<span class="op">$</span>ados_rrb_total
+
+<span class="co"># optional- replace all manipulated items back to original</span>
+adosm1[, ados_all_items] &lt;-<span class="st"> </span>adosm1_backup[, ados_all_items]
+
+<span class="kw">head</span>(adosm1)</code></pre></div>
+<pre><code>##   id visit cbe_36 recruitment_group gender ados_version  ados_algorithm
+## 1  1    18 Non-TD         High risk   Male       ADOS-1      some words
+## 2  1    24     TD         High risk Female       ADOS-1      some words
+## 3  2    18     TD          Low risk Female       ADOS-1      some words
+## 4  2    24     TD         High risk Female       ADOS-1      some words
+## 5  3    18     TD          Low risk   Male       ADOS-1 few to no words
+## 6  4    18 Non-TD         High risk   Male       ADOS-1 few to no words
+##   ados_a1 ados_a2 ados_a3 ados_a4 ados_a5 ados_a6 ados_a7 ados_a8 ados_b1
+## 1       3       0       0       0       0       0       1       1       0
+## 2       2       0       0       0       1       0       0       0       0
+## 3       0       0       0       0       8       0       1       0       0
+## 4       0       0       0       0       0       0       1       0       0
+## 5       8       1       0       1       8       0       1       0       0
+## 6       8       0       0       8       8       0       1       1       0
+##   ados_b2 ados_b3 ados_b4 ados_b5 ados_b6 ados_b7 ados_b8 ados_b9 ados_b10
+## 1       0       0       0       0       0       1       0       0        0
+## 2       0       0       0       0       1       0       1       0        0
+## 3       0       0       0       0       0       0       0       0        0
+## 4       1       0       0       1       0       1       0       0        0
+## 5       1       0       0       0       0       0       0       2        0
+## 6       0       0       1       0       1       0       2       1        0
+##   ados_b11 ados_b12 ados_b13a ados_b13b ados_b14 ados_b15 ados_b16 ados_c1
+## 1        0        0        NA        NA       NA       NA       NA       0
+## 2        0        0        NA        NA       NA       NA       NA       0
+## 3        0        0        NA        NA       NA       NA       NA       1
+## 4        0        0        NA        NA       NA       NA       NA       0
+## 5        0        0        NA        NA       NA       NA       NA       0
+## 6        2        0        NA        NA       NA       NA       NA       2
+##   ados_c2 ados_d1 ados_d2 ados_d3 ados_d4 ados_e1 ados_e2 ados_e3
+## 1       1       1       0       0       0       1      NA       1
+## 2       0       0       0       0       0       0       0       1
+## 3       0       0       0       0       0       1       0     999
+## 4       1       0       0       0       1       0       0       1
+## 5       1       0       0       0       0       0       0       0
+## 6       1       1       1       0       2       1       0       0
+##   ados_sa_total ados_rrb_total ados_sarrb_total
+## 1             2              1                3
+## 2             0              1                1
+## 3             1              0                1
+## 4             2              1                3
+## 5             3              0                3
+## 6             5              4                9</code></pre>
+</div>
+</div>
+<div id="writing-data" class="section level2">
+<h2><span class="header-section-number">3.6</span> Writing Data</h2>
+<div id="write.csv" class="section level3">
+<h3><span class="header-section-number">3.6.1</span> <code>write.csv</code></h3>
+<ul>
+<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
+<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
+<li>the second parameter is the location and filename to write it to.</li>
+<li>For example, after scoring our adosm1 dataset, we can now write it to a location</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;datasets/ADOS Module 1 Scored&#39;, row.names = FALSE)</span></code></pre></div>
+<p>Congratulations! We have now covered and combined all the essentials in working with data manipulation.</p>
+<p>In the next section, we will cover data visualization and analysis tools within R</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-input-output-and-exploration.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["Intro-R-Workshop.pdf", "Intro-R-Workshop.epub"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

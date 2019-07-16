@@ -1,7 +1,7 @@
 ---
 title: "Intro to R Workshop Book"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "7/3/2019"
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
@@ -19,3 +19,10 @@ By giving you an overview of the most useful functions, in the lens of close-to-
 
 As with everything else, the best way to learn R is through **consistent** practice with a real world project.
 
+## Datatypes
+
+### Numeric, Logical, Character, Factor
+
+### Lists, Vectors, Matrices
+
+### Dataframes

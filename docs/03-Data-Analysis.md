@@ -22,6 +22,67 @@ adosm2 <- read.csv('./datasets/adosm2_scored.csv',
                    stringsAsFactors = FALSE)
 ```
 
+## Data Visualization with `ggplot`
+
+### Plotting points
+
+```r
+library(ggplot2)
+ggplot(data = adosm2) + 
+  geom_point(mapping = aes(x = ados_fake_lin_outcome, 
+                           y = ados_sarb_total, 
+                           color = recruitment_group))
+```
+
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+
+### Plotting with Points and Smooth
+
+
+```r
+ggplot(data = adosm2, mapping = aes(x = ados_sarb_total, y = ados_fake_lin_outcome)) + 
+  geom_point(mapping = aes(color = recruitment_group)) + 
+  geom_smooth()
+```
+
+```
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+```
+
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+
+### Bar Plots
+
+#### Bar plot with Colors
+
+```r
+ggplot(data = adosm2) + 
+  geom_bar(mapping = aes(x = recruitment_group, fill = gender))
+```
+
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+
+#### Bar plot with separated colors and positions
+
+```r
+ggplot(data = adosm2) + 
+  geom_bar(mapping = aes(x = recruitment_group, fill = gender), position = "dodge")
+```
+
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+
+### Box Plots
+
+
+```r
+ggplot(data = adosm2, mapping = aes(x = recruitment_group, y = ados_sarb_total)) +
+  geom_boxplot()
+```
+
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+
+
+
 ## Basic Stats functions
 
 ### Mean, Median, Standard Deviation, Summary
@@ -157,19 +218,19 @@ summary(linearMod)
 plot(effects::Effect(c('ados_fake_score1'), linearMod))
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 ```r
 plot(effects::Effect(c('ados_fake_score2'), linearMod))
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-2.png" width="672" />
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-2.png" width="672" />
 
 ```r
 plot(effects::Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-5-3.png" width="672" />
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-3.png" width="672" />
 
 ## Logistic Regression
 
@@ -190,7 +251,7 @@ plot(eff,
 )
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-11-1.png" width="672" />
 
 
 ## Mixed Effects Models
@@ -215,67 +276,7 @@ plot(eff,
 )
 ```
 
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-7-1.png" width="672" />
-
-
-## Data Visualization with `ggplot`
-
-### Plotting points
-
-```r
-library(ggplot2)
-ggplot(data = adosm2) + 
-  geom_point(mapping = aes(x = ados_fake_lin_outcome, 
-                           y = ados_sarb_total, 
-                           color = recruitment_group))
-```
-
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-8-1.png" width="672" />
-
-### Plotting with Points and Smooth
-
-
-```r
-ggplot(data = adosm2, mapping = aes(x = ados_sarb_total, y = ados_fake_lin_outcome)) + 
-  geom_point(mapping = aes(color = recruitment_group)) + 
-  geom_smooth()
-```
-
-```
-## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
-```
-
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-9-1.png" width="672" />
-
-### Bar Plots
-
-#### Bar plot with Colors
-
-```r
-ggplot(data = adosm2) + 
-  geom_bar(mapping = aes(x = recruitment_group, fill = gender))
-```
-
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-10-1.png" width="672" />
-
-#### Bar plot with separated colors and positions
-
-```r
-ggplot(data = adosm2) + 
-  geom_bar(mapping = aes(x = recruitment_group, fill = gender), position = "dodge")
-```
-
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-11-1.png" width="672" />
-
-### Box Plots
-
-
-```r
-ggplot(data = adosm2, mapping = aes(x = recruitment_group, y = ados_sarb_total)) +
-  geom_boxplot()
-```
-
-<img src="02-Data-Analysis_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<img src="03-Data-Analysis_files/figure-html/unnamed-chunk-12-1.png" width="672" />
 
 ## More Resources
 
