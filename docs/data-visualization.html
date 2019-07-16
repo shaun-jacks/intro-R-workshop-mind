@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Data Analysis | Intro to R Workshop Book</title>
+  <title>Chapter 4 Data Visualization | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Data Analysis | Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 4 Data Visualization | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Data Analysis | Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 4 Data Visualization | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data-visualization.html">
-
+<link rel="prev" href="data-manipulation.html">
+<link rel="next" href="data-analysis.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -211,149 +211,55 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data-analysis" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Data Analysis</h1>
-<div id="read-in-data-1" class="section level2">
-<h2><span class="header-section-number">5.1</span> Read in Data</h2>
+<div id="data-visualization" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Data Visualization</h1>
+<div id="read-in-data" class="section level2">
+<h2><span class="header-section-number">4.1</span> Read in Data</h2>
 <ul>
 <li>Our input data will be a scored version of the artificial ADOS Module 2dataset with some fake columns to demonstrate how to use R to perform specific data analyses.</li>
 </ul>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;./datasets/adosm2_scored.csv&#39;</span>, 
                    <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)</code></pre></div>
 </div>
-<div id="basic-stats-functions" class="section level2">
-<h2><span class="header-section-number">5.2</span> Basic Stats functions</h2>
-<div id="mean-median-standard-deviation-summary" class="section level3">
-<h3><span class="header-section-number">5.2.1</span> Mean, Median, Standard Deviation, Summary</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">mean</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
-<pre><code>## [1] 3.488117</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">median</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
-<pre><code>## [1] 3</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sd</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
-<pre><code>## [1] 3.02392</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(adosm2<span class="op">$</span>ados_sarb_total)</code></pre></div>
-<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##   0.000   1.500   3.000   3.488   4.000  19.000</code></pre>
+<div id="data-visualization-with-ggplot" class="section level2">
+<h2><span class="header-section-number">4.2</span> Data Visualization with <code>ggplot</code></h2>
+<div id="plotting-points" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Plotting points</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
+<span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> ados_fake_lin_outcome, 
+                           <span class="dt">y =</span> ados_sarb_total, 
+                           <span class="dt">color =</span> recruitment_group))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
-<div id="chi-squared-test" class="section level3">
-<h3><span class="header-section-number">5.2.2</span> Chi Squared Test</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test</span>(<span class="kw">table</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span>, adosm2<span class="op">$</span>recruitment_group))</code></pre></div>
-<pre><code>## Warning in chisq.test(table(adosm2$cbe_36, adosm2$recruitment_group)): Chi-
-## squared approximation may be incorrect</code></pre>
-<pre><code>## 
-##  Pearson&#39;s Chi-squared test
-## 
-## data:  table(adosm2$cbe_36, adosm2$recruitment_group)
-## X-squared = 15.284, df = 4, p-value = 0.004147</code></pre>
+<div id="plotting-with-points-and-smooth" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Plotting with Points and Smooth</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> ados_sarb_total, <span class="dt">y =</span> ados_fake_lin_outcome)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">color =</span> recruitment_group)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_smooth</span>()</code></pre></div>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
+<div id="bar-plots" class="section level3">
+<h3><span class="header-section-number">4.2.3</span> Bar Plots</h3>
+<div id="bar-plot-with-colors" class="section level4">
+<h4><span class="header-section-number">4.2.3.1</span> Bar plot with Colors</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">fill =</span> gender))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 </div>
-<div id="linear-regression" class="section level2">
-<h2><span class="header-section-number">5.3</span> Linear Regression</h2>
-<div id="correlation" class="section level3">
-<h3><span class="header-section-number">5.3.1</span> Correlation</h3>
-<ul>
-<li>Find correlation between two vars</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor.test</span>(adosm2<span class="op">$</span>ados_fake_score1, adosm2<span class="op">$</span>ados_fake_lin_outcome)</code></pre></div>
-<pre><code>## 
-##  Pearson&#39;s product-moment correlation
-## 
-## data:  adosm2$ados_fake_score1 and adosm2$ados_fake_lin_outcome
-## t = -22.232, df = 545, p-value &lt; 2.2e-16
-## alternative hypothesis: true correlation is not equal to 0
-## 95 percent confidence interval:
-##  -0.7311983 -0.6429767
-## sample estimates:
-##        cor 
-## -0.6896378</code></pre>
-</div>
-<div id="creating-a-linear-regression-model" class="section level3">
-<h3><span class="header-section-number">5.3.2</span> Creating a Linear Regression Model</h3>
-<ul>
-<li>We use the <code>lm()</code> functionn to create a Linear Regression Model</li>
-<li>The first parameter takes in an equation of the form: <code>dependentVar ~ predictor1 + predictor2 + ...</code>
-<ul>
-<li>So the dependentVar is a function of the predictor variables</li>
-</ul></li>
-<li>In order to use column names as variables in this eq., the <code>data</code> parameter takes in a dataframe as input.</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To demonstrate a linear model, we use fake ados columns within the ados</span>
-<span class="co"># dataframe</span>
-linearMod &lt;-<span class="st"> </span>
-<span class="st">  </span><span class="kw">lm</span>(ados_fake_lin_outcome <span class="op">~</span><span class="st"> </span>ados_fake_score1 <span class="op">+</span><span class="st"> </span>ados_fake_score2,
-     <span class="dt">data=</span>adosm2)</code></pre></div>
-</div>
-<div id="residuals-p-values-coefficients-with-summary" class="section level3">
-<h3><span class="header-section-number">5.3.3</span> Residuals, P-Values, Coefficients, with <code>summary()</code></h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(linearMod)</code></pre></div>
-<pre><code>## 
-## Call:
-## lm(formula = ados_fake_lin_outcome ~ ados_fake_score1 + ados_fake_score2, 
-##     data = adosm2)
-## 
-## Residuals:
-##      Min       1Q   Median       3Q      Max 
-## -2.75987 -0.68070  0.04043  0.65436  3.11995 
-## 
-## Coefficients:
-##                  Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)       0.01635    0.04233   0.386      0.7    
-## ados_fake_score1 -3.04059    0.04225 -71.970   &lt;2e-16 ***
-## ados_fake_score2  3.01164    0.04292  70.176   &lt;2e-16 ***
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## Residual standard error: 0.9894 on 544 degrees of freedom
-## Multiple R-squared:  0.9478, Adjusted R-squared:  0.9476 
-## F-statistic:  4942 on 2 and 544 DF,  p-value: &lt; 2.2e-16</code></pre>
-</div>
-<div id="plotting-the-linear-model" class="section level3">
-<h3><span class="header-section-number">5.3.4</span> Plotting the Linear Model</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># create effects object</span>
-<span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score1&#39;</span>), linearMod))</code></pre></div>
-<p><img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score2&#39;</span>), linearMod))</code></pre></div>
-<p><img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-2.png" width="672" /></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score1&#39;</span>, <span class="st">&#39;ados_fake_score2&#39;</span>), linearMod))</code></pre></div>
-<p><img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-3.png" width="672" /></p>
+<div id="bar-plot-with-separated-colors-and-positions" class="section level4">
+<h4><span class="header-section-number">4.2.3.2</span> Bar plot with separated colors and positions</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">fill =</span> gender), <span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>)</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 </div>
-<div id="logistic-regression" class="section level2">
-<h2><span class="header-section-number">5.4</span> Logistic Regression</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">ifelse</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;Autism&#39;</span>, <span class="st">&#39;ASD&#39;</span>), <span class="st">&#39;ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>)
-adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm2<span class="op">$</span>cbe_asd)
-adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">relevel</span>(adosm2<span class="op">$</span>cbe_asd, <span class="dt">ref =</span> <span class="st">&#39;Non-ASD&#39;</span>)
-mod &lt;-<span class="st"> </span><span class="kw">glm</span>(cbe_asd <span class="op">~</span><span class="st"> </span><span class="dv">1</span> <span class="op">+</span><span class="st"> </span>ados_sarb_total,
-                   <span class="dt">data =</span> adosm2,
-                   <span class="dt">family =</span> <span class="st">&#39;binomial&#39;</span>)
-eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_sarb_total&#39;</span>), mod)
-<span class="kw">plot</span>(eff,
-     <span class="dt">axes =</span> <span class="kw">list</span>(
-       <span class="dt">y =</span> <span class="kw">list</span>(
-         <span class="dt">lab =</span> <span class="st">&#39;CBE of ASD&#39;</span>,
-         <span class="dt">ticks =</span> <span class="kw">list</span>(<span class="dt">at =</span> <span class="kw">c</span>(.<span class="dv">01</span>, .<span class="dv">1</span>, .<span class="dv">2</span>, .<span class="dv">4</span>, .<span class="dv">6</span>, .<span class="dv">8</span>,  .<span class="dv">99</span>))))
-)</code></pre></div>
-<p><img src="04-Data-Analysis_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
-</div>
-<div id="mixed-effects-models" class="section level2">
-<h2><span class="header-section-number">5.5</span> Mixed Effects Models</h2>
-<div id="mixed-effects-logistic-regression" class="section level3">
-<h3><span class="header-section-number">5.5.1</span> Mixed Effects Logistic Regression</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># analyze- logistic regression mixed effects</span>
-adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">ifelse</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;Autism&#39;</span>, <span class="st">&#39;ASD&#39;</span>), <span class="st">&#39;ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>)
-adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm2<span class="op">$</span>cbe_asd)
-adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">relevel</span>(adosm2<span class="op">$</span>cbe_asd, <span class="dt">ref =</span> <span class="st">&#39;Non-ASD&#39;</span>)
-mod &lt;-<span class="st"> </span>lme4<span class="op">::</span><span class="kw">glmer</span>(cbe_asd <span class="op">~</span><span class="st"> </span><span class="dv">1</span> <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span><span class="op">|</span>visit) <span class="op">+</span><span class="st"> </span>ados_sarb_total,
-                   <span class="dt">data =</span> adosm2,
-                   <span class="dt">family =</span> <span class="st">&#39;binomial&#39;</span>)
-eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_sarb_total&#39;</span>), mod)
-<span class="kw">plot</span>(eff,
-     <span class="dt">axes =</span> <span class="kw">list</span>(
-       <span class="dt">y =</span> <span class="kw">list</span>(
-         <span class="dt">lab =</span> <span class="st">&#39;CBE of ASD&#39;</span>,
-         <span class="dt">ticks =</span> <span class="kw">list</span>(<span class="dt">at =</span> <span class="kw">c</span>(.<span class="dv">01</span>, .<span class="dv">1</span>, .<span class="dv">2</span>, .<span class="dv">4</span>, .<span class="dv">6</span>, .<span class="dv">8</span>,  .<span class="dv">99</span>))))
-)</code></pre></div>
-<p><img src="04-Data-Analysis_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<div id="box-plots" class="section level3">
+<h3><span class="header-section-number">4.2.4</span> Box Plots</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">y =</span> ados_sarb_total)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>()</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 
 </div>
 </div>
@@ -363,8 +269,8 @@ eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="
           </div>
         </div>
       </div>
-<a href="data-visualization.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="data-manipulation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
