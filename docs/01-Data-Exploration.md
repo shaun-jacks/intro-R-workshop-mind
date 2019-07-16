@@ -33,7 +33,7 @@ By the end of this chapter, you will be able to:
 
 - store the filepath within a character variable
 - the filepath could be relative to your working directory, or absolute
-- `read.csv` is a function that could read CSV files into your R environment
+- `read.csv` is a function that could read CSV files on your computer, and returns a dataframe for your R environment to use
 
 
 ```r

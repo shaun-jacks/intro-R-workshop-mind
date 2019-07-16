@@ -493,12 +493,20 @@ ados   <- rbind(adosm1, adosm2)
 ### Solution
 
 
+#### Solution Part 1
+
+
 ```r
 # 1. Read in adosm1.csv
 adosm1 <- read.csv('./datasets/adosm1.csv', stringsAsFactors = FALSE)
 # store backup to restore original vals
 adosm1_backup <- adosm1
+```
 
+#### Solution Part 2
+
+
+```r
 # 2. If item b1, 
 #    - replace NAs or Missings with 0,
 #    - replace value 1 or 3, with 2,
@@ -515,6 +523,14 @@ item_b1_replace <- function(item) {
   newVal <- as.numeric(newVal)
   return(newVal)
 }
+adosm1$ados_b1 <- item_b1_replace(adosm1$ados_b1)
+```
+
+
+#### Solution Part 3
+
+
+```r
 # 3. For all other items,
 #     - replace NAs or Missing codes with 0,
 #     - replace value 3, with 2,
@@ -533,10 +549,6 @@ item_replace <- function(item) {
   return(newVal)
   
 }
-
-# use regular expressions to obtain columns b1, or all other scoring columns
-# we did not yet cover this, but here is an example. The alternative will
-# be to write each individual colname
 names(adosm1)
 ```
 
@@ -558,11 +570,18 @@ names(adosm1)
 ```
 
 ```r
-ados_item_b1 <- grep('ados_b1', names(adosm1), value=TRUE)
+# use regular expressions to obtain columns b1, or all other scoring columns
+# we did not yet cover this, but here is an example. The alternative will
+# be to write each individual colname
 ados_all_items <- grep('ados_[abcde][0123456789]', names(adosm1), value=TRUE)
-ados_all_not_b1 <- setdiff(ados_all_items, ados_item_b1)
-adosm1$ados_b1 <- item_b1_replace(adosm1$ados_b1)
+ados_all_not_b1 <- setdiff(ados_all_items, 'ados_b1')  # all items not ados_b1
 adosm1[, ados_all_not_b1] <- lapply(adosm1[, ados_all_not_b1], item_replace)
+```
+
+#### Solution Part 4
+
+
+```r
 # 4. Score SA total
 # - If ados_algorithm is 'no words', or 'few to no words', the sa_total = 
 #     - rowSums of ados_a2, ados_a8, ados_b1, ados_b3,  ados_b4, ados_b5, ados_b9, ados_b10, ados_b11
@@ -578,7 +597,13 @@ some_words_sa <- rowSums(adosm1[ some_words_sa_items])
 adosm1$ados_sa_total <- 
   ifelse(adosm1$ados_algorithm %in% c('no words', 'few to no words'), no_words_sa,
        ifelse(adosm1$ados_algorithm %in% c('some words'), some_words_sa, NA))
+```
 
+
+#### Solution Part 5
+
+
+```r
 # 5. Score RRB total
 # - If ados_algorithm is 'no words', or 'few to no words', the rrb_total = 
 #     - rowSums of ados_a3, ados_d1, ados_d2, ados_d4
@@ -594,7 +619,13 @@ some_words_rrb <- rowSums(adosm1[ some_words_rrb_items])
 adosm1$ados_rrb_total <- 
   ifelse(adosm1$ados_algorithm %in% c('no words', 'few to no words'), no_words_rrb,
        ifelse(adosm1$ados_algorithm %in% c('some words'), some_words_rrb, NA))
+```
 
+
+#### Solution Part 6
+
+
+```r
 # 6. Score SARB total
 # - SARB total = 
 #     - sa_total + rrb_total
@@ -661,7 +692,7 @@ head(adosm1)
 
 
 ```r
-# write.csv(adosm1, 'datasets/ADOS Module 1 Scored', row.names = FALSE)
+# write.csv(adosm1, './datasets/ADOS Module 1 Scored', row.names = FALSE)
 ```
 
 

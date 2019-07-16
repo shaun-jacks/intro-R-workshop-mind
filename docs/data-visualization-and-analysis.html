@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book</title>
+  <title>Chapter 4 Data Visualization and Analysis | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 4 Data Visualization and Analysis | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Data Input, Output, and Exploration | Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 4 Data Visualization and Analysis | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="data-manipulation.html">
+<link rel="prev" href="data-manipulation.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -209,273 +209,195 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="data-input-output-and-exploration" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Data Input, Output, and Exploration</h1>
-<div id="goals" class="section level2">
-<h2><span class="header-section-number">2.1</span> Goals</h2>
-<p>By the end of this chapter, you will be able to:</p>
-<ol style="list-style-type: decimal">
-<li>Read a CSV file into your R environment</li>
-<li>Explore different attributes of a dataframe
+<div id="data-visualization-and-analysis" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Data Visualization and Analysis</h1>
+<div id="read-in-data" class="section level2">
+<h2><span class="header-section-number">4.1</span> Read in Data</h2>
 <ul>
-<li>column names</li>
-<li>row names</li>
-<li>more with <code>attributes()</code></li>
-<li>Subset a dataframe by rows and columns</li>
-<li>Filter a dataframe by the values of a column</li>
-</ul></li>
-<li>Use two data exploration and cleaning functions
-<ul>
-<li>Frequency counts of unique values with <code>table()</code></li>
-<li>Search for any duplicates within your data with <code>duplicated()</code></li>
-</ul></li>
-<li>Write from your R environment to a CSV file</li>
-</ol>
-</div>
-<div id="reading-in-data" class="section level2">
-<h2><span class="header-section-number">2.2</span> Reading in Data</h2>
-<div id="read-csv-files" class="section level3">
-<h3><span class="header-section-number">2.2.1</span> Read CSV Files</h3>
-<ul>
-<li>store the filepath within a character variable</li>
-<li>the filepath could be relative to your working directory, or absolute</li>
-<li><code>read.csv</code> is a function that could read CSV files on your computer, and returns a dataframe for your R environment to use</li>
+<li>Our input data will be a scored version of the artificial ADOS Module 2dataset with some fake columns to demonstrate how to use R to perform specific data analyses.</li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># define relative filepath</span>
-pathToAdosFile &lt;-<span class="st"> &#39;./datasets/adosm1.csv&#39;</span>
-
-<span class="co"># Use read.csv() and filepath variable as first argument to function</span>
-adosm1 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(pathToAdosFile, 
-                   <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
-<span class="co"># stringsAsFactors is an optional argument that tells read.csv to</span>
-<span class="co"># not turn a string column into a R factor variable</span>
-
-<span class="co"># adosm1 is now considered a datraframe</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&#39;./datasets/adosm2_scored.csv&#39;</span>, 
+                   <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)</code></pre></div>
+</div>
+<div id="data-visualization-with-ggplot" class="section level2">
+<h2><span class="header-section-number">4.2</span> Data Visualization with <code>ggplot</code></h2>
+<div id="plotting-points" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Plotting points</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
+<span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> ados_fake_lin_outcome, 
+                           <span class="dt">y =</span> ados_sarb_total, 
+                           <span class="dt">color =</span> recruitment_group))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="plotting-with-points-and-smooth" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Plotting with Points and Smooth</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> ados_sarb_total, <span class="dt">y =</span> ados_fake_lin_outcome)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">color =</span> recruitment_group)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_smooth</span>()</code></pre></div>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="bar-plots" class="section level3">
+<h3><span class="header-section-number">4.2.3</span> Bar Plots</h3>
+<div id="bar-plot-with-colors" class="section level4">
+<h4><span class="header-section-number">4.2.3.1</span> Bar plot with Colors</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">fill =</span> gender))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+<div id="bar-plot-with-separated-colors-and-positions" class="section level4">
+<h4><span class="header-section-number">4.2.3.2</span> Bar plot with separated colors and positions</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">fill =</span> gender), <span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>)</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 </div>
-<div id="observing-dataframe-attributes" class="section level2">
-<h2><span class="header-section-number">2.3</span> Observing Dataframe attributes</h2>
-<div id="view" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> <code>View</code></h3>
-<ul>
-<li>To view your dataframe call the <code>View()</code> function.</li>
-<li>Note the capital <strong>V</strong>iew().</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(adosm1)
-
-<span class="co"># After Viewing, you can click on columns to sort</span></code></pre></div>
-</div>
-<div id="see-attributes" class="section level3">
-<h3><span class="header-section-number">2.3.2</span> See Attributes</h3>
-<ul>
-<li>display column names <code>names()</code></li>
-<li>display rownames with <code>row.names()</code></li>
-<li>see all attributes with <code>attributes(dataframe)</code></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display column names</span>
-<span class="co"># names(dataframe), we will use our adosm1 dataframe</span>
-<span class="co"># wrap function with head() to show first 6</span>
-<span class="kw">head</span>(<span class="kw">names</span>(adosm1))</code></pre></div>
-<pre><code>## [1] &quot;id&quot;                &quot;visit&quot;             &quot;cbe_36&quot;           
-## [4] &quot;recruitment_group&quot; &quot;gender&quot;            &quot;ados_version&quot;</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># display rownames, wrap function with head() to show first 6</span>
-<span class="kw">head</span>(<span class="kw">row.names</span>(adosm1))</code></pre></div>
-<pre><code>## [1] &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot;</code></pre>
+<div id="box-plots" class="section level3">
+<h3><span class="header-section-number">4.2.4</span> Box Plots</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> adosm2, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> recruitment_group, <span class="dt">y =</span> ados_sarb_total)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_boxplot</span>()</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 </div>
 </div>
-<div id="subsetting-data" class="section level2">
-<h2><span class="header-section-number">2.4</span> Subsetting Data</h2>
-<ul>
-<li>In our case, adosm1 is within our R environment, so we would call
-<ul>
-<li><code>adosm1[namesOfRows, namesOfColumns]</code></li>
-</ul></li>
-</ul>
-<div id="subset-by-columns" class="section level3">
-<h3><span class="header-section-number">2.4.1</span> Subset by columns</h3>
-<ul>
-<li>Note: it is best practice to subset columns by their names, not their numbers
-<ul>
-<li>This is because subsetting by column names is more specific and less error-prone</li>
-<li>For ex. this can cause a problem if the columns were reordered</li>
-</ul></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To access the id column, we would write</span>
-adosm1[, <span class="st">&quot;id&quot;</span>]
-<span class="co"># left of comma is empty to signify all rows to be accessed</span>
-<span class="kw">View</span>(adosm1[, <span class="st">&quot;id&quot;</span>])
-
-<span class="co"># To access all rows, for columns id and visit</span>
-adosm1[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]
-
-<span class="co"># in order to make code less verbose, when accessing one column,</span>
-<span class="co"># we use the $ operator</span>
-<span class="co"># to access the id column</span>
-adosm1<span class="op">$</span>id</code></pre></div>
-<ul>
-<li>Summary for accessing columns:
-<ul>
-<li>For multiple columns</li>
-<li><code>adosm1[, c(&quot;nameOfColumn1&quot; &quot;nameOfColumn2&quot;)]</code></li>
-<li>For one column</li>
-<li><code>adosm1$nameOfColumn</code></li>
-</ul></li>
-</ul>
+<div id="basic-stats-functions" class="section level2">
+<h2><span class="header-section-number">4.3</span> Basic Stats functions</h2>
+<div id="mean-median-standard-deviation-summary" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> Mean, Median, Standard Deviation, Summary</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">mean</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 3.488117</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">median</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 3</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sd</span>(adosm2<span class="op">$</span>ados_sarb_total, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</code></pre></div>
+<pre><code>## [1] 3.02392</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(adosm2<span class="op">$</span>ados_sarb_total)</code></pre></div>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   0.000   1.500   3.000   3.488   4.000  19.000</code></pre>
 </div>
-<div id="subset-by-rows" class="section level3">
-<h3><span class="header-section-number">2.4.2</span> Subset by rows</h3>
-<ul>
-<li>We could similarly access rows by row numbers
-<ul>
-<li><code>adosm1[c(1, 2, 5), ]</code></li>
-</ul></li>
-<li>We could also access rows by their row names
-<ul>
-<li><code>adosm1[c(&quot;1&quot;, &quot;2&quot;, &quot;5&quot;)]</code></li>
-</ul></li>
-<li>Lastly, we could access rows with a logical vector (explained later)</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows</span>
-<span class="co"># right of comma is empty to signify all columns to be accessed</span>
-adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), ]</code></pre></div>
-</div>
-<div id="subset-by-rows-and-columns" class="section level3">
-<h3><span class="header-section-number">2.4.3</span> Subset by rows and columns</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># access 1st, 2nd, and 5th rows, within id and visit columns</span>
-adosm1[<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">5</span>), <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]</code></pre></div>
-</div>
-</div>
-<div id="filtering-a-dataframe-subsetting-part-2" class="section level2">
-<h2><span class="header-section-number">2.5</span> Filtering a dataframe: Subsetting part 2</h2>
-<div id="subset-with-a-logical-vector" class="section level3">
-<h3><span class="header-section-number">2.5.1</span> Subset with a logical vector</h3>
-<ul>
-<li>What is very powerful in this is we could subset a dataframe in order to answer specific questions</li>
-<li>This is done by using a <strong>logical vector</strong> to subset or slice a dataframe</li>
-</ul>
-</div>
-<div id="subset-logical-vector-example" class="section level3">
-<h3><span class="header-section-number">2.5.2</span> Subset logical vector example</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To Filter for all visits at 36 months:</span>
-<span class="co"># Create logical vector</span>
-visits36mo &lt;-<span class="st"> </span>adosm1<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;36&quot;</span>
-<span class="co"># This will return a vector that has a length equal to the </span>
-<span class="co"># number of rows in our dataframe</span>
-<span class="kw">head</span>(visits36mo)  <span class="co"># TRUE are values = 36, FALSE not = 36</span>
-
-<span class="co"># use  our visits36mo  logical vector to filter dataframe</span>
-adosm1[visits36mo, ]  <span class="co"># returns  a dataframe of all visits at 36mo</span>
-
-adosm1[visits36mo, <span class="st">&quot;id&quot;</span>] <span class="co"># returns all the ids with a visit at 36mo</span>
-
-<span class="co"># returns alg and version at 36 months</span>
-adosm1[visits36mo, <span class="kw">c</span>(<span class="st">&quot;ados_algorithm&quot;</span>, <span class="st">&quot;ados_version&quot;</span>)] </code></pre></div>
-</div>
-</div>
-<div id="functions-to-explore-data-or-find-unclean-data" class="section level2">
-<h2><span class="header-section-number">2.6</span> Functions to explore data or find unclean data</h2>
-<div id="table" class="section level3">
-<h3><span class="header-section-number">2.6.1</span> <code>table()</code></h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To get a frequency count of  all unique values,</span>
-<span class="co"># we use the  table()</span>
-
-<span class="co"># table() takes in 1 or more vectors as input</span>
-<span class="co"># since every dataframe column could be considered a vector (or list)</span>
-<span class="co"># we could check for every unique visit with freq counts with</span>
-<span class="kw">table</span>(adosm1<span class="op">$</span>ados_version)</code></pre></div>
+<div id="chi-squared-test" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> Chi Squared Test</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test</span>(<span class="kw">table</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span>, adosm2<span class="op">$</span>recruitment_group))</code></pre></div>
+<pre><code>## Warning in chisq.test(table(adosm2$cbe_36, adosm2$recruitment_group)): Chi-
+## squared approximation may be incorrect</code></pre>
 <pre><code>## 
-## ADOS-1 ADOS-2 
-##    986     43</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># we could check  for every unique combination of vectors by </span>
-<span class="co"># providing multiple vector inputs</span>
-
-<span class="co"># To see every unique combination of visit and ados algorithm</span>
-<span class="kw">table</span>(adosm1<span class="op">$</span>visit, adosm1<span class="op">$</span>ados_algorithm)</code></pre></div>
-<pre><code>##     
-##          few to no words no words some words
-##   18   2             158       90        212
-##   21   0               0        7          2
-##   24   3              52       32        292
-##   30   0               6        0         32
-##   36   5               4       15        117</code></pre>
+##  Pearson&#39;s Chi-squared test
+## 
+## data:  table(adosm2$cbe_36, adosm2$recruitment_group)
+## X-squared = 15.284, df = 4, p-value = 0.004147</code></pre>
 </div>
-<div id="checking-for-duplicates-duplicated" class="section level3">
-<h3><span class="header-section-number">2.6.2</span> Checking for duplicates: <code>duplicated()</code></h3>
+</div>
+<div id="linear-regression" class="section level2">
+<h2><span class="header-section-number">4.4</span> Linear Regression</h2>
+<div id="correlation" class="section level3">
+<h3><span class="header-section-number">4.4.1</span> Correlation</h3>
 <ul>
-<li>We will first generate a dataframe that has duplicates, to show how to detect duplicates by different subgroups</li>
+<li>Find correlation between two vars</li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
-                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
-                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cor.test</span>(adosm2<span class="op">$</span>ados_fake_score1, adosm2<span class="op">$</span>ados_fake_lin_outcome)</code></pre></div>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  adosm2$ados_fake_score1 and adosm2$ados_fake_lin_outcome
+## t = -22.232, df = 545, p-value &lt; 2.2e-16
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  -0.7311983 -0.6429767
+## sample estimates:
+##        cor 
+## -0.6896378</code></pre>
+</div>
+<div id="creating-a-linear-regression-model" class="section level3">
+<h3><span class="header-section-number">4.4.2</span> Creating a Linear Regression Model</h3>
 <ul>
-<li>The <code>duplicated</code> function returns a logical vector of the duplicates that exist in a dataframe</li>
-<li>The TRUE values represent the index locations of where a duplicate row was found</li>
-<li>We could use this logical vector to see where a duplicate exists</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">duplicateIndices &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf)  <span class="co"># store dup vector in variable</span>
-
-duplicateIndices  <span class="co"># view logical vector of duplicates</span></code></pre></div>
-<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dupDf[duplicateIndices, ]</code></pre></div>
-<pre><code>##   id     visit item1
-## 4  2 10 months     3</code></pre>
-</div>
-<div id="duplicated-by-key-variables-id-and-visit" class="section level3">
-<h3><span class="header-section-number">2.6.3</span> <code>Duplicated()</code> by key variables: id and visit</h3>
+<li>We use the <code>lm()</code> functionn to create a Linear Regression Model</li>
+<li>The first parameter takes in an equation of the form: <code>dependentVar ~ predictor1 + predictor2 + ...</code>
 <ul>
-<li>we could check for duplicates by columns that should represent a unique combination.</li>
-<li>in this example: id and visit</li>
+<li>So the dependentVar is a function of the predictor variables</li>
+</ul></li>
+<li>In order to use column names as variables in this eq., the <code>data</code> parameter takes in a dataframe as input.</li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># to check duplicates by groups</span>
-dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
-dupDf[dupIndGrouped, ]</code></pre></div>
-<pre><code>##   id     visit item1
-## 4  2 10 months     3
-## 6  3 20 months     6</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">View</span>(dupDf[dupIndGrouped, ])  <span class="co"># View duplicatecases by id and visit</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># To demonstrate a linear model, we use fake ados columns within the ados</span>
+<span class="co"># dataframe</span>
+linearMod &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">lm</span>(ados_fake_lin_outcome <span class="op">~</span><span class="st"> </span>ados_fake_score1 <span class="op">+</span><span class="st"> </span>ados_fake_score2,
+     <span class="dt">data=</span>adosm2)</code></pre></div>
 </div>
-</div>
-<div id="assignment-1-adosm2-dataset" class="section level2">
-<h2><span class="header-section-number">2.7</span> Assignment 1: adosm2 dataset</h2>
-<div id="instructions" class="section level3">
-<h3><span class="header-section-number">2.7.1</span> Instructions</h3>
-<ol style="list-style-type: decimal">
-<li>Read in the adosm2.csv file</li>
-<li>What is the frequency count for every unique visit?</li>
-<li>What are the ids that exist for the 30 month visit?</li>
-<li>Are there duplicates by id and visit?</li>
-<li>What is the frequency count of duplicates vs non-duplicates?</li>
-</ol>
-</div>
-<div id="solution-assignment-1" class="section level3">
-<h3><span class="header-section-number">2.7.2</span> Solution Assignment 1</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 1. Read in the adosm2.csv file</span>
-adosm2Path &lt;-<span class="st"> &#39;./datasets/adosm2.csv&#39;</span>
-adosm2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(adosm2Path, <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
-
-<span class="co"># 2. What is the frequency count for every unique visit?</span>
-<span class="kw">table</span>(adosm2<span class="op">$</span>visit)</code></pre></div>
+<div id="residuals-p-values-coefficients-with-summary" class="section level3">
+<h3><span class="header-section-number">4.4.3</span> Residuals, P-Values, Coefficients, with <code>summary()</code></h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(linearMod)</code></pre></div>
 <pre><code>## 
-##         24         30         36 School-Age 
-##         53         13        473          8</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 3, What are the ids that exist for the 30 month visit?</span>
-adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span class="st"> &quot;30&quot;</span>, <span class="st">&quot;id&quot;</span>]</code></pre></div>
-<pre><code>##  [1]   2  45  62 111 119 132 139 258 261 272 305 486 497</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># This works too- adosm2$id[adosm2$visit == &quot;30&quot;]</span>
-
-<span class="co"># 4. Are there duplicates by id and visit?</span>
-<span class="kw">table</span>(<span class="kw">duplicated</span>(adosm2[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)]))</code></pre></div>
-<pre><code>## 
-## FALSE 
-##   547</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 5. What are the frequency count of duplicates vs non-duplicates</span>
-<span class="kw">table</span>(<span class="kw">duplicated</span>(adosm2))</code></pre></div>
-<pre><code>## 
-## FALSE 
-##   547</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># There are no duplicates, so no need to filter out duplicates</span></code></pre></div>
-
+## Call:
+## lm(formula = ados_fake_lin_outcome ~ ados_fake_score1 + ados_fake_score2, 
+##     data = adosm2)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -2.75987 -0.68070  0.04043  0.65436  3.11995 
+## 
+## Coefficients:
+##                  Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)       0.01635    0.04233   0.386      0.7    
+## ados_fake_score1 -3.04059    0.04225 -71.970   &lt;2e-16 ***
+## ados_fake_score2  3.01164    0.04292  70.176   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.9894 on 544 degrees of freedom
+## Multiple R-squared:  0.9478, Adjusted R-squared:  0.9476 
+## F-statistic:  4942 on 2 and 544 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
+<div id="plotting-the-linear-model" class="section level3">
+<h3><span class="header-section-number">4.4.4</span> Plotting the Linear Model</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># create effects object</span>
+<span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score1&#39;</span>), linearMod))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score2&#39;</span>), linearMod))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-2.png" width="672" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">plot</span>(effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_fake_score1&#39;</span>, <span class="st">&#39;ados_fake_score2&#39;</span>), linearMod))</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-10-3.png" width="672" /></p>
+</div>
+</div>
+<div id="logistic-regression" class="section level2">
+<h2><span class="header-section-number">4.5</span> Logistic Regression</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">ifelse</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;Autism&#39;</span>, <span class="st">&#39;ASD&#39;</span>), <span class="st">&#39;ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>)
+adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm2<span class="op">$</span>cbe_asd)
+adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">relevel</span>(adosm2<span class="op">$</span>cbe_asd, <span class="dt">ref =</span> <span class="st">&#39;Non-ASD&#39;</span>)
+mod &lt;-<span class="st"> </span><span class="kw">glm</span>(cbe_asd <span class="op">~</span><span class="st"> </span><span class="dv">1</span> <span class="op">+</span><span class="st"> </span>ados_sarb_total,
+                   <span class="dt">data =</span> adosm2,
+                   <span class="dt">family =</span> <span class="st">&#39;binomial&#39;</span>)
+eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_sarb_total&#39;</span>), mod)
+<span class="kw">plot</span>(eff,
+     <span class="dt">axes =</span> <span class="kw">list</span>(
+       <span class="dt">y =</span> <span class="kw">list</span>(
+         <span class="dt">lab =</span> <span class="st">&#39;CBE of ASD&#39;</span>,
+         <span class="dt">ticks =</span> <span class="kw">list</span>(<span class="dt">at =</span> <span class="kw">c</span>(.<span class="dv">01</span>, .<span class="dv">1</span>, .<span class="dv">2</span>, .<span class="dv">4</span>, .<span class="dv">6</span>, .<span class="dv">8</span>,  .<span class="dv">99</span>))))
+)</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+</div>
+<div id="mixed-effects-models" class="section level2">
+<h2><span class="header-section-number">4.6</span> Mixed Effects Models</h2>
+<div id="mixed-effects-logistic-regression" class="section level3">
+<h3><span class="header-section-number">4.6.1</span> Mixed Effects Logistic Regression</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># analyze- logistic regression mixed effects</span>
+adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">ifelse</span>(adosm2<span class="op">$</span>cbe_<span class="dv">36</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;Autism&#39;</span>, <span class="st">&#39;ASD&#39;</span>), <span class="st">&#39;ASD&#39;</span>, <span class="st">&#39;Non-ASD&#39;</span>)
+adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">as.factor</span>(adosm2<span class="op">$</span>cbe_asd)
+adosm2<span class="op">$</span>cbe_asd &lt;-<span class="st"> </span><span class="kw">relevel</span>(adosm2<span class="op">$</span>cbe_asd, <span class="dt">ref =</span> <span class="st">&#39;Non-ASD&#39;</span>)
+mod &lt;-<span class="st"> </span>lme4<span class="op">::</span><span class="kw">glmer</span>(cbe_asd <span class="op">~</span><span class="st"> </span><span class="dv">1</span> <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span><span class="op">|</span>visit) <span class="op">+</span><span class="st"> </span>ados_sarb_total,
+                   <span class="dt">data =</span> adosm2,
+                   <span class="dt">family =</span> <span class="st">&#39;binomial&#39;</span>)
+eff &lt;-<span class="st"> </span>effects<span class="op">::</span><span class="kw">Effect</span>(<span class="kw">c</span>(<span class="st">&#39;ados_sarb_total&#39;</span>), mod)
+<span class="kw">plot</span>(eff,
+     <span class="dt">axes =</span> <span class="kw">list</span>(
+       <span class="dt">y =</span> <span class="kw">list</span>(
+         <span class="dt">lab =</span> <span class="st">&#39;CBE of ASD&#39;</span>,
+         <span class="dt">ticks =</span> <span class="kw">list</span>(<span class="dt">at =</span> <span class="kw">c</span>(.<span class="dv">01</span>, .<span class="dv">1</span>, .<span class="dv">2</span>, .<span class="dv">4</span>, .<span class="dv">6</span>, .<span class="dv">8</span>,  .<span class="dv">99</span>))))
+)</code></pre></div>
+<p><img src="03-Data-Analysis_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+</div>
+</div>
+<div id="more-resources" class="section level2">
+<h2><span class="header-section-number">4.7</span> More Resources</h2>
+
 </div>
 </div>
             </section>
@@ -483,8 +405,8 @@ adosm2[adosm2<span class="op">$</span>visit <span class="op">==</span><span clas
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-manipulation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-manipulation.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

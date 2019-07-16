@@ -9,7 +9,7 @@ output:
 
 
 
-# Data Analysis
+# Data Visualization and Analysis
 
 ## Read in Data
 
