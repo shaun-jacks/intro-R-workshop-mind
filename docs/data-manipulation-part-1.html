@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Intro to R Workshop Book</title>
+  <title>Chapter 3 Data Manipulation Part 1 | Intro to R Workshop Book</title>
   <meta name="description" content="Introduction to R Workshop" />
   <meta name="generator" content="bookdown 0.11 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Intro to R Workshop Book" />
+  <meta property="og:title" content="Chapter 3 Data Manipulation Part 1 | Intro to R Workshop Book" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="shaun-jacks/intro-R-workshop-mind" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Intro to R Workshop Book" />
+  <meta name="twitter:title" content="Chapter 3 Data Manipulation Part 1 | Intro to R Workshop Book" />
   
   <meta name="twitter:description" content="Introduction to R Workshop" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="data-input-output-and-exploration.html">
+<link rel="prev" href="data-input-output-and-exploration.html">
+<link rel="next" href="data-visualization.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -217,174 +217,167 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Intro to R Workshop Book</h1>
-<p class="author"><em>Shaun Jackson, Marissa Chemotti</em></p>
-<p class="date"><em>2019-07-16</em></p>
+<div id="data-manipulation-part-1" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Data Manipulation Part 1</h1>
+<div id="goals-1" class="section level2">
+<h2><span class="header-section-number">3.1</span> Goals</h2>
+<p>By the end of this chapter, you will be able to:</p>
+<ol style="list-style-type: decimal">
+<li>Gain Data Cleaning skills
+<ul>
+<li>Remove duplicate data</li>
+<li>Clean data by replacing messy data with consistent data
+<ul>
+<li>using <code>ifelse()</code></li>
+</ul></li>
+</ul></li>
+<li>Write your resulting dataframe with <code>write.csv()</code></li>
+</ol>
 </div>
-<div id="overview-and-introduction" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Overview and Introduction</h1>
-<p>The aim of this workshop is to get you up and running with R as quick as possible by teaching you how to connect the most important R constructs through hands-on examples. One of the toughest parts about learning a programming language is feeling overwhelmed by the abundance of material to learn.</p>
-<p>By giving you an overview of the most useful functions, in the lens of close-to-real-world artificial datasets, we hope that you can apply these concepts to your own data.</p>
-<p>As with everything else, the best way to learn R is through <strong>consistent</strong> practice with a real world project.</p>
-<div id="datatypes" class="section level2">
-<h2><span class="header-section-number">1.1</span> Datatypes</h2>
+<div id="removing-duplicates" class="section level2">
+<h2><span class="header-section-number">3.2</span> Removing Duplicates</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Create duplicated dataframe </span>
+dupDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+                    <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+                    <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>))
+<span class="co"># save logical vector of duplicate indices</span>
+dupIndGrouped &lt;-<span class="st"> </span><span class="kw">duplicated</span>(dupDf[, <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>, <span class="st">&quot;visit&quot;</span>)])
+dupIndGrouped</code></pre></div>
+<pre><code>## [1] FALSE FALSE FALSE  TRUE FALSE  TRUE</code></pre>
 <ul>
-<li>R is a statistical software that allows user to perform a multitude of data tasks.</li>
-<li>In order to manipulate data, one would need to understand the fundamental R datatypes.</li>
+<li>Before removing duplicates, it’s important to understand why there would be duplicates, and try to fix that issue</li>
+<li><p>Otherwise, here is another way to quickly remove them</p></li>
+<li>To remove duplicates, we use the same logical vector that found the duplicates</li>
+<li>We then inverse the vector by adding a (not sign) ! to toggle TRUES to FALSES and FALSES to TRUES</li>
+<li><p>By subsetting in this way, we will make a cleaner dataframe excluding all duplicate rows</p></li>
 </ul>
-<div id="numeric-character-logical-factor" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Numeric, Character, Logical, Factor</h3>
-<div id="numeric" class="section level4">
-<h4><span class="header-section-number">1.1.1.1</span> Numeric</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">notDuplicateCases &lt;-<span class="st"> </span><span class="op">!</span>dupIndGrouped
+fixedDf &lt;-<span class="st"> </span>dupDf[notDuplicateCases, ]
+<span class="kw">View</span>(fixedDf)  <span class="co"># View fixed dataframe</span></code></pre></div>
+</div>
+<div id="cleaning-scoring-messy-data" class="section level2">
+<h2><span class="header-section-number">3.3</span> Cleaning, Scoring Messy Data</h2>
+<div id="messy-dataset" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Messy Dataset</h3>
 <ul>
-<li>A numeric is self-explanatory. It could be a number that is either an integer, or a decimal</li>
-<li>In R we can assign a numeric to a number with the assignment operator <code>&lt;-</code>, or with an <code>=</code> sign.
+<li>We will create a dataset that is ‘unclean’ in order to teach you how to clean it</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">messyDf &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
+  <span class="dt">id =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>),
+  <span class="dt">visit =</span> <span class="kw">c</span>(<span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>,  <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>, <span class="st">&#39;10 months&#39;</span>, <span class="st">&#39;20 months&#39;</span>),
+  <span class="dt">item1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">6</span>),
+  <span class="co"># item2 is a column with NAs</span>
+  <span class="dt">item2 =</span> <span class="kw">c</span>(<span class="ot">NA</span>, <span class="ot">NA</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>),
+  <span class="co"># item3 is  a column with multiple missing codes and NAs</span>
+  <span class="dt">item3 =</span> <span class="kw">c</span>(<span class="ot">NA</span>, <span class="st">&#39;Missing&#39;</span>, <span class="st">&#39;-999&#39;</span>, <span class="st">&#39;4&#39;</span>, <span class="st">&#39;5&#39;</span>, <span class="st">&#39;6&#39;</span>),
+  <span class="co"># item 4 is a character column with different codes for  same value</span>
+  <span class="dt">item4Text =</span> <span class="kw">c</span>(<span class="st">&#39;father&#39;</span>, <span class="st">&#39;Father&#39;</span>, <span class="st">&#39;fth&#39;</span>, <span class="st">&#39;mother&#39;</span>, <span class="st">&#39;Mother&#39;</span>, <span class="st">&#39;Mother&#39;</span>),
+  <span class="co"># item 5 is a coded variable with text embedded within</span>
+  <span class="dt">item5Codes =</span> <span class="kw">c</span>(<span class="st">&#39;0 (Never)&#39;</span>, <span class="st">&#39;1&#39;</span>, <span class="st">&#39;2&#39;</span>, <span class="st">&#39;3&#39;</span>, <span class="st">&#39;4&#39;</span>, <span class="st">&#39;5 (Always)&#39;</span>),
+  <span class="dt">item6 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="ot">NA</span>),
+  <span class="dt">item7 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="ot">NA</span>, <span class="ot">NA</span>, <span class="dv">6</span>)
+)</code></pre></div>
+</div>
+<div id="replacing-values-with-ifelse" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Replacing values with <code>ifelse()</code></h3>
 <ul>
-<li><code>a &lt;- 1</code></li>
+<li><code>ifelse()</code> is a <strong>vectorized</strong> function that uses matrix-like operations for increased efficiency</li>
+<li>It can take in a vector of values, and return a vector of values of the same length</li>
+<li>Function Signature: <code>ifelse(condition, value if condition true,  value if condition false)</code>
+<ul>
+<li>The <code>condition</code> is a logical vector which could be created with boolean operators (eg. ==, &lt;, &gt;) or any function that returns a logical operator: eg. <code>duplicated()</code>, <code>grepl()</code>, <code>is.na()</code>.</li>
+<li>The second parameter is what value will be returned for all TRUEs in the preceding logical vector</li>
+<li>The third parameter is what value will be returned for all FALSEs in the 1st condition logical vector</li>
 </ul></li>
 </ul>
 </div>
-<div id="character" class="section level4">
-<h4><span class="header-section-number">1.1.1.2</span> Character</h4>
+<div id="replacing-nas-with-ifelse" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> Replacing NAs with <code>ifelse()</code></h3>
 <ul>
-<li>A character is a representation of letters and or numbers and symbols. You would wrap the letters and numbers in either <code>&quot;&quot;</code> or <code>''</code> marks to store as a character</li>
-<li>Assign a character value to a variable named a
+<li>For example, we can replace all NAs with 0 by also using the <code>is.na()</code>.
 <ul>
-<li><code>a &lt;- 'abc'</code></li>
+<li><code>is.na()</code> takes in a vector of values</li>
+<li>This function will take the input vector, and return a logical vector, same as what <code>duplicated()</code> did, where TRUEs are where an NA was found, and FALSE otherwise.</li>
 </ul></li>
 </ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">is.na</span>(messyDf<span class="op">$</span>item2)</code></pre></div>
+<pre><code>## [1]  TRUE  TRUE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># for all NAs replace with 0, otherwise replace with original value</span>
+<span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item2), <span class="dv">0</span>, messyDf<span class="op">$</span>item2)  </code></pre></div>
+<pre><code>## [1] 0 0 3 4 5 6</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We use this vector and assign it to the original column to clean it</span>
+messyDf<span class="op">$</span>item2 &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item2), <span class="dv">0</span>, messyDf<span class="op">$</span>item2) </code></pre></div>
 </div>
-<div id="logical" class="section level4">
-<h4><span class="header-section-number">1.1.1.3</span> Logical</h4>
+<div id="nesting-ifelse-to-replace-multiple-values" class="section level3">
+<h3><span class="header-section-number">3.3.4</span> Nesting <code>ifelse()</code> to replace multiple values</h3>
 <ul>
-<li>A logical value also called a boolean value can only be <code>TRUE</code> or <code>FALSE</code>.</li>
-<li>These are powerful and allows the user to filter their data based on certain conditions.</li>
-<li>Assign a flag to TRUE <code>flag &lt;- TRUE</code></li>
+<li>To fix item3, we need to have a consistent code for <strong>Missing</strong></li>
+<li>Notice how NA, Missing, and -999, all represent <strong>Missing</strong></li>
+<li>To replace all 3 cases, we can do so by nesting <code>ifelse</code> statements.</li>
+<li>To do this, we nest ifelse statements:</li>
 </ul>
-<div id="boolean-operators" class="section level5">
-<h5><span class="header-section-number">1.1.1.3.1</span> Boolean operators</h5>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ifelse</span>(condition1, value1,
+       <span class="kw">ifelse</span>(condition2, value2, value3))</code></pre></div>
 <ul>
-<li>Boolean operators are
-<ul>
-<li><code>&lt;</code> (less than)</li>
-<li><code>&gt;</code> (greater than)</li>
-<li><code>==</code> (equal to) notice two equal signs</li>
-<li><code>!</code> NOT operator: Turns a TRUE to FALSE or a FALSE to TRUE</li>
-<li><code>&amp;</code> AND operator: Returns TRUE if all values TRUE, else FALSE</li>
-<li><code>|</code> OR operator: Returns FALSE if all values FALSE, else TRUE</li>
-</ul></li>
-<li>A boolean operator returns a logical value or vector (will be explained) or matrix (will be explained)</li>
+<li>This example replaces all TRUE values from <strong>condition1</strong> with <strong>value 1</strong></li>
+<li>It then replaces all TRUE values from <strong>condition2</strong> with <strong>value2</strong>,</li>
+<li>Lastly, all the <strong>remaining FALSE</strong> values are replaced with <strong>value3</strong></li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># quick example of boolean operators</span>
-boolVal &lt;-<span class="st"> </span><span class="dv">1</span> <span class="op">&lt;</span><span class="st"> </span><span class="dv">5</span>
-boolVal</code></pre></div>
-<pre><code>## [1] TRUE</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">boolVal &lt;-<span class="st"> </span><span class="dv">5</span> <span class="op">==</span><span class="st"> </span><span class="dv">5</span>
-boolVal</code></pre></div>
-<pre><code>## [1] TRUE</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">boolVal &lt;-<span class="st"> </span><span class="op">!</span>(<span class="dv">5</span> <span class="op">==</span><span class="st"> </span><span class="dv">5</span>)
-boolVal</code></pre></div>
-<pre><code>## [1] FALSE</code></pre>
+<div id="replacing-multiple-values-nas--999s-missing-codes" class="section level4">
+<h4><span class="header-section-number">3.3.4.1</span> Replacing multiple values: NAs, -999s, Missing codes</h4>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of NAs</span>
+<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3)</code></pre></div>
+<pre><code>## [1]  TRUE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of -999s</span>
+messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span></code></pre></div>
+<pre><code>## [1]    NA FALSE  TRUE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># See  logical vector of &#39;Missing&#39;</span>
+messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span></code></pre></div>
+<pre><code>## [1]    NA  TRUE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># for all NAs replace with 0, otherwise replace with original value</span>
+<span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>, 
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span>, <span class="st">&#39;-9&#39;</span>,
+         <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span>, <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3)))</code></pre></div>
+<pre><code>## [1] &quot;-9&quot; &quot;-9&quot; &quot;-9&quot; &quot;2&quot;  &quot;3&quot;  &quot;4&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># We use this vector and assign it to the original column to clean it</span>
+messyDf<span class="op">$</span>item3 &lt;-<span class="st"> </span>
+<span class="st">  </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>, 
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;-999&#39;</span>, <span class="st">&#39;-9&#39;</span>,
+         <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">==</span><span class="st"> &#39;Missing&#39;</span>, <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3)))</code></pre></div>
 </div>
-</div>
-</div>
-<div id="vectors-factors-lists" class="section level3">
-<h3><span class="header-section-number">1.1.2</span> Vectors, Factors, Lists</h3>
-<div id="vectors" class="section level4">
-<h4><span class="header-section-number">1.1.2.1</span> Vectors</h4>
+<div id="replacing-multiple-values-with-the-in" class="section level4">
+<h4><span class="header-section-number">3.3.4.2</span> Replacing multiple values with the <code>%in%</code></h4>
 <ul>
-<li>A vector is a combination of values that have the same datatype.</li>
-<li>We use a function called <code>c()</code> to <strong>combine</strong> the values into a vector</li>
-<li>We put various values within the <code>()</code> separated by a comma</li>
+<li>we can condense the previous ifelse statements with <code>%in%</code></li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">vector1 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)
-vector1</code></pre></div>
-<pre><code>## [1] 1 2 3</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">vector2 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>)
-vector2</code></pre></div>
-<pre><code>## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot;</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">vector3 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="ot">TRUE</span>, <span class="ot">FALSE</span>, <span class="ot">TRUE</span>)
-vector3</code></pre></div>
-<pre><code>## [1]  TRUE FALSE  TRUE</code></pre>
-<ul>
-<li><p>Vectors are the fundamental datatypes that can make up a list, or a dataframe, which is how R represents a piece of data by rows and columns.</p></li>
-<li><p>We can names vectors by using the <code>names()</code></p></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">names</span>(vector1) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;a&#39;</span>,<span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>)
-vector1</code></pre></div>
-<pre><code>## a b c 
-## 1 2 3</code></pre>
-</div>
-<div id="factor" class="section level4">
-<h4><span class="header-section-number">1.1.2.2</span> Factor</h4>
-<ul>
-<li>A factor is a special datatype that summarizes your data into a set of levels, where each level is a unique value of your data.</li>
-<li>It can be used to create Statistical Models</li>
-<li>we can create factors with the function: <code>as.factor()</code></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">factor1 &lt;-<span class="st"> </span><span class="kw">as.factor</span>(<span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>))
-factor1</code></pre></div>
-<pre><code>## [1] a b b c
-## Levels: a b c</code></pre>
-</div>
-<div id="lists" class="section level4">
-<h4><span class="header-section-number">1.1.2.3</span> Lists</h4>
-<ul>
-<li>A list is similar to a vector in that it could hold multiple values. However, it is much more flexible.</li>
-<li>The difference is that it can hold multiple values of <strong>different</strong> datatypes.</li>
-<li>we can create lists with the function: <code>list()</code></li>
-<li>it can also have names for each element in the list by doing:
-<ul>
-<li><code>list(nameOfElement = valuesOfElement)</code></li>
-</ul></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">list1 &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">a =</span> <span class="dv">1</span>, 
-              <span class="dt">b =</span> <span class="kw">c</span>(<span class="ot">TRUE</span>, <span class="ot">FALSE</span>),
-              <span class="dt">c =</span> <span class="st">&#39;hi&#39;</span>)
-list1</code></pre></div>
-<pre><code>## $a
-## [1] 1
-## 
-## $b
-## [1]  TRUE FALSE
-## 
-## $c
-## [1] &quot;hi&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ifelse</span>(<span class="kw">is.na</span>(messyDf<span class="op">$</span>item3), <span class="st">&#39;-9&#39;</span>,
+       <span class="kw">ifelse</span>(messyDf<span class="op">$</span>item3 <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;-999&#39;</span>, <span class="st">&#39;Missing&#39;</span>), <span class="st">&#39;-9&#39;</span>, messyDf<span class="op">$</span>item3))</code></pre></div>
 </div>
 </div>
-<div id="dataframes" class="section level3">
-<h3><span class="header-section-number">1.1.3</span> Dataframes</h3>
-<ul>
-<li><p>Dataframes are useful in that it organizes your data into rows and columns, similar to how data would be represented in a database, and excel sheet, or a simple CSV or TSV file.</p></li>
-<li>Every column has the same length could be thought of as a vector with one datatype.</li>
-<li><p>It holds additional attributes covered in the next section</p></li>
-<li><p>we can create dataframes with <code>data.frame()</code></p></li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dataframe1 &lt;-<span class="st"> </span><span class="kw">data.frame</span>(
-  <span class="dt">col1 =</span> <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),
-  <span class="dt">col2 =</span> <span class="kw">c</span>(<span class="st">&#39;a&#39;</span>, <span class="st">&#39;b&#39;</span>, <span class="st">&#39;c&#39;</span>)
-)
-dataframe1</code></pre></div>
-<pre><code>##   col1 col2
-## 1    1    a
-## 2    2    b
-## 3    3    c</code></pre>
 </div>
-<div id="viewing-datatypes-with-class" class="section level3">
-<h3><span class="header-section-number">1.1.4</span> Viewing datatypes with <code>class()</code></h3>
+<div id="writing-data" class="section level2">
+<h2><span class="header-section-number">3.4</span> Writing Data</h2>
+<div id="write.csv" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> <code>write.csv</code></h3>
 <ul>
-<li>Using the <code>class()</code> function, we could see what datatype a variable is</li>
+<li>We can write data from our R environment to a CSV file with <code>write.csv</code></li>
+<li><code>write.csv</code> takes in a dataframe within our R environment, as the first parameter</li>
+<li>the second parameter is the location and filename to write it to.</li>
+<li>For example, after scoring our adosm1 dataset, we can now write it to a location</li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">class</span>(list1)</code></pre></div>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">class</span>(vector1)</code></pre></div>
-<pre><code>## [1] &quot;numeric&quot;</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">class</span>(dataframe1)</code></pre></div>
-<pre><code>## [1] &quot;data.frame&quot;</code></pre>
-<p>Now that we’ve covered fundamental R types, we can begin the fun stuff- starting with Data Exploration</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># write.csv(adosm1, &#39;./datasets/ADOS Module 1 Scored&#39;, row.names = FALSE)</span></code></pre></div>
+</div>
+</div>
+<div id="assignment" class="section level2">
+<h2><span class="header-section-number">3.5</span> Assignment</h2>
+<ul>
+<li>Using the <code>messyDf</code> created in your R environment, clean up items 4 and 5</li>
+<li>Replace the item 4 values to a consistent value to represent father and mother</li>
+<li>Replace the item 5 value: <code>0 (Never)</code> and <code>5 (Always)</code> to <code>0</code> and <code>5</code></li>
+</ul>
+<p>Congratulations! We have now covered and combined some essentials in working with data manipulation.</p>
+<p>In the next section, we will cover data visualization and analysis tools within R</p>
 
-</div>
 </div>
 </div>
             </section>
@@ -392,8 +385,8 @@ dataframe1</code></pre></div>
           </div>
         </div>
       </div>
-
-<a href="data-input-output-and-exploration.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-input-output-and-exploration.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-visualization.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

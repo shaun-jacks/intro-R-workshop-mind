@@ -233,5 +233,44 @@ class(dataframe1)
 ## [1] "data.frame"
 ```
 
+## Functions
+
+A function is an entity that performs an operation on an input, and returns an ouput
+
+- Notice how we use syntax that has `nameOfFunction` with a `()` after it
+- These are functions that take an input within the `()` and return an output
+- For example the `c()` takes in multiple elements of the same type, and returns a vector of values
+- the `list()` takes an input of values, and returns a list, 
+- the `data.frame()` takes an input of vectors of same length, and returns a dataframe
+
+We can create functions by the following syntax:
+
+
+```r
+plusOneFunction <- function(input1) {
+  # This is the function body
+  # do something
+  result <- input1 + 1
+  return(result)  # output
+}
+```
+
+- The inputs of our function are within the `()`
+- The body of the function is where we perform operations on the input
+- Calling `return()` will specify what output we want from our function
+- The ` <- ` assigns the function to a variable we can later on use
+    - In this case, plusOneFunction now can be used later on to  perform an operation
+    
+
+```r
+a <- 1
+b <- plusOneFunction(a)   # a will represent input1
+b  # b is the result after the return()
+```
+
+```
+## [1] 2
+```
+
 
 Now that we've covered fundamental R types, we can begin the fun stuff- starting with Data Exploration

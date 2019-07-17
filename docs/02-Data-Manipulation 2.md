@@ -211,12 +211,6 @@ ifelse(is.na(messyDf$item3), '-9',
 ```
 
 
-## Assignment
-
-- Using the `messyDf` created in your R environment, clean up items 4 and 5
-- Replace the item 4 values to a consistent value to represent father and mother
-- Replace the item 5 value: `0 (Never)` and `5 (Always)` to `0` and `5`
-
 Congratulations! We have now covered and combined some essentials in working with data manipulation.
 
 In the next section, we will cover data visualization and analysis tools within R
