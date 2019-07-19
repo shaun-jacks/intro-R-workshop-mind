@@ -24,7 +24,7 @@
 <meta name="author" content="Shaun Jackson, Marissa Chemotti" />
 
 
-<meta name="date" content="2019-07-16" />
+<meta name="date" content="2019-07-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -104,12 +104,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview and Introduction</a><ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#datatypes"><i class="fa fa-check"></i><b>1.1</b> Datatypes</a><ul>
-<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#numeric-character-logical-factor"><i class="fa fa-check"></i><b>1.1.1</b> Numeric, Character, Logical, Factor</a></li>
-<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#vectors-factors-lists"><i class="fa fa-check"></i><b>1.1.2</b> Vectors, Factors, Lists</a></li>
-<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#dataframes"><i class="fa fa-check"></i><b>1.1.3</b> Dataframes</a></li>
-<li class="chapter" data-level="1.1.4" data-path="index.html"><a href="index.html#viewing-datatypes-with-class"><i class="fa fa-check"></i><b>1.1.4</b> Viewing datatypes with <code>class()</code></a></li>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#fundamental-concepts-objects"><i class="fa fa-check"></i><b>1.1</b> Fundamental Concepts: Objects</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#datatypes"><i class="fa fa-check"></i><b>1.2</b> Datatypes</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#numeric-character-logical-factor"><i class="fa fa-check"></i><b>1.2.1</b> Numeric, Character, Logical, Factor</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#vectors-factors-lists"><i class="fa fa-check"></i><b>1.2.2</b> Vectors, Factors, Lists</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#dataframes"><i class="fa fa-check"></i><b>1.2.3</b> Dataframes</a></li>
+<li class="chapter" data-level="1.2.4" data-path="index.html"><a href="index.html#viewing-datatypes-with-class"><i class="fa fa-check"></i><b>1.2.4</b> Viewing datatypes with <code>class()</code></a></li>
 </ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#functions"><i class="fa fa-check"></i><b>1.3</b> Functions</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html"><i class="fa fa-check"></i><b>2</b> Data Input, Output, and Exploration</a><ul>
 <li class="chapter" data-level="2.1" data-path="data-input-output-and-exploration.html"><a href="data-input-output-and-exploration.html#goals"><i class="fa fa-check"></i><b>2.1</b> Goals</a></li>
@@ -220,23 +222,50 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="header">
 <h1 class="title">Intro to R Workshop Book</h1>
 <p class="author"><em>Shaun Jackson, Marissa Chemotti</em></p>
-<p class="date"><em>2019-07-16</em></p>
+<p class="date"><em>2019-07-17</em></p>
 </div>
 <div id="overview-and-introduction" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Overview and Introduction</h1>
 <p>The aim of this workshop is to get you up and running with R as quick as possible by teaching you how to connect the most important R constructs through hands-on examples. One of the toughest parts about learning a programming language is feeling overwhelmed by the abundance of material to learn.</p>
 <p>By giving you an overview of the most useful functions, in the lens of close-to-real-world artificial datasets, we hope that you can apply these concepts to your own data.</p>
 <p>As with everything else, the best way to learn R is through <strong>consistent</strong> practice with a real world project.</p>
-<div id="datatypes" class="section level2">
-<h2><span class="header-section-number">1.1</span> Datatypes</h2>
+<div id="fundamental-concepts-objects" class="section level2">
+<h2><span class="header-section-number">1.1</span> Fundamental Concepts: Objects</h2>
+<p>An object is an entity that carries information.</p>
+<p>In R, objects are the fundamental foundation to storing data, and manipulating it.</p>
 <ul>
-<li>R is a statistical software that allows user to perform a multitude of data tasks.</li>
-<li>In order to manipulate data, one would need to understand the fundamental R datatypes.</li>
+<li>R organizes the storage of data with datatypes. Which are different types of objects.</li>
+<li>It also organizes the manipulation of data with functions, which perform operations on your data.</li>
 </ul>
+<p>As we go over the most important datatypes in R, keep in mind the context- these are the pieces that allow us to store, and manipulate information for our needs.</p>
+</div>
+<div id="datatypes" class="section level2">
+<h2><span class="header-section-number">1.2</span> Datatypes</h2>
+<p>You can think of these datatypes like a pyramid of information.</p>
+<ul>
+<li>The bottom of the pyramid, the foundation, are the datatypes:
+<ul>
+<li>Numeric</li>
+<li>Character</li>
+<li>Logical</li>
+</ul></li>
+<li>The middle of the pyramid consists of
+<ul>
+<li>Vectors (holding multiple values a single datatype in level 1)</li>
+<li>Factors (holding multiple values of a single datatype but with additional attributes in level 1)</li>
+</ul></li>
+<li>The top of the pyramid consists of
+<ul>
+<li>Lists (flexible storage of both level 1 and 2 of the pyramid)</li>
+<li>Dataframes (rows and columns of vectors)</li>
+</ul></li>
+<li>Another name for a datatype is a class</li>
+</ul>
+<p>We will talk about each datatype in this section.</p>
 <div id="numeric-character-logical-factor" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Numeric, Character, Logical, Factor</h3>
+<h3><span class="header-section-number">1.2.1</span> Numeric, Character, Logical, Factor</h3>
 <div id="numeric" class="section level4">
-<h4><span class="header-section-number">1.1.1.1</span> Numeric</h4>
+<h4><span class="header-section-number">1.2.1.1</span> Numeric</h4>
 <ul>
 <li>A numeric is self-explanatory. It could be a number that is either an integer, or a decimal</li>
 <li>In R we can assign a numeric to a number with the assignment operator <code>&lt;-</code>, or with an <code>=</code> sign.
@@ -246,7 +275,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 </div>
 <div id="character" class="section level4">
-<h4><span class="header-section-number">1.1.1.2</span> Character</h4>
+<h4><span class="header-section-number">1.2.1.2</span> Character</h4>
 <ul>
 <li>A character is a representation of letters and or numbers and symbols. You would wrap the letters and numbers in either <code>&quot;&quot;</code> or <code>''</code> marks to store as a character</li>
 <li>Assign a character value to a variable named a
@@ -256,14 +285,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul>
 </div>
 <div id="logical" class="section level4">
-<h4><span class="header-section-number">1.1.1.3</span> Logical</h4>
+<h4><span class="header-section-number">1.2.1.3</span> Logical</h4>
 <ul>
 <li>A logical value also called a boolean value can only be <code>TRUE</code> or <code>FALSE</code>.</li>
 <li>These are powerful and allows the user to filter their data based on certain conditions.</li>
 <li>Assign a flag to TRUE <code>flag &lt;- TRUE</code></li>
 </ul>
 <div id="boolean-operators" class="section level5">
-<h5><span class="header-section-number">1.1.1.3.1</span> Boolean operators</h5>
+<h5><span class="header-section-number">1.2.1.3.1</span> Boolean operators</h5>
 <ul>
 <li>Boolean operators are
 <ul>
@@ -290,9 +319,9 @@ boolVal</code></pre></div>
 </div>
 </div>
 <div id="vectors-factors-lists" class="section level3">
-<h3><span class="header-section-number">1.1.2</span> Vectors, Factors, Lists</h3>
+<h3><span class="header-section-number">1.2.2</span> Vectors, Factors, Lists</h3>
 <div id="vectors" class="section level4">
-<h4><span class="header-section-number">1.1.2.1</span> Vectors</h4>
+<h4><span class="header-section-number">1.2.2.1</span> Vectors</h4>
 <ul>
 <li>A vector is a combination of values that have the same datatype.</li>
 <li>We use a function called <code>c()</code> to <strong>combine</strong> the values into a vector</li>
@@ -317,7 +346,7 @@ vector1</code></pre></div>
 ## 1 2 3</code></pre>
 </div>
 <div id="factor" class="section level4">
-<h4><span class="header-section-number">1.1.2.2</span> Factor</h4>
+<h4><span class="header-section-number">1.2.2.2</span> Factor</h4>
 <ul>
 <li>A factor is a special datatype that summarizes your data into a set of levels, where each level is a unique value of your data.</li>
 <li>It can be used to create Statistical Models</li>
@@ -329,7 +358,7 @@ factor1</code></pre></div>
 ## Levels: a b c</code></pre>
 </div>
 <div id="lists" class="section level4">
-<h4><span class="header-section-number">1.1.2.3</span> Lists</h4>
+<h4><span class="header-section-number">1.2.2.3</span> Lists</h4>
 <ul>
 <li>A list is similar to a vector in that it could hold multiple values. However, it is much more flexible.</li>
 <li>The difference is that it can hold multiple values of <strong>different</strong> datatypes.</li>
@@ -354,7 +383,7 @@ list1</code></pre></div>
 </div>
 </div>
 <div id="dataframes" class="section level3">
-<h3><span class="header-section-number">1.1.3</span> Dataframes</h3>
+<h3><span class="header-section-number">1.2.3</span> Dataframes</h3>
 <ul>
 <li><p>Dataframes are useful in that it organizes your data into rows and columns, similar to how data would be represented in a database, and excel sheet, or a simple CSV or TSV file.</p></li>
 <li>Every column has the same length could be thought of as a vector with one datatype.</li>
@@ -372,7 +401,7 @@ dataframe1</code></pre></div>
 ## 3    3    c</code></pre>
 </div>
 <div id="viewing-datatypes-with-class" class="section level3">
-<h3><span class="header-section-number">1.1.4</span> Viewing datatypes with <code>class()</code></h3>
+<h3><span class="header-section-number">1.2.4</span> Viewing datatypes with <code>class()</code></h3>
 <ul>
 <li>Using the <code>class()</code> function, we could see what datatype a variable is</li>
 </ul>
@@ -382,9 +411,47 @@ dataframe1</code></pre></div>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">class</span>(dataframe1)</code></pre></div>
 <pre><code>## [1] &quot;data.frame&quot;</code></pre>
-<p>Now that we’ve covered fundamental R types, we can begin the fun stuff- starting with Data Exploration</p>
-
 </div>
+</div>
+<div id="functions" class="section level2">
+<h2><span class="header-section-number">1.3</span> Functions</h2>
+<p>Remember how objects are entities that hold information?</p>
+<p>A function is also an object, that holds information about how to manipulate your data if used.</p>
+<p>A function consists of 3 pieces:</p>
+<ul>
+<li>Input</li>
+<li>Body</li>
+<li>Output</li>
+</ul>
+<p>In the previous section, we have already made use of functions. For example, the <code>class()</code> function is a function if you see <code>()</code> after a variable name.</p>
+<ul>
+<li>The <strong>input</strong> is any of the datatypes we’ve talked about</li>
+<li>The <strong>body</strong> determines which type of datatype it is- a.k.a it’s class</li>
+<li>The <strong>output</strong> returns the type of class the input is.</li>
+</ul>
+<p>Other functions we have already used:</p>
+<ul>
+<li><code>c()</code>,
+<ul>
+<li>takes in multiple values of one datatype as <strong>input</strong>,</li>
+<li>the <strong>body</strong> converts the values to a vector,</li>
+<li>and <strong>outputs</strong> a vector</li>
+</ul></li>
+<li><code>list()</code>,
+<ul>
+<li>takes in vectors as <strong>input</strong>,</li>
+<li>the <strong>body</strong> converts the vectors to a list,</li>
+<li>and <strong>outputs</strong> a list</li>
+</ul></li>
+<li><code>data.frame()</code>,
+<ul>
+<li>takes in vectors as <strong>input</strong>,</li>
+<li>the <strong>body</strong> converts the vectors to a dataframe,</li>
+<li>and <strong>outputs</strong> a data.frame</li>
+</ul></li>
+</ul>
+<p>Now that we’ve covered fundamental R objects, we can begin the fun stuff- starting with Data Exploration</p>
+
 </div>
 </div>
             </section>

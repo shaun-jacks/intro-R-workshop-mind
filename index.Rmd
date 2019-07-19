@@ -19,9 +19,37 @@ By giving you an overview of the most useful functions, in the lens of close-to-
 
 As with everything else, the best way to learn R is through **consistent** practice with a real world project.
 
+## Fundamental Concepts: Objects
+
+An object is an entity that carries information.
+
+In R, objects are the fundamental foundation to storing data, and manipulating it.
+
+- R organizes the storage of data with datatypes. Which are different types of objects. 
+- It also organizes the manipulation of data with functions, which perform operations on your data.
+
+As we go over the most important datatypes in R, keep in mind the context- these are the pieces that allow us to store, and manipulate information for our needs.
+
 ## Datatypes
-- R is a statistical software that allows user to perform a multitude of data tasks.
-- In order to manipulate data, one would need to understand the fundamental R datatypes.
+
+You can think of these datatypes like a pyramid of information.
+
+- The bottom of the pyramid, the foundation, are the datatypes:
+    - Numeric 
+    - Character
+    - Logical
+
+- The middle of the pyramid consists of
+    - Vectors (holding multiple values a single datatype in level 1)
+    - Factors (holding multiple values of a single datatype but with additional attributes in level 1)
+
+- The top of the pyramid consists of
+    - Lists (flexible storage of both level 1 and 2 of the  pyramid)
+    - Dataframes (rows and columns of vectors)
+    
+- Another name for a datatype is a class
+
+We will talk about each datatype in this section.
 
 ### Numeric, Character, Logical, Factor
 
@@ -145,5 +173,38 @@ class(vector1)
 class(dataframe1)
 ```
 
+## Functions
 
-Now that we've covered fundamental R types, we can begin the fun stuff- starting with Data Exploration
+Remember how objects are entities that hold information?
+
+A function is also an object, that holds information about how to manipulate your data if used.
+
+A function consists of 3 pieces:
+
+- Input
+- Body
+- Output
+
+In the previous section, we have already made use of functions. For example, the `class()` function is a function if you see `()` after a variable name.
+
+- The **input** is any of the datatypes we've talked about
+- The  **body** determines which type of datatype it is- a.k.a it's class
+- The **output** returns the type of class the input is.
+    
+Other functions we  have already used:
+
+- `c()`, 
+    - takes in multiple values of one datatype as **input**, 
+    - the **body** converts the values to a vector, 
+    - and **outputs** a vector
+- `list()`, 
+    - takes in vectors as **input**, 
+    - the **body** converts the vectors to a list, 
+    - and **outputs** a list
+- `data.frame()`, 
+    - takes in vectors as **input**, 
+    - the **body** converts the vectors to a dataframe,
+    - and  **outputs** a data.frame
+
+
+Now that we've covered fundamental R objects, we can begin the fun stuff- starting with Data Exploration

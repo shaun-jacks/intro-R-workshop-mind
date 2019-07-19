@@ -1,7 +1,7 @@
 ---
 title: "Intro to R- Part 1: Data Exploration"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-16"
+date: "2019-07-17"
 output: 
   rmdformats::material:
     self_contained: no

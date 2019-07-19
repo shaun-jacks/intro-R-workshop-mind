@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-16"
+date: "2019-07-17"
 output: 
   rmdformats::material:
     self_contained: no
