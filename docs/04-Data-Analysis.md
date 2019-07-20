@@ -1,13 +1,40 @@
 ---
 title: "04-Data-Analysis"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-17"
+date: "2019-07-20"
 output: 
   rmdformats::material:
     self_contained: no
 ---
 
 # Data Analysis
+
+## Load required libraries
+
+```r
+library("lme4")
+```
+
+```
+## Warning: package 'lme4' was built under R version 3.5.2
+```
+
+```
+## Loading required package: Matrix
+```
+
+```r
+library("effects")
+```
+
+```
+## Loading required package: carData
+```
+
+```
+## lattice theme set by effectsTheme()
+## See ?effectsTheme for details.
+```
 
 ## Read in Data
 
@@ -153,19 +180,19 @@ summary(linearMod)
 
 ```r
 # create effects object
-plot(effects::Effect(c('ados_fake_score1'), linearMod))
+plot(Effect(c('ados_fake_score1'), linearMod))
 ```
 
 <img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 
 ```r
-plot(effects::Effect(c('ados_fake_score2'), linearMod))
+plot(Effect(c('ados_fake_score2'), linearMod))
 ```
 
 <img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-2.png" width="672" />
 
 ```r
-plot(effects::Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
+plot(Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
 ```
 
 <img src="04-Data-Analysis_files/figure-html/unnamed-chunk-5-3.png" width="672" />
@@ -174,13 +201,37 @@ plot(effects::Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
 
 
 ```r
+# We must dichotomize our dependent variable
+# We will create a model that predicts a clinical estimate of ASD
 adosm2$cbe_asd <- ifelse(adosm2$cbe_36 %in% c('Autism', 'ASD'), 'ASD', 'Non-ASD')
+# Now there are only two values: ASD, Non-ASD
+# We now convert this into a factor, so it can
+# be used to create a model
 adosm2$cbe_asd <- as.factor(adosm2$cbe_asd)
+# We define what our reference level will be
+# So Non-ASD will be at 0, and ASD will be 1
 adosm2$cbe_asd <- relevel(adosm2$cbe_asd, ref = 'Non-ASD')
+# glm takes in an equation, dataset, and family
+# for what model to create
 mod <- glm(cbe_asd ~ 1 + ados_sarb_total,
                    data = adosm2,
                    family = 'binomial')
-eff <- effects::Effect(c('ados_sarb_total'), mod)
+# Create an effects object for plotting
+eff <- Effect(c('ados_sarb_total'), mod)
+# View values
+eff
+```
+
+```
+## 
+##  ados_sarb_total effect
+## ados_sarb_total
+##           0         4.8         9.5          14          19 
+## 0.001044728 0.027347133 0.413758051 0.939195835 0.997904888
+```
+
+```r
+# Create plot with axes labels
 plot(eff,
      axes = list(
        y = list(
@@ -202,10 +253,10 @@ plot(eff,
 adosm2$cbe_asd <- ifelse(adosm2$cbe_36 %in% c('Autism', 'ASD'), 'ASD', 'Non-ASD')
 adosm2$cbe_asd <- as.factor(adosm2$cbe_asd)
 adosm2$cbe_asd <- relevel(adosm2$cbe_asd, ref = 'Non-ASD')
-mod <- lme4::glmer(cbe_asd ~ 1 + (1|visit) + ados_sarb_total,
+mod <- glmer(cbe_asd ~ 1 + (1|visit) + ados_sarb_total,
                    data = adosm2,
                    family = 'binomial')
-eff <- effects::Effect(c('ados_sarb_total'), mod)
+eff <- Effect(c('ados_sarb_total'), mod)
 plot(eff,
      axes = list(
        y = list(

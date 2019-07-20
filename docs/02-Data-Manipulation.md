@@ -1,7 +1,7 @@
 ---
 title: "02-Data-Manipulation"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-17"
+date: "2019-07-20"
 output: 
   rmdformats::material:
     self_contained: no
@@ -53,7 +53,7 @@ fixedDf <- dupDf[notDuplicateCases, ]
 View(fixedDf)  # View fixed dataframe
 ```
 
-## Cleaning, Scoring Messy Data
+## Cleaning Messy Data
 
 ### Messy Dataset
 
@@ -168,7 +168,7 @@ messyDf$item3 == 'Missing'
 ```
 
 ```r
-# for all NAs replace with 0, otherwise replace with original value
+# for all NAs or missing codes, replace with -9, otherwise replace with original value
 ifelse(is.na(messyDf$item3), '-9', 
        ifelse(messyDf$item3 == '-999', '-9',
          ifelse(messyDf$item3 == 'Missing', '-9', messyDf$item3)))
@@ -185,17 +185,6 @@ messyDf$item3 <-
        ifelse(messyDf$item3 == '-999', '-9',
          ifelse(messyDf$item3 == 'Missing', '-9', messyDf$item3)))
 ```
-
-
-#### Replacing multiple values with the `%in%`
-- we can condense the previous ifelse statements with `%in%`
-
-
-```r
-ifelse(is.na(messyDf$item3), '-9',
-       ifelse(messyDf$item3 %in% c('-999', 'Missing'), '-9', messyDf$item3))
-```
-
 
 ## Writing Data
 

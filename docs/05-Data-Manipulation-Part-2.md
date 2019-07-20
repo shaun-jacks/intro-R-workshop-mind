@@ -1,7 +1,7 @@
 ---
 title: "05-Data-Manipulation-Part-2"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-17"
+date: "2019-07-20"
 output: 
   rmdformats::material:
     self_contained: no

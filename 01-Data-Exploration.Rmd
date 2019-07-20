@@ -177,7 +177,7 @@ adosm1[visits36mo, c("ados_algorithm", "ados_version")]
 
 # table() takes in 1 or more vectors as input
 # since every dataframe column could be considered a vector (or list)
-# we could check for every unique visit with freq counts with
+# we could check for every unique ados version with freq counts with
 table(adosm1$ados_version)
 # we could check  for every unique combination of vectors by 
 # providing multiple vector inputs

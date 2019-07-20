@@ -9,6 +9,12 @@ output:
 
 # Data Analysis
 
+## Load required libraries
+```{r loadLibraries}
+library("lme4")
+library("effects")
+```
+
 ## Read in Data
 
 - Our input data will be a scored version of the artificial ADOS Module 2dataset with some fake columns to demonstrate how to use R to perform specific data analyses.
@@ -70,21 +76,34 @@ summary(linearMod)
 ### Plotting the Linear Model
 ```{r}
 # create effects object
-plot(effects::Effect(c('ados_fake_score1'), linearMod))
-plot(effects::Effect(c('ados_fake_score2'), linearMod))
-plot(effects::Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
+plot(Effect(c('ados_fake_score1'), linearMod))
+plot(Effect(c('ados_fake_score2'), linearMod))
+plot(Effect(c('ados_fake_score1', 'ados_fake_score2'), linearMod))
 ```
 
 ## Logistic Regression
 
 ```{r}
+# We must dichotomize our dependent variable
+# We will create a model that predicts a clinical estimate of ASD
 adosm2$cbe_asd <- ifelse(adosm2$cbe_36 %in% c('Autism', 'ASD'), 'ASD', 'Non-ASD')
+# Now there are only two values: ASD, Non-ASD
+# We now convert this into a factor, so it can
+# be used to create a model
 adosm2$cbe_asd <- as.factor(adosm2$cbe_asd)
+# We define what our reference level will be
+# So Non-ASD will be at 0, and ASD will be 1
 adosm2$cbe_asd <- relevel(adosm2$cbe_asd, ref = 'Non-ASD')
+# glm takes in an equation, dataset, and family
+# for what model to create
 mod <- glm(cbe_asd ~ 1 + ados_sarb_total,
                    data = adosm2,
                    family = 'binomial')
-eff <- effects::Effect(c('ados_sarb_total'), mod)
+# Create an effects object for plotting
+eff <- Effect(c('ados_sarb_total'), mod)
+# View values
+eff
+# Create plot with axes labels
 plot(eff,
      axes = list(
        y = list(
@@ -105,10 +124,10 @@ plot(eff,
 adosm2$cbe_asd <- ifelse(adosm2$cbe_36 %in% c('Autism', 'ASD'), 'ASD', 'Non-ASD')
 adosm2$cbe_asd <- as.factor(adosm2$cbe_asd)
 adosm2$cbe_asd <- relevel(adosm2$cbe_asd, ref = 'Non-ASD')
-mod <- lme4::glmer(cbe_asd ~ 1 + (1|visit) + ados_sarb_total,
+mod <- glmer(cbe_asd ~ 1 + (1|visit) + ados_sarb_total,
                    data = adosm2,
                    family = 'binomial')
-eff <- effects::Effect(c('ados_sarb_total'), mod)
+eff <- Effect(c('ados_sarb_total'), mod)
 plot(eff,
      axes = list(
        y = list(

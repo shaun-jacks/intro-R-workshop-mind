@@ -1,7 +1,7 @@
 ---
 title: "Intro to R Workshop Book"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-17"
+date: "2019-07-20"
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike

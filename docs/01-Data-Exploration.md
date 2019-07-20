@@ -1,7 +1,7 @@
 ---
 title: "Intro to R- Part 1: Data Exploration"
 author: "Shaun Jackson, Marissa Chemotti"
-date: "2019-07-17"
+date: "2019-07-20"
 output: 
   rmdformats::material:
     self_contained: no
@@ -187,7 +187,7 @@ adosm1[visits36mo, c("ados_algorithm", "ados_version")]
 
 # table() takes in 1 or more vectors as input
 # since every dataframe column could be considered a vector (or list)
-# we could check for every unique visit with freq counts with
+# we could check for every unique ados version with freq counts with
 table(adosm1$ados_version)
 ```
 

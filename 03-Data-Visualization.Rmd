@@ -12,7 +12,16 @@ options(stringsAsFactors = FALSE)
 library(kableExtra)
 ```
 
+
 # Data Visualization
+
+- We will use the ggplot2 library for data visualization
+
+```{r}
+library("ggplot2")
+# if not installed:
+# install.packages("ggplot2")
+```
 
 ## Read in Data
 
@@ -24,17 +33,35 @@ adosm2 <- read.csv('./datasets/adosm2_scored.csv',
                    stringsAsFactors = FALSE)
 ```
 
+## Our dataset
+```{r}
+head(adosm2)
+```
+
 ## Data Visualization with `ggplot`
+
+### Resources
+
+- This lesson largely borrowed and used the material in this book:
+- [R for Data Science](https://r4ds.had.co.nz/)
+
+- Explore Chapter 3 of the book for a much more in depth lesson
 
 ### Plotting points
 ```{r}
-library(ggplot2)
+library("ggplot2")
 ggplot(data = adosm2) + 
   geom_point(mapping = aes(x = ados_fake_lin_outcome, 
                            y = ados_sarb_total, 
                            color = recruitment_group))
 
 ```
+
+- `ggplot()` will create a coordinate system you can add layers on top of
+    - it takes in the dataset to use in the graph with the `data` parameter
+- `geom_point()` is the extra layer we are adding on the coordinate system, so we are adding points to it
+    - the `mapping` argument will define how variables in your data will be **mapped** to a visual property
+        - The `aes()` argument within marks what piece of your dataset will map to the x or y axes, or even colors or fills.
 
 ### Plotting with Points and Smooth
 
@@ -43,6 +70,14 @@ ggplot(data = adosm2, mapping = aes(x = ados_sarb_total, y = ados_fake_lin_outco
   geom_point(mapping = aes(color = recruitment_group)) + 
   geom_smooth()
 ```
+
+- We can plot points  with a smooth line by adding another layer with `+ geom_smooth()`.
+- In this example, the first layer takes in our adosm2 dataset, and maps the ados_sarb_total to the x axes,and the ados_fake_lin_outcome to the y axes
+- The second layer plots points using the mapping of the first layer, but in addition adds color to the points by recruitment group
+- The third layer uses the mapping of the first layer, so does not need any additional arguments
+
+- We can similarly create bar plots and box plots using the same syntax, but with `geom_bar()` and `geom_boxplot()`
+
 
 ### Bar Plots
 
@@ -66,3 +101,13 @@ ggplot(data = adosm2, mapping = aes(x = recruitment_group, y = ados_sarb_total))
   geom_boxplot()
 ```
 
+## Template for graphing
+
+```{text}
+ggplot(data = <DATA>) + 
+  <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
+```
+
+- You can search what other geom function are available by following the links on your help page:
+
+- `?ggplot2`
